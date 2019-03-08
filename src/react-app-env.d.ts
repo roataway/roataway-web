@@ -1,1 +1,1 @@
-/// <reference types="react-scripts" />
+/// <reference types="@winify/react-scripts" />
