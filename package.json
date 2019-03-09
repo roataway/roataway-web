@@ -2,6 +2,7 @@
   "name": "roataway-web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://roataway.github.io/web-ui",
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
@@ -11,6 +12,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:coverage": "npm test -- --coverage",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public"
