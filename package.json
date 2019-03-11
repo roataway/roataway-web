@@ -4,9 +4,13 @@
   "private": true,
   "homepage": "https://roataway.github.io/web-ui",
   "dependencies": {
+    "@types/leaflet": "^1.4.3",
+    "@types/react-leaflet": "^2.2.1",
+    "@winify/react-scripts": "2.1.5",
+    "leaflet": "^1.4.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "@winify/react-scripts": "2.1.5"
+    "react-leaflet": "^2.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
