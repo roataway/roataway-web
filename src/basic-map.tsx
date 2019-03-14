@@ -3,7 +3,7 @@ import { Map, TileLayer, Viewport, Marker } from 'react-leaflet'
 import { divIcon } from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import './style.css'
-import { usePositions } from './use-positions'
+import { Positions } from './use-positions'
 
 const state: Viewport = {
   center: [47.0229, 28.8353],
@@ -11,7 +11,6 @@ const state: Viewport = {
 }
 
 export function BasicMap() {
-  const positions = usePositions()
   return (
     <Map
       id={'map'}
@@ -22,15 +21,19 @@ export function BasicMap() {
         attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      {Object.values(positions).map(p => (
-        <Marker
-          key={p.board}
-          position={p}
-          icon={divIcon({
-            className: 'bus-location',
-          })}
-        />
-      ))}
+      <Positions>
+        {positions =>
+          Object.values(positions).map((p: any) => (
+            <Marker
+              key={p.board}
+              position={p}
+              icon={divIcon({
+                className: 'bus-location',
+              })}
+            />
+          ))
+        }
+      </Positions>
     </Map>
   )
 }

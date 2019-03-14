@@ -1,23 +1,16 @@
-import {
-  over,
-  client,
-  Client as StompClient,
-  Subscription,
-} from 'webstomp-client'
+import { over, Client as StompClient, Subscription } from 'webstomp-client'
 import Sock from 'sockjs-client'
-import { useEffect } from 'react'
 
 const data = {
   login: 'public_rtec',
   passcode: 'iWillHackItInVisualBasic',
   host: 'nazar',
-  ws: 'wss://rtec.dekart.com:15674/ws',
+  ws: 'ws://rtec.dekart.com:15674/ws',
   stomp: 'https://rtec.dekart.com/webstomp',
   transport: '/exchange/e_public_rtec_Sho0ohCiephoh2waeM9t/state.transport.*',
   station: '/exchange/e_public_rtec_Sho0ohCiephoh2waeM9t/state.station.*',
 }
-
-class Client {
+export class Client {
   client?: StompClient = undefined
   subscription?: Subscription = undefined
 
@@ -49,25 +42,4 @@ class Client {
   disconnect() {
     this.client!.disconnect()
   }
-}
-
-function getPositionFromFrame(frame) {
-  const data = JSON.parse(frame.body)
-  const board = data.board
-  const lat = parseFloat(data.lat)
-  const lng = parseFloat(data.lon)
-  return { board, lat, lng }
-}
-
-export function useClient(callback) {
-  useEffect(() => {
-    const client = new Client()
-    client.connect().then(() => {
-      client.subscribe(frame => callback(getPositionFromFrame(frame)))
-    })
-    return () => {
-      client.unsubscribe()
-      client.disconnect()
-    }
-  }, [])
 }
