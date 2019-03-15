@@ -1,23 +1,39 @@
-import React, { Component } from 'react'
-import { Map, TileLayer, Viewport } from 'react-leaflet'
-
+import React from 'react'
+import { Map, TileLayer, Viewport, Marker } from 'react-leaflet'
+import { divIcon } from 'leaflet'
 import 'leaflet/dist/leaflet.css'
+import './style.css'
+import { Positions } from './use-positions'
 
-export class BasicMap extends Component<{}, Viewport> {
-  state: Viewport = {
-    center: [47.0229, 28.8353],
-    zoom: 13,
-  }
+const state: Viewport = {
+  center: [47.0229, 28.8353],
+  zoom: 13,
+}
 
-  render() {
-    return (
-      <Map
-        id={'map'}
-        style={{ height: '100vh' }}
-        zoomControl={false}
-        viewport={this.state}>
-        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-      </Map>
-    )
-  }
+export function BasicMap() {
+  return (
+    <Map
+      id={'map'}
+      style={{ height: '100vh' }}
+      zoomControl={false}
+      viewport={state}>
+      <TileLayer
+        attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+      />
+      <Positions>
+        {positions =>
+          Object.values(positions).map((p: any) => (
+            <Marker
+              key={p.board}
+              position={p}
+              icon={divIcon({
+                className: 'bus-location',
+              })}
+            />
+          ))
+        }
+      </Positions>
+    </Map>
+  )
 }
