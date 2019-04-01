@@ -1,18 +1,18 @@
 {
-  "extends": "react-app",
-  "plugins": [
-    "react-hooks"
-  ],
+  "extends": ["react-app", "plugin:compat/recommended"],
+  "plugins": ["react-hooks"],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn"
   },
+  "settings": {
+    "polyfills": [
+      "Object.values"
+    ]
+  },
   "overrides": [
     {
-      "files": [
-        "**/*.ts",
-        "**/*.tsx"
-      ],
+      "files": ["**/*.ts", "**/*.tsx"],
       "parser": "@typescript-eslint/parser",
       "parserOptions": {
         "ecmaVersion": 2018,
@@ -22,9 +22,7 @@
         },
         "warnOnUnsupportedTypeScriptVersion": true
       },
-      "plugins": [
-        "@typescript-eslint"
-      ],
+      "plugins": ["@typescript-eslint"],
       "rules": {
         "camelcase": "off",
         "indent": "off",
