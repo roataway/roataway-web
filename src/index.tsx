@@ -1,4 +1,4 @@
-import { default as React, StrictMode, ConcurrentMode } from 'react'
+import * as React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 import { AppComponent } from './app.component'
@@ -6,11 +6,9 @@ import { AppComponent } from './app.component'
 import * as serviceWorker from './serviceWorker'
 
 ReactDOM.render(
-  <ConcurrentMode>
-    <StrictMode>
-      <AppComponent />
-    </StrictMode>
-  </ConcurrentMode>,
+  <React.StrictMode>
+    <AppComponent />
+  </React.StrictMode>,
   document.getElementById('root'),
 )
 
