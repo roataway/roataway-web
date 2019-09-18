@@ -1,23 +1,24 @@
-import { over, Client as StompClient, Subscription } from 'webstomp-client'
-import Sock from 'sockjs-client'
+import { client, Subscription } from 'webstomp-client'
 
 const data = {
   login: 'public_rtec',
   passcode: 'iWillHackItInVisualBasic',
   host: 'nazar',
+  /**
+   * In production this WebSocket URL is not working
+   * Because we use `https` in production we can't connect to a non secure endpoint
+   * Where needs to be a `wss` protocol to work
+   */
   ws: 'ws://rtec.dekart.com:15674/ws',
-  stomp: 'https://rtec.dekart.com/webstomp',
+  // this also does not allow a secure connection
+  stomp: 'http://rtec.dekart.com/webstomp',
   transport: '/exchange/e_public_rtec_Sho0ohCiephoh2waeM9t/state.transport.*',
   station: '/exchange/e_public_rtec_Sho0ohCiephoh2waeM9t/state.station.*',
 }
-export class Client {
-  client?: StompClient = undefined
-  subscription?: Subscription = undefined
 
-  constructor() {
-    // this.client = client(data.ws, { debug: false, heartbeat: false })
-    this.client = over(new Sock(data.stomp), { debug: false, heartbeat: false })
-  }
+export class Client {
+  client = client(data.ws, { debug: false, heartbeat: false })
+  subscription?: Subscription = undefined
 
   connect() {
     return new Promise((resolve, reject) => {
@@ -32,7 +33,7 @@ export class Client {
   }
 
   subscribe(callback) {
-    this.subscription = this.client!.subscribe(data.transport, callback)
+    this.subscription = this.client.subscribe(data.transport, callback)
   }
 
   unsubscribe() {
@@ -40,6 +41,6 @@ export class Client {
   }
 
   disconnect() {
-    this.client!.disconnect()
+    this.client.disconnect()
   }
 }

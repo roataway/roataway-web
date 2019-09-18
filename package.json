@@ -37,7 +37,6 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-leaflet": "^2.4.0",
-    "sockjs-client": "^1.4.0",
     "typescript": "^3.6.3",
     "webstomp-client": "^1.2.6"
   },
