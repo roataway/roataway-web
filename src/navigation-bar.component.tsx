@@ -9,7 +9,7 @@ import DirectionsBus from '@material-ui/icons/DirectionsBus'
 import Toolbar from '@material-ui/core/Toolbar'
 import { withStyles, StyleRulesCallback } from '@material-ui/core/styles'
 
-const styles: StyleRulesCallback = theme => ({
+const styles: StyleRulesCallback<any, any> = theme => ({
   appBar: {
     top: 'auto',
     bottom: 0,
