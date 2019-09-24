@@ -8,6 +8,7 @@ import MoreIcon from '@material-ui/icons/MoreVert'
 import DirectionsBus from '@material-ui/icons/DirectionsBus'
 import Toolbar from '@material-ui/core/Toolbar'
 import { withStyles, StyleRulesCallback } from '@material-ui/core/styles'
+import { useTranslation } from 'react-i18next'
 
 const styles: StyleRulesCallback<any, any> = theme => ({
   appBar: {
@@ -29,6 +30,7 @@ const styles: StyleRulesCallback<any, any> = theme => ({
 })
 
 function NavigationBar(props) {
+  const { t } = useTranslation()
   const { classes } = props
 
   return (
@@ -37,7 +39,10 @@ function NavigationBar(props) {
         <IconButton color="inherit" aria-label="Open drawer">
           <MenuIcon />
         </IconButton>
-        <Fab color="secondary" aria-label="Add" className={classes.fabButton}>
+        <Fab
+          color="secondary"
+          aria-label={t('label.title')}
+          className={classes.fabButton}>
           <DirectionsBus />
         </Fab>
         <div>
