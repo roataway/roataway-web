@@ -1,44 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# RoataWăy web interface
 
-## Available Scripts
+It assumes you have `npm` installed. This is how you get started:
 
-In the project directory, you can run:
+1. Clone the git repo and switch into the freshly checked out directory
+2. `npm install` - to install all the dependencies
+3. `npm start` - to run the app in the development mode on http://localhost:3000
 
-### `npm start`
+- `npm run build` - Builds the app for production to the `build` folder.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Troubleshooting
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+- If you see `Error: Failed to load plugin react-hooks: Cannot find module 'eslint-plugin-react-hooks'`, run `npm install -g eslint-plugin-react` to solve it.
+- `Error: Failed to load parser '@typescript-eslint/parser' declared in '.eslintrc.json#overrides[0]': Cannot find module 'eslint/lib/util/traverser'` can be resolved with `npm install @typescript-eslint/parser --save-dev`.
 
-### `npm test`
+## Todo
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Add rendering of `direction`
+2. Add routes, such that users can go to `roataway.com/route/30` and view the route directly
+3. Add local storage for some properties, such as the last selected route, or the language. Use the `componentDidUpdate` method of React, and somewhere in there `localStorage.setItem("lastSelectedRoute", JSON.stringify(this.state.selectedRoute))` and pair it with `localStorage.getItem("lastSelectedRoute")`.
+4. Add loader of routeId->routeName maps from local file, if available, otherwise pull it from the server
