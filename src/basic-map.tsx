@@ -26,7 +26,10 @@ export function BasicMap() {
           Object.values(positions).map((p: any) => (
             <Marker
               key={p.board}
+              title={p.board}
               position={p}
+              rotationAngle={p.direction}
+              rotationOrigin={'center center'}
               icon={divIcon({
                 className: 'bus-location',
               })}
