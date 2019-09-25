@@ -1,13 +1,16 @@
 import * as React from 'react'
 import ReactDOM from 'react-dom'
+import { I18nextProvider } from 'react-i18next'
 import './index.css'
 import { AppComponent } from './app.component'
-// eslint-disable-next-line
 import * as serviceWorker from './serviceWorker'
+import { i18n } from './i18n'
 
 ReactDOM.render(
   <React.StrictMode>
-    <AppComponent />
+    <I18nextProvider i18n={i18n}>
+      <AppComponent />
+    </I18nextProvider>
   </React.StrictMode>,
   document.getElementById('root'),
 )

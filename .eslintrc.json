@@ -5,5 +5,8 @@
       "Object.values",
       "Promise"
     ]
+  },
+  "rules": {
+    "react/jsx-no-literals": "warn"
   }
 }
