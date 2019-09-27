@@ -41,16 +41,11 @@ function getPositionFromFrame(frame) {
   const board = data.board
   const lat = parseFloat(data.lat)
   const lng = parseFloat(data.lon)
-  let direction: number = 0
 
   // Sometimes it comes in a key called "direction",
   // other times the key is called "dir". Since it is
   // not clear what it should be called, we try both.
-  if (data.hasOwnProperty('direction')) {
-    direction = parseFloat(data.direction)
-  } else {
-    direction = parseFloat(data.dir)
-  }
+  const direction = parseFloat(data.direction || data.dir)
 
   // NOTE: contrary to what we know so far, that the
   // direction is a bearing (i.e., North is up at 0,
