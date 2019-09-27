@@ -51,6 +51,21 @@ function getPositionFromFrame(frame) {
   } else {
     direction = parseFloat(data.dir)
   }
+
+  // note that at this stage `direction` is a
+  // bearing (North is up at 0, South is down at 270),
+  // we have to transform it into degrees on a
+  // cartesian plane, as explained:
+  // https://sciencing.com/calculate-angle-bearing-8655354.html
+  direction = 90 - direction
+  if (direction < 0) {
+    direction += 360
+  } else {
+    if (direction > 360) {
+      direction -= 360
+    }
+  }
+
   const speed = data.speed
   return { board, lat, lng, direction, speed }
 }
