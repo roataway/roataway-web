@@ -28,7 +28,11 @@ export function BasicMap() {
               key={p.board}
               title={p.board}
               position={p}
-              // rotationAngle={p.direction}
+              // To show an oriented marker, we have to work around a limitation
+              // of leaflet+react. There is no straightforward way of rotating
+              // the marker, so we overcome this by wrapping it in an invisible
+              // container, and then adding another HTML element inside, which
+              // will use the `arrow` class with a `transform: rotate`.
               icon={divIcon({
                 className: 'arrow-container',
                 html:
