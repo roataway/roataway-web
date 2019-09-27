@@ -57,14 +57,7 @@ function getPositionFromFrame(frame) {
   // we have to transform it into degrees on a
   // cartesian plane, as explained:
   // https://sciencing.com/calculate-angle-bearing-8655354.html
-  direction = 90 - direction
-  if (direction < 0) {
-    direction += 360
-  } else {
-    if (direction > 360) {
-      direction -= 360
-    }
-  }
+  direction = (-direction + 90) % 360
 
   const speed = data.speed
   return { board, lat, lng, direction, speed }
