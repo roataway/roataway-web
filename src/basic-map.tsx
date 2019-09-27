@@ -28,10 +28,13 @@ export function BasicMap() {
               key={p.board}
               title={p.board}
               position={p}
-              rotationAngle={p.direction}
-              rotationOrigin={'center center'}
+              // rotationAngle={p.direction}
               icon={divIcon({
-                className: 'bus-location',
+                className: 'arrow-container',
+                html:
+                  '<div class="arrow" style="transform: rotate(' +
+                  p.direction +
+                  'deg)">',
               })}
             />
           ))
