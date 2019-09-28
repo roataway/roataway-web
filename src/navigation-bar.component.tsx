@@ -1,10 +1,10 @@
 import React from 'react'
 import AppBar from '@material-ui/core/AppBar'
-// import IconButton from '@material-ui/core/IconButton'
+import IconButton from '@material-ui/core/IconButton'
 import Fab from '@material-ui/core/Fab'
-// import MenuIcon from '@material-ui/icons/Menu'
-// import SearchIcon from '@material-ui/icons/Search'
-// import MoreIcon from '@material-ui/icons/MoreVert'
+import MenuIcon from '@material-ui/icons/Menu'
+import SearchIcon from '@material-ui/icons/Search'
+import MoreIcon from '@material-ui/icons/MoreVert'
 import DirectionsBus from '@material-ui/icons/DirectionsBus'
 import Toolbar from '@material-ui/core/Toolbar'
 import { withStyles, StyleRulesCallback } from '@material-ui/core/styles'
@@ -36,23 +36,23 @@ function NavigationBar(props) {
   return (
     <AppBar position="fixed" color="primary" className={classes.appBar}>
       <Toolbar className={classes.toolbar}>
-        {/* <IconButton color="inherit" aria-label="Open drawer">
+        <IconButton color="inherit" aria-label="Open drawer">
           <MenuIcon />
-        </IconButton> */}
+        </IconButton>
         <Fab
           color="secondary"
           aria-label="Add"
           className={classes.fabButton}
-          title="Alege ruta">
+          title={t('label.pickRoute')}>
           <DirectionsBus />
         </Fab>
         <div>
-          {/* <IconButton color="inherit">
+          <IconButton color="inherit">
             <SearchIcon />
           </IconButton>
           <IconButton color="inherit">
             <MoreIcon />
-          </IconButton> */}
+          </IconButton>
         </div>
       </Toolbar>
     </AppBar>
