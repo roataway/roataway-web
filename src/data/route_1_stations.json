@@ -1,0 +1,449 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.7 8b86ff77",
+  "osm3s": {
+    "timestamp_osm_base": "2019-09-28T19:05:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 325004990,
+      "lat": 47.0225088,
+      "lon": 28.8295459,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. 31 August 1989",
+        "name:ro": "str. 31 August 1989",
+        "name:ru": "ул. 31 Августа 1989",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005092,
+      "lat": 47.0202032,
+      "lon": 28.8392228,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Armenească",
+        "name:ru": "Армянская ул.",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005194,
+      "lat": 46.983496,
+      "lon": 28.8615119,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Bd. Cuza Vodă",
+        "name:ru": "бульвар Куза Водэ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005196,
+      "lat": 46.9824187,
+      "lon": 28.8623498,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "bd. Cuza Vodă",
+        "name:ru": "бульвар Куза Водэ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005197,
+      "lat": 46.9791746,
+      "lon": 28.8675759,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Str. Burebista",
+        "name:ro": "Str. Burebista",
+        "name:ru": "ул. Буребиста",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005200,
+      "lat": 46.9790222,
+      "lon": 28.8669898,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Str. Independenței",
+        "name:en": "Independenței Street",
+        "name:ro": "Str. Independenței",
+        "name:ru": "ул. Независимости",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052760,
+      "lat": 47.0244375,
+      "lon": 28.8291614,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Grădina Publică",
+        "name:ru": "Парк",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 345324570,
+      "lat": 46.9767065,
+      "lon": 28.8703912,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Valea Crucii",
+        "name:ru": "Валя Кручий",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 372466319,
+      "lat": 46.9897664,
+      "lon": 28.8529137,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Teilor",
+        "name:ru": "ул. Теилор",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339072,
+      "lat": 47.0135272,
+      "lon": 28.8471549,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Ciuflea",
+        "name:ru": "ул. Чуфля",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339075,
+      "lat": 47.0124314,
+      "lon": 28.8459592,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Ciuflea",
+        "name:ru": "ул. Чуфля",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339084,
+      "lat": 46.9642484,
+      "lon": 28.890468,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Metro 2",
+        "name:ru": "Метро 2",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339087,
+      "lat": 46.9649733,
+      "lon": 28.8901487,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Metro 2",
+        "name:ru": "Метро 2",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339119,
+      "lat": 46.9417627,
+      "lon": 28.9263316,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Cartierul \"Galata\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339123,
+      "lat": 46.9495358,
+      "lon": 28.9140064,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Bacioii Noi",
+        "name:ru": "ул. Новобачойская",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339124,
+      "lat": 46.9421236,
+      "lon": 28.9264238,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Cartierul \"Galata\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339127,
+      "lat": 47.0053984,
+      "lon": 28.8417466,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Spitalul Clinic Municipal nr.1",
+        "name:ru": "Городская клиническая больница №1",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339128,
+      "lat": 47.0106495,
+      "lon": 28.8428603,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Piața Ovidiu",
+        "name:ru": "площадь Овидиу",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339131,
+      "lat": 46.9503228,
+      "lon": 28.9133935,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Bacioii Noi",
+        "name:ru": "ул. Новобачойская",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339155,
+      "lat": 47.0222,
+      "lon": 28.8357781,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Teatrul M. Eminescu",
+        "name:ru": "Театр М. Эминеску",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339157,
+      "lat": 47.0231458,
+      "lon": 28.834813,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Piața Mării Adunări Naționale",
+        "name:ru": "Площадь Великого Национального Собрания",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339274,
+      "lat": 47.0195775,
+      "lon": 28.8397255,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Armenească",
+        "name:ru": "Армянская ул.",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 450993216,
+      "lat": 46.9854249,
+      "lon": 28.8580556,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Bd. Dacia",
+        "name:ro": "Bd. Dacia",
+        "name:ru": "Бульвар Дачия",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 450993217,
+      "lat": 46.9854534,
+      "lon": 28.8561658,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Bd. Traian",
+        "name:ro": "Bd. Traian",
+        "name:ru": "бульвар Траяна",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 461612416,
+      "lat": 46.9872003,
+      "lon": 28.85643,
+      "tags": {
+        "highway": "bus_stop",
+        "name": ".",
+        "name:ru": "бульвар Дечебал",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 559725618,
+      "lat": 46.9385447,
+      "lon": 28.9331728,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Aeroport",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 652049976,
+      "lat": 46.9773366,
+      "lon": 28.8705331,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Valea Crucii",
+        "name:ru": "Валя Кручий",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1068789753,
+      "lat": 46.9379672,
+      "lon": 28.9325745,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Aeroport",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1216583430,
+      "lat": 46.9881816,
+      "lon": 28.8539442,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Str. Teilor",
+        "name:ro": "Str. Teilor",
+        "name:ru": "ул. Теилор",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1216583441,
+      "lat": 46.99315,
+      "lon": 28.8472483,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Hristo Botev",
+        "name:ru": "Христо Ботев",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1216583462,
+      "lat": 47.0049971,
+      "lon": 28.8420937,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Spitalul Clinic Municipal nr.1",
+        "name:ru": "Городская клиническая больница №1",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1216583538,
+      "lat": 46.9924852,
+      "lon": 28.8490534,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Zelinski",
+        "name:ru": "пр. Дачия",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4572932338,
+      "lat": 46.9353858,
+      "lon": 28.9354122,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Aerogara",
+        "name:en": "Air terminal",
+        "name:ru": "Аэровокзал",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4884310091,
+      "lat": 47.0163961,
+      "lon": 28.8448429,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "UNIC",
+        "name:ru": "Уник",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4889292449,
+      "lat": 47.0168053,
+      "lon": 28.8438959,
+      "tags": {
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "UNIC",
+        "name:ru": "Уник",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    }
+  ]
+}

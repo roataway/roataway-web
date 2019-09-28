@@ -1,0 +1,3079 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.7 8b86ff77",
+  "osm3s": {
+    "timestamp_osm_base": "2019-09-28T18:57:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 24872135,
+      "bounds": {
+        "minlat": 46.9732005,
+        "minlon": 28.8733469,
+        "maxlat": 46.9751805,
+        "maxlon": 28.8764816
+      },
+      "nodes": [
+        270272794,
+        6644850130,
+        1106154420,
+        1106154182,
+        1106154067,
+        426860090
+      ],
+      "geometry": [
+        { "lat": 46.9751805, "lon": 28.8733469 },
+        { "lat": 46.9744312, "lon": 28.8745255 },
+        { "lat": 46.9743503, "lon": 28.8746541 },
+        { "lat": 46.9739161, "lon": 28.8753442 },
+        { "lat": 46.9734284, "lon": 28.8761194 },
+        { "lat": 46.9732005, "lon": 28.8764816 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "name_1": "bd. Dacia",
+        "old_name": "Bulevardul Pacii",
+        "oneway": "yes",
+        "wrong_name": "str. Aeroportului",
+        "wrong_name:ru": "ул. Аеропортулуй"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25128204,
+      "bounds": {
+        "minlat": 47.0109404,
+        "minlon": 28.843882,
+        "maxlat": 47.0119243,
+        "maxlon": 28.8451856
+      },
+      "nodes": [269079969, 273707179, 282973050],
+      "geometry": [
+        { "lat": 47.0109404, "lon": 28.843882 },
+        { "lat": 47.0111275, "lon": 28.844133 },
+        { "lat": 47.0119243, "lon": 28.8451856 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Ciuflea",
+        "name:ru": "улица Чуфля",
+        "old_name": "улица Ткаченко",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25128205,
+      "bounds": {
+        "minlat": 47.0121264,
+        "minlon": 28.845075,
+        "maxlat": 47.012407,
+        "maxlon": 28.8456879
+      },
+      "nodes": [273707425, 370422722],
+      "geometry": [
+        { "lat": 47.012407, "lon": 28.8456879 },
+        { "lat": 47.0121264, "lon": 28.845075 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Ciuflea",
+        "name:ru": "улица Чуфля",
+        "old_name": "улица Ткаченко",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25128207,
+      "bounds": {
+        "minlat": 47.012407,
+        "minlon": 28.8456879,
+        "maxlat": 47.0137719,
+        "maxlon": 28.8476553
+      },
+      "nodes": [273707425, 4567374944, 4563307300, 2961149707, 273707195],
+      "geometry": [
+        { "lat": 47.012407, "lon": 28.8456879 },
+        { "lat": 47.0125289, "lon": 28.8458533 },
+        { "lat": 47.0134836, "lon": 28.8472376 },
+        { "lat": 47.0137113, "lon": 28.8475639 },
+        { "lat": 47.0137719, "lon": 28.8476553 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Ciuflea",
+        "name:ro": "Strada Ciuflea",
+        "name:ru": "улица Чуфля",
+        "old_name": "улица Ткаченко",
+        "oneway": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25256656,
+      "bounds": {
+        "minlat": 46.9354815,
+        "minlon": 28.9328295,
+        "maxlat": 46.9379647,
+        "maxlon": 28.9345627
+      },
+      "nodes": [
+        275233588,
+        5493207498,
+        411247558,
+        427545479,
+        275233491,
+        411246930,
+        6254071390,
+        6254071387,
+        6644594899,
+        411246925,
+        6254071267,
+        5493155381,
+        275233511,
+        6254071282,
+        275233515
+      ],
+      "geometry": [
+        { "lat": 46.9379647, "lon": 28.9328295 },
+        { "lat": 46.9377695, "lon": 28.9330522 },
+        { "lat": 46.9375906, "lon": 28.9332062 },
+        { "lat": 46.9374989, "lon": 28.9332709 },
+        { "lat": 46.9370336, "lon": 28.9335354 },
+        { "lat": 46.9363175, "lon": 28.9339153 },
+        { "lat": 46.9362185, "lon": 28.9339697 },
+        { "lat": 46.9359985, "lon": 28.9340287 },
+        { "lat": 46.9359779, "lon": 28.9340403 },
+        { "lat": 46.93596, "lon": 28.9340503 },
+        { "lat": 46.9356725, "lon": 28.9342356 },
+        { "lat": 46.9355897, "lon": 28.934289 },
+        { "lat": 46.9355286, "lon": 28.9343912 },
+        { "lat": 46.9355083, "lon": 28.9344492 },
+        { "lat": 46.9354815, "lon": 28.9345627 }
+      ],
+      "tags": {
+        "highway": "service",
+        "lanes": "2",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25300467,
+      "bounds": {
+        "minlat": 46.9402143,
+        "minlon": 28.9286403,
+        "maxlat": 46.9406767,
+        "maxlon": 28.9293994
+      },
+      "nodes": [275227164, 288962328],
+      "geometry": [
+        { "lat": 46.9402143, "lon": 28.9293994 },
+        { "lat": 46.9406767, "lon": 28.9286403 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "name_1": "bd. Dacia",
+        "old_name": "Bulevardul Pacii",
+        "oneway": "yes",
+        "wrong_name": "str. Aeroportului",
+        "wrong_name:ru": "ул. Аеропортулуй"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25300468,
+      "bounds": {
+        "minlat": 46.9379647,
+        "minlon": 28.9292001,
+        "maxlat": 46.9400789,
+        "maxlon": 28.9328295
+      },
+      "nodes": [
+        271242101,
+        695146198,
+        309327474,
+        695146190,
+        4572932340,
+        275233588
+      ],
+      "geometry": [
+        { "lat": 46.9400789, "lon": 28.9292001 },
+        { "lat": 46.9393079, "lon": 28.9304239 },
+        { "lat": 46.9388674, "lon": 28.931123 },
+        { "lat": 46.9383276, "lon": 28.9321307 },
+        { "lat": 46.9380792, "lon": 28.9326085 },
+        { "lat": 46.9379647, "lon": 28.9328295 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "name_1": "bd. Dacia",
+        "old_name": "Bulevardul Pacii",
+        "oneway": "yes",
+        "wrong_name": "str. Aeroportului",
+        "wrong_name:ru": "ул. Аеропортулуй"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25480033,
+      "bounds": {
+        "minlat": 46.9954513,
+        "minlon": 28.8435869,
+        "maxlat": 46.9995893,
+        "maxlon": 28.8452473
+      },
+      "nodes": [277647488, 5740620991, 5740620992, 300247410],
+      "geometry": [
+        { "lat": 46.9954513, "lon": 28.8452473 },
+        { "lat": 46.9960817, "lon": 28.8449586 },
+        { "lat": 46.9968714, "lon": 28.8446441 },
+        { "lat": 46.9995893, "lon": 28.8435869 }
+      ],
+      "tags": {
+        "admin_level": "10",
+        "boundary": "administrative",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "2",
+        "loc_name": "Viaduct",
+        "loc_name:ru": "Виадук",
+        "maxspeed": "70",
+        "name": "Bulevardul Dacia",
+        "name:ro": "Bd.Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "пр. Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 26134590,
+      "bounds": {
+        "minlat": 46.9867426,
+        "minlon": 28.8477028,
+        "maxlat": 46.9931903,
+        "maxlon": 28.8567436
+      },
+      "nodes": [
+        286123858,
+        286123840,
+        4566543119,
+        286123841,
+        4566543118,
+        392001900,
+        372466325,
+        392001921,
+        4566543117,
+        286123842,
+        286123843,
+        286123857
+      ],
+      "geometry": [
+        { "lat": 46.9867426, "lon": 28.8567436 },
+        { "lat": 46.9870416, "lon": 28.8564815 },
+        { "lat": 46.9871681, "lon": 28.8563752 },
+        { "lat": 46.9874723, "lon": 28.8559475 },
+        { "lat": 46.9897177, "lon": 28.8527873 },
+        { "lat": 46.9908352, "lon": 28.8512145 },
+        { "lat": 46.9909431, "lon": 28.8510753 },
+        { "lat": 46.9923468, "lon": 28.8491185 },
+        { "lat": 46.9924381, "lon": 28.8489912 },
+        { "lat": 46.9928934, "lon": 28.8483564 },
+        { "lat": 46.9930975, "lon": 28.8479207 },
+        { "lat": 46.9931903, "lon": 28.8477028 }
+      ],
+      "tags": {
+        "highway": "residential",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 26134591,
+      "bounds": {
+        "minlat": 46.9887763,
+        "minlon": 28.8474659,
+        "maxlat": 46.9931415,
+        "maxlon": 28.853338
+      },
+      "nodes": [
+        286123856,
+        286123844,
+        286123845,
+        392001918,
+        392001897,
+        372466322,
+        372462843
+      ],
+      "geometry": [
+        { "lat": 46.9931415, "lon": 28.8474659 },
+        { "lat": 46.992955, "lon": 28.847588 },
+        { "lat": 46.992685, "lon": 28.847871 },
+        { "lat": 46.992087, "lon": 28.8487136 },
+        { "lat": 46.9905907, "lon": 28.8508154 },
+        { "lat": 46.9905357, "lon": 28.850899 },
+        { "lat": 46.9887763, "lon": 28.853338 }
+      ],
+      "tags": {
+        "highway": "residential",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 26178538,
+      "bounds": {
+        "minlat": 46.9834811,
+        "minlon": 28.8588484,
+        "maxlat": 46.9852536,
+        "maxlon": 28.8613148
+      },
+      "nodes": [286673331, 286671532, 286671544, 286673330],
+      "geometry": [
+        { "lat": 46.9834811, "lon": 28.8613148 },
+        { "lat": 46.9839022, "lon": 28.8609474 },
+        { "lat": 46.9848648, "lon": 28.8595782 },
+        { "lat": 46.9852536, "lon": 28.8588484 }
+      ],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Bulevardul dacia",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 26237927,
+      "bounds": {
+        "minlat": 46.9791399,
+        "minlon": 28.8624645,
+        "maxlat": 46.9824361,
+        "maxlon": 28.8670723
+      },
+      "nodes": [
+        287319530,
+        287319496,
+        287319501,
+        287319512,
+        287319513,
+        5740621018,
+        287319531
+      ],
+      "geometry": [
+        { "lat": 46.9824361, "lon": 28.8624645 },
+        { "lat": 46.982247, "lon": 28.862622 },
+        { "lat": 46.9817861, "lon": 28.8631206 },
+        { "lat": 46.9797945, "lon": 28.8659337 },
+        { "lat": 46.9794728, "lon": 28.8663778 },
+        { "lat": 46.9792708, "lon": 28.8667691 },
+        { "lat": 46.9791399, "lon": 28.8670723 }
+      ],
+      "tags": {
+        "highway": "residential",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 27350340,
+      "bounds": {
+        "minlat": 46.9941247,
+        "minlon": 28.8450398,
+        "maxlat": 46.9954048,
+        "maxlon": 28.8461172
+      },
+      "nodes": [
+        270272775,
+        5740620995,
+        270272776,
+        270272777,
+        5740620996,
+        270272778,
+        276641040
+      ],
+      "geometry": [
+        { "lat": 46.9954048, "lon": 28.8450398 },
+        { "lat": 46.9950183, "lon": 28.8453063 },
+        { "lat": 46.994676, "lon": 28.845575 },
+        { "lat": 46.9944127, "lon": 28.8458076 },
+        { "lat": 46.9943081, "lon": 28.845911 },
+        { "lat": 46.9942308, "lon": 28.8460004 },
+        { "lat": 46.9941247, "lon": 28.8461172 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "70",
+        "name": "Bulevardul Dacia",
+        "name:ro": "Bd.Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "пр. Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 27350341,
+      "bounds": {
+        "minlat": 46.9995893,
+        "minlon": 28.8427415,
+        "maxlat": 47.0017921,
+        "maxlon": 28.8435869
+      },
+      "nodes": [300247410, 2595899735, 300009210, 273707135, 370422737],
+      "geometry": [
+        { "lat": 46.9995893, "lon": 28.8435869 },
+        { "lat": 47.0001984, "lon": 28.8433565 },
+        { "lat": 47.0009287, "lon": 28.8430737 },
+        { "lat": 47.0013854, "lon": 28.8428964 },
+        { "lat": 47.0017921, "lon": 28.8427415 }
+      ],
+      "tags": {
+        "admin_level": "10",
+        "boundary": "administrative",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ro": "Bd.Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "пр. Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 27350342,
+      "bounds": {
+        "minlat": 46.9954048,
+        "minlon": 28.8433908,
+        "maxlat": 46.9995435,
+        "maxlon": 28.8450398
+      },
+      "nodes": [300247409, 5740620994, 5740620993, 270272775],
+      "geometry": [
+        { "lat": 46.9995435, "lon": 28.8433908 },
+        { "lat": 46.9960014, "lon": 28.844765 },
+        { "lat": 46.9957209, "lon": 28.8448883 },
+        { "lat": 46.9954048, "lon": 28.8450398 }
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "2",
+        "loc_name": "Viaduct",
+        "loc_name:ru": "Виадук",
+        "maxspeed": "70",
+        "name": "Bulevardul Dacia",
+        "name:ro": "Bd.Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "пр. Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 27350344,
+      "bounds": {
+        "minlat": 47.0028856,
+        "minlon": 28.8417712,
+        "maxlat": 47.0066326,
+        "maxlon": 28.8421107
+      },
+      "nodes": [
+        370422708,
+        451001275,
+        4563307298,
+        270272756,
+        270272757,
+        270272758,
+        270272759,
+        5740620988,
+        270272760,
+        5740620990,
+        436192895,
+        4482936594,
+        4482936601,
+        2948991614,
+        370422734
+      ],
+      "geometry": [
+        { "lat": 47.0066326, "lon": 28.8420709 },
+        { "lat": 47.0058365, "lon": 28.8419506 },
+        { "lat": 47.005394, "lon": 28.8418852 },
+        { "lat": 47.005193, "lon": 28.841855 },
+        { "lat": 47.004858, "lon": 28.841811 },
+        { "lat": 47.004474, "lon": 28.8417712 },
+        { "lat": 47.0042624, "lon": 28.8417733 },
+        { "lat": 47.0040772, "lon": 28.8417886 },
+        { "lat": 47.003839, "lon": 28.8418172 },
+        { "lat": 47.0036951, "lon": 28.8418404 },
+        { "lat": 47.0035592, "lon": 28.8418657 },
+        { "lat": 47.0034256, "lon": 28.8419018 },
+        { "lat": 47.0032319, "lon": 28.8419735 },
+        { "lat": 47.0031291, "lon": 28.8420164 },
+        { "lat": 47.0028856, "lon": 28.8421107 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "пр. Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 27350345,
+      "bounds": {
+        "minlat": 47.0093017,
+        "minlon": 28.8425262,
+        "maxlat": 47.0111875,
+        "maxlon": 28.8435187
+      },
+      "nodes": [
+        270272840,
+        270272752,
+        1415375203,
+        1415375159,
+        4563307299,
+        370422712,
+        1096407250,
+        270272754,
+        270272755
+      ],
+      "geometry": [
+        { "lat": 47.0111875, "lon": 28.8435187 },
+        { "lat": 47.0109803, "lon": 28.8432422 },
+        { "lat": 47.0109558, "lon": 28.8432194 },
+        { "lat": 47.0107723, "lon": 28.8430486 },
+        { "lat": 47.0106293, "lon": 28.8429498 },
+        { "lat": 47.0103565, "lon": 28.8427885 },
+        { "lat": 47.0101319, "lon": 28.8427088 },
+        { "lat": 47.0098838, "lon": 28.8426573 },
+        { "lat": 47.0093017, "lon": 28.8425262 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "пр. Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 27350346,
+      "bounds": {
+        "minlat": 47.0092882,
+        "minlon": 28.8427602,
+        "maxlat": 47.010646,
+        "maxlon": 28.843503
+      },
+      "nodes": [
+        273707158,
+        273707160,
+        5740620986,
+        273707164,
+        1096407703,
+        273707169,
+        273707173,
+        1103348607
+      ],
+      "geometry": [
+        { "lat": 47.0092882, "lon": 28.8427602 },
+        { "lat": 47.0095808, "lon": 28.8428069 },
+        { "lat": 47.0097297, "lon": 28.8428446 },
+        { "lat": 47.0098095, "lon": 28.8428799 },
+        { "lat": 47.0100041, "lon": 28.842964 },
+        { "lat": 47.0102246, "lon": 28.8431094 },
+        { "lat": 47.0104735, "lon": 28.8433242 },
+        { "lat": 47.010646, "lon": 28.843503 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "пр. Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 27404607,
+      "bounds": {
+        "minlat": 46.9792537,
+        "minlon": 28.8626905,
+        "maxlat": 46.9825068,
+        "maxlon": 28.8672217
+      },
+      "nodes": [
+        300825145,
+        5740621016,
+        5740621017,
+        5740621015,
+        1056107414,
+        1056107466,
+        300873370,
+        4168367127,
+        300825150,
+        5344558635,
+        5740621013,
+        5740621014,
+        300825152
+      ],
+      "geometry": [
+        { "lat": 46.9792537, "lon": 28.8672217 },
+        { "lat": 46.979373, "lon": 28.8671667 },
+        { "lat": 46.979479, "lon": 28.8670724 },
+        { "lat": 46.9796266, "lon": 28.8669115 },
+        { "lat": 46.97972, "lon": 28.8667929 },
+        { "lat": 46.9797948, "lon": 28.866694 },
+        { "lat": 46.9807196, "lon": 28.8654046 },
+        { "lat": 46.9815665, "lon": 28.8642261 },
+        { "lat": 46.9821112, "lon": 28.8634641 },
+        { "lat": 46.9822045, "lon": 28.8633276 },
+        { "lat": 46.9822826, "lon": 28.8631867 },
+        { "lat": 46.9823381, "lon": 28.863072 },
+        { "lat": 46.9825068, "lon": 28.8626905 }
+      ],
+      "tags": {
+        "highway": "residential",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 27461077,
+      "bounds": {
+        "minlat": 47.0243964,
+        "minlon": 28.8292506,
+        "maxlat": 47.0255795,
+        "maxlon": 28.830965
+      },
+      "nodes": [269972803, 818603381, 6696508532, 269496210, 4563450985],
+      "geometry": [
+        { "lat": 47.0255795, "lon": 28.830965 },
+        { "lat": 47.0253253, "lon": 28.8305919 },
+        { "lat": 47.0246112, "lon": 28.8295579 },
+        { "lat": 47.0244785, "lon": 28.8293657 },
+        { "lat": 47.0243964, "lon": 28.8292506 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Mitropolit Bănulescu-Bodoni",
+        "name:ru": "улица Митрополита Бэнулеску-Бодони",
+        "old_name": "улица Гоголя",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 28103811,
+      "bounds": {
+        "minlat": 46.9833451,
+        "minlon": 28.8584125,
+        "maxlat": 46.9853164,
+        "maxlon": 28.8611749
+      },
+      "nodes": [
+        308722972,
+        286671689,
+        286673346,
+        5740621012,
+        5740621011,
+        286673334,
+        421543089,
+        286673337
+      ],
+      "geometry": [
+        { "lat": 46.9853164, "lon": 28.8584125 },
+        { "lat": 46.9849682, "lon": 28.8586748 },
+        { "lat": 46.9844789, "lon": 28.859381 },
+        { "lat": 46.9839317, "lon": 28.8601203 },
+        { "lat": 46.9836945, "lon": 28.8604625 },
+        { "lat": 46.9835895, "lon": 28.8606476 },
+        { "lat": 46.9835058, "lon": 28.8608257 },
+        { "lat": 46.9833451, "lon": 28.8611749 }
+      ],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 29022010,
+      "bounds": {
+        "minlat": 46.9752181,
+        "minlon": 28.8725143,
+        "maxlat": 46.9758684,
+        "maxlon": 28.8735091
+      },
+      "nodes": [275227128, 276644588],
+      "geometry": [
+        { "lat": 46.9752181, "lon": 28.8735091 },
+        { "lat": 46.9758684, "lon": 28.8725143 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "name_1": "bd. Dacia",
+        "old_name": "Bulevardul Pacii",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 29022011,
+      "bounds": {
+        "minlat": 47.0066218,
+        "minlon": 28.8422919,
+        "maxlat": 47.0092882,
+        "maxlon": 28.8427602
+      },
+      "nodes": [299340568, 1097122660, 273707158],
+      "geometry": [
+        { "lat": 47.0066218, "lon": 28.8422919 },
+        { "lat": 47.0091546, "lon": 28.8427361 },
+        { "lat": 47.0092882, "lon": 28.8427602 }
+      ],
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "cycleway": "lane",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ro": "Bd.Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "пр. Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 30748227,
+      "bounds": {
+        "minlat": 47.0157937,
+        "minlon": 28.8443122,
+        "maxlat": 47.0166545,
+        "maxlon": 28.8455938
+      },
+      "nodes": [271282899, 4895115057, 1497504622],
+      "geometry": [
+        { "lat": 47.0157937, "lon": 28.8455938 },
+        { "lat": 47.0163407, "lon": 28.8447798 },
+        { "lat": 47.0166545, "lon": 28.8443122 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:-1840": "str. Millionnaia",
+        "name:1840-1877": "str. Moskovskaia",
+        "name:1877-1924": "str. Aleksandrovskaia",
+        "name:1924-1944": "bd. Alexandru cel Bun",
+        "name:1944-1952": "strada Lenin",
+        "name:1952-1990": "bulevardul Lenin",
+        "name:bg": "бул. Стефан Велики",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "name_1": "bd. Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Ștefan cel Mare și Sfînt din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 32888663,
+      "bounds": {
+        "minlat": 47.0066326,
+        "minlon": 28.8420709,
+        "maxlat": 47.0093017,
+        "maxlon": 28.8425262
+      },
+      "nodes": [270272755, 370422708],
+      "geometry": [
+        { "lat": 47.0093017, "lon": 28.8425262 },
+        { "lat": 47.0066326, "lon": 28.8420709 }
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ro": "Bd.Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "пр. Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 32888665,
+      "bounds": {
+        "minlat": 46.9995435,
+        "minlon": 28.8425362,
+        "maxlat": 47.0017397,
+        "maxlon": 28.8433908
+      },
+      "nodes": [370422743, 276630055, 276630059, 276629991, 300247409],
+      "geometry": [
+        { "lat": 47.0017397, "lon": 28.8425362 },
+        { "lat": 47.0015665, "lon": 28.8426045 },
+        { "lat": 47.0009416, "lon": 28.8428521 },
+        { "lat": 47.0003054, "lon": 28.8431065 },
+        { "lat": 46.9995435, "lon": 28.8433908 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ro": "Bd.Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "пр. Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 32888668,
+      "bounds": {
+        "minlat": 47.0017921,
+        "minlon": 28.8423165,
+        "maxlat": 47.0029252,
+        "maxlon": 28.8427415
+      },
+      "nodes": [370422737, 370422727],
+      "geometry": [
+        { "lat": 47.0017921, "lon": 28.8427415 },
+        { "lat": 47.0029252, "lon": 28.8423165 }
+      ],
+      "tags": {
+        "admin_level": "10",
+        "boundary": "administrative",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "проспект Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 32888670,
+      "bounds": {
+        "minlat": 47.0029252,
+        "minlon": 28.8419773,
+        "maxlat": 47.0066218,
+        "maxlon": 28.8423165
+      },
+      "nodes": [
+        370422727,
+        6769331374,
+        3697017055,
+        273707137,
+        273707139,
+        273707142,
+        5740620987,
+        273707145,
+        273707148,
+        4566543116,
+        273707152,
+        1097122789,
+        299340568
+      ],
+      "geometry": [
+        { "lat": 47.0029252, "lon": 28.8423165 },
+        { "lat": 47.0030059, "lon": 28.8422868 },
+        { "lat": 47.0031717, "lon": 28.8422257 },
+        { "lat": 47.003262, "lon": 28.8421906 },
+        { "lat": 47.0034718, "lon": 28.8421227 },
+        { "lat": 47.0037486, "lon": 28.8420454 },
+        { "lat": 47.004028, "lon": 28.8419976 },
+        { "lat": 47.0042556, "lon": 28.8419773 },
+        { "lat": 47.0045296, "lon": 28.8419835 },
+        { "lat": 47.0050016, "lon": 28.8420274 },
+        { "lat": 47.0050868, "lon": 28.8420353 },
+        { "lat": 47.0060967, "lon": 28.8422122 },
+        { "lat": 47.0066218, "lon": 28.8422919 }
+      ],
+      "tags": {
+        "admin_level": "10",
+        "boundary": "administrative",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "пр. Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 32888673,
+      "bounds": {
+        "minlat": 47.0017397,
+        "minlon": 28.8421107,
+        "maxlat": 47.0028856,
+        "maxlon": 28.8425362
+      },
+      "nodes": [370422734, 270272770, 370422743],
+      "geometry": [
+        { "lat": 47.0028856, "lon": 28.8421107 },
+        { "lat": 47.002033, "lon": 28.842433 },
+        { "lat": 47.0017397, "lon": 28.8425362 }
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "проспект Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 35680890,
+      "bounds": {
+        "minlat": 47.0236502,
+        "minlon": 28.830965,
+        "maxlat": 47.0255795,
+        "maxlon": 28.833846
+      },
+      "nodes": [
+        269230044,
+        269691828,
+        1138863980,
+        2961149711,
+        5722480688,
+        5722480690,
+        2937562960,
+        1138863909,
+        269691826,
+        269972803
+      ],
+      "geometry": [
+        { "lat": 47.0236502, "lon": 28.833846 },
+        { "lat": 47.023696, "lon": 28.8337778 },
+        { "lat": 47.0237251, "lon": 28.8337344 },
+        { "lat": 47.0238078, "lon": 28.8336126 },
+        { "lat": 47.0241773, "lon": 28.8330675 },
+        { "lat": 47.0245436, "lon": 28.8325193 },
+        { "lat": 47.0252482, "lon": 28.8314679 },
+        { "lat": 47.0254599, "lon": 28.831138 },
+        { "lat": 47.0255313, "lon": 28.8310358 },
+        { "lat": 47.0255795, "lon": 28.830965 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:-1840": "str. Millionnaia",
+        "name:1840-1877": "str. Moskovskaia",
+        "name:1877-1924": "str. Aleksandrovskaia",
+        "name:1924-1931": "bd. Alexandru cel Bun",
+        "name:1931-1944": "bd. Regele Carol II",
+        "name:1944-1952": "strada Lenin",
+        "name:1952-1990": "bulevardul Lenin",
+        "name:bg": "бул. Стефан Велики",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "name_1": "bd. Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "postal_code": "MD-2004",
+        "surface": "asphalt",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Ștefan cel Mare și Sfînt din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38292097,
+      "bounds": {
+        "minlat": 46.973282,
+        "minlon": 28.8743332,
+        "maxlat": 46.9747009,
+        "maxlon": 28.876594
+      },
+      "nodes": [426860093, 5740621627, 1106154030, 1106142601],
+      "geometry": [
+        { "lat": 46.973282, "lon": 28.876594 },
+        { "lat": 46.9738624, "lon": 28.8756779 },
+        { "lat": 46.9744335, "lon": 28.8747593 },
+        { "lat": 46.9747009, "lon": 28.8743332 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "name_1": "bd. Dacia",
+        "old_name": "Bulevardul Pacii",
+        "oneway": "yes",
+        "wrong_name": "str. Aeroportului",
+        "wrong_name:ru": "ул. Аеропортулуй"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38292098,
+      "bounds": {
+        "minlat": 46.964508,
+        "minlon": 28.8764816,
+        "maxlat": 46.9732005,
+        "maxlon": 28.8903543
+      },
+      "nodes": [426860090, 345293173, 270521870],
+      "geometry": [
+        { "lat": 46.9732005, "lon": 28.8764816 },
+        { "lat": 46.9729412, "lon": 28.8768924 },
+        { "lat": 46.964508, "lon": 28.8903543 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ro": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "name_1": "bd. Dacia",
+        "old_name": "Bulevardul Pacii",
+        "oneway": "yes",
+        "wrong_name": "str. Aeroportului",
+        "wrong_name:ru": "ул. Аеропортулуй"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38959503,
+      "bounds": {
+        "minlat": 47.0171713,
+        "minlon": 28.8421288,
+        "maxlat": 47.0181035,
+        "maxlon": 28.8435216
+      },
+      "nodes": [269474314, 4337754645, 1255615986],
+      "geometry": [
+        { "lat": 47.0171713, "lon": 28.8435216 },
+        { "lat": 47.0172409, "lon": 28.8434177 },
+        { "lat": 47.0181035, "lon": 28.8421288 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:-1840": "str. Millionnaia",
+        "name:1840-1877": "str. Moskovskaia",
+        "name:1877-1924": "str. Aleksandrovskaia",
+        "name:1924-1944": "bd. Alexandru cel Bun",
+        "name:1944-1952": "strada Lenin",
+        "name:1952-1990": "bulevardul Lenin",
+        "name:bg": "бул. Стефан Велики",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "name_1": "bd. Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Ștefan cel Mare și Sfînt din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 40123695,
+      "bounds": {
+        "minlat": 46.9824361,
+        "minlon": 28.8618495,
+        "maxlat": 46.9828778,
+        "maxlon": 28.8624645
+      },
+      "nodes": [271248043, 365700303, 4566767852, 287319530],
+      "geometry": [
+        { "lat": 46.9828778, "lon": 28.8618495 },
+        { "lat": 46.9826676, "lon": 28.8621537 },
+        { "lat": 46.982527, "lon": 28.862344 },
+        { "lat": 46.9824361, "lon": 28.8624645 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "проспект Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 40123696,
+      "bounds": {
+        "minlat": 46.9829903,
+        "minlon": 28.8613148,
+        "maxlat": 46.9834811,
+        "maxlon": 28.8620289
+      },
+      "nodes": [1591313881, 1033760692, 4566767849, 286673331],
+      "geometry": [
+        { "lat": 46.9829903, "lon": 28.8620289 },
+        { "lat": 46.9831652, "lon": 28.8617725 },
+        { "lat": 46.9834008, "lon": 28.8614373 },
+        { "lat": 46.9834811, "lon": 28.8613148 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "пр. Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 40325064,
+      "bounds": {
+        "minlat": 46.9853164,
+        "minlon": 28.8573219,
+        "maxlat": 46.9861168,
+        "maxlon": 28.8584125
+      },
+      "nodes": [273706988, 286673328, 1033760680, 4566767853, 308722972],
+      "geometry": [
+        { "lat": 46.9861168, "lon": 28.8573219 },
+        { "lat": 46.9859172, "lon": 28.8575898 },
+        { "lat": 46.9856777, "lon": 28.8579278 },
+        { "lat": 46.9854684, "lon": 28.8582031 },
+        { "lat": 46.9853164, "lon": 28.8584125 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "пр. Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 40325068,
+      "bounds": {
+        "minlat": 46.9862484,
+        "minlon": 28.8567436,
+        "maxlat": 46.9867426,
+        "maxlon": 28.857418
+      },
+      "nodes": [273707415, 4168367146, 286123858],
+      "geometry": [
+        { "lat": 46.9862484, "lon": 28.857418 },
+        { "lat": 46.9866197, "lon": 28.856915 },
+        { "lat": 46.9867426, "lon": 28.8567436 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ro": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "пр. Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 46606201,
+      "bounds": {
+        "minlat": 46.9942982,
+        "minlon": 28.8452473,
+        "maxlat": 46.9954513,
+        "maxlon": 28.8461659
+      },
+      "nodes": [
+        276641039,
+        273707114,
+        1737632757,
+        273707116,
+        273707118,
+        273707122,
+        277647488
+      ],
+      "geometry": [
+        { "lat": 46.9942982, "lon": 28.8461659 },
+        { "lat": 46.9944322, "lon": 28.8460173 },
+        { "lat": 46.9945639, "lon": 28.845898 },
+        { "lat": 46.9946423, "lon": 28.8458296 },
+        { "lat": 46.9949165, "lon": 28.8456061 },
+        { "lat": 46.9952555, "lon": 28.8453688 },
+        { "lat": 46.9954513, "lon": 28.8452473 }
+      ],
+      "tags": {
+        "admin_level": "10",
+        "boundary": "administrative",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "70",
+        "name": "Bulevardul Dacia",
+        "name:ro": "Bd.Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "пр. Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 46909905,
+      "bounds": {
+        "minlat": 46.9778726,
+        "minlon": 28.8678133,
+        "maxlat": 46.9786353,
+        "maxlon": 28.8689989
+      },
+      "nodes": [274020040, 5740621623, 652050035],
+      "geometry": [
+        { "lat": 46.9786353, "lon": 28.8678133 },
+        { "lat": 46.9782323, "lon": 28.8684188 },
+        { "lat": 46.9778726, "lon": 28.8689989 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ro": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "name_1": "bd. Dacia",
+        "old_name": "Bulevardul Pacii",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 46909907,
+      "bounds": {
+        "minlat": 46.993877,
+        "minlon": 28.8461659,
+        "maxlat": 46.9942982,
+        "maxlon": 28.8467601
+      },
+      "nodes": [276116730, 286123849, 273707110, 276641039],
+      "geometry": [
+        { "lat": 46.993877, "lon": 28.8467601 },
+        { "lat": 46.9940914, "lon": 28.8464599 },
+        { "lat": 46.994187, "lon": 28.8463164 },
+        { "lat": 46.9942982, "lon": 28.8461659 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "проспект Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 46909910,
+      "bounds": {
+        "minlat": 46.978676,
+        "minlon": 28.8672217,
+        "maxlat": 46.9792537,
+        "maxlon": 28.8680584
+      },
+      "nodes": [275227127, 4566767850, 300825145],
+      "geometry": [
+        { "lat": 46.978676, "lon": 28.8680584 },
+        { "lat": 46.979109, "lon": 28.8674353 },
+        { "lat": 46.9792537, "lon": 28.8672217 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ro": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "name_1": "bd. Dacia",
+        "old_name": "Bulevardul Pacii",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 48216571,
+      "bounds": {
+        "minlat": 47.014092,
+        "minlon": 28.8477666,
+        "maxlat": 47.0143403,
+        "maxlon": 28.8481258
+      },
+      "nodes": [273707420, 662932292],
+      "geometry": [
+        { "lat": 47.014092, "lon": 28.8481258 },
+        { "lat": 47.0143403, "lon": 28.8477666 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:-1840": "str. Millionnaia",
+        "name:1840-1877": "str. Moskovskaia",
+        "name:1877-1924": "str. Aleksandrovskaia",
+        "name:1924-1944": "bd. Alexandru cel Bun",
+        "name:1944-1952": "strada Lenin",
+        "name:1952-1990": "bulevardul Lenin",
+        "name:bg": "бул. Стефан Велики",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "name_1": "bd. Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Ștefan cel Mare și Sfînt din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 50132944,
+      "bounds": {
+        "minlat": 46.9931903,
+        "minlon": 28.8467601,
+        "maxlat": 46.993877,
+        "maxlon": 28.8477028
+      },
+      "nodes": [286123857, 2961149702, 392001926, 276116730],
+      "geometry": [
+        { "lat": 46.9931903, "lon": 28.8477028 },
+        { "lat": 46.9932253, "lon": 28.8476519 },
+        { "lat": 46.9934745, "lon": 28.8473073 },
+        { "lat": 46.993877, "lon": 28.8467601 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ro": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "пр. Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 50132946,
+      "bounds": {
+        "minlat": 46.9861168,
+        "minlon": 28.8567055,
+        "maxlat": 46.9865406,
+        "maxlon": 28.8573219
+      },
+      "nodes": [286123859, 2961149697, 4168367139, 1033760626, 273706988],
+      "geometry": [
+        { "lat": 46.9865406, "lon": 28.8567055 },
+        { "lat": 46.9864832, "lon": 28.8567844 },
+        { "lat": 46.986336, "lon": 28.8569811 },
+        { "lat": 46.9862703, "lon": 28.8570837 },
+        { "lat": 46.9861168, "lon": 28.8573219 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ro": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "пр. Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 51112227,
+      "bounds": {
+        "minlat": 46.9762496,
+        "minlon": 28.8689989,
+        "maxlat": 46.9778726,
+        "maxlon": 28.8715929
+      },
+      "nodes": [
+        652050035,
+        5740621622,
+        5740621621,
+        652050036,
+        2992113387,
+        652049985,
+        4563450965,
+        652049992,
+        652049994
+      ],
+      "geometry": [
+        { "lat": 46.9778726, "lon": 28.8689989 },
+        { "lat": 46.9777667, "lon": 28.8690494 },
+        { "lat": 46.9776846, "lon": 28.8691068 },
+        { "lat": 46.9775837, "lon": 28.8692131 },
+        { "lat": 46.9772994, "lon": 28.869678 },
+        { "lat": 46.9770526, "lon": 28.870069 },
+        { "lat": 46.9767715, "lon": 28.8705145 },
+        { "lat": 46.9766555, "lon": 28.8706985 },
+        { "lat": 46.9762496, "lon": 28.8715929 }
+      ],
+      "tags": {
+        "highway": "residential",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 51112232,
+      "bounds": {
+        "minlat": 46.9764936,
+        "minlon": 28.8689094,
+        "maxlat": 46.9781461,
+        "maxlon": 28.8715402
+      },
+      "nodes": [
+        652049995,
+        652049997,
+        652049999,
+        652049990,
+        2992105961,
+        5740621020,
+        652050038,
+        2992106972,
+        652050037
+      ],
+      "geometry": [
+        { "lat": 46.9764936, "lon": 28.8715402 },
+        { "lat": 46.9768414, "lon": 28.8711987 },
+        { "lat": 46.9769186, "lon": 28.8710752 },
+        { "lat": 46.9773093, "lon": 28.8704503 },
+        { "lat": 46.9775594, "lon": 28.8700704 },
+        { "lat": 46.977754, "lon": 28.869767 },
+        { "lat": 46.9778374, "lon": 28.8696276 },
+        { "lat": 46.9779074, "lon": 28.8694987 },
+        { "lat": 46.9781461, "lon": 28.8689094 }
+      ],
+      "tags": {
+        "highway": "residential",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 56757829,
+      "bounds": {
+        "minlat": 46.993829,
+        "minlon": 28.8461172,
+        "maxlat": 46.9941247,
+        "maxlon": 28.8465034
+      },
+      "nodes": [276641040, 286123853, 5740621000, 1486104438],
+      "geometry": [
+        { "lat": 46.9941247, "lon": 28.8461172 },
+        { "lat": 46.9938994, "lon": 28.8464091 },
+        { "lat": 46.9938586, "lon": 28.8464665 },
+        { "lat": 46.993829, "lon": 28.8465034 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "проспект Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 62301145,
+      "bounds": {
+        "minlat": 46.9404623,
+        "minlon": 28.9136748,
+        "maxlat": 46.9498706,
+        "maxlon": 28.9286019
+      },
+      "nodes": [
+        275227129,
+        6644775909,
+        4572917739,
+        5740621642,
+        5740621643,
+        5740621645,
+        5740621647,
+        275227130,
+        6644753331,
+        737279910,
+        4106460968,
+        6644753332,
+        6644753337,
+        6644569805,
+        4572917740,
+        2497764245,
+        288962329
+      ],
+      "geometry": [
+        { "lat": 46.9498706, "lon": 28.9136748 },
+        { "lat": 46.9496668, "lon": 28.9139859 },
+        { "lat": 46.9495776, "lon": 28.9141222 },
+        { "lat": 46.9490432, "lon": 28.9149527 },
+        { "lat": 46.9486089, "lon": 28.9156777 },
+        { "lat": 46.9476115, "lon": 28.9172608 },
+        { "lat": 46.9456336, "lon": 28.9204167 },
+        { "lat": 46.9438103, "lon": 28.9233163 },
+        { "lat": 46.9430017, "lon": 28.9246129 },
+        { "lat": 46.9428586, "lon": 28.9248423 },
+        { "lat": 46.9428498, "lon": 28.9248597 },
+        { "lat": 46.9427539, "lon": 28.924992 },
+        { "lat": 46.9422072, "lon": 28.9258354 },
+        { "lat": 46.9420956, "lon": 28.9260076 },
+        { "lat": 46.9418444, "lon": 28.9264154 },
+        { "lat": 46.9412768, "lon": 28.9272958 },
+        { "lat": 46.9404623, "lon": 28.9286019 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "name_1": "bd. Dacia",
+        "old_name": "Bulevardul Pacii",
+        "oneway": "yes",
+        "wrong_name": "str. Aeroportului",
+        "wrong_name:ru": "ул. Аеропортулуй"
+      }
+    },
+    {
+      "type": "way",
+      "id": 62301148,
+      "bounds": {
+        "minlat": 46.9645863,
+        "minlon": 28.8868528,
+        "maxlat": 46.9668524,
+        "maxlon": 28.8904746
+      },
+      "nodes": [275585028, 4572917737, 1737632740, 277050946],
+      "geometry": [
+        { "lat": 46.9645863, "lon": 28.8904746 },
+        { "lat": 46.9648624, "lon": 28.8900324 },
+        { "lat": 46.9664734, "lon": 28.887452 },
+        { "lat": 46.9668524, "lon": 28.8868528 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ro": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "name_1": "bd. Dacia",
+        "old_name": "Bulevardul Pacii",
+        "oneway": "yes",
+        "wrong_name": "str. Aeroportului",
+        "wrong_name:ru": "ул. Аеропортулуй"
+      }
+    },
+    {
+      "type": "way",
+      "id": 62301151,
+      "bounds": {
+        "minlat": 46.9498706,
+        "minlon": 28.8903543,
+        "maxlat": 46.964508,
+        "maxlon": 28.9136748
+      },
+      "nodes": [
+        270521870,
+        4572917736,
+        5740621628,
+        5740621629,
+        737279976,
+        5740621630,
+        5740621631,
+        737279959,
+        5740621632,
+        5740621633,
+        5740621634,
+        5740621635,
+        5740621637,
+        6644775910,
+        275227129
+      ],
+      "geometry": [
+        { "lat": 46.964508, "lon": 28.8903543 },
+        { "lat": 46.9643722, "lon": 28.8905823 },
+        { "lat": 46.9642746, "lon": 28.8907249 },
+        { "lat": 46.9640663, "lon": 28.8910431 },
+        { "lat": 46.9637478, "lon": 28.8915573 },
+        { "lat": 46.9635753, "lon": 28.8918346 },
+        { "lat": 46.9633784, "lon": 28.8921546 },
+        { "lat": 46.9630214, "lon": 28.8927224 },
+        { "lat": 46.962943, "lon": 28.8928518 },
+        { "lat": 46.9625504, "lon": 28.8934732 },
+        { "lat": 46.9619868, "lon": 28.894367 },
+        { "lat": 46.958072, "lon": 28.900608 },
+        { "lat": 46.9555967, "lon": 28.9045589 },
+        { "lat": 46.9501011, "lon": 28.9133078 },
+        { "lat": 46.9498706, "lon": 28.9136748 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "90",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "name_1": "bd. Dacia",
+        "old_name": "Bulevardul Pacii",
+        "oneway": "yes",
+        "wrong_name": "str. Aeroportului",
+        "wrong_name:ru": "ул. Аеропортулуй"
+      }
+    },
+    {
+      "type": "way",
+      "id": 62301160,
+      "bounds": {
+        "minlat": 46.9499396,
+        "minlon": 28.8904746,
+        "maxlat": 46.9645863,
+        "maxlon": 28.9138094
+      },
+      "nodes": [
+        275227131,
+        5740621639,
+        6644775913,
+        4572917738,
+        5740621638,
+        5740621636,
+        637261248,
+        737279870,
+        275585028
+      ],
+      "geometry": [
+        { "lat": 46.9499396, "lon": 28.9138094 },
+        { "lat": 46.9501529, "lon": 28.9134805 },
+        { "lat": 46.9501823, "lon": 28.9134338 },
+        { "lat": 46.9503053, "lon": 28.9132383 },
+        { "lat": 46.9541789, "lon": 28.9070463 },
+        { "lat": 46.9561204, "lon": 28.9039577 },
+        { "lat": 46.9580637, "lon": 28.9008648 },
+        { "lat": 46.9630145, "lon": 28.892969 },
+        { "lat": 46.9645863, "lon": 28.8904746 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "90",
+        "name": "Bulevardul Dacia",
+        "name:ro": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "name_1": "bd. Dacia",
+        "old_name": "Bulevardul Pacii",
+        "oneway": "yes",
+        "wrong_name": "str. Aeroportului",
+        "wrong_name:ru": "ул. Аеропортулуй"
+      }
+    },
+    {
+      "type": "way",
+      "id": 73989654,
+      "bounds": {
+        "minlat": 46.9369724,
+        "minlon": 28.9334859,
+        "maxlat": 46.9382794,
+        "maxlon": 28.9339175
+      },
+      "nodes": [275233454, 275233586, 275233585],
+      "geometry": [
+        { "lat": 46.9369724, "lon": 28.9339175 },
+        { "lat": 46.9375774, "lon": 28.9337035 },
+        { "lat": 46.9382794, "lon": 28.9334859 }
+      ],
+      "tags": {
+        "highway": "service",
+        "lanes": "2",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 73989657,
+      "bounds": {
+        "minlat": 46.9781461,
+        "minlon": 28.8680584,
+        "maxlat": 46.978676,
+        "maxlon": 28.8689094
+      },
+      "nodes": [652050037, 2963635065, 1067594613, 5740621019, 275227127],
+      "geometry": [
+        { "lat": 46.9781461, "lon": 28.8689094 },
+        { "lat": 46.9782427, "lon": 28.868751 },
+        { "lat": 46.9783489, "lon": 28.8685766 },
+        { "lat": 46.9784973, "lon": 28.8683411 },
+        { "lat": 46.978676, "lon": 28.8680584 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ro": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "name_1": "bd. Dacia",
+        "old_name": "проспект Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 73989667,
+      "bounds": {
+        "minlat": 46.9356108,
+        "minlon": 28.9366189,
+        "maxlat": 46.9359377,
+        "maxlon": 28.9366632
+      },
+      "nodes": [
+        275233545,
+        6254071262,
+        275233555,
+        6644594901,
+        275233556,
+        275233557
+      ],
+      "geometry": [
+        { "lat": 46.9356108, "lon": 28.9366189 },
+        { "lat": 46.9356638, "lon": 28.9366378 },
+        { "lat": 46.935735, "lon": 28.9366632 },
+        { "lat": 46.9358069, "lon": 28.936659 },
+        { "lat": 46.9358878, "lon": 28.9366543 },
+        { "lat": 46.9359377, "lon": 28.9366456 }
+      ],
+      "tags": {
+        "highway": "service",
+        "lanes": "2",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 73989668,
+      "bounds": {
+        "minlat": 46.9751805,
+        "minlon": 28.8715929,
+        "maxlat": 46.9762496,
+        "maxlon": 28.8733469
+      },
+      "nodes": [652049994, 426860095, 270272794],
+      "geometry": [
+        { "lat": 46.9762496, "lon": 28.8715929 },
+        { "lat": 46.9758327, "lon": 28.8722633 },
+        { "lat": 46.9751805, "lon": 28.8733469 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "name_1": "bd. Dacia",
+        "old_name": "Bulevardul Pacii",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 73989676,
+      "bounds": {
+        "minlat": 46.9382794,
+        "minlon": 28.9293994,
+        "maxlat": 46.9402143,
+        "maxlon": 28.9334859
+      },
+      "nodes": [
+        275233585,
+        275227163,
+        4572932339,
+        695146197,
+        309327475,
+        695146200,
+        275227164
+      ],
+      "geometry": [
+        { "lat": 46.9382794, "lon": 28.9334859 },
+        { "lat": 46.9383675, "lon": 28.9332572 },
+        { "lat": 46.9384514, "lon": 28.9330687 },
+        { "lat": 46.9386838, "lon": 28.9325218 },
+        { "lat": 46.9391024, "lon": 28.9316066 },
+        { "lat": 46.9395419, "lon": 28.9307342 },
+        { "lat": 46.9402143, "lon": 28.9293994 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "name_1": "bd. Dacia",
+        "old_name": "Bulevardul Pacii",
+        "oneway": "yes",
+        "wrong_name": "str. Aeroportului",
+        "wrong_name:ru": "ул. Аеропортулуй"
+      }
+    },
+    {
+      "type": "way",
+      "id": 74002829,
+      "bounds": {
+        "minlat": 47.0137719,
+        "minlon": 28.8475708,
+        "maxlat": 47.0144665,
+        "maxlon": 28.8477711
+      },
+      "nodes": [
+        875666145,
+        6800744760,
+        875666829,
+        6800744759,
+        875666465,
+        875666710,
+        875666095,
+        273707195
+      ],
+      "geometry": [
+        { "lat": 47.0144665, "lon": 28.8475708 },
+        { "lat": 47.0142808, "lon": 28.847707 },
+        { "lat": 47.0142122, "lon": 28.8477424 },
+        { "lat": 47.0141477, "lon": 28.8477656 },
+        { "lat": 47.0140784, "lon": 28.8477711 },
+        { "lat": 47.0140087, "lon": 28.8477566 },
+        { "lat": 47.0139231, "lon": 28.8477305 },
+        { "lat": 47.0137719, "lon": 28.8476553 }
+      ],
+      "tags": {
+        "highway": "trunk_link",
+        "lanes": "2",
+        "maxspeed": "50",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 93204035,
+      "bounds": {
+        "minlat": 47.0217605,
+        "minlon": 28.8362299,
+        "maxlat": 47.0220491,
+        "maxlon": 28.8366739
+      },
+      "nodes": [269474279, 1317344275, 429234126],
+      "geometry": [
+        { "lat": 47.0217605, "lon": 28.8366739 },
+        { "lat": 47.021831, "lon": 28.8365655 },
+        { "lat": 47.0220491, "lon": 28.8362299 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "name": "Bulevardul Ștefan cel Mare și Sfînt",
+        "name:-1840": "str. Millionnaia",
+        "name:1840-1877": "str. Moskovskaia",
+        "name:1877-1924": "str. Aleksandrovskaia",
+        "name:1924-1931": "bd. Alexandru cel Bun",
+        "name:1931-1944": "bd. Regele Carol II",
+        "name:1944-1952": "strada Lenin",
+        "name:1952-1990": "bulevardul Lenin",
+        "name:bg": "бул. Стефан Велики",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "name_1": "bd. Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Ștefan cel Mare și Sfînt din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 93204045,
+      "bounds": {
+        "minlat": 47.0226972,
+        "minlon": 28.833846,
+        "maxlat": 47.0236502,
+        "maxlon": 28.83527
+      },
+      "nodes": [269469306, 372447028, 4563450986, 661015240, 269230044],
+      "geometry": [
+        { "lat": 47.0226972, "lon": 28.83527 },
+        { "lat": 47.0227604, "lon": 28.8351729 },
+        { "lat": 47.0230705, "lon": 28.8347058 },
+        { "lat": 47.02347, "lon": 28.8341039 },
+        { "lat": 47.0236502, "lon": 28.833846 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:-1840": "str. Millionnaia",
+        "name:1840-1877": "str. Moskovskaia",
+        "name:1877-1924": "str. Aleksandrovskaia",
+        "name:1924-1931": "bd. Alexandru cel Bun",
+        "name:1931-1944": "bd. Regele Carol II",
+        "name:1944-1952": "strada Lenin",
+        "name:1952-1990": "bulevardul Lenin",
+        "name:bg": "бул. Стефан Велики",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "name_1": "bd. Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Ștefan cel Mare și Sfînt din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 105647255,
+      "bounds": {
+        "minlat": 46.9828778,
+        "minlon": 28.8611749,
+        "maxlat": 46.9833451,
+        "maxlon": 28.8618495
+      },
+      "nodes": [286673337, 2961149693, 1033760597, 271248043],
+      "geometry": [
+        { "lat": 46.9833451, "lon": 28.8611749 },
+        { "lat": 46.9832078, "lon": 28.8613722 },
+        { "lat": 46.9830586, "lon": 28.8615824 },
+        { "lat": 46.9828778, "lon": 28.8618495 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "проспект Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 105647267,
+      "bounds": {
+        "minlat": 46.9852536,
+        "minlon": 28.857418,
+        "maxlat": 46.9862484,
+        "maxlon": 28.8588484
+      },
+      "nodes": [286673330, 2961149696, 1033760704, 4168367130, 273707415],
+      "geometry": [
+        { "lat": 46.9852536, "lon": 28.8588484 },
+        { "lat": 46.985558, "lon": 28.8584273 },
+        { "lat": 46.9857875, "lon": 28.8580935 },
+        { "lat": 46.9858794, "lon": 28.8579707 },
+        { "lat": 46.9862484, "lon": 28.857418 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ro": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "пр. Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 105647268,
+      "bounds": {
+        "minlat": 47.0144665,
+        "minlon": 28.8468593,
+        "maxlat": 47.014948,
+        "maxlon": 28.8475708
+      },
+      "nodes": [875666145, 2961149708, 4490101370],
+      "geometry": [
+        { "lat": 47.0144665, "lon": 28.8475708 },
+        { "lat": 47.0145086, "lon": 28.8474974 },
+        { "lat": 47.014948, "lon": 28.8468593 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:-1840": "str. Millionnaia",
+        "name:1840-1877": "str. Moskovskaia",
+        "name:1877-1924": "str. Aleksandrovskaia",
+        "name:1924-1944": "bd. Alexandru cel Bun",
+        "name:1944-1952": "strada Lenin",
+        "name:1952-1990": "bulevardul Lenin",
+        "name:bg": "бул. Стефан Велики",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "name_1": "bd. Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Ștefan cel Mare și Sfînt din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 105647273,
+      "bounds": {
+        "minlat": 47.0137719,
+        "minlon": 28.8476553,
+        "maxlat": 47.014092,
+        "maxlon": 28.8481258
+      },
+      "nodes": [273707195, 273707420],
+      "geometry": [
+        { "lat": 47.0137719, "lon": 28.8476553 },
+        { "lat": 47.014092, "lon": 28.8481258 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Ciuflea",
+        "name:ro": "Strada Ciuflea",
+        "name:ru": "улица Чуфля",
+        "old_name": "улица Ткаченко"
+      }
+    },
+    {
+      "type": "way",
+      "id": 105783160,
+      "bounds": {
+        "minlat": 46.9747009,
+        "minlon": 28.8735091,
+        "maxlat": 46.9752181,
+        "maxlon": 28.8743332
+      },
+      "nodes": [1106142601, 275227128],
+      "geometry": [
+        { "lat": 46.9747009, "lon": 28.8743332 },
+        { "lat": 46.9752181, "lon": 28.8735091 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "name_1": "bd. Dacia",
+        "old_name": "Bulevardul Pacii",
+        "oneway": "yes",
+        "wrong_name": "str. Aeroportului",
+        "wrong_name:ru": "ул. Аеропортулуй"
+      }
+    },
+    {
+      "type": "way",
+      "id": 105783167,
+      "bounds": {
+        "minlat": 46.9825068,
+        "minlon": 28.8620289,
+        "maxlat": 46.9829903,
+        "maxlon": 28.8626905
+      },
+      "nodes": [300825152, 2961149691, 365700305, 1591313881],
+      "geometry": [
+        { "lat": 46.9825068, "lon": 28.8626905 },
+        { "lat": 46.9826367, "lon": 28.8625077 },
+        { "lat": 46.982775, "lon": 28.8623239 },
+        { "lat": 46.9829903, "lon": 28.8620289 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "пр. Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 105783173,
+      "bounds": {
+        "minlat": 46.9786353,
+        "minlon": 28.8670723,
+        "maxlat": 46.9791399,
+        "maxlon": 28.8678133
+      },
+      "nodes": [287319531, 4566767851, 2961149688, 3715901152, 274020040],
+      "geometry": [
+        { "lat": 46.9791399, "lon": 28.8670723 },
+        { "lat": 46.9791074, "lon": 28.8671165 },
+        { "lat": 46.9790862, "lon": 28.8671453 },
+        { "lat": 46.9788774, "lon": 28.8674474 },
+        { "lat": 46.9786353, "lon": 28.8678133 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ro": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "name_1": "bd. Dacia",
+        "old_name": "Bulevardul Pacii",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 116953238,
+      "bounds": {
+        "minlat": 47.0181035,
+        "minlon": 28.8414779,
+        "maxlat": 47.0185392,
+        "maxlon": 28.8421288
+      },
+      "nodes": [1255615986, 281402414],
+      "geometry": [
+        { "lat": 47.0181035, "lon": 28.8421288 },
+        { "lat": 47.0185392, "lon": 28.8414779 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:-1840": "str. Millionnaia",
+        "name:1840-1877": "str. Moskovskaia",
+        "name:1877-1924": "str. Aleksandrovskaia",
+        "name:1924-1931": "bd. Alexandru cel Bun",
+        "name:1931-1944": "bd. Regele Carol II",
+        "name:1944-1952": "strada Lenin",
+        "name:1952-1990": "bulevardul Lenin",
+        "name:bg": "бул. Стефан Велики",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "name_1": "bd. Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Ștefan cel Mare și Sfînt din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 116953239,
+      "bounds": {
+        "minlat": 47.0198851,
+        "minlon": 28.8380604,
+        "maxlat": 47.0208279,
+        "maxlon": 28.8394736
+      },
+      "nodes": [269474289, 1317344263, 4563450987, 4337754636, 269079989],
+      "geometry": [
+        { "lat": 47.0198851, "lon": 28.8394736 },
+        { "lat": 47.0199342, "lon": 28.8394 },
+        { "lat": 47.020128, "lon": 28.8391095 },
+        { "lat": 47.020734, "lon": 28.8382013 },
+        { "lat": 47.0208279, "lon": 28.8380604 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:-1840": "str. Millionnaia",
+        "name:1840-1877": "str. Moskovskaia",
+        "name:1877-1924": "str. Aleksandrovskaia",
+        "name:1924-1931": "bd. Alexandru cel Bun",
+        "name:1931-1944": "bd. Regele Carol II",
+        "name:1944-1952": "strada Lenin",
+        "name:1952-1990": "bulevardul Lenin",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "name_1": "bd. Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Ștefan cel Mare și Sfînt din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 121854711,
+      "bounds": {
+        "minlat": 47.0225532,
+        "minlon": 28.8280608,
+        "maxlat": 47.0235485,
+        "maxlon": 28.8296094
+      },
+      "nodes": [269079958, 860057815, 388602677, 277140945, 4532783346],
+      "geometry": [
+        { "lat": 47.0235485, "lon": 28.8280608 },
+        { "lat": 47.0234913, "lon": 28.8281475 },
+        { "lat": 47.0231066, "lon": 28.8287484 },
+        { "lat": 47.0227986, "lon": 28.8292275 },
+        { "lat": 47.0225532, "lon": 28.8296094 }
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada 31 August 1989",
+        "name:ru": "улица 31 Августа 1989",
+        "old_name": "Киевская улица",
+        "oneway": "yes",
+        "postal_code": "MD-2012"
+      }
+    },
+    {
+      "type": "way",
+      "id": 121854713,
+      "bounds": {
+        "minlat": 47.0215937,
+        "minlon": 28.8309614,
+        "maxlat": 47.0236502,
+        "maxlon": 28.833846
+      },
+      "nodes": [
+        269079959,
+        1486104462,
+        269474319,
+        372447053,
+        818603370,
+        661015233,
+        269230044
+      ],
+      "geometry": [
+        { "lat": 47.0215937, "lon": 28.8309614 },
+        { "lat": 47.0225007, "lon": 28.8322259 },
+        { "lat": 47.0225217, "lon": 28.8322551 },
+        { "lat": 47.0225766, "lon": 28.8323328 },
+        { "lat": 47.022953, "lon": 28.8328644 },
+        { "lat": 47.0233882, "lon": 28.8334877 },
+        { "lat": 47.0236502, "lon": 28.833846 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Aleksandr Pușkin",
+        "name:ro": "Strada Aleksandr Pușkin",
+        "name:ru": "улица Александра Пушкина",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 161700585,
+      "bounds": {
+        "minlat": 47.0143403,
+        "minlon": 28.8475708,
+        "maxlat": 47.0144665,
+        "maxlon": 28.8477666
+      },
+      "nodes": [662932292, 875666145],
+      "geometry": [
+        { "lat": 47.0143403, "lon": 28.8477666 },
+        { "lat": 47.0144665, "lon": 28.8475708 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:bg": "бул. Стефан Велики",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "проспект Штефан чел Маре",
+        "name_1": "bd. Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Ștefan cel Mare și Sfînt din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 161700587,
+      "bounds": {
+        "minlat": 47.0166545,
+        "minlon": 28.8435216,
+        "maxlat": 47.0171713,
+        "maxlon": 28.8443122
+      },
+      "nodes": [1497504622, 4966148347, 4337765130, 269474314],
+      "geometry": [
+        { "lat": 47.0166545, "lon": 28.8443122 },
+        { "lat": 47.0168623, "lon": 28.8439972 },
+        { "lat": 47.0170796, "lon": 28.8436585 },
+        { "lat": 47.0171713, "lon": 28.8435216 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:-1840": "str. Millionnaia",
+        "name:1840-1877": "str. Moskovskaia",
+        "name:1877-1924": "str. Aleksandrovskaia",
+        "name:1924-1944": "bd. Alexandru cel Bun",
+        "name:1944-1952": "strada Lenin",
+        "name:1952-1990": "bulevardul Lenin",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "name_1": "bd. Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Ștefan cel Mare și Sfînt din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 181020632,
+      "bounds": {
+        "minlat": 46.9865406,
+        "minlon": 28.853338,
+        "maxlat": 46.9887763,
+        "maxlon": 28.8567055
+      },
+      "nodes": [372462843, 4563307296, 286123846, 286123847, 286123859],
+      "geometry": [
+        { "lat": 46.9887763, "lon": 28.853338 },
+        { "lat": 46.988254, "lon": 28.8540693 },
+        { "lat": 46.9872049, "lon": 28.8555384 },
+        { "lat": 46.9869249, "lon": 28.8559244 },
+        { "lat": 46.9865406, "lon": 28.8567055 }
+      ],
+      "tags": {
+        "highway": "residential",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 181020650,
+      "bounds": {
+        "minlat": 47.0111875,
+        "minlon": 28.8435187,
+        "maxlat": 47.0121264,
+        "maxlon": 28.845075
+      },
+      "nodes": [370422722, 1096407282, 270272840],
+      "geometry": [
+        { "lat": 47.0121264, "lon": 28.845075 },
+        { "lat": 47.0113904, "lon": 28.8437769 },
+        { "lat": 47.0111875, "lon": 28.8435187 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Ciuflea",
+        "name:ru": "улица Чуфля",
+        "old_name": "улица Ткаченко",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236319225,
+      "bounds": {
+        "minlat": 47.0222773,
+        "minlon": 28.83527,
+        "maxlat": 47.0226972,
+        "maxlon": 28.8358931
+      },
+      "nodes": [4563307303, 372447026, 269469306],
+      "geometry": [
+        { "lat": 47.0222773, "lon": 28.8358931 },
+        { "lat": 47.0226306, "lon": 28.8353721 },
+        { "lat": 47.0226972, "lon": 28.83527 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:-1840": "str. Millionnaia",
+        "name:1840-1877": "str. Moskovskaia",
+        "name:1877-1924": "str. Aleksandrovskaia",
+        "name:1924-1931": "bd. Alexandru cel Bun",
+        "name:1931-1944": "bd. Regele Carol II",
+        "name:1944-1952": "strada Lenin",
+        "name:1952-1990": "bulevardul Lenin",
+        "name:bg": "бул. Стефан Велики",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "name_1": "bd. Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Ștefan cel Mare și Sfînt din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236741627,
+      "bounds": {
+        "minlat": 46.9668524,
+        "minlon": 28.876594,
+        "maxlat": 46.973282,
+        "maxlon": 28.8868528
+      },
+      "nodes": [277050946, 1737632744, 426860093],
+      "geometry": [
+        { "lat": 46.9668524, "lon": 28.8868528 },
+        { "lat": 46.9675723, "lon": 28.8856973 },
+        { "lat": 46.973282, "lon": 28.876594 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "name_1": "bd. Dacia",
+        "old_name": "Bulevardul Pacii",
+        "oneway": "yes",
+        "wrong_name": "str. Aeroportului",
+        "wrong_name:ru": "ул. Аеропортулуй"
+      }
+    },
+    {
+      "type": "way",
+      "id": 258772874,
+      "bounds": {
+        "minlat": 46.9400789,
+        "minlon": 28.9286019,
+        "maxlat": 46.9404623,
+        "maxlon": 28.9292001
+      },
+      "nodes": [288962329, 6644569809, 271242101],
+      "geometry": [
+        { "lat": 46.9404623, "lon": 28.9286019 },
+        { "lat": 46.9402, "lon": 28.9290111 },
+        { "lat": 46.9400789, "lon": 28.9292001 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "name_1": "bd. Dacia",
+        "old_name": "Bulevardul Pacii",
+        "oneway": "yes",
+        "wrong_name": "str. Aeroportului",
+        "wrong_name:ru": "ул. Аеропортулуй"
+      }
+    },
+    {
+      "type": "way",
+      "id": 258772875,
+      "bounds": {
+        "minlat": 46.9406767,
+        "minlon": 28.9138094,
+        "maxlat": 46.9499396,
+        "maxlon": 28.9286403
+      },
+      "nodes": [
+        288962328,
+        4217773737,
+        2517017951,
+        4572917741,
+        737279882,
+        737279998,
+        5740621648,
+        5740621646,
+        5740621644,
+        5740621641,
+        5740621640,
+        6644775911,
+        275227131
+      ],
+      "geometry": [
+        { "lat": 46.9406767, "lon": 28.9286403 },
+        { "lat": 46.9408879, "lon": 28.9282945 },
+        { "lat": 46.9415436, "lon": 28.9272211 },
+        { "lat": 46.9420816, "lon": 28.9263712 },
+        { "lat": 46.942953, "lon": 28.9249947 },
+        { "lat": 46.9436323, "lon": 28.9239066 },
+        { "lat": 46.9447189, "lon": 28.9221254 },
+        { "lat": 46.9465554, "lon": 28.9191779 },
+        { "lat": 46.9482301, "lon": 28.9165173 },
+        { "lat": 46.949129, "lon": 28.9150858 },
+        { "lat": 46.9495229, "lon": 28.9144607 },
+        { "lat": 46.9497497, "lon": 28.9141062 },
+        { "lat": 46.9499396, "lon": 28.9138094 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "name_1": "bd. Dacia",
+        "old_name": "Bulevardul Pacii",
+        "oneway": "yes",
+        "wrong_name": "str. Aeroportului",
+        "wrong_name:ru": "ул. Аеропортулуй"
+      }
+    },
+    {
+      "type": "way",
+      "id": 310973400,
+      "bounds": {
+        "minlat": 46.9758684,
+        "minlon": 28.8715402,
+        "maxlat": 46.9764936,
+        "maxlon": 28.8725143
+      },
+      "nodes": [276644588, 426860098, 652049995],
+      "geometry": [
+        { "lat": 46.9758684, "lon": 28.8725143 },
+        { "lat": 46.9759349, "lon": 28.8724038 },
+        { "lat": 46.9764936, "lon": 28.8715402 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "name_1": "bd. Dacia",
+        "old_name": "Bulevardul Pacii",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 320044631,
+      "bounds": {
+        "minlat": 46.9931415,
+        "minlon": 28.8465034,
+        "maxlat": 46.993829,
+        "maxlon": 28.8474659
+      },
+      "nodes": [
+        1486104438,
+        274853939,
+        274853943,
+        392001927,
+        4563307297,
+        286123856
+      ],
+      "geometry": [
+        { "lat": 46.993829, "lon": 28.8465034 },
+        { "lat": 46.9937604, "lon": 28.8466001 },
+        { "lat": 46.9937023, "lon": 28.8466779 },
+        { "lat": 46.9933723, "lon": 28.8471518 },
+        { "lat": 46.9932283, "lon": 28.8473536 },
+        { "lat": 46.9931415, "lon": 28.8474659 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ro": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "пр. Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 457076155,
+      "bounds": {
+        "minlat": 47.0215937,
+        "minlon": 28.8296094,
+        "maxlat": 47.0225532,
+        "maxlon": 28.8309614
+      },
+      "nodes": [
+        4532783346,
+        818603331,
+        818603411,
+        1557395410,
+        6194702812,
+        269079959
+      ],
+      "geometry": [
+        { "lat": 47.0225532, "lon": 28.8296094 },
+        { "lat": 47.0223961, "lon": 28.8298308 },
+        { "lat": 47.0223286, "lon": 28.8299259 },
+        { "lat": 47.0223126, "lon": 28.8299485 },
+        { "lat": 47.0216761, "lon": 28.8308453 },
+        { "lat": 47.0215937, "lon": 28.8309614 }
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada 31 August 1989",
+        "name:ru": "улица 31 Августа 1989",
+        "old_name": "Киевская улица",
+        "oneway": "yes",
+        "postal_code": "MD-2012"
+      }
+    },
+    {
+      "type": "way",
+      "id": 460715190,
+      "bounds": {
+        "minlat": 47.0220491,
+        "minlon": 28.8358931,
+        "maxlat": 47.0222773,
+        "maxlon": 28.8362299
+      },
+      "nodes": [429234126, 4563307303],
+      "geometry": [
+        { "lat": 47.0220491, "lon": 28.8362299 },
+        { "lat": 47.0222773, "lon": 28.8358931 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfînt",
+        "name:-1840": "str. Millionnaia",
+        "name:1840-1877": "str. Moskovskaia",
+        "name:1877-1924": "str. Aleksandrovskaia",
+        "name:1924-1931": "bd. Alexandru cel Bun",
+        "name:1931-1944": "bd. Regele Carol II",
+        "name:1944-1952": "strada Lenin",
+        "name:1952-1990": "bulevardul Lenin",
+        "name:bg": "бул. Стефан Велики",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "name_1": "bd. Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Ștefan cel Mare și Sfînt din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 461848574,
+      "bounds": {
+        "minlat": 46.9353713,
+        "minlon": 28.9355061,
+        "maxlat": 46.935418,
+        "maxlon": 28.9361223
+      },
+      "nodes": [275233524, 6644567484, 6254071213, 6254070184],
+      "geometry": [
+        { "lat": 46.935418, "lon": 28.9355061 },
+        { "lat": 46.9354108, "lon": 28.9356059 },
+        { "lat": 46.9354029, "lon": 28.9357135 },
+        { "lat": 46.9353713, "lon": 28.9361223 }
+      ],
+      "tags": {
+        "highway": "service",
+        "lanes": "2",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 506948354,
+      "bounds": {
+        "minlat": 47.0235485,
+        "minlon": 28.8280608,
+        "maxlat": 47.0243964,
+        "maxlon": 28.8292506
+      },
+      "nodes": [4563450985, 1759418283, 269079958],
+      "geometry": [
+        { "lat": 47.0243964, "lon": 28.8292506 },
+        { "lat": 47.0236177, "lon": 28.8281515 },
+        { "lat": 47.0235485, "lon": 28.8280608 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Mitropolit Bănulescu-Bodoni",
+        "name:ru": "улица Митрополита Бэнулеску-Бодони",
+        "old_name": "улица Гоголя",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 508957696,
+      "bounds": {
+        "minlat": 47.0185392,
+        "minlon": 28.8394736,
+        "maxlat": 47.0198851,
+        "maxlon": 28.8414779
+      },
+      "nodes": [281402414, 875665948, 4563307302, 1317344236, 269474289],
+      "geometry": [
+        { "lat": 47.0185392, "lon": 28.8414779 },
+        { "lat": 47.0185649, "lon": 28.8414395 },
+        { "lat": 47.0195093, "lon": 28.8400379 },
+        { "lat": 47.0198007, "lon": 28.8395993 },
+        { "lat": 47.0198851, "lon": 28.8394736 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:-1840": "str. Millionnaia",
+        "name:1840-1877": "str. Moskovskaia",
+        "name:1877-1924": "str. Aleksandrovskaia",
+        "name:1924-1944": "bd. Alexandru cel Bun",
+        "name:1944-1952": "strada Lenin",
+        "name:1952-1990": "bulevardul Lenin",
+        "name:bg": "бул. Стефан Велики",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "name_1": "bd. Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Ștefan cel Mare și Sfînt din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 528706933,
+      "bounds": {
+        "minlat": 47.0208279,
+        "minlon": 28.8366739,
+        "maxlat": 47.0217605,
+        "maxlon": 28.8380604
+      },
+      "nodes": [269079989, 4337754633, 1317344269, 269474279],
+      "geometry": [
+        { "lat": 47.0208279, "lon": 28.8380604 },
+        { "lat": 47.0209048, "lon": 28.8379461 },
+        { "lat": 47.021712, "lon": 28.836746 },
+        { "lat": 47.0217605, "lon": 28.8366739 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:-1840": "str. Millionnaia",
+        "name:1840-1877": "str. Moskovskaia",
+        "name:1877-1924": "str. Aleksandrovskaia",
+        "name:1924-1931": "bd. Alexandru cel Bun",
+        "name:1931-1944": "bd. Regele Carol II",
+        "name:1944-1952": "strada Lenin",
+        "name:1952-1990": "bulevardul Lenin",
+        "name:bg": "бул. Стефан Велики",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "name_1": "bd. Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Ștefan cel Mare și Sfînt din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 571602076,
+      "bounds": {
+        "minlat": 46.9362981,
+        "minlon": 28.9339175,
+        "maxlat": 46.9369724,
+        "maxlon": 28.9341548
+      },
+      "nodes": [275233334, 275233454],
+      "geometry": [
+        { "lat": 46.9362981, "lon": 28.9341548 },
+        { "lat": 46.9369724, "lon": 28.9339175 }
+      ],
+      "tags": {
+        "highway": "service",
+        "lanes": "2",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 593796732,
+      "bounds": {
+        "minlat": 47.014948,
+        "minlon": 28.8455938,
+        "maxlat": 47.0157937,
+        "maxlon": 28.8468593
+      },
+      "nodes": [4490101370, 271282899],
+      "geometry": [
+        { "lat": 47.014948, "lon": 28.8468593 },
+        { "lat": 47.0157937, "lon": 28.8455938 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:-1840": "str. Millionnaia",
+        "name:1840-1877": "str. Moskovskaia",
+        "name:1877-1924": "str. Aleksandrovskaia",
+        "name:1924-1944": "bd. Alexandru cel Bun",
+        "name:1944-1952": "strada Lenin",
+        "name:1952-1990": "bulevardul Lenin",
+        "name:bg": "бул. Стефан Велики",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "name_1": "bd. Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Ștefan cel Mare și Sfînt din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 667905983,
+      "bounds": {
+        "minlat": 46.9353713,
+        "minlon": 28.9361223,
+        "maxlat": 46.9356108,
+        "maxlon": 28.9366189
+      },
+      "nodes": [
+        6254070184,
+        6254071248,
+        6254070183,
+        6254071205,
+        6254070182,
+        6254070181,
+        6254070180,
+        275233545
+      ],
+      "geometry": [
+        { "lat": 46.9353713, "lon": 28.9361223 },
+        { "lat": 46.9353995, "lon": 28.9363025 },
+        { "lat": 46.9354105, "lon": 28.9363472 },
+        { "lat": 46.9354419, "lon": 28.9364463 },
+        { "lat": 46.9354661, "lon": 28.9365064 },
+        { "lat": 46.935512, "lon": 28.9365702 },
+        { "lat": 46.9355571, "lon": 28.9366113 },
+        { "lat": 46.9356108, "lon": 28.9366189 }
+      ],
+      "tags": {
+        "highway": "service",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 683331529,
+      "bounds": {
+        "minlat": 47.0119243,
+        "minlon": 28.8451856,
+        "maxlat": 47.012117,
+        "maxlon": 28.8453994
+      },
+      "nodes": [282973050, 1737632761],
+      "geometry": [
+        { "lat": 47.0119243, "lon": 28.8451856 },
+        { "lat": 47.012117, "lon": 28.8453994 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Ciuflea",
+        "name:ru": "улица Чуфля",
+        "old_name": "улица Ткаченко",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 683331530,
+      "bounds": {
+        "minlat": 47.012117,
+        "minlon": 28.8453994,
+        "maxlat": 47.012407,
+        "maxlon": 28.8456879
+      },
+      "nodes": [1737632761, 273707425],
+      "geometry": [
+        { "lat": 47.012117, "lon": 28.8453994 },
+        { "lat": 47.012407, "lon": 28.8456879 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Ciuflea",
+        "name:ru": "улица Чуфля",
+        "old_name": "улица Ткаченко",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 683997239,
+      "bounds": {
+        "minlat": 47.010646,
+        "minlon": 28.843503,
+        "maxlat": 47.0109404,
+        "maxlon": 28.843882
+      },
+      "nodes": [1103348607, 1096407571, 269079969],
+      "geometry": [
+        { "lat": 47.010646, "lon": 28.843503 },
+        { "lat": 47.0107215, "lon": 28.8435928 },
+        { "lat": 47.0109404, "lon": 28.843882 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dacia",
+        "name:ru": "проспект Дачия",
+        "old_name": "пр. Мира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 684091137,
+      "bounds": {
+        "minlat": 46.935418,
+        "minlon": 28.9345627,
+        "maxlat": 46.9354815,
+        "maxlon": 28.9355061
+      },
+      "nodes": [275233515, 6644567481, 275233524],
+      "geometry": [
+        { "lat": 46.9354815, "lon": 28.9345627 },
+        { "lat": 46.9354484, "lon": 28.9350558 },
+        { "lat": 46.935418, "lon": 28.9355061 }
+      ],
+      "tags": {
+        "highway": "service",
+        "lanes": "2",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 707059796,
+      "bounds": {
+        "minlat": 46.9359377,
+        "minlon": 28.9341548,
+        "maxlat": 46.9362981,
+        "maxlon": 28.9366456
+      },
+      "nodes": [
+        275233557,
+        6254071190,
+        275233564,
+        275233565,
+        275233567,
+        275233569,
+        275233329,
+        275233330,
+        275233334
+      ],
+      "geometry": [
+        { "lat": 46.9359377, "lon": 28.9366456 },
+        { "lat": 46.9359654, "lon": 28.9366346 },
+        { "lat": 46.9359968, "lon": 28.9365995 },
+        { "lat": 46.9360182, "lon": 28.9365323 },
+        { "lat": 46.9360372, "lon": 28.9364184 },
+        { "lat": 46.9360496, "lon": 28.9362376 },
+        { "lat": 46.9361854, "lon": 28.9344763 },
+        { "lat": 46.9362191, "lon": 28.9342779 },
+        { "lat": 46.9362981, "lon": 28.9341548 }
+      ],
+      "tags": {
+        "highway": "service",
+        "lanes": "2",
+        "oneway": "yes"
+      }
+    }
+  ]
+}
