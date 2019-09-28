@@ -41,5 +41,19 @@ function getPositionFromFrame(frame) {
   const board = data.board
   const lat = parseFloat(data.lat)
   const lng = parseFloat(data.lon)
-  return { board, lat, lng }
+
+  // Sometimes it comes in a key called "direction",
+  // other times the key is called "dir". Since it is
+  // not clear what it should be called, we try both.
+  const direction = parseFloat(data.direction || data.dir)
+
+  // NOTE: contrary to what we know so far, that the
+  // direction is a bearing (i.e., North is up at 0,
+  // South is down at 270, etc.), it seems to already
+  // be an angle in a cartesian plane, so the conversion
+  // below is not necessary.
+  // direction = (-direction + 90) % 360
+
+  const speed = data.speed
+  return { board, lat, lng, direction, speed }
 }

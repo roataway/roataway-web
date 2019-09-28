@@ -1,4 +1,19 @@
 .bus-location {
   background-color: red;
-  border-radius: 50%;
+  border-radius: 5%;
+}
+
+/* The invisible wrapper of the map marker */
+.arrow-container {
+  width: 0;
+  height: 0;
+}
+
+/* The inner element, that represents the vehicle itself */
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 35px solid red;
 }
