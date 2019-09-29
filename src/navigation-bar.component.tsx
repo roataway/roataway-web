@@ -41,8 +41,9 @@ function NavigationBar(props) {
         </IconButton>
         <Fab
           color="secondary"
-          aria-label={t('label.title')}
-          className={classes.fabButton}>
+          aria-label="Add"
+          className={classes.fabButton}
+          title={t('label.pickRoute')}>
           <DirectionsBus />
         </Fab>
         <div>
