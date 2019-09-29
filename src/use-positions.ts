@@ -37,14 +37,23 @@ export class Positions extends React.Component<any> {
 }
 
 function getPositionFromFrame(frame) {
-  const data = JSON.parse(frame.body)
-  const board = data.board
-  const lat = parseFloat(data.lat)
-  const lng = parseFloat(data.lon)
+  // Messages are coming from 2 different systems (see note in clients.ts about
+  // routing keys), each system sends a slightly different JSON, the keys are,
+  // old one: dir, lat, lon, board
+  // new one: direction, latitude, longitude ('board' is absent)
+  // To homogenize them, we try both keys, and we extract the ID of the tracker
+  // itself from the routing key header, as a substitude for `board`
 
-  // Sometimes it comes in a key called "direction",
-  // other times the key is called "dir". Since it is
-  // not clear what it should be called, we try both.
+  // The routing key looks like `/exchange/e_rtec_mqtt_bridge/telemetry.transport.000001`
+  // or `/exchange/e_rtec_mqtt_bridge/state.transport.013`
+  // The last piece is the ID of the tracker that sent the telemetry
+  let routingKeyPieces = frame.headers.destination.split('.')
+  const trackerId: string = routingKeyPieces[routingKeyPieces.length - 1]
+
+  const data = JSON.parse(frame.body)
+  const board = data.board || trackerId
+  const lat = parseFloat(data.lat || data.latitude)
+  const lng = parseFloat(data.lon || data.longitude)
   const direction = parseFloat(data.direction || data.dir)
 
   // NOTE: contrary to what we know so far, that the
