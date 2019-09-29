@@ -1,14 +1,5 @@
 import React from 'react'
-import {
-  Map,
-  TileLayer,
-  Viewport,
-  Marker,
-  FeatureGroup,
-  Popup,
-  Circle,
-  GeoJSON,
-} from 'react-leaflet'
+import { Map, TileLayer, Viewport, Marker, GeoJSON } from 'react-leaflet'
 import { divIcon } from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import './style.css'
@@ -18,20 +9,24 @@ import { Positions } from './use-positions'
 import geodataSegments from './data/route_2_segments.json'
 import geodataStations from './data/route_2_stations.json'
 
+// Applying the workaround, otherwise station markers are not rendered
+// https://github.com/Leaflet/Leaflet/issues/4968#issuecomment-264311098
+// This seems to be a known issue, and other workarounds failed, e.g.:
+// https://github.com/PaulLeCam/react-leaflet/issues/453#issuecomment-410450387
+import L from 'leaflet'
+import icon from 'leaflet/dist/images/marker-icon.png'
+import iconShadow from 'leaflet/dist/images/marker-shadow.png'
+
+let DefaultIcon = L.icon({
+  iconUrl: icon,
+  shadowUrl: iconShadow,
+})
+L.Marker.prototype.options.icon = DefaultIcon
+/////////////////////end of workaround
+
 const state: Viewport = {
   center: [47.0229, 28.8353],
   zoom: 13,
-}
-
-function getStyleEx(feature) {
-  // this will return a different color scheme and style, depending
-  // on the type of feature
-  console.log(feature)
-  return {
-    color: '#006400',
-    weight: 5,
-    opacity: 0.65,
-  }
 }
 
 export function BasicMap() {
@@ -68,38 +63,9 @@ export function BasicMap() {
           ))
         }
       </Positions>
-      <GeoJSON
-        key="route-stations"
-        data={geodataStations as any}
-        style={() => ({
-          color: '#FF00FF',
-          weight: 9,
-          opacity: 0.95,
-        })}
-
-        // style={(feature: any) => ({
-        //   switch(feature){}
-        //   // color: '#006400',
-        //   // weight: 5,
-        //   // opacity: 0.65
-        // })}
-
-        // style= (feature) => (
-        //   console.log(feature)
-        //   return {{
-        //   color: '#4a83ec',
-        //   weight: 0.5,
-        //   fillColor: '#1a1d62',
-        //   fillOpacity: 1,
-        // }})
-      />
+      <GeoJSON key="route-stations" data={geodataStations as any} />
 
       <GeoJSON key="route-segments" data={geodataSegments as any} />
-
-      <FeatureGroup color="purple">
-        <Popup>Popup in FeatureGroup</Popup>
-        <Circle center={[47.0229, 28.8353]} radius={200} />
-      </FeatureGroup>
     </Map>
   )
 }
