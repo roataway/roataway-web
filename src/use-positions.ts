@@ -21,7 +21,30 @@ export class Positions extends React.Component<any> {
   }
 
   callback = frame => {
-    const pos = getPositionFromFrame(frame)
+    let pos = getPositionFromFrame(frame)
+
+    // if this vehicle has a previously known state, we perform a
+    // few additional checks, to improve the rendering of the bus-icon orientations
+    if (pos.board in this.state.positions) {
+      const oldDirection = this.state.positions[pos.board].direction
+      const directionDelta = pos.direction - oldDirection
+
+      if (pos.speed === 0) {
+        // Not moving, its direction is often reported as 0, which is probably
+        // not right (unless it moves due North); so we'll keep the previous
+        // value of `direction` instead. If it does go straight North, then
+        // oldDirection will be 0, so we shall render it correctly.
+        pos.direction = oldDirection
+      } else if (pos.speed > 0 && Math.abs(directionDelta) > 30) {
+        // It is moving, but the delta between the current direction and the
+        // old one is above 30 degrees, which is probably too sharp of a turn,
+        // so most likely it is a noisy reading from the GPS tracker. Thus,
+        // we turn it half-way, to make it look smoother.
+        // 30 degrees was chosen empirically.
+        pos.direction -= directionDelta / 2
+      }
+    }
+
     this.setState({
       positions: {
         ...this.state.positions,
