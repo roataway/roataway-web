@@ -1,192 +1,230 @@
 {
-  "version": 0.6,
-  "generator": "Overpass API 0.7.55.7 8b86ff77",
-  "osm3s": {
-    "timestamp_osm_base": "2019-09-28T19:03:02Z",
-    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
-  },
-  "elements": [
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2019-09-29T11:32:02Z",
+  "features": [
     {
-      "type": "node",
-      "id": 325004990,
-      "lat": 47.0225088,
-      "lon": 28.8295459,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/325004990",
         "bus": "yes",
         "highway": "bus_stop",
         "name": "str. 31 August 1989",
         "name:ro": "str. 31 August 1989",
         "name:ru": "ул. 31 Августа 1989",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8295459, 47.0225088]
+      },
+      "id": "node/325004990"
     },
     {
-      "type": "node",
-      "id": 325004999,
-      "lat": 47.0243474,
-      "lon": 28.8349551,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/325004999",
         "bus": "yes",
         "highway": "bus_stop",
         "name": "Bd. Ștefan cel Mare și Sfânt",
         "name:ro": "Bd. Ștefan cel Mare și Sfânt",
         "name:ru": "Площадь Великого Национального Собрания",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8349551, 47.0243474]
+      },
+      "id": "node/325004999"
     },
     {
-      "type": "node",
-      "id": 340052760,
-      "lat": 47.0244375,
-      "lon": 28.8291614,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/340052760",
         "bus": "yes",
         "highway": "bus_stop",
         "name": "Grădina Publică",
         "name:ru": "Парк",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8291614, 47.0244375]
+      },
+      "id": "node/340052760"
     },
     {
-      "type": "node",
-      "id": 340052768,
-      "lat": 47.036029,
-      "lon": 28.8494001,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/340052768",
         "highway": "bus_stop",
         "name": "Circul",
         "name:en": "Circus",
         "name:ru": "Цирк",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8494001, 47.036029]
+      },
+      "id": "node/340052768"
     },
     {
-      "type": "node",
-      "id": 340052769,
-      "lat": 47.0366359,
-      "lon": 28.8497218,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/340052769",
         "highway": "bus_stop",
         "name": "Circ",
         "name:ru": "Цирк",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8497218, 47.0366359]
+      },
+      "id": "node/340052769"
     },
     {
-      "type": "node",
-      "id": 340052772,
-      "lat": 47.0287792,
-      "lon": 28.8388897,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/340052772",
         "bus": "yes",
         "highway": "bus_stop",
         "name": "bd. Grigore Vieru",
         "name:ru": "Бульвар Григория Виеру",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8388897, 47.0287792]
+      },
+      "id": "node/340052772"
     },
     {
-      "type": "node",
-      "id": 340052773,
-      "lat": 47.0274523,
-      "lon": 28.8335423,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/340052773",
         "bus": "yes",
         "highway": "bus_stop",
         "name": "str. Columna",
         "name:ru": "ул. Колумна",
         "old_name": "ул. Фрунзе",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8335423, 47.0274523]
+      },
+      "id": "node/340052773"
     },
     {
-      "type": "node",
-      "id": 376339280,
-      "lat": 47.0294757,
-      "lon": 28.8390869,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/376339280",
         "highway": "bus_stop",
         "name": "str. Eugen Doga",
         "name:ru": "ул. Евгения Доги",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8390869, 47.0294757]
+      },
+      "id": "node/376339280"
     },
     {
-      "type": "node",
-      "id": 461604330,
-      "lat": 47.032016,
-      "lon": 28.8427908,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/461604330",
         "bus": "yes",
         "highway": "bus_stop",
         "name": "str. Romană",
         "name:ru": "ул. Романэ",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8427908, 47.032016]
+      },
+      "id": "node/461604330"
     },
     {
-      "type": "node",
-      "id": 461604331,
-      "lat": 47.0323655,
-      "lon": 28.8442191,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/461604331",
         "highway": "bus_stop",
         "name": "str. Romană",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8442191, 47.0323655]
+      },
+      "id": "node/461604331"
     },
     {
-      "type": "node",
-      "id": 1196766269,
-      "lat": 47.0920501,
-      "lon": 28.8699641,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1196766269",
         "highway": "bus_stop",
         "is_in": "Stauceni",
         "name": "str. Ion Creangă",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8699641, 47.0920501]
+      },
+      "id": "node/1196766269"
     },
     {
-      "type": "node",
-      "id": 1196766287,
-      "lat": 47.0941295,
-      "lon": 28.8693656,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1196766287",
         "highway": "bus_stop",
         "is_in": "Stauceni",
         "name": "str. Dumitru Matcovschi",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8693656, 47.0941295]
+      },
+      "id": "node/1196766287"
     },
     {
-      "type": "node",
-      "id": 1196766289,
-      "lat": 47.0886119,
-      "lon": 28.8710119,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1196766289",
         "highway": "bus_stop",
         "name": "str. Constructorilor",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8710119, 47.0886119]
+      },
+      "id": "node/1196766289"
     },
     {
-      "type": "node",
-      "id": 1196766302,
-      "lat": 47.0912542,
-      "lon": 28.8637082,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1196766302",
         "highway": "bus_stop",
         "name": "str. Păcii",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8637082, 47.0912542]
+      },
+      "id": "node/1196766302"
     },
     {
-      "type": "node",
-      "id": 1211614943,
-      "lat": 47.0510337,
-      "lon": 28.8500667,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1211614943",
         "bench": "yes",
         "covered": "yes",
         "highway": "bus_stop",
@@ -194,14 +232,17 @@
         "name:ru": "ул. Василе Бадю",
         "public_transport": "platform",
         "shelter": "yes"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8500667, 47.0510337]
+      },
+      "id": "node/1211614943"
     },
     {
-      "type": "node",
-      "id": 1211616127,
-      "lat": 47.0516229,
-      "lon": 28.850732,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1211616127",
         "bench": "no",
         "covered": "yes",
         "highway": "bus_stop",
@@ -209,122 +250,157 @@
         "name:ru": "ул. Василе Бадю",
         "public_transport": "platform",
         "shelter": "yes"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.850732, 47.0516229]
+      },
+      "id": "node/1211616127"
     },
     {
-      "type": "node",
-      "id": 1557395456,
-      "lat": 47.0436246,
-      "lon": 28.852523,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1557395456",
         "highway": "bus_stop",
         "name": "str. Florilor",
         "name:ro": "Florilor 6/2",
         "name:ru": "ул. Флорилор",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.852523, 47.0436246]
+      },
+      "id": "node/1557395456"
     },
     {
-      "type": "node",
-      "id": 1557395459,
-      "lat": 47.046181,
-      "lon": 28.8488458,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1557395459",
         "highway": "bus_stop",
         "name": "str. Calea Orheiului",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8488458, 47.046181]
+      },
+      "id": "node/1557395459"
     },
     {
-      "type": "node",
-      "id": 1557395464,
-      "lat": 47.0466317,
-      "lon": 28.8485801,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1557395464",
         "highway": "bus_stop",
         "name": "bd. Renașterii Naționale",
         "name:ru": "пр. Ренаштерий Национале",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8485801, 47.0466317]
+      },
+      "id": "node/1557395464"
     },
     {
-      "type": "node",
-      "id": 1784926825,
-      "lat": 47.0622885,
-      "lon": 28.8552424,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1784926825",
         "highway": "bus_stop",
         "name": "str. Socoleni",
         "name:ru": "ул. Соколень",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8552424, 47.0622885]
+      },
+      "id": "node/1784926825"
     },
     {
-      "type": "node",
-      "id": 4566976651,
-      "lat": 47.0617195,
-      "lon": 28.8545947,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4566976651",
         "highway": "bus_stop",
         "name": "str. Socoleni",
         "name:ru": "ул. Соколень",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8545947, 47.0617195]
+      },
+      "id": "node/4566976651"
     },
     {
-      "type": "node",
-      "id": 5906701499,
-      "lat": 47.0891128,
-      "lon": 28.8684333,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5906701499",
         "highway": "bus_stop",
         "name": "str. Grătiești",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8684333, 47.0891128]
+      },
+      "id": "node/5906701499"
     },
     {
-      "type": "node",
-      "id": 5906701502,
-      "lat": 47.0894464,
-      "lon": 28.8684389,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5906701502",
         "highway": "bus_stop",
         "name": "str. Grătiești",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8684389, 47.0894464]
+      },
+      "id": "node/5906701502"
     },
     {
-      "type": "node",
-      "id": 5906701504,
-      "lat": 47.0885173,
-      "lon": 28.8721337,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5906701504",
         "highway": "bus_stop",
         "name": "str. Constructorilor",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8721337, 47.0885173]
+      },
+      "id": "node/5906701504"
     },
     {
-      "type": "node",
-      "id": 5906701506,
-      "lat": 47.0922535,
-      "lon": 28.871275,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5906701506",
         "highway": "bus_stop",
         "name": "str. Vasile Alecsandri",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.871275, 47.0922535]
+      },
+      "id": "node/5906701506"
     },
     {
-      "type": "node",
-      "id": 5906719413,
-      "lat": 47.0912621,
-      "lon": 28.8663551,
-      "tags": {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5906719413",
         "highway": "bus_stop",
         "name": "str. Păcii",
         "public_transport": "platform"
-      }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8663551, 47.0912621]
+      },
+      "id": "node/5906719413"
     }
   ]
 }

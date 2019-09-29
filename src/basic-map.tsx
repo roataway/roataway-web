@@ -14,11 +14,24 @@ import 'leaflet/dist/leaflet.css'
 import './style.css'
 import { Positions } from './use-positions'
 
-import geodata from './data/route_2_full.json'
+// import geodata from './data/route_2_full.json'
+import geodataSegments from './data/route_2_segments.json'
+import geodataStations from './data/route_2_stations.json'
 
 const state: Viewport = {
   center: [47.0229, 28.8353],
   zoom: 13,
+}
+
+function getStyleEx(feature) {
+  // this will return a different color scheme and style, depending
+  // on the type of feature
+  console.log(feature)
+  return {
+    color: '#006400',
+    weight: 5,
+    opacity: 0.65,
+  }
 }
 
 export function BasicMap() {
@@ -56,15 +69,32 @@ export function BasicMap() {
         }
       </Positions>
       <GeoJSON
-        key="route-segments"
-        data={geodata as any}
-        // style={() => ({
+        key="route-stations"
+        data={geodataStations as any}
+        style={() => ({
+          color: '#FF00FF',
+          weight: 9,
+          opacity: 0.95,
+        })}
+
+        // style={(feature: any) => ({
+        //   switch(feature){}
+        //   // color: '#006400',
+        //   // weight: 5,
+        //   // opacity: 0.65
+        // })}
+
+        // style= (feature) => (
+        //   console.log(feature)
+        //   return {{
         //   color: '#4a83ec',
         //   weight: 0.5,
         //   fillColor: '#1a1d62',
         //   fillOpacity: 1,
-        // })}
+        // }})
       />
+
+      <GeoJSON key="route-segments" data={geodataSegments as any} />
 
       <FeatureGroup color="purple">
         <Popup>Popup in FeatureGroup</Popup>
