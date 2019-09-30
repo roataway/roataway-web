@@ -6,6 +6,7 @@ import { AppComponent } from './app.component'
 import * as serviceWorker from './serviceWorker'
 import { i18n } from './i18n'
 
+console.log('Starting v0.0.2')
 ReactDOM.render(
   <React.StrictMode>
     <I18nextProvider i18n={i18n}>
