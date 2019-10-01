@@ -9,6 +9,7 @@ import DirectionsBus from '@material-ui/icons/DirectionsBus'
 import Toolbar from '@material-ui/core/Toolbar'
 import { withStyles, StyleRulesCallback } from '@material-ui/core/styles'
 import { useTranslation } from 'react-i18next'
+import { RouteSelectorComponent } from './route-select.component'
 
 const styles: StyleRulesCallback<any, any> = theme => ({
   appBar: {
@@ -33,6 +34,15 @@ function NavigationBar(props) {
   const { t } = useTranslation()
   const { classes } = props
 
+  function toggleHandler() {
+    console.log('button was clicked')
+    // this.setState(
+    //   {title: newTitle});
+
+    // TODO call the Route selector dialog here
+    return <RouteSelectorComponent></RouteSelectorComponent>
+  }
+
   return (
     <AppBar position="fixed" color="primary" className={classes.appBar}>
       <Toolbar className={classes.toolbar}>
@@ -40,11 +50,14 @@ function NavigationBar(props) {
           <MenuIcon />
         </IconButton>
         <Fab
+          onClick={toggleHandler}
+          variant="extended"
           color="secondary"
           aria-label="Add"
           className={classes.fabButton}
           title={t('label.pickRoute')}>
           <DirectionsBus />
+          {t('label.pickRoute')}
         </Fab>
         <div>
           <IconButton color="inherit">

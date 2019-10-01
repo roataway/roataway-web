@@ -21,3 +21,10 @@
 .animated-marker {
   transition: all 4s;
 }
+
+.route-title {
+  background-color: gray;
+  opacity: 0.8;
+  position: absolute;
+  z-index: 1000;
+}
