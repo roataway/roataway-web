@@ -1,33 +1,30 @@
 id_upstream, name_concise, name_long, osm_relation
-1, 30, Aeroport 🡘 str. 31 August 1989, 7390177
-2, 32, Stăuceni 🡘 Chișinău, 8649765
-,  37, Bubuieci 🡘 Gara Feroviară, 9478330
-,  36, Ialoveni 🡘 str. Ismail, 9478295
-,  35, Durlești 🡘 str. V. Alecsandri, 9478243
-,  34, str. Ciuflea 🡘 Trușeni, 9220092
-,  31, Sângera 🡘 str. 31 August 1989, 8219936
-,  12, str. A. Mateevici 🡘 bd. Mircea cel Bătrân, 9220024
-,  29, Universitatea Agrară 🡘 Grădina publică "Ștefan cel Mare", 6768372
-,  27, str. Ion Creangă 🡘 str. Ceucari, 6768261
-,  26, str. Ceucari 🡘 str. Mircea cel Bătrân, 6768260
-,  25, str. Ceucari 🡘 str. 31 august 1989, 6768231
-,  24, Colonița 🡘 str. Tighina, 6768200
-,  23, str. Mircea cel Bătrân 🡘 Parcul "La Izvor", 6768158
-,  22, bd. Dacia 🡘 str. Alba🡘Iulia, 6768073
-,  21, str. Meșterul Manole 🡘 str. Alba🡘Iulia, 6768055
-,  20, str. V. Dokuceaev 🡘 Parcul de troilebuze nr.2, 6767907
-,  17, Gara Feroviară 🡘 Gara Auto de Sud🡘Vest, 6767859
-,  13, str. V. Dokuceaev 🡘 bd. Mircea cel Bătrân, 6755788
-,  10, str. Miorița 🡘 bd. Moscova, 6755732
-,  11, bd. Moscova 🡘 Parcul "La Izvor", 6862391
-,  9, Gara Auto Sud🡘Vest 🡘 Gara Auto de Nord, 6754654
-,  8, Parcul "La Izvor" 🡘 Bd. Traian, 6754630
-,  7, str. Uzinelor 🡘 str. 31 August 1989, 6754620
-,  5, Parcul de troleibuze nr.2 🡘 str. Bariera Sculeni, 6754537
-,  4, bd. Dacia 🡘 str. Constituției, 6754503
-,  3, str. Alba🡘Iulia 🡘 str. Miorița, 6754451
-,  2, bd. Traian 🡘 str. A. Pușkin, 6754453
-,  1, Durlești 🡘 str. Sarmizegetusa, 6768282
-
-
-
+1, 30, Aeroport - Piața Marii Adunări Naționale, 7390177
+2, 32, str. 31 August 1989 - com. Stăuceni, 8649765
+,  37, Gara Feroviară - Bubuieci, 9478330
+,  36, bd. Ștefan cel Mare și Sfânt - or. Ialoveni, 9478295
+,  35, Durlești - str. V. Alecsandri, 9478243
+,  34, str. Ciuflea - com. Trușeni, 9220092
+,  31, str. 31 August 1989 - or. Sângera, 8219936
+4,  29, Universitatea Agrară - Grădina publică "Ștefan cel Mare", 6768372
+,  27, str. Ceucari - str. Ion Creangă, 6768261
+,  26, str. Ceucari - str. Mircea cel Bătrân, 6768260
+,  25, str. Ceucari - str. 31 august 1989, 6768231
+,  24, str. Mircea cel Bătrân - str. Miorița, 6768200
+,  23, str. Mircea cel Bătrân - Parcul "La Izvor", 6768158
+,  22, str. Alba-Iulia - bd. Dacia, 6768073
+,  21, str. Meșterul Manole - str. Alba-Iulia, 6768055
+,  20, Parcul de troilebuze nr.2 - str. V. Dokuceaev, 6767907
+,  17, Gara Auto Sud-Vest - Gara Feroviară, 6767859
+,  13, bd. Mircea cel Bătrân - str. V. Dokuceaev, 6755788
+,  12, bd. Mircea cel Bătrân - str. A. Mateevici, 9220024
+,  11, bd. Moscova - Parcul "La Izvor", 6862391
+,  10, bd. Moscova - str. Miorița, 6755732
+,  9, Gara Auto Sud-Vest - Gara Auto Nord, 6754654
+,  8, bd. Traian - Parcul "La Izvor", 6754630
+,  7, str. Uzinelor - str. 31 August 1989, 6754620
+,  5, Parcul de troleibuze nr.2 - str. Bariera Sculeni, 6754537
+,  4, bd. Dacia - str. Constituției, 6754503
+,  3, str. Alba-Iulia - str. Miorița, 6754451
+,  2, bd. Traian - str. A. Pușkin, 6754453
+,  1, or. Durlești - str. Sarmizegetusa, 6768282
