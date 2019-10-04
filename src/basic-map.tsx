@@ -24,25 +24,20 @@ let DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon
 /////////////////////end of workaround
 
-interface CustomViewport extends Viewport {
-  isAnimatedMarker?: boolean
-}
-
-const state: CustomViewport = {
+const state: Viewport = {
   center: [47.0229, 28.8353],
   zoom: 13,
-  isAnimatedMarker: true,
 }
 
- export function BasicMap() {
-   const [isAnimatedMarker, setIsAnimatedMarker] = React.useState(true)
+export function BasicMap() {
+  const [isAnimatedMarker, setIsAnimatedMarker] = React.useState(true)
   return (
     <Map
       id={'map'}
       style={{ height: '100vh' }}
       zoomControl={false}
-      onzoomstart={() => (state.isAnimatedMarker = false)}
-      onzoomend={() => (state.isAnimatedMarker = true)}
+      onzoomstart={() => setIsAnimatedMarker(false)}
+      onzoomend={() => setIsAnimatedMarker(true)}
       viewport={state}>
       <TileLayer
         attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -62,7 +57,7 @@ const state: CustomViewport = {
               // will use the `arrow` class with a `transform: rotate`.
               icon={divIcon({
                 className: `arrow-container ${
-                  state.isAnimatedMarker ? 'animated-marker' : ''
+                  isAnimatedMarker ? 'animated-marker' : ''
                 }`,
                 html: `<div class="arrow" style="transform: rotate(${p.direction}deg)"></div>`,
               })}
