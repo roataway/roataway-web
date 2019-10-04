@@ -34,7 +34,8 @@ const state: CustomViewport = {
   isAnimatedMarker: true,
 }
 
-export function BasicMap() {
+ export function BasicMap() {
+   const [isAnimatedMarker, setIsAnimatedMarker] = React.useState(true)
   return (
     <Map
       id={'map'}
