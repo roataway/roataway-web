@@ -17,3 +17,7 @@
   border-right: 10px solid transparent;
   border-bottom: 35px solid red;
 }
+
+.animated-marker {
+  transition: all 4s;
+}

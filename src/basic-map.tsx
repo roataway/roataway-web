@@ -24,9 +24,14 @@ let DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon
 /////////////////////end of workaround
 
-const state: Viewport = {
+interface CustomViewport extends Viewport {
+  isAnimatedMarker?: boolean
+}
+
+const state: CustomViewport = {
   center: [47.0229, 28.8353],
   zoom: 13,
+  isAnimatedMarker: true,
 }
 
 export function BasicMap() {
@@ -35,6 +40,8 @@ export function BasicMap() {
       id={'map'}
       style={{ height: '100vh' }}
       zoomControl={false}
+      onzoomstart={() => (state.isAnimatedMarker = false)}
+      onzoomend={() => (state.isAnimatedMarker = true)}
       viewport={state}>
       <TileLayer
         attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -53,11 +60,10 @@ export function BasicMap() {
               // container, and then adding another HTML element inside, which
               // will use the `arrow` class with a `transform: rotate`.
               icon={divIcon({
-                className: 'arrow-container',
-                html:
-                  '<div class="arrow" style="transform: rotate(' +
-                  p.direction +
-                  'deg)">',
+                className: `arrow-container ${
+                  state.isAnimatedMarker ? 'animated-marker' : ''
+                }`,
+                html: `<div class="arrow" style="transform: rotate(${p.direction}deg)"></div>`,
               })}
             />
           ))
