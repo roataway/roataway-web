@@ -10,7 +10,9 @@
     "test:coverage": "npm test -- --coverage",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "preserve": "npm run build",
+    "serve": "npx serve -s build"
   },
   "browserslist": [
     ">0.2%",
