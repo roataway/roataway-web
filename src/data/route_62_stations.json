@@ -1,0 +1,729 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.7 8b86ff77",
+  "osm3s": {
+    "timestamp_osm_base": "2019-10-04T21:52:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 325005015,
+      "lat": 47.0263308,
+      "lon": 28.8296621,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Cinematograful „Patria”",
+        "name:ru": "Кинотеатр «Патрия»",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005073,
+      "lat": 47.0281582,
+      "lon": 28.796342,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Ion Creangă",
+        "name:ru": "ул. Ион Крянгэ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005077,
+      "lat": 47.0218326,
+      "lon": 28.8049124,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Vasile Lupu",
+        "name:ru": "Василе Лупу",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005089,
+      "lat": 47.0222971,
+      "lon": 28.8087679,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Eugen Coca",
+        "name:ru": "ул. Евгений Кока",
+        "operator": "3, 4",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005092,
+      "lat": 47.0202032,
+      "lon": 28.8392228,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Armenească",
+        "name:ru": "Армянская ул.",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005105,
+      "lat": 47.0110807,
+      "lon": 28.8582041,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Gara Feroviara",
+        "name:ru": "Железнодорожный вокзал. ЖД вокзал",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005107,
+      "lat": 47.0111314,
+      "lon": 28.8586766,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Gara Feroviara",
+        "name:ru": "Железнодорожный вокзал. ЖД вокзал",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005110,
+      "lat": 46.9999508,
+      "lon": 28.8598097,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. N. Titulescu",
+        "name:ru": "ул. Н. Титулеску",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005112,
+      "lat": 47.000739,
+      "lon": 28.8601763,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. N. Titulescu",
+        "name:ru": "ул. Н. Титулеску",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005114,
+      "lat": 46.9969099,
+      "lon": 28.859467,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Piața Decebal",
+        "name:ru": "Площадь Дечебала",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052760,
+      "lat": 47.0244375,
+      "lon": 28.8291614,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Grădina Publică",
+        "name:ru": "Парк",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340053722,
+      "lat": 47.0136719,
+      "lon": 28.8538448,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Bulevardul Constantin Negruzzi",
+        "name:ru": "бул. Негруцци",
+        "name_1": "bd. Negruzzi",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 345324570,
+      "lat": 46.9767065,
+      "lon": 28.8703912,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Valea Crucii",
+        "name:ru": "Валя Кручий",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339089,
+      "lat": 46.9780246,
+      "lon": 28.8645225,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Centrul Comercial \"Arizona\"",
+        "name:ru": "Супермаркет \"Аризона\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339091,
+      "lat": 46.9780905,
+      "lon": 28.8635457,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Centrul Comercial \"Arizona\"",
+        "name:ru": "Супермаркет \"Аризона\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339093,
+      "lat": 46.9787715,
+      "lon": 28.8548617,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "bd. Cuza Vodă",
+        "name:ru": "бульвар Куза Водэ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339095,
+      "lat": 46.9772038,
+      "lon": 28.8592294,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Sala de Ceremonii „Cvin“",
+        "name:en": "Banquet Room \"Cvin\"",
+        "name:ru": "Банкет \"Квин\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339099,
+      "lat": 46.9772778,
+      "lon": 28.8584234,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Supermarket „Cvin“",
+        "name:ru": "Супермаркет «Квин»",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339111,
+      "lat": 46.9811142,
+      "lon": 28.8511599,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bulevardul Traian",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339112,
+      "lat": 46.9821988,
+      "lon": 28.8500624,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bulevardul Traian",
+        "name:ro": "Bulevardul Traian",
+        "name:ru": "бульвар Траян",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339115,
+      "lat": 46.9832692,
+      "lon": 28.8480799,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Strada Teilor",
+        "name:ru": "Улица Теилор",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339116,
+      "lat": 46.9840073,
+      "lon": 28.8475599,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Teilor",
+        "name:ru": "ул. Теилор",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339120,
+      "lat": 46.9854543,
+      "lon": 28.8450518,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Independenței",
+        "name:ru": "ул. Независимости",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339155,
+      "lat": 47.0222,
+      "lon": 28.8357781,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Teatrul M. Eminescu",
+        "name:ru": "Театр М. Эминеску",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339157,
+      "lat": 47.0231458,
+      "lon": 28.834813,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Piața Mării Adunări Naționale",
+        "name:ru": "Площадь Великого Национального Собрания",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339163,
+      "lat": 47.02694,
+      "lon": 28.8203039,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Serghei. Lazo",
+        "name:ru": "ул. Сергея Лазо",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339167,
+      "lat": 47.0221922,
+      "lon": 28.7996077,
+      "tags": {
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339241,
+      "lat": 47.0295265,
+      "lon": 28.8018086,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "V. Belinskii",
+        "name:ru": "В. Белинский",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339250,
+      "lat": 47.0221449,
+      "lon": 28.8098131,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Eugen Coca",
+        "name:ru": "ул. Евгений Кока",
+        "operator": "3, 4",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339255,
+      "lat": 47.0244211,
+      "lon": 28.7926284,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Constituției",
+        "name:ru": "ул. Конституции",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339274,
+      "lat": 47.0195775,
+      "lon": 28.8397255,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Armenească",
+        "name:ru": "Армянская ул.",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339305,
+      "lat": 47.0316075,
+      "lon": 28.8217696,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Toma Ciorbă",
+        "name:ru": "ул. Тома Чорбэ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339343,
+      "lat": 46.9934312,
+      "lon": 28.8520295,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Fulgulești",
+        "name:ru": "ул. Фулгулешть",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339370,
+      "lat": 46.9899098,
+      "lon": 28.8452534,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Colegiul de Muzică \"Ștefan Neaga\"",
+        "name:ru": "Музыкальный колледж им. Штефана Няги",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339405,
+      "lat": 47.0333988,
+      "lon": 28.8190197,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Universitatea de Stat de Medicină și Farmacie",
+        "name:ru": "Государственный университет медицины и фармакологии",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339414,
+      "lat": 46.9981676,
+      "lon": 28.8578176,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Piața Decebal",
+        "name:ru": "площадь Дечебал",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 461062061,
+      "lat": 47.0289503,
+      "lon": 28.8257194,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Serghei Lazo",
+        "name:ru": "ул. Сергея Лазо",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 461612421,
+      "lat": 46.9929352,
+      "lon": 28.8583066,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Zelinschi",
+        "name:ru": "ул. Зелинского",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 461612426,
+      "lat": 46.9939239,
+      "lon": 28.8475395,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "bd. Dacia",
+        "name:ru": "бульвар Дачия",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 652049976,
+      "lat": 46.9773366,
+      "lon": 28.8705331,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Valea Crucii",
+        "name:ru": "Валя Кручий",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 890891304,
+      "lat": 46.9986343,
+      "lon": 28.8516217,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Parcul \"Valea Trandafirilor\"",
+        "name:ru": "ул. Трандафирилор",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1163335402,
+      "lat": 47.0075235,
+      "lon": 28.8600921,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Hidrotehnica",
+        "name:ru": "Гидротехника",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1207327539,
+      "lat": 47.0135611,
+      "lon": 28.8505075,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "bd. Negruzzi",
+        "name:ru": "бульвар К. Негруцци",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1218066888,
+      "lat": 46.9894578,
+      "lon": 28.8454002,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Colegiul de Muzică \"Ștefan Neaga\"",
+        "name:ru": "Музыкальный колледж им. Штефана Няги",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1218066892,
+      "lat": 46.992764,
+      "lon": 28.8460848,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "bd. Dacia",
+        "name:ru": "бульвар Дачия",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1218066914,
+      "lat": 46.9870316,
+      "lon": 28.844881,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Hristo Botev",
+        "name:ru": "ул. Индепенденцей",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1288238644,
+      "lat": 47.0082643,
+      "lon": 28.8598838,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Palatul de Cultură al Feroviarilor",
+        "name:ru": "Дворец Культуры Железнодорожников",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1559024579,
+      "lat": 47.0250241,
+      "lon": 28.8165109,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. C. Stere",
+        "name:ru": "ул. К. Стере",
+        "old_name": "ул. Физкультурников",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1655985132,
+      "lat": 47.0237452,
+      "lon": 28.825065,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Nicolae Iorga",
+        "name:ru": "ул. Николае Йорга",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2616042623,
+      "lat": 47.0256967,
+      "lon": 28.8027519,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. P. Ceaikovski",
+        "name:ru": "ул. Петра Чайковского",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2616121534,
+      "lat": 46.9748594,
+      "lon": 28.8750339,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Grădina botanică",
+        "name:ru": "Ботанический сад",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3808045057,
+      "lat": 47.0219013,
+      "lon": 28.8034071,
+      "tags": {
+        "name": "V. Belinski",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4563450967,
+      "lat": 46.9780603,
+      "lon": 28.8555928,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Cuza Vodă",
+        "name:ro": "Cuza Vodă",
+        "name:ru": "Куза Водэ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4563450981,
+      "lat": 47.0229535,
+      "lon": 28.795135,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Gheorghe Codreanu",
+        "name:ru": "ул. Георге Кодряну",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4563451500,
+      "lat": 46.9960396,
+      "lon": 28.8466416,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Trandafirilor",
+        "name:ro": "str. Trandafirilor",
+        "name:ru": "ул. Трандафирилор",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4884310091,
+      "lat": 47.0163961,
+      "lon": 28.8448429,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "UNIC",
+        "name:ru": "Уник",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4889292449,
+      "lat": 47.0168053,
+      "lon": 28.8438959,
+      "tags": {
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "UNIC",
+        "name:ru": "Уник",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.7 8b86ff77",
+  "osm3s": {
+    "timestamp_osm_base": "2019-10-04T21:52:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 340052760,
+      "lat": 47.0244375,
+      "lon": 28.8291614,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Grădina Publică",
+        "name:ru": "Парк",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052769,
+      "lat": 47.0366359,
+      "lon": 28.8497218,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Circ",
+        "name:ru": "Цирк",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052773,
+      "lat": 47.0274523,
+      "lon": 28.8335423,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Columna",
+        "name:ru": "ул. Колумна",
+        "old_name": "ул. Фрунзе",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339159,
+      "lat": 47.0340215,
+      "lon": 28.8192612,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Universitatea de Stat de Medicină și Farmacie",
+        "name:ru": "Государственный университет Медицины и Фармации",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339163,
+      "lat": 47.02694,
+      "lon": 28.8203039,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Serghei. Lazo",
+        "name:ru": "ул. Сергея Лазо",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339280,
+      "lat": 47.0294757,
+      "lon": 28.8390869,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Eugen Doga",
+        "name:ru": "ул. Евгения Доги",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339331,
+      "lat": 47.0483084,
+      "lon": 28.8259733,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Baza de Transport Auto nr. 31",
+        "name:ru": "Автобаза №31",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339333,
+      "lat": 47.0592303,
+      "lon": 28.81137,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Vasile Harea",
+        "name:ru": "Василе Харя",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339335,
+      "lat": 47.055151,
+      "lon": 28.8160125,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Substaţia de Tracţiune nr. 55",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339354,
+      "lat": 47.0443288,
+      "lon": 28.8322389,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Mihai Viteazul",
+        "name:ru": "ул. Михай Витязул",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339403,
+      "lat": 47.0362593,
+      "lon": 28.8226288,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Columna",
+        "name:ru": "ул. Колумна",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 449672992,
+      "lat": 47.044321,
+      "lon": 28.832695,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Petricani 88",
+        "name:ru": "Петриканская ул.",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 461604330,
+      "lat": 47.032016,
+      "lon": 28.8427908,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Romană",
+        "name:ru": "ул. Романэ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 613009714,
+      "lat": 47.0382456,
+      "lon": 28.8256815,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Albișoara",
+        "name:ru": "ул. Албишоара",
+        "old_name": "ул. Набережная",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 694216625,
+      "lat": 47.0409989,
+      "lon": 28.8426189,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Gara \"Vesterniceni\"",
+        "name:ru": "ул. Вокзал \"Вестерничены\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1558994726,
+      "lat": 47.0607336,
+      "lon": 28.8098276,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Universitatea Agrară",
+        "name:ru": "Аграрный университет",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1558999573,
+      "lat": 47.0446015,
+      "lon": 28.8479992,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Bd. Renașterii Naționale",
+        "name:ro": "Bd. Renașterii Naționale",
+        "name:ru": "Коммерческий центр \"Супратен\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1655985132,
+      "lat": 47.0237452,
+      "lon": 28.825065,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Nicolae Iorga",
+        "name:ru": "ул. Николае Йорга",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1836461036,
+      "lat": 47.0477052,
+      "lon": 28.8265211,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Baza de Transport Auto nr. 31",
+        "name:ru": "Автобаза №31",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2635477677,
+      "lat": 47.042694,
+      "lon": 28.8356669,
+      "tags": {
+        "addr:housenumber": "15/3",
+        "addr:postcode": "2059",
+        "addr:street": "Strada Petricani",
+        "email": "info@decorelli.md",
+        "highway": "bus_stop",
+        "name": "DECORELLI",
+        "name:ru": "ДЕКОРЕЛЛИ",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00",
+        "phone": "+37369728782",
+        "public_transport": "platform",
+        "shop": "hardware",
+        "website": "https://decorelli.md"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4566499748,
+      "lat": 47.0425074,
+      "lon": 28.8530971,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Tipografia centrală",
+        "name:ru": "Центральная типография",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4566862195,
+      "lat": 47.0552681,
+      "lon": 28.816167,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Substaţia de Tracţiune nr. 55",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4566862197,
+      "lat": 47.0499721,
+      "lon": 28.8223308,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Mirceşti",
+        "name:ru": "Мирчешть",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4566862199,
+      "lat": 47.0293442,
+      "lon": 28.8171514,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mitropolia",
+        "name:ru": "Митрополия",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4566862202,
+      "lat": 47.049838,
+      "lon": 28.8221403,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Petricani",
+        "name:ru": "Петриканы",
+        "public_transport": "platform"
+      }
+    }
+  ]
+}

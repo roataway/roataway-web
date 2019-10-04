@@ -1,0 +1,388 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.7 8b86ff77",
+  "osm3s": {
+    "timestamp_osm_base": "2019-10-04T21:52:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 325005105,
+      "lat": 47.0110807,
+      "lon": 28.8582041,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Gara Feroviara",
+        "name:ru": "Железнодорожный вокзал. ЖД вокзал",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005107,
+      "lat": 47.0111314,
+      "lon": 28.8586766,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Gara Feroviara",
+        "name:ru": "Железнодорожный вокзал. ЖД вокзал",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340053720,
+      "lat": 47.0189164,
+      "lon": 28.8516557,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "bd. Dumitrie Cantemir",
+        "name:ru": "пр-т Дмитрия Кантемира",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340053722,
+      "lat": 47.0136719,
+      "lon": 28.8538448,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Bulevardul Constantin Negruzzi",
+        "name:ru": "бул. Негруцци",
+        "name_1": "bd. Negruzzi",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339135,
+      "lat": 47.0224474,
+      "lon": 28.8594908,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Calea Basarabiei",
+        "name:ru": "Ассоциация \"Кожа\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339136,
+      "lat": 47.022765,
+      "lon": 28.8603874,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Calea Basarabiei",
+        "name:ru": "Кожзавод",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339139,
+      "lat": 47.0204126,
+      "lon": 28.8529655,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Strada Alexandru Hâjdeu",
+        "name:ru": "ул. Александра Хыждеу",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339208,
+      "lat": 47.0024468,
+      "lon": 28.8904762,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Şcoala Medie pe Schimburi nr. 3",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339210,
+      "lat": 47.0052687,
+      "lon": 28.8870581,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Asociația \"Beton Armat\"",
+        "name:ru": "Ассоциация \"Армированный бетон\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339213,
+      "lat": 47.0086455,
+      "lon": 28.8802687,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Asociația \"Agromașina\"",
+        "name:ru": "Ассоциация \"Агромашина\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339215,
+      "lat": 47.0096376,
+      "lon": 28.8785616,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Asociația \"Agromașina\"",
+        "name:ru": "Ассоциация \"Агромашина\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339219,
+      "lat": 46.9967548,
+      "lon": 28.8997748,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Asociatia \"Vitanta\"",
+        "name:ru": "Ассоциация \"Витанта\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339221,
+      "lat": 46.9989681,
+      "lon": 28.8953611,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Şcoala Medie pe Schimburi nr. 3",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339222,
+      "lat": 46.9985099,
+      "lon": 28.896488,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Asociaţia \"Efes-Vitanta\"",
+        "name:ru": "Ассоциация \"Эфес-Витанта\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339225,
+      "lat": 47.0181662,
+      "lon": 28.8704309,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Asociaţia \"Cerealiere\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339226,
+      "lat": 47.0180956,
+      "lon": 28.8708503,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Asociaţia \"Cerialiere\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339230,
+      "lat": 47.0223274,
+      "lon": 28.8671697,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Asociaţia \"Tutun-CTC\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339233,
+      "lat": 47.0121854,
+      "lon": 28.8763751,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Keramin",
+        "name:ru": "Керамин",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339234,
+      "lat": 47.0116154,
+      "lon": 28.8765952,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Keramin",
+        "name:ru": "Керамин",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339237,
+      "lat": 47.0148863,
+      "lon": 28.8737847,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Centrul Comercial \"Progres\"",
+        "name:ru": "Коммерческий центр \"Прогресс\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339239,
+      "lat": 47.0147515,
+      "lon": 28.8736119,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Centrul Comercial \"Progres\"",
+        "name:ru": "Коммерческий центр \"Прогресс\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339304,
+      "lat": 47.0145921,
+      "lon": 28.8548825,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Hotel Cosmos",
+        "name:ru": "Гостиница \"Космос\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339379,
+      "lat": 47.0166431,
+      "lon": 28.8474454,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Ismail",
+        "name:ja": "165空港行きミニバス",
+        "name:ru": "Измаил",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 633621366,
+      "lat": 47.0232259,
+      "lon": 28.8639933,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Gara de Nord",
+        "name:ru": "\"Северный\" автовокзал",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 633621369,
+      "lat": 47.0230406,
+      "lon": 28.8640608,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Gara de Nord",
+        "name:ru": "\"Северный\" автовокзал",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 652050231,
+      "lat": 46.9949938,
+      "lon": 28.905795,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Industrială",
+        "name:ru": "Индустриальная ул.",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 652050233,
+      "lat": 46.9949238,
+      "lon": 28.9053127,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Industrială",
+        "name:ru": "Индустриальная ул.",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1216583531,
+      "lat": 46.9972795,
+      "lon": 28.8988994,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Asociatia \"Vitanta\"",
+        "name:ru": "Ассоциация \"Витанта\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4563611318,
+      "lat": 47.0045905,
+      "lon": 28.8869455,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Asociația \"Beton Armat\"",
+        "name:ru": "Ассоциация \"Армированный бетон\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4563611331,
+      "lat": 47.0221375,
+      "lon": 28.867647,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Asociaţia \"Tutun-CTC\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6416154914,
+      "lat": 46.9842415,
+      "lon": 28.9379293,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Terminus",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6416154915,
+      "lat": 46.9840914,
+      "lon": 28.9379024,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Terminus",
+        "public_transport": "platform"
+      }
+    }
+  ]
+}

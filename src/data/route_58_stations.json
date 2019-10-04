@@ -1,0 +1,458 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.7 8b86ff77",
+  "osm3s": {
+    "timestamp_osm_base": "2019-10-04T21:52:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 325004929,
+      "lat": 46.996991,
+      "lon": 28.8090044,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Miorița",
+        "name:ru": "ул. Миорица",
+        "old_name": "ул. Прянишникова",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325004932,
+      "lat": 46.993722,
+      "lon": 28.8150109,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Campusul Academic",
+        "name:ru": "Академический Городок",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325004934,
+      "lat": 46.9931771,
+      "lon": 28.8201395,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Colegiul de Construcții",
+        "name:ru": "Строительный колледж",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325004940,
+      "lat": 46.9980181,
+      "lon": 28.8203898,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. V. Korolenko",
+        "name:ru": "ул. В. Короленко",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325004946,
+      "lat": 47.001116,
+      "lon": 28.8219818,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Gh. Asachi",
+        "name:ru": "ул. Георге Асаки",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325004949,
+      "lat": 47.003521,
+      "lon": 28.824314,
+      "tags": {
+        "highway": "bus_stop",
+        "loc_name": "Academia de Politia",
+        "name": "str. Gh. Tudor",
+        "name:ru": "ул. Г. Тудор",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005186,
+      "lat": 47.0028774,
+      "lon": 28.816803,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Dokuciaev",
+        "name:ru": "ул. Докучаева",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005189,
+      "lat": 46.999051,
+      "lon": 28.8087899,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Telecentru",
+        "name:ru": "Телецентр",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005191,
+      "lat": 47.004913,
+      "lon": 28.8213058,
+      "tags": {
+        "highway": "bus_stop",
+        "loc_name": "Secenov",
+        "name": "str. Gh. Tudor",
+        "name:ru": "ул. Г. Тудор",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339068,
+      "lat": 47.0083224,
+      "lon": 28.8328181,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Complexul Memorial \"Eternitate\"",
+        "name:ru": "Мемориальный комплекс \"Вечность\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339071,
+      "lat": 47.0086922,
+      "lon": 28.8336637,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Complexul Memorial \"Eternitate\"",
+        "name:ru": "Мемориальный комплекс \"Вечность\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339076,
+      "lat": 47.0124666,
+      "lon": 28.8405442,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. București",
+        "name:ru": "улица Букурешть",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339079,
+      "lat": 47.0122535,
+      "lon": 28.8406029,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. București",
+        "name:ru": "улица Букурешть",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339108,
+      "lat": 47.0092827,
+      "lon": 28.8362401,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "A. Mateevici",
+        "name:ru": "А. Матеевич",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339135,
+      "lat": 47.0224474,
+      "lon": 28.8594908,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Calea Basarabiei",
+        "name:ru": "Ассоциация \"Кожа\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339136,
+      "lat": 47.022765,
+      "lon": 28.8603874,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Calea Basarabiei",
+        "name:ru": "Кожзавод",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339139,
+      "lat": 47.0204126,
+      "lon": 28.8529655,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Strada Alexandru Hâjdeu",
+        "name:ru": "ул. Александра Хыждеу",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339140,
+      "lat": 47.0104305,
+      "lon": 28.8378404,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Mihai Kogălniceanu",
+        "name:ru": "Михай Когэлничану",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339282,
+      "lat": 47.0191626,
+      "lon": 28.8502343,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "bd. Dimitrie Cantemir",
+        "name:ru": "пр-т Дмитрия Кантемира",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339379,
+      "lat": 47.0166431,
+      "lon": 28.8474454,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Ismail",
+        "name:ja": "165空港行きミニバス",
+        "name:ru": "Измаил",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339381,
+      "lat": 47.0080506,
+      "lon": 28.8303398,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Pan Halippa",
+        "name:ru": "Пан Халиппа",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339384,
+      "lat": 47.007384,
+      "lon": 28.8281823,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Piaţa Pan Halippa",
+        "name:ru": "Кинотеатр \"Гаудеамус\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339542,
+      "lat": 46.995716,
+      "lon": 28.8009761,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Schinoasa-1",
+        "name:ru": "Скиноаса-1",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339544,
+      "lat": 46.9964113,
+      "lon": 28.8014944,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Sihastrului",
+        "name:ru": "ул. Сихаструлуй",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339546,
+      "lat": 46.9943773,
+      "lon": 28.7965228,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Ialoveni",
+        "name:ru": "Яловены",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339577,
+      "lat": 46.9849817,
+      "lon": 28.7780982,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Scinoasa",
+        "name:ru": "Скиноаса",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339581,
+      "lat": 46.9918108,
+      "lon": 28.7892109,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Gara Auto de Sud-Vest",
+        "name:ru": "Юго-Западный автовокзал",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339583,
+      "lat": 46.9982602,
+      "lon": 28.8066396,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Pietrarilor",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339585,
+      "lat": 46.9916761,
+      "lon": 28.7893361,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Gara Auto de Sud-Vest",
+        "name:ru": "Юго-Западная автостанция",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 461612428,
+      "lat": 47.0163267,
+      "lon": 28.8461198,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Bd. Ștefan cel Mare și Sfânt",
+        "name:ru": "Бульвар Штефана чел Маре",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 633621366,
+      "lat": 47.0232259,
+      "lon": 28.8639933,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Gara de Nord",
+        "name:ru": "\"Северный\" автовокзал",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 633621369,
+      "lat": 47.0230406,
+      "lon": 28.8640608,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Gara de Nord",
+        "name:ru": "\"Северный\" автовокзал",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1032276238,
+      "lat": 47.0064518,
+      "lon": 28.8249976,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Magazin \"Fidesco\"",
+        "name:ru": "Магазин \"Фидеско\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1216583516,
+      "lat": 47.0152582,
+      "lon": 28.8448887,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1484644406,
+      "lat": 46.9873658,
+      "lon": 28.7805635,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Valea Radiului.",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4563611295,
+      "lat": 46.9850534,
+      "lon": 28.7779241,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Schinoasa",
+        "name:ro": "Schinoasa",
+        "name:ru": "Скиноаса",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4563632529,
+      "lat": 46.9936426,
+      "lon": 28.7949467,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Ialoveni",
+        "name:ru": "Яловены",
+        "public_transport": "platform"
+      }
+    }
+  ]
+}

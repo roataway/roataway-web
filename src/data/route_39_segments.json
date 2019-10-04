@@ -1,0 +1,3223 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.7 8b86ff77",
+  "osm3s": {
+    "timestamp_osm_base": "2019-10-04T21:52:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 24797071,
+      "bounds": {
+        "minlat": 47.0230993,
+        "minlon": 28.8643404,
+        "maxlat": 47.0231417,
+        "maxlon": 28.8659663
+      },
+      "nodes": [269079995, 269416529, 4117775001, 275786730],
+      "geometry": [
+        { "lat": 47.0231417, "lon": 28.8643404 },
+        { "lat": 47.0231416, "lon": 28.8652118 },
+        { "lat": 47.0231366, "lon": 28.8652983 },
+        { "lat": 47.0230993, "lon": 28.8659663 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Ismail",
+        "name:ru": "Измаильская улица",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24797072,
+      "bounds": {
+        "minlat": 47.0224781,
+        "minlon": 28.8601426,
+        "maxlat": 47.0226598,
+        "maxlon": 28.860638
+      },
+      "nodes": [1736603957, 5288496311, 5770614063, 1736603953, 269416443],
+      "geometry": [
+        { "lat": 47.0226598, "lon": 28.8601426 },
+        { "lat": 47.0226441, "lon": 28.8602859 },
+        { "lat": 47.0226072, "lon": 28.8604205 },
+        { "lat": 47.0225509, "lon": 28.8605399 },
+        { "lat": 47.0224781, "lon": 28.860638 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Calea Basarabiei",
+        "name:ru": "Каля Басарабией",
+        "old_name": "Скоростная улица",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24964685,
+      "bounds": {
+        "minlat": 47.0230941,
+        "minlon": 28.8627436,
+        "maxlat": 47.0233138,
+        "maxlon": 28.8636356
+      },
+      "nodes": [
+        269079996,
+        391311342,
+        270519028,
+        270519031,
+        4117772229,
+        270519035
+      ],
+      "geometry": [
+        { "lat": 47.0230941, "lon": 28.8636356 },
+        { "lat": 47.0231348, "lon": 28.8632212 },
+        { "lat": 47.0231635, "lon": 28.8630895 },
+        { "lat": 47.0232061, "lon": 28.8629526 },
+        { "lat": 47.0232797, "lon": 28.8628125 },
+        { "lat": 47.0233138, "lon": 28.8627436 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Calea Moșilor",
+        "name:ro": "Strada Calea Moșilor",
+        "name:ru": "улица Каля Мошилор",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24964687,
+      "bounds": {
+        "minlat": 47.0157937,
+        "minlon": 28.8455938,
+        "maxlat": 47.0162439,
+        "maxlon": 28.8462555
+      },
+      "nodes": [271282899, 271283220],
+      "geometry": [
+        { "lat": 47.0157937, "lon": 28.8455938 },
+        { "lat": 47.0162439, "lon": 28.8462555 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Ismail",
+        "name:ru": "Измаильская улица",
+        "oneway": "no",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24964688,
+      "bounds": {
+        "minlat": 47.0217071,
+        "minlon": 28.8543952,
+        "maxlat": 47.0219067,
+        "maxlon": 28.8554381
+      },
+      "nodes": [271282881, 5770614067, 3630997650],
+      "geometry": [
+        { "lat": 47.0217071, "lon": 28.8543952 },
+        { "lat": 47.0218313, "lon": 28.85496 },
+        { "lat": 47.0219067, "lon": 28.8554381 }
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "4",
+        "layer": "2",
+        "loc_name": "Podul Izmail",
+        "loc_name:ru": "Измайловский Мост",
+        "maxspeed": "50",
+        "motor_vehicle": "permissive",
+        "name": "Strada Ismail",
+        "name:ro": "Strada Ismail",
+        "name:ru": "Измаильская улица",
+        "oneway": "no",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24964689,
+      "bounds": {
+        "minlat": 47.0224993,
+        "minlon": 28.8591658,
+        "maxlat": 47.0226018,
+        "maxlon": 28.859788
+      },
+      "nodes": [271282906, 4563632522, 271282884],
+      "geometry": [
+        { "lat": 47.0224993, "lon": 28.8591658 },
+        { "lat": 47.0225505, "lon": 28.859488 },
+        { "lat": 47.0226018, "lon": 28.859788 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Ismail",
+        "name:ru": "Измаильская улица",
+        "oneway": "no",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24964737,
+      "bounds": {
+        "minlat": 47.0162439,
+        "minlon": 28.8462555,
+        "maxlat": 47.0163091,
+        "maxlon": 28.8464543
+      },
+      "nodes": [271283220, 875666521],
+      "geometry": [
+        { "lat": 47.0162439, "lon": 28.8462555 },
+        { "lat": 47.0163091, "lon": 28.8464543 }
+      ],
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25128208,
+      "bounds": {
+        "minlat": 47.0137455,
+        "minlon": 28.8485936,
+        "maxlat": 47.0138707,
+        "maxlon": 28.8489637
+      },
+      "nodes": [273707200, 273707203],
+      "geometry": [
+        { "lat": 47.0138707, "lon": 28.8485936 },
+        { "lat": 47.0137455, "lon": 28.8489637 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Constantin Negruzzi",
+        "name:ro": "Bulevardul Constantin Negruzzi",
+        "name:ru": "бульвар Константина Негруцци",
+        "name_1": "bd. C. Negruzzi",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25128209,
+      "bounds": {
+        "minlat": 47.0138707,
+        "minlon": 28.8481258,
+        "maxlat": 47.014092,
+        "maxlon": 28.8485936
+      },
+      "nodes": [273707200, 269397194, 6800744761, 273707420],
+      "geometry": [
+        { "lat": 47.0138707, "lon": 28.8485936 },
+        { "lat": 47.0139075, "lon": 28.8485099 },
+        { "lat": 47.0139925, "lon": 28.8483179 },
+        { "lat": 47.014092, "lon": 28.8481258 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:-1840": "str. Millionnaia",
+        "name:1840-1877": "str. Moskovskaia",
+        "name:1877-1924": "str. Aleksandrovskaia",
+        "name:1924-1944": "bd. Alexandru cel Bun",
+        "name:1944-1952": "strada Lenin",
+        "name:1952-1990": "bulevardul Lenin",
+        "name:bg": "бул. Стефан Велики",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "name_1": "bd. Ștefan cel Mare",
+        "old_name": "проспект Ленина",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25300678,
+      "bounds": {
+        "minlat": 47.0227084,
+        "minlon": 28.8604172,
+        "maxlat": 47.0227591,
+        "maxlon": 28.8607328
+      },
+      "nodes": [275583250, 269416430],
+      "geometry": [
+        { "lat": 47.0227591, "lon": 28.8607328 },
+        { "lat": 47.0227084, "lon": 28.8604172 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Ismail",
+        "name:ru": "Измаильская улица",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25300680,
+      "bounds": {
+        "minlat": 47.0220482,
+        "minlon": 28.86218,
+        "maxlat": 47.0225136,
+        "maxlon": 28.8627798
+      },
+      "nodes": [280942148, 280704047, 1297178806, 269416512],
+      "geometry": [
+        { "lat": 47.0220482, "lon": 28.86218 },
+        { "lat": 47.0221111, "lon": 28.8622824 },
+        { "lat": 47.022203, "lon": 28.8623948 },
+        { "lat": 47.0225136, "lon": 28.8627798 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25300681,
+      "bounds": {
+        "minlat": 47.02187,
+        "minlon": 28.8618374,
+        "maxlat": 47.0220482,
+        "maxlon": 28.86218
+      },
+      "nodes": [269416497, 280942148],
+      "geometry": [
+        { "lat": 47.02187, "lon": 28.8618374 },
+        { "lat": 47.0220482, "lon": 28.86218 }
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "layer": "2",
+        "maxspeed": "50",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25380603,
+      "bounds": {
+        "minlat": 47.0235635,
+        "minlon": 28.8615779,
+        "maxlat": 47.0240219,
+        "maxlon": 28.8621751
+      },
+      "nodes": [
+        276642826,
+        276641016,
+        276641017,
+        276641018,
+        276641019,
+        276641020,
+        276641021,
+        1112992762,
+        276641022,
+        276642828
+      ],
+      "geometry": [
+        { "lat": 47.0239239, "lon": 28.8621751 },
+        { "lat": 47.0239925, "lon": 28.8620239 },
+        { "lat": 47.0240208, "lon": 28.8619064 },
+        { "lat": 47.0240219, "lon": 28.8617881 },
+        { "lat": 47.0239959, "lon": 28.8616961 },
+        { "lat": 47.0239566, "lon": 28.8616333 },
+        { "lat": 47.0239012, "lon": 28.8615932 },
+        { "lat": 47.0238284, "lon": 28.8615779 },
+        { "lat": 47.023757, "lon": 28.8615946 },
+        { "lat": 47.0235635, "lon": 28.8616374 }
+      ],
+      "tags": {
+        "highway": "trunk_link",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25380810,
+      "bounds": {
+        "minlat": 46.9943567,
+        "minlon": 28.9061533,
+        "maxlat": 46.9947483,
+        "maxlon": 28.9072879
+      },
+      "nodes": [5467958758, 305615156],
+      "geometry": [
+        { "lat": 46.9943567, "lon": 28.9072879 },
+        { "lat": 46.9947483, "lon": 28.9061533 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Uzinelor",
+        "name:ru": "Заводская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25380913,
+      "bounds": {
+        "minlat": 47.0230941,
+        "minlon": 28.8636356,
+        "maxlat": 47.0231044,
+        "maxlon": 28.8638145
+      },
+      "nodes": [269079996, 269416522],
+      "geometry": [
+        { "lat": 47.0230941, "lon": 28.8636356 },
+        { "lat": 47.0231044, "lon": 28.8638145 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Ismail",
+        "name:ru": "Измаильская улица",
+        "oneway": "no",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25380914,
+      "bounds": {
+        "minlat": 47.0231044,
+        "minlon": 28.8638145,
+        "maxlat": 47.0231186,
+        "maxlon": 28.8640225
+      },
+      "nodes": [269416522, 4563611303],
+      "geometry": [
+        { "lat": 47.0231044, "lon": 28.8638145 },
+        { "lat": 47.0231186, "lon": 28.8640225 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Ismail",
+        "name:ru": "Измаильская улица",
+        "oneway": "no",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25389169,
+      "bounds": {
+        "minlat": 47.0227591,
+        "minlon": 28.8607328,
+        "maxlat": 47.0228911,
+        "maxlon": 28.8616267
+      },
+      "nodes": [275786720, 275583250],
+      "geometry": [
+        { "lat": 47.0228911, "lon": 28.8616267 },
+        { "lat": 47.0227591, "lon": 28.8607328 }
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "layer": "2",
+        "maxspeed": "50",
+        "name": "Strada Ismail",
+        "name:ru": "Измаильская улица",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25521764,
+      "bounds": {
+        "minlat": 47.0132121,
+        "minlon": 28.8553349,
+        "maxlat": 47.0135577,
+        "maxlon": 28.8554874
+      },
+      "nodes": [278126672, 5743498072, 6144694943, 1862921147],
+      "geometry": [
+        { "lat": 47.0132121, "lon": 28.8554874 },
+        { "lat": 47.0134106, "lon": 28.8554391 },
+        { "lat": 47.0134746, "lon": 28.8554044 },
+        { "lat": 47.0135577, "lon": 28.8553349 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Iuri Gagarin",
+        "name:ru": "проспект Гагарина",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25720093,
+      "bounds": {
+        "minlat": 47.0107663,
+        "minlon": 28.8583247,
+        "maxlat": 47.0111494,
+        "maxlon": 28.858909
+      },
+      "nodes": [273672801, 4563451491, 4563450976],
+      "geometry": [
+        { "lat": 47.0107663, "lon": 28.858909 },
+        { "lat": 47.0110071, "lon": 28.8585485 },
+        { "lat": 47.0111494, "lon": 28.8583247 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Iuri Gagarin",
+        "name:ro": "Bulevardul Iuri Gagarin",
+        "name:ru": "проспект Гагарина",
+        "name_1": "bd. Gagarin",
+        "postal_code": "MD-2000",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Iuri Gagarin din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25720094,
+      "bounds": {
+        "minlat": 47.0129522,
+        "minlon": 28.8554874,
+        "maxlat": 47.0132121,
+        "maxlon": 28.8555731
+      },
+      "nodes": [278156649, 1258789432, 278126672],
+      "geometry": [
+        { "lat": 47.0129522, "lon": 28.8555731 },
+        { "lat": 47.013157, "lon": 28.8555053 },
+        { "lat": 47.0132121, "lon": 28.8554874 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Iuri Gagarin",
+        "name:ru": "проспект Гагарина",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25760506,
+      "bounds": {
+        "minlat": 47.0228911,
+        "minlon": 28.8616267,
+        "maxlat": 47.022928,
+        "maxlon": 28.8617599
+      },
+      "nodes": [269075349, 275786720],
+      "geometry": [
+        { "lat": 47.022928, "lon": 28.8617599 },
+        { "lat": 47.0228911, "lon": 28.8616267 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Ismail",
+        "name:ru": "Измаильская улица",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 27835201,
+      "bounds": {
+        "minlat": 46.9867803,
+        "minlon": 28.9075933,
+        "maxlat": 46.9942511,
+        "maxlon": 28.9271961
+      },
+      "nodes": [
+        5467958760,
+        6144662128,
+        5590040195,
+        630748735,
+        305609056,
+        5933586454,
+        5933586455,
+        630748730,
+        1297178840,
+        1297178867,
+        630748728,
+        2927512635,
+        2927512643,
+        5705737125,
+        305609061,
+        630748733,
+        5931269088,
+        5705737126,
+        2927512636,
+        1243095059,
+        630748732,
+        5931269087,
+        305609063,
+        5931269085,
+        5931269086,
+        305609064,
+        5931268384,
+        5931268383,
+        305609065,
+        731998625,
+        5931268918,
+        5933586452,
+        5931268917,
+        305609067,
+        734569538
+      ],
+      "geometry": [
+        { "lat": 46.9942511, "lon": 28.9075933 },
+        { "lat": 46.9942327, "lon": 28.9076411 },
+        { "lat": 46.9942133, "lon": 28.907702 },
+        { "lat": 46.9941415, "lon": 28.9079185 },
+        { "lat": 46.9940385, "lon": 28.9081831 },
+        { "lat": 46.9939458, "lon": 28.9083884 },
+        { "lat": 46.9938427, "lon": 28.9085882 },
+        { "lat": 46.9937116, "lon": 28.9088106 },
+        { "lat": 46.9931386, "lon": 28.9096442 },
+        { "lat": 46.9926998, "lon": 28.9102481 },
+        { "lat": 46.9925979, "lon": 28.9103753 },
+        { "lat": 46.9915302, "lon": 28.9118638 },
+        { "lat": 46.9910158, "lon": 28.9125737 },
+        { "lat": 46.9906547, "lon": 28.9130662 },
+        { "lat": 46.9902868, "lon": 28.9136006 },
+        { "lat": 46.9902042, "lon": 28.9137455 },
+        { "lat": 46.990143, "lon": 28.9138906 },
+        { "lat": 46.9901006, "lon": 28.9140253 },
+        { "lat": 46.9900286, "lon": 28.9143122 },
+        { "lat": 46.9898167, "lon": 28.9151482 },
+        { "lat": 46.9895002, "lon": 28.9163894 },
+        { "lat": 46.9892738, "lon": 28.9173446 },
+        { "lat": 46.989059, "lon": 28.9183187 },
+        { "lat": 46.9890052, "lon": 28.9186658 },
+        { "lat": 46.9889367, "lon": 28.9192986 },
+        { "lat": 46.9887826, "lon": 28.9202983 },
+        { "lat": 46.9886802, "lon": 28.920968 },
+        { "lat": 46.9886216, "lon": 28.9213032 },
+        { "lat": 46.9885562, "lon": 28.9216221 },
+        { "lat": 46.9883809, "lon": 28.9223809 },
+        { "lat": 46.9879973, "lon": 28.9236717 },
+        { "lat": 46.9877974, "lon": 28.9243017 },
+        { "lat": 46.9875761, "lon": 28.9249584 },
+        { "lat": 46.9872054, "lon": 28.9260222 },
+        { "lat": 46.9867803, "lon": 28.9271961 }
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Uzinelor",
+        "name:ru": "Заводская улица",
+        "ref": "L467"
+      }
+    },
+    {
+      "type": "way",
+      "id": 27835723,
+      "bounds": {
+        "minlat": 47.0046295,
+        "minlon": 28.8859111,
+        "maxlat": 47.0056925,
+        "maxlon": 28.8875769
+      },
+      "nodes": [281058800, 305615127, 305615130, 281058807],
+      "geometry": [
+        { "lat": 47.0056925, "lon": 28.8859111 },
+        { "lat": 47.0052545, "lon": 28.8860525 },
+        { "lat": 47.0046338, "lon": 28.8869941 },
+        { "lat": 47.0046295, "lon": 28.8875769 }
+      ],
+      "tags": {
+        "highway": "service"
+      }
+    },
+    {
+      "type": "way",
+      "id": 28103812,
+      "bounds": {
+        "minlat": 47.0199843,
+        "minlon": 28.8516912,
+        "maxlat": 47.0202501,
+        "maxlon": 28.8525775
+      },
+      "nodes": [308722973, 308722974, 308722975],
+      "geometry": [
+        { "lat": 47.0199843, "lon": 28.8516912 },
+        { "lat": 47.020093, "lon": 28.8521059 },
+        { "lat": 47.0202501, "lon": 28.8525775 }
+      ],
+      "tags": {
+        "highway": "residential",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 29022022,
+      "bounds": {
+        "minlat": 47.0194965,
+        "minlon": 28.850996,
+        "maxlat": 47.0199843,
+        "maxlon": 28.8516912
+      },
+      "nodes": [271282902, 1317177474, 308722973],
+      "geometry": [
+        { "lat": 47.0194965, "lon": 28.850996 },
+        { "lat": 47.0197069, "lon": 28.851295 },
+        { "lat": 47.0199843, "lon": 28.8516912 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Ismail",
+        "name:ru": "Измаильская улица",
+        "oneway": "no",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 29022023,
+      "bounds": {
+        "minlat": 47.0216328,
+        "minlon": 28.8541381,
+        "maxlat": 47.0216768,
+        "maxlon": 28.8542792
+      },
+      "nodes": [276642824, 271282880],
+      "geometry": [
+        { "lat": 47.0216328, "lon": 28.8541381 },
+        { "lat": 47.0216768, "lon": 28.8542792 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Ismail",
+        "name:ro": "Strada Ismail",
+        "name:ru": "Измаильская улица",
+        "oneway": "no",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 29497027,
+      "bounds": {
+        "minlat": 47.02187,
+        "minlon": 28.8612633,
+        "maxlat": 47.021977,
+        "maxlon": 28.8618374
+      },
+      "nodes": [269416454, 269416475, 1316044689, 269416497],
+      "geometry": [
+        { "lat": 47.021977, "lon": 28.8612633 },
+        { "lat": 47.0219144, "lon": 28.8614155 },
+        { "lat": 47.0218857, "lon": 28.8615883 },
+        { "lat": 47.02187, "lon": 28.8618374 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 32484374,
+      "bounds": {
+        "minlat": 47.0136071,
+        "minlon": 28.8533581,
+        "maxlat": 47.0136141,
+        "maxlon": 28.853723
+      },
+      "nodes": [273707219, 1140518049],
+      "geometry": [
+        { "lat": 47.0136141, "lon": 28.8533581 },
+        { "lat": 47.0136071, "lon": 28.853723 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Constantin Negruzzi",
+        "name:ru": "бульвар Константина Негруцци",
+        "name_1": "bd. C. Negruzzi",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 32484375,
+      "bounds": {
+        "minlat": 47.0135937,
+        "minlon": 28.8541994,
+        "maxlat": 47.0137216,
+        "maxlon": 28.8547696
+      },
+      "nodes": [269122182, 364807948],
+      "geometry": [
+        { "lat": 47.0137216, "lon": 28.8547696 },
+        { "lat": 47.0135937, "lon": 28.8541994 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "maxspeed": "50",
+        "name": "Bulevardul Constantin Negruzzi",
+        "name:ru": "бульвар Константина Негруцци",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 32484376,
+      "bounds": {
+        "minlat": 47.0138574,
+        "minlon": 28.8550146,
+        "maxlat": 47.0142694,
+        "maxlon": 28.8552128
+      },
+      "nodes": [1736603933, 3250264172, 365228385, 269122181],
+      "geometry": [
+        { "lat": 47.0142694, "lon": 28.8552128 },
+        { "lat": 47.014109, "lon": 28.8551652 },
+        { "lat": 47.0139793, "lon": 28.8551035 },
+        { "lat": 47.0138574, "lon": 28.8550146 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "maxspeed": "50",
+        "name": "Bulevardul Dimitrie Cantemir",
+        "name:ru": "проспект Дмитрия Кантемира",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 32484377,
+      "bounds": {
+        "minlat": 47.0142694,
+        "minlon": 28.8551821,
+        "maxlat": 47.0143566,
+        "maxlon": 28.8552128
+      },
+      "nodes": [1736603933, 2136579145],
+      "geometry": [
+        { "lat": 47.0142694, "lon": 28.8552128 },
+        { "lat": 47.0143566, "lon": 28.8551821 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dimitrie Cantemir",
+        "name:ru": "проспект Дмитрия Кантемира"
+      }
+    },
+    {
+      "type": "way",
+      "id": 32753902,
+      "bounds": {
+        "minlat": 46.9838526,
+        "minlon": 28.9311608,
+        "maxlat": 46.9842124,
+        "maxlon": 28.9327277
+      },
+      "nodes": [
+        305609085,
+        1209422887,
+        5591875735,
+        305609090,
+        1209421922,
+        1209423404,
+        1209422363,
+        305609094,
+        369011696,
+        5931268904,
+        368720387
+      ],
+      "geometry": [
+        { "lat": 46.9842124, "lon": 28.9311608 },
+        { "lat": 46.9841108, "lon": 28.9312983 },
+        { "lat": 46.9840645, "lon": 28.9313751 },
+        { "lat": 46.9840172, "lon": 28.9314577 },
+        { "lat": 46.9839681, "lon": 28.9315767 },
+        { "lat": 46.983931, "lon": 28.9317216 },
+        { "lat": 46.9839141, "lon": 28.9318659 },
+        { "lat": 46.9839012, "lon": 28.9320146 },
+        { "lat": 46.9838693, "lon": 28.9325573 },
+        { "lat": 46.983865, "lon": 28.9326662 },
+        { "lat": 46.9838526, "lon": 28.9327277 }
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "is_in": "Bubueci",
+        "name": "Strada Toader Bubuiog",
+        "ref": "L467"
+      }
+    },
+    {
+      "type": "way",
+      "id": 34129857,
+      "bounds": {
+        "minlat": 47.0223882,
+        "minlon": 28.8661982,
+        "maxlat": 47.0230795,
+        "maxlon": 28.8672973
+      },
+      "nodes": [
+        269416535,
+        391311332,
+        6144711704,
+        6144711703,
+        391311333,
+        6144711702,
+        4117776597,
+        281058772
+      ],
+      "geometry": [
+        { "lat": 47.0230795, "lon": 28.8661982 },
+        { "lat": 47.0229822, "lon": 28.8665282 },
+        { "lat": 47.0229278, "lon": 28.8666509 },
+        { "lat": 47.0228802, "lon": 28.8667461 },
+        { "lat": 47.0228009, "lon": 28.8668786 },
+        { "lat": 47.0227175, "lon": 28.8669862 },
+        { "lat": 47.0224911, "lon": 28.8671992 },
+        { "lat": 47.0223882, "lon": 28.8672973 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Uzinelor",
+        "name:ru": "Заводская улица",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 36704865,
+      "bounds": {
+        "minlat": 46.9973271,
+        "minlon": 28.8983128,
+        "maxlat": 46.9975175,
+        "maxlon": 28.8985544
+      },
+      "nodes": [276644635, 426668762],
+      "geometry": [
+        { "lat": 46.9973271, "lon": 28.8985544 },
+        { "lat": 46.9975175, "lon": 28.8983128 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Uzinelor",
+        "name:ru": "Заводская улица",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38809921,
+      "bounds": {
+        "minlat": 47.0129522,
+        "minlon": 28.8548897,
+        "maxlat": 47.013469,
+        "maxlon": 28.8555731
+      },
+      "nodes": [269122186, 6144694942, 3250264168, 365228387, 278156649],
+      "geometry": [
+        { "lat": 47.013469, "lon": 28.8548897 },
+        { "lat": 47.0133896, "lon": 28.8549337 },
+        { "lat": 47.0133286, "lon": 28.8549763 },
+        { "lat": 47.0131108, "lon": 28.8552732 },
+        { "lat": 47.0129522, "lon": 28.8555731 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Iuri Gagarin",
+        "name:ru": "проспект Гагарина",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 48216571,
+      "bounds": {
+        "minlat": 47.014092,
+        "minlon": 28.8477666,
+        "maxlat": 47.0143403,
+        "maxlon": 28.8481258
+      },
+      "nodes": [273707420, 662932292],
+      "geometry": [
+        { "lat": 47.014092, "lon": 28.8481258 },
+        { "lat": 47.0143403, "lon": 28.8477666 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:-1840": "str. Millionnaia",
+        "name:1840-1877": "str. Moskovskaia",
+        "name:1877-1924": "str. Aleksandrovskaia",
+        "name:1924-1944": "bd. Alexandru cel Bun",
+        "name:1944-1952": "strada Lenin",
+        "name:1952-1990": "bulevardul Lenin",
+        "name:bg": "бул. Стефан Велики",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "name_1": "bd. Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Ștefan cel Mare și Sfînt din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 49868153,
+      "bounds": {
+        "minlat": 46.9979397,
+        "minlon": 28.8875769,
+        "maxlat": 47.0046295,
+        "maxlon": 28.8972247
+      },
+      "nodes": [
+        426668750,
+        365546339,
+        4566489115,
+        4566489113,
+        375655075,
+        276644586,
+        365546338,
+        375655062,
+        376022808,
+        376022793,
+        286355463,
+        4566489114,
+        281058808,
+        365546348,
+        281058807
+      ],
+      "geometry": [
+        { "lat": 46.9979397, "lon": 28.8972247 },
+        { "lat": 46.998047, "lon": 28.8970305 },
+        { "lat": 46.998457, "lon": 28.8963704 },
+        { "lat": 46.9990286, "lon": 28.895477 },
+        { "lat": 46.9996773, "lon": 28.8944629 },
+        { "lat": 46.9998787, "lon": 28.894153 },
+        { "lat": 47.0000517, "lon": 28.8938856 },
+        { "lat": 47.0004651, "lon": 28.8932523 },
+        { "lat": 47.0007381, "lon": 28.8928403 },
+        { "lat": 47.0010611, "lon": 28.892355 },
+        { "lat": 47.0018813, "lon": 28.891108 },
+        { "lat": 47.0023776, "lon": 28.8903547 },
+        { "lat": 47.0027269, "lon": 28.8898326 },
+        { "lat": 47.0031454, "lon": 28.8892471 },
+        { "lat": 47.0046295, "lon": 28.8875769 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Uzinelor",
+        "name:ro": "Strada Uzinelor",
+        "name:ru": "Заводская улица",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 49868164,
+      "bounds": {
+        "minlat": 47.0199843,
+        "minlon": 28.8516912,
+        "maxlat": 47.0206863,
+        "maxlon": 28.8527062
+      },
+      "nodes": [308722973, 2544596476, 271282877, 1738310873, 271282903],
+      "geometry": [
+        { "lat": 47.0199843, "lon": 28.8516912 },
+        { "lat": 47.0201048, "lon": 28.8518668 },
+        { "lat": 47.0204262, "lon": 28.8523352 },
+        { "lat": 47.0206133, "lon": 28.8526041 },
+        { "lat": 47.0206863, "lon": 28.8527062 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Ismail",
+        "name:ro": "Strada Ismail",
+        "name:ru": "Измаильская улица",
+        "oneway": "no",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 49868165,
+      "bounds": {
+        "minlat": 47.0190965,
+        "minlon": 28.8503968,
+        "maxlat": 47.0194965,
+        "maxlon": 28.850996
+      },
+      "nodes": [271283221, 5770614070, 1117403253, 271282902],
+      "geometry": [
+        { "lat": 47.0190965, "lon": 28.8503968 },
+        { "lat": 47.0192383, "lon": 28.8506039 },
+        { "lat": 47.0193777, "lon": 28.8508159 },
+        { "lat": 47.0194965, "lon": 28.850996 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Ismail",
+        "name:ru": "Измаильская улица",
+        "oneway": "no",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 49868166,
+      "bounds": {
+        "minlat": 46.9975765,
+        "minlon": 28.8978398,
+        "maxlat": 46.9976113,
+        "maxlon": 28.8979119
+      },
+      "nodes": [426668755, 5741806295, 5741806296, 426668759],
+      "geometry": [
+        { "lat": 46.9976113, "lon": 28.8978398 },
+        { "lat": 46.9975962, "lon": 28.8978599 },
+        { "lat": 46.9975844, "lon": 28.8978843 },
+        { "lat": 46.9975765, "lon": 28.8979119 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Uzinelor",
+        "name:ru": "Заводская улица",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 49868171,
+      "bounds": {
+        "minlat": 47.0231417,
+        "minlon": 28.8643404,
+        "maxlat": 47.0235893,
+        "maxlon": 28.8656996
+      },
+      "nodes": [
+        275786723,
+        269079994,
+        634896703,
+        4117775004,
+        416336336,
+        634896701,
+        269079995
+      ],
+      "geometry": [
+        { "lat": 47.0235893, "lon": 28.8656996 },
+        { "lat": 47.0234476, "lon": 28.865452 },
+        { "lat": 47.0233384, "lon": 28.8652293 },
+        { "lat": 47.0233162, "lon": 28.8651605 },
+        { "lat": 47.0232525, "lon": 28.8649633 },
+        { "lat": 47.0232035, "lon": 28.8647042 },
+        { "lat": 47.0231417, "lon": 28.8643404 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Ismail",
+        "name:ru": "Измаильская улица",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 50132730,
+      "bounds": {
+        "minlat": 47.0225136,
+        "minlon": 28.8627798,
+        "maxlat": 47.0230941,
+        "maxlon": 28.8636356
+      },
+      "nodes": [
+        269416512,
+        391311347,
+        269416516,
+        269416517,
+        4117775000,
+        269416519,
+        269416521,
+        634896699,
+        269079996
+      ],
+      "geometry": [
+        { "lat": 47.0225136, "lon": 28.8627798 },
+        { "lat": 47.0226716, "lon": 28.8629908 },
+        { "lat": 47.0227374, "lon": 28.863074 },
+        { "lat": 47.0228491, "lon": 28.8632152 },
+        { "lat": 47.0229056, "lon": 28.8632866 },
+        { "lat": 47.0229488, "lon": 28.8633478 },
+        { "lat": 47.0229882, "lon": 28.86341 },
+        { "lat": 47.0230302, "lon": 28.8634866 },
+        { "lat": 47.0230941, "lon": 28.8636356 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 51986562,
+      "bounds": {
+        "minlat": 47.0233138,
+        "minlon": 28.8621751,
+        "maxlat": 47.0239239,
+        "maxlon": 28.8627436
+      },
+      "nodes": [270519035, 276642826],
+      "geometry": [
+        { "lat": 47.0233138, "lon": 28.8627436 },
+        { "lat": 47.0239239, "lon": 28.8621751 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Calea Moșilor",
+        "name:ro": "Strada Calea Moșilor",
+        "name:ru": "улица Каля Мошилор",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 52118484,
+      "bounds": {
+        "minlat": 47.0189159,
+        "minlon": 28.8672973,
+        "maxlat": 47.0223882,
+        "maxlon": 28.8700106
+      },
+      "nodes": [365545197, 281058773, 634896707, 281058772],
+      "geometry": [
+        { "lat": 47.0189159, "lon": 28.8700106 },
+        { "lat": 47.0204216, "lon": 28.8688376 },
+        { "lat": 47.0220848, "lon": 28.8675384 },
+        { "lat": 47.0223882, "lon": 28.8672973 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Uzinelor",
+        "name:ru": "Заводская улица",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 52118488,
+      "bounds": {
+        "minlat": 47.0223882,
+        "minlon": 28.8669122,
+        "maxlat": 47.0234464,
+        "maxlon": 28.8672973
+      },
+      "nodes": [281058772, 4117776596, 269416562],
+      "geometry": [
+        { "lat": 47.0223882, "lon": 28.8672973 },
+        { "lat": 47.0225131, "lon": 28.8672524 },
+        { "lat": 47.0234464, "lon": 28.8669122 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Uzinelor",
+        "name:ru": "Заводская улица",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 52128756,
+      "bounds": {
+        "minlat": 47.0206863,
+        "minlon": 28.8527062,
+        "maxlat": 47.0213163,
+        "maxlon": 28.8535935
+      },
+      "nodes": [271282903, 1738310879, 2106915737, 370440264],
+      "geometry": [
+        { "lat": 47.0206863, "lon": 28.8527062 },
+        { "lat": 47.0207812, "lon": 28.8528485 },
+        { "lat": 47.0210762, "lon": 28.8532748 },
+        { "lat": 47.0213163, "lon": 28.8535935 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Ismail",
+        "name:ro": "Strada Ismail",
+        "name:ru": "Измаильская улица",
+        "oneway": "no",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 52128764,
+      "bounds": {
+        "minlat": 47.022928,
+        "minlon": 28.8616374,
+        "maxlat": 47.0235635,
+        "maxlon": 28.8618931
+      },
+      "nodes": [
+        276642828,
+        634896694,
+        6375489356,
+        634896692,
+        5770614061,
+        634896688,
+        269075349
+      ],
+      "geometry": [
+        { "lat": 47.0235635, "lon": 28.8616374 },
+        { "lat": 47.0233955, "lon": 28.8617842 },
+        { "lat": 47.0232944, "lon": 28.8618538 },
+        { "lat": 47.0232341, "lon": 28.8618737 },
+        { "lat": 47.0231379, "lon": 28.8618931 },
+        { "lat": 47.023058, "lon": 28.8618616 },
+        { "lat": 47.022928, "lon": 28.8617599 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Calea Moșilor",
+        "name:ro": "Strada Calea Moșilor",
+        "name:ru": "улица Каля Мошилор",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 52299538,
+      "bounds": {
+        "minlat": 46.9947483,
+        "minlon": 28.8985544,
+        "maxlat": 46.9973271,
+        "maxlon": 28.9061533
+      },
+      "nodes": [
+        305615156,
+        4568637874,
+        4568637875,
+        5779448742,
+        2866216724,
+        2866216725,
+        6770768020,
+        4568637876,
+        4568637877,
+        5467919224,
+        276644635
+      ],
+      "geometry": [
+        { "lat": 46.9947483, "lon": 28.9061533 },
+        { "lat": 46.9948742, "lon": 28.905765 },
+        { "lat": 46.9949846, "lon": 28.9054354 },
+        { "lat": 46.9951455, "lon": 28.9049599 },
+        { "lat": 46.9956912, "lon": 28.9033467 },
+        { "lat": 46.9959302, "lon": 28.9026128 },
+        { "lat": 46.9964531, "lon": 28.901077 },
+        { "lat": 46.9968746, "lon": 28.8998392 },
+        { "lat": 46.9972184, "lon": 28.8988536 },
+        { "lat": 46.9972417, "lon": 28.8987865 },
+        { "lat": 46.9973271, "lon": 28.8985544 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Uzinelor",
+        "name:ru": "Заводская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 52299539,
+      "bounds": {
+        "minlat": 46.9973271,
+        "minlon": 28.8979119,
+        "maxlat": 46.9975765,
+        "maxlon": 28.8985544
+      },
+      "nodes": [426668759, 276644635],
+      "geometry": [
+        { "lat": 46.9975765, "lon": 28.8979119 },
+        { "lat": 46.9973271, "lon": 28.8985544 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Uzinelor",
+        "name:ru": "Заводская улица",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 52299540,
+      "bounds": {
+        "minlat": 46.9976113,
+        "minlon": 28.8972247,
+        "maxlat": 46.9979397,
+        "maxlon": 28.8978398
+      },
+      "nodes": [426668750, 426668755],
+      "geometry": [
+        { "lat": 46.9979397, "lon": 28.8972247 },
+        { "lat": 46.9976113, "lon": 28.8978398 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Uzinelor",
+        "name:ru": "Заводская улица",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 93322049,
+      "bounds": {
+        "minlat": 47.0216768,
+        "minlon": 28.8542792,
+        "maxlat": 47.0217071,
+        "maxlon": 28.8543952
+      },
+      "nodes": [271282880, 271282881],
+      "geometry": [
+        { "lat": 47.0216768, "lon": 28.8542792 },
+        { "lat": 47.0217071, "lon": 28.8543952 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Ismail",
+        "name:ro": "Strada Ismail",
+        "name:ru": "Измаильская улица",
+        "oneway": "no",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 96063136,
+      "bounds": {
+        "minlat": 47.0207581,
+        "minlon": 28.853326,
+        "maxlat": 47.0213163,
+        "maxlon": 28.8535935
+      },
+      "nodes": [308722976, 308722977, 370440264],
+      "geometry": [
+        { "lat": 47.0207581, "lon": 28.853326 },
+        { "lat": 47.0210659, "lon": 28.8535013 },
+        { "lat": 47.0213163, "lon": 28.8535935 }
+      ],
+      "tags": {
+        "highway": "residential",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 104874437,
+      "bounds": {
+        "minlat": 46.9842124,
+        "minlon": 28.9300703,
+        "maxlat": 46.9855126,
+        "maxlon": 28.9311608
+      },
+      "nodes": [305609069, 305609071, 5931268911, 305609085],
+      "geometry": [
+        { "lat": 46.9855126, "lon": 28.9300703 },
+        { "lat": 46.9845988, "lon": 28.9307919 },
+        { "lat": 46.9844008, "lon": 28.9309575 },
+        { "lat": 46.9842124, "lon": 28.9311608 }
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "40",
+        "name": "Strada Uzinelor",
+        "name:ru": "Заводская улица",
+        "ref": "L467"
+      }
+    },
+    {
+      "type": "way",
+      "id": 105647268,
+      "bounds": {
+        "minlat": 47.0144665,
+        "minlon": 28.8468593,
+        "maxlat": 47.014948,
+        "maxlon": 28.8475708
+      },
+      "nodes": [875666145, 2961149708, 4490101370],
+      "geometry": [
+        { "lat": 47.0144665, "lon": 28.8475708 },
+        { "lat": 47.0145086, "lon": 28.8474974 },
+        { "lat": 47.014948, "lon": 28.8468593 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:-1840": "str. Millionnaia",
+        "name:1840-1877": "str. Moskovskaia",
+        "name:1877-1924": "str. Aleksandrovskaia",
+        "name:1924-1944": "bd. Alexandru cel Bun",
+        "name:1944-1952": "strada Lenin",
+        "name:1952-1990": "bulevardul Lenin",
+        "name:bg": "бул. Стефан Велики",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "name_1": "bd. Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Ștefan cel Mare și Sfînt din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 105871002,
+      "bounds": {
+        "minlat": 47.0056925,
+        "minlon": 28.8700106,
+        "maxlat": 47.0189159,
+        "maxlon": 28.8859111
+      },
+      "nodes": [
+        281058800,
+        281058795,
+        5705737124,
+        5705737123,
+        6551211343,
+        3633148004,
+        5779601354,
+        4563611334,
+        5705737122,
+        281058787,
+        4563611319,
+        5705737121,
+        281058781,
+        5779451643,
+        280704050,
+        4563611320,
+        3094225058,
+        4563611333,
+        281058776,
+        4563611332,
+        281058775,
+        281058774,
+        1701453859,
+        365545197
+      ],
+      "geometry": [
+        { "lat": 47.0056925, "lon": 28.8859111 },
+        { "lat": 47.0073379, "lon": 28.8821704 },
+        { "lat": 47.0075188, "lon": 28.881796 },
+        { "lat": 47.0077858, "lon": 28.8813776 },
+        { "lat": 47.0081538, "lon": 28.8808295 },
+        { "lat": 47.0081985, "lon": 28.8807629 },
+        { "lat": 47.0084272, "lon": 28.8804168 },
+        { "lat": 47.0085469, "lon": 28.8802358 },
+        { "lat": 47.0088027, "lon": 28.8798273 },
+        { "lat": 47.0090753, "lon": 28.8794294 },
+        { "lat": 47.0096454, "lon": 28.8787176 },
+        { "lat": 47.0099916, "lon": 28.8782877 },
+        { "lat": 47.0102218, "lon": 28.8780455 },
+        { "lat": 47.0105973, "lon": 28.8776834 },
+        { "lat": 47.0107854, "lon": 28.8775121 },
+        { "lat": 47.0116498, "lon": 28.8766793 },
+        { "lat": 47.0118869, "lon": 28.8764509 },
+        { "lat": 47.0121279, "lon": 28.8762187 },
+        { "lat": 47.0144783, "lon": 28.8739541 },
+        { "lat": 47.01481, "lon": 28.8736487 },
+        { "lat": 47.0177609, "lon": 28.8709315 },
+        { "lat": 47.0180988, "lon": 28.8706674 },
+        { "lat": 47.0183412, "lon": 28.8704725 },
+        { "lat": 47.0189159, "lon": 28.8700106 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Uzinelor",
+        "name:ro": "Strada Uzinelor",
+        "name:ru": "Заводская улица",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 105871008,
+      "bounds": {
+        "minlat": 47.00514,
+        "minlon": 28.8859111,
+        "maxlat": 47.0056925,
+        "maxlon": 28.8869699
+      },
+      "nodes": [281058806, 6776321214, 365547690, 281058800],
+      "geometry": [
+        { "lat": 47.00514, "lon": 28.8869699 },
+        { "lat": 47.005366, "lon": 28.8865945 },
+        { "lat": 47.0055635, "lon": 28.8862113 },
+        { "lat": 47.0056925, "lon": 28.8859111 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Uzinelor",
+        "name:ro": "Strada Uzinelor",
+        "name:ru": "Заводская улица",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129516066,
+      "bounds": {
+        "minlat": 46.9855126,
+        "minlon": 28.9287918,
+        "maxlat": 46.9861465,
+        "maxlon": 28.9300703
+      },
+      "nodes": [
+        731998782,
+        305609068,
+        5931268913,
+        5931268914,
+        5931268912,
+        305609069
+      ],
+      "geometry": [
+        { "lat": 46.9861465, "lon": 28.9287918 },
+        { "lat": 46.9858011, "lon": 28.9296506 },
+        { "lat": 46.9857335, "lon": 28.9297817 },
+        { "lat": 46.9856686, "lon": 28.929888 },
+        { "lat": 46.9855921, "lon": 28.9299899 },
+        { "lat": 46.9855126, "lon": 28.9300703 }
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Strada Uzinelor",
+        "name:ru": "Заводская улица",
+        "ref": "L467"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129516067,
+      "bounds": {
+        "minlat": 46.9861465,
+        "minlon": 28.9271961,
+        "maxlat": 46.9867803,
+        "maxlon": 28.9287918
+      },
+      "nodes": [734569538, 369008385, 731998782],
+      "geometry": [
+        { "lat": 46.9867803, "lon": 28.9271961 },
+        { "lat": 46.9863155, "lon": 28.9283782 },
+        { "lat": 46.9861465, "lon": 28.9287918 }
+      ],
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Strada Uzinelor",
+        "name:ru": "Заводская улица",
+        "ref": "L467"
+      }
+    },
+    {
+      "type": "way",
+      "id": 135164629,
+      "bounds": {
+        "minlat": 47.0213163,
+        "minlon": 28.8535935,
+        "maxlat": 47.0214044,
+        "maxlon": 28.8536833
+      },
+      "nodes": [370440264, 276642821],
+      "geometry": [
+        { "lat": 47.0213163, "lon": 28.8535935 },
+        { "lat": 47.0214044, "lon": 28.8536833 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Ismail",
+        "name:ro": "Strada Ismail",
+        "name:ru": "Измаильская улица",
+        "oneway": "no",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 161453810,
+      "bounds": {
+        "minlat": 47.0185874,
+        "minlon": 28.851737,
+        "maxlat": 47.0190581,
+        "maxlon": 28.8524125
+      },
+      "nodes": [691587955, 4566693257, 1734215730],
+      "geometry": [
+        { "lat": 47.0185874, "lon": 28.8524125 },
+        { "lat": 47.0189918, "lon": 28.8518281 },
+        { "lat": 47.0190581, "lon": 28.851737 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dimitrie Cantemir",
+        "name:ro": "Bulevardul Dimitrie Cantemir",
+        "name:ru": "проспект Дмитрия Кантемира"
+      }
+    },
+    {
+      "type": "way",
+      "id": 161453811,
+      "bounds": {
+        "minlat": 47.0190581,
+        "minlon": 28.850996,
+        "maxlat": 47.0194965,
+        "maxlon": 28.851737
+      },
+      "nodes": [1734215730, 6733378168, 619321612, 271282902],
+      "geometry": [
+        { "lat": 47.0190581, "lon": 28.851737 },
+        { "lat": 47.0193101, "lon": 28.8513708 },
+        { "lat": 47.0193672, "lon": 28.8512572 },
+        { "lat": 47.0194965, "lon": 28.850996 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dimitrie Cantemir",
+        "name:ro": "Bulevardul Dimitrie Cantemir",
+        "name:ru": "проспект Дмитрия Кантемира"
+      }
+    },
+    {
+      "type": "way",
+      "id": 161700539,
+      "bounds": {
+        "minlat": 47.0202501,
+        "minlon": 28.8525775,
+        "maxlat": 47.0207581,
+        "maxlon": 28.853326
+      },
+      "nodes": [308722975, 4563632523, 1013362195, 1117403045, 308722976],
+      "geometry": [
+        { "lat": 47.0202501, "lon": 28.8525775 },
+        { "lat": 47.0204588, "lon": 28.8528933 },
+        { "lat": 47.0206571, "lon": 28.8531933 },
+        { "lat": 47.0207317, "lon": 28.8532959 },
+        { "lat": 47.0207581, "lon": 28.853326 }
+      ],
+      "tags": {
+        "highway": "residential",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 161700547,
+      "bounds": {
+        "minlat": 47.0178477,
+        "minlon": 28.8490668,
+        "maxlat": 47.0190965,
+        "maxlon": 28.8503968
+      },
+      "nodes": [
+        271283219,
+        619321579,
+        5789367662,
+        271283217,
+        5789367661,
+        287841483,
+        2106915723,
+        271283221
+      ],
+      "geometry": [
+        { "lat": 47.0178477, "lon": 28.8490668 },
+        { "lat": 47.0179306, "lon": 28.8491872 },
+        { "lat": 47.0184064, "lon": 28.8498781 },
+        { "lat": 47.0184408, "lon": 28.8499281 },
+        { "lat": 47.0184736, "lon": 28.8499543 },
+        { "lat": 47.0187555, "lon": 28.8501799 },
+        { "lat": 47.0188425, "lon": 28.8502373 },
+        { "lat": 47.0190965, "lon": 28.8503968 }
+      ],
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 161700550,
+      "bounds": {
+        "minlat": 47.011318,
+        "minlon": 28.8571586,
+        "maxlat": 47.0119059,
+        "maxlon": 28.8580637
+      },
+      "nodes": [278126675, 278126678],
+      "geometry": [
+        { "lat": 47.011318, "lon": 28.8580637 },
+        { "lat": 47.0119059, "lon": 28.8571586 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Iuri Gagarin",
+        "name:ro": "Bulevardul Iuri Gagarin",
+        "name:ru": "проспект Гагарина",
+        "name_1": "bd. Gagarin",
+        "postal_code": "MD-2000",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Iuri Gagarin din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 161700555,
+      "bounds": {
+        "minlat": 47.0119059,
+        "minlon": 28.8555731,
+        "maxlat": 47.0129522,
+        "maxlon": 28.8571586
+      },
+      "nodes": [278126678, 278156649],
+      "geometry": [
+        { "lat": 47.0119059, "lon": 28.8571586 },
+        { "lat": 47.0129522, "lon": 28.8555731 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Iuri Gagarin",
+        "name:ro": "Bulevardul Iuri Gagarin",
+        "name:ru": "проспект Гагарина",
+        "name_1": "bd. Gagarin",
+        "postal_code": "MD-2000",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 161700567,
+      "bounds": {
+        "minlat": 47.016742,
+        "minlon": 28.8539305,
+        "maxlat": 47.0172094,
+        "maxlon": 28.8542342
+      },
+      "nodes": [612530529, 6733378167, 5768251958, 1317177453],
+      "geometry": [
+        { "lat": 47.016742, "lon": 28.8542342 },
+        { "lat": 47.0169031, "lon": 28.8541394 },
+        { "lat": 47.0170569, "lon": 28.8540393 },
+        { "lat": 47.0172094, "lon": 28.8539305 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dimitrie Cantemir",
+        "name:ro": "Bulevardul Dimitrie Cantemir",
+        "name:ru": "проспект Дмитрия Кантемира"
+      }
+    },
+    {
+      "type": "way",
+      "id": 161700571,
+      "bounds": {
+        "minlat": 47.0157558,
+        "minlon": 28.8545406,
+        "maxlat": 47.0160497,
+        "maxlon": 28.8546526
+      },
+      "nodes": [275941973, 691588010],
+      "geometry": [
+        { "lat": 47.0157558, "lon": 28.8546526 },
+        { "lat": 47.0160497, "lon": 28.8545406 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dimitrie Cantemir",
+        "name:ro": "Bulevardul Dimitrie Cantemir",
+        "name:ru": "проспект Дмитрия Кантемира"
+      }
+    },
+    {
+      "type": "way",
+      "id": 161700572,
+      "bounds": {
+        "minlat": 47.0148932,
+        "minlon": 28.8548814,
+        "maxlat": 47.0151527,
+        "maxlon": 28.8549806
+      },
+      "nodes": [280921475, 691587949, 691588011],
+      "geometry": [
+        { "lat": 47.0148932, "lon": 28.8549806 },
+        { "lat": 47.0150549, "lon": 28.8549166 },
+        { "lat": 47.0151527, "lon": 28.8548814 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dimitrie Cantemir",
+        "name:ro": "Bulevardul Dimitrie Cantemir",
+        "name:ru": "проспект Дмитрия Кантемира"
+      }
+    },
+    {
+      "type": "way",
+      "id": 161700573,
+      "bounds": {
+        "minlat": 47.0160497,
+        "minlon": 28.8544656,
+        "maxlat": 47.0162451,
+        "maxlon": 28.8545406
+      },
+      "nodes": [691588010, 2443577605],
+      "geometry": [
+        { "lat": 47.0160497, "lon": 28.8545406 },
+        { "lat": 47.0162451, "lon": 28.8544656 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dimitrie Cantemir",
+        "name:ro": "Bulevardul Dimitrie Cantemir",
+        "name:ru": "проспект Дмитрия Кантемира"
+      }
+    },
+    {
+      "type": "way",
+      "id": 161700577,
+      "bounds": {
+        "minlat": 47.0151527,
+        "minlon": 28.8546526,
+        "maxlat": 47.0157558,
+        "maxlon": 28.8548814
+      },
+      "nodes": [691588011, 818643396, 275941973],
+      "geometry": [
+        { "lat": 47.0151527, "lon": 28.8548814 },
+        { "lat": 47.0156854, "lon": 28.8546793 },
+        { "lat": 47.0157558, "lon": 28.8546526 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dimitrie Cantemir",
+        "name:ro": "Bulevardul Dimitrie Cantemir",
+        "name:ru": "проспект Дмитрия Кантемира"
+      }
+    },
+    {
+      "type": "way",
+      "id": 161700578,
+      "bounds": {
+        "minlat": 47.0172094,
+        "minlon": 28.8533455,
+        "maxlat": 47.0178653,
+        "maxlon": 28.8539305
+      },
+      "nodes": [1317177453, 5768251959, 612530531, 691587977],
+      "geometry": [
+        { "lat": 47.0172094, "lon": 28.8539305 },
+        { "lat": 47.0174287, "lon": 28.8537581 },
+        { "lat": 47.0176596, "lon": 28.8535496 },
+        { "lat": 47.0178653, "lon": 28.8533455 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dimitrie Cantemir",
+        "name:ro": "Bulevardul Dimitrie Cantemir",
+        "name:ru": "проспект Дмитрия Кантемира"
+      }
+    },
+    {
+      "type": "way",
+      "id": 161700581,
+      "bounds": {
+        "minlat": 47.0136293,
+        "minlon": 28.8501182,
+        "maxlat": 47.0136522,
+        "maxlon": 28.8520626
+      },
+      "nodes": [1140517878, 273707212, 3556860103],
+      "geometry": [
+        { "lat": 47.0136522, "lon": 28.8501182 },
+        { "lat": 47.013648, "lon": 28.850516 },
+        { "lat": 47.0136293, "lon": 28.8520626 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Constantin Negruzzi",
+        "name:ro": "Bulevardul Constantin Negruzzi",
+        "name:ru": "бульвар Константина Негруцци",
+        "name_1": "bd. C. Negruzzi",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 161700583,
+      "bounds": {
+        "minlat": 47.0136284,
+        "minlon": 28.8520626,
+        "maxlat": 47.0136293,
+        "maxlon": 28.8521285
+      },
+      "nodes": [3556860103, 3556860104],
+      "geometry": [
+        { "lat": 47.0136293, "lon": 28.8520626 },
+        { "lat": 47.0136284, "lon": 28.8521285 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Constantin Negruzzi",
+        "name:ro": "Bulevardul Constantin Negruzzi",
+        "name:ru": "бульвар Константина Негруцци",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 161700585,
+      "bounds": {
+        "minlat": 47.0143403,
+        "minlon": 28.8475708,
+        "maxlat": 47.0144665,
+        "maxlon": 28.8477666
+      },
+      "nodes": [662932292, 875666145],
+      "geometry": [
+        { "lat": 47.0143403, "lon": 28.8477666 },
+        { "lat": 47.0144665, "lon": 28.8475708 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:bg": "бул. Стефан Велики",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "проспект Штефан чел Маре",
+        "name_1": "bd. Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Ștefan cel Mare și Sfînt din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 161700601,
+      "bounds": {
+        "minlat": 47.0226598,
+        "minlon": 28.8601426,
+        "maxlat": 47.0227084,
+        "maxlon": 28.8604172
+      },
+      "nodes": [269416430, 1736603957],
+      "geometry": [
+        { "lat": 47.0227084, "lon": 28.8604172 },
+        { "lat": 47.0226598, "lon": 28.8601426 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Ismail",
+        "name:ru": "Измаильская улица",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 161700606,
+      "bounds": {
+        "minlat": 47.0226018,
+        "minlon": 28.859788,
+        "maxlat": 47.0226598,
+        "maxlon": 28.8601426
+      },
+      "nodes": [271282884, 1736603957],
+      "geometry": [
+        { "lat": 47.0226018, "lon": 28.859788 },
+        { "lat": 47.0226598, "lon": 28.8601426 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Ismail",
+        "name:ru": "Измаильская улица",
+        "oneway": "no",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 161700608,
+      "bounds": {
+        "minlat": 47.0214044,
+        "minlon": 28.8536833,
+        "maxlat": 47.0216328,
+        "maxlon": 28.8541381
+      },
+      "nodes": [276642821, 5770614068, 5770614069, 276642824],
+      "geometry": [
+        { "lat": 47.0214044, "lon": 28.8536833 },
+        { "lat": 47.0214994, "lon": 28.853854 },
+        { "lat": 47.0215468, "lon": 28.8539561 },
+        { "lat": 47.0216328, "lon": 28.8541381 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Ismail",
+        "name:ro": "Strada Ismail",
+        "name:ru": "Измаильская улица",
+        "oneway": "no",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236319197,
+      "bounds": {
+        "minlat": 47.0136141,
+        "minlon": 28.8526152,
+        "maxlat": 47.0136233,
+        "maxlon": 28.8533581
+      },
+      "nodes": [2404521460, 273707219],
+      "geometry": [
+        { "lat": 47.0136233, "lon": 28.8526152 },
+        { "lat": 47.0136141, "lon": 28.8533581 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Constantin Negruzzi",
+        "name:ro": "Bulevardul Constantin Negruzzi",
+        "name:ru": "бульвар Константина Негруцци",
+        "name_1": "bd. C. Negruzzi",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236319208,
+      "bounds": {
+        "minlat": 47.0136522,
+        "minlon": 28.84945,
+        "maxlat": 47.0136581,
+        "maxlon": 28.8501182
+      },
+      "nodes": [662932301, 273707209, 1140517878],
+      "geometry": [
+        { "lat": 47.0136581, "lon": 28.84945 },
+        { "lat": 47.013654, "lon": 28.8497282 },
+        { "lat": 47.0136522, "lon": 28.8501182 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Constantin Negruzzi",
+        "name:ro": "Bulevardul Constantin Negruzzi",
+        "name:ru": "бульвар Константина Негруцци",
+        "name_1": "bd. C. Negruzzi",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Constantin Negruzzi din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236320238,
+      "bounds": {
+        "minlat": 47.0135937,
+        "minlon": 28.853723,
+        "maxlat": 47.0136071,
+        "maxlon": 28.8541994
+      },
+      "nodes": [1140518049, 4563451490, 364807948],
+      "geometry": [
+        { "lat": 47.0136071, "lon": 28.853723 },
+        { "lat": 47.0136017, "lon": 28.8538474 },
+        { "lat": 47.0135937, "lon": 28.8541994 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Constantin Negruzzi",
+        "name:ro": "Bulevardul Constantin Negruzzi",
+        "name:ru": "бульвар Константина Негруцци",
+        "name_1": "bd. C. Negruzzi",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236320239,
+      "bounds": {
+        "minlat": 47.0165466,
+        "minlon": 28.8542342,
+        "maxlat": 47.016742,
+        "maxlon": 28.8543321
+      },
+      "nodes": [2443577610, 612530529],
+      "geometry": [
+        { "lat": 47.0165466, "lon": 28.8543321 },
+        { "lat": 47.016742, "lon": 28.8542342 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dimitrie Cantemir",
+        "name:ro": "Bulevardul Dimitrie Cantemir",
+        "name:ru": "проспект Дмитрия Кантемира"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236320240,
+      "bounds": {
+        "minlat": 47.0162451,
+        "minlon": 28.8543321,
+        "maxlat": 47.0165466,
+        "maxlon": 28.8544656
+      },
+      "nodes": [2443577605, 269493287, 2443577610],
+      "geometry": [
+        { "lat": 47.0162451, "lon": 28.8544656 },
+        { "lat": 47.0163573, "lon": 28.854421 },
+        { "lat": 47.0165466, "lon": 28.8543321 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dimitrie Cantemir",
+        "name:ro": "Bulevardul Dimitrie Cantemir",
+        "name:ru": "проспект Дмитрия Кантемира"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236320241,
+      "bounds": {
+        "minlat": 47.0143566,
+        "minlon": 28.8549806,
+        "maxlat": 47.0148932,
+        "maxlon": 28.8551821
+      },
+      "nodes": [2136579145, 4566693256, 5768251956, 280921475],
+      "geometry": [
+        { "lat": 47.0143566, "lon": 28.8551821 },
+        { "lat": 47.0145847, "lon": 28.8550994 },
+        { "lat": 47.0147496, "lon": 28.8550355 },
+        { "lat": 47.0148932, "lon": 28.8549806 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dimitrie Cantemir",
+        "name:ro": "Bulevardul Dimitrie Cantemir",
+        "name:ru": "проспект Дмитрия Кантемира"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236320242,
+      "bounds": {
+        "minlat": 47.0178653,
+        "minlon": 28.8524125,
+        "maxlat": 47.0185874,
+        "maxlon": 28.8533455
+      },
+      "nodes": [691587977, 5768251960, 269493289, 691587955],
+      "geometry": [
+        { "lat": 47.0178653, "lon": 28.8533455 },
+        { "lat": 47.0180611, "lon": 28.8531256 },
+        { "lat": 47.0182549, "lon": 28.8528709 },
+        { "lat": 47.0185874, "lon": 28.8524125 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Dimitrie Cantemir",
+        "name:ro": "Bulevardul Dimitrie Cantemir",
+        "name:ru": "проспект Дмитрия Кантемира"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236517427,
+      "bounds": {
+        "minlat": 47.0136875,
+        "minlon": 28.8489637,
+        "maxlat": 47.0137455,
+        "maxlon": 28.8491962
+      },
+      "nodes": [273707203, 5722480689, 662932302],
+      "geometry": [
+        { "lat": 47.0137455, "lon": 28.8489637 },
+        { "lat": 47.0137117, "lon": 28.8490884 },
+        { "lat": 47.0136875, "lon": 28.8491962 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Constantin Negruzzi",
+        "name:ro": "Bulevardul Constantin Negruzzi",
+        "name:ru": "бульвар Константина Негруцци",
+        "name_1": "bd. C. Negruzzi",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Constantin Negruzzi din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 258746221,
+      "bounds": {
+        "minlat": 46.9838526,
+        "minlon": 28.9327277,
+        "maxlat": 46.9840664,
+        "maxlon": 28.936348
+      },
+      "nodes": [
+        368720387,
+        1209423076,
+        305609095,
+        5591875748,
+        369008332,
+        5591875749,
+        5591875747,
+        369008340,
+        368720498
+      ],
+      "geometry": [
+        { "lat": 46.9838526, "lon": 28.9327277 },
+        { "lat": 46.9838826, "lon": 28.9335355 },
+        { "lat": 46.9839296, "lon": 28.9343261 },
+        { "lat": 46.9839575, "lon": 28.934753 },
+        { "lat": 46.9839848, "lon": 28.9351984 },
+        { "lat": 46.984015, "lon": 28.9355921 },
+        { "lat": 46.9840329, "lon": 28.9358297 },
+        { "lat": 46.9840507, "lon": 28.9361265 },
+        { "lat": 46.9840664, "lon": 28.936348 }
+      ],
+      "tags": {
+        "highway": "residential",
+        "is_in": "Bubueci",
+        "name": "Strada Bubuiog"
+      }
+    },
+    {
+      "type": "way",
+      "id": 310973397,
+      "bounds": {
+        "minlat": 47.021977,
+        "minlon": 28.860638,
+        "maxlat": 47.0224781,
+        "maxlon": 28.8612633
+      },
+      "nodes": [269416443, 1112992693, 269416452, 269416454],
+      "geometry": [
+        { "lat": 47.0224781, "lon": 28.860638 },
+        { "lat": 47.0223744, "lon": 28.8607883 },
+        { "lat": 47.0222297, "lon": 28.8609617 },
+        { "lat": 47.021977, "lon": 28.8612633 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Calea Basarabiei",
+        "name:ru": "Каля Басарабией",
+        "old_name": "Скоростная улица",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 358089303,
+      "bounds": {
+        "minlat": 47.0219067,
+        "minlon": 28.8554381,
+        "maxlat": 47.0224993,
+        "maxlon": 28.8591658
+      },
+      "nodes": [3630997650, 271282906],
+      "geometry": [
+        { "lat": 47.0219067, "lon": 28.8554381 },
+        { "lat": 47.0224993, "lon": 28.8591658 }
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "4",
+        "layer": "2",
+        "loc_name": "Podul Izmail",
+        "loc_name:ru": "Измайловский Мост",
+        "maxspeed": "50",
+        "motor_vehicle": "permissive",
+        "name": "Strada Ismail",
+        "name:ro": "Strada Ismail",
+        "name:ru": "Измаильская улица",
+        "oneway": "no",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 427257078,
+      "bounds": {
+        "minlat": 47.0136233,
+        "minlon": 28.8521285,
+        "maxlat": 47.0136284,
+        "maxlon": 28.8526152
+      },
+      "nodes": [3556860104, 2404521460],
+      "geometry": [
+        { "lat": 47.0136284, "lon": 28.8521285 },
+        { "lat": 47.0136233, "lon": 28.8526152 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Constantin Negruzzi",
+        "name:ro": "Bulevardul Constantin Negruzzi",
+        "name:ru": "бульвар Константина Негруцци",
+        "name_1": "bd. C. Negruzzi",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 460758538,
+      "bounds": {
+        "minlat": 47.0046295,
+        "minlon": 28.8869699,
+        "maxlat": 47.00514,
+        "maxlon": 28.8875769
+      },
+      "nodes": [281058807, 6776321213, 281058806],
+      "geometry": [
+        { "lat": 47.0046295, "lon": 28.8875769 },
+        { "lat": 47.0048959, "lon": 28.8872865 },
+        { "lat": 47.00514, "lon": 28.8869699 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Uzinelor",
+        "name:ru": "Заводская улица",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 460760629,
+      "bounds": {
+        "minlat": 47.0231186,
+        "minlon": 28.8640225,
+        "maxlat": 47.0231417,
+        "maxlon": 28.8643404
+      },
+      "nodes": [4563611303, 269079995],
+      "geometry": [
+        { "lat": 47.0231186, "lon": 28.8640225 },
+        { "lat": 47.0231417, "lon": 28.8643404 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Ismail",
+        "name:ru": "Измаильская улица",
+        "oneway": "no",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 464094107,
+      "bounds": {
+        "minlat": 47.0111494,
+        "minlon": 28.8580637,
+        "maxlat": 47.011318,
+        "maxlon": 28.8583247
+      },
+      "nodes": [4563450976, 278126675],
+      "geometry": [
+        { "lat": 47.0111494, "lon": 28.8583247 },
+        { "lat": 47.011318, "lon": 28.8580637 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Iuri Gagarin",
+        "name:ro": "Bulevardul Iuri Gagarin",
+        "name:ru": "проспект Гагарина",
+        "name_1": "bd. Gagarin",
+        "postal_code": "MD-2000",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Iuri Gagarin din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 568341896,
+      "bounds": {
+        "minlat": 46.9942511,
+        "minlon": 28.9075535,
+        "maxlat": 46.9942717,
+        "maxlon": 28.9075933
+      },
+      "nodes": [5467958760, 5358449081],
+      "geometry": [
+        { "lat": 46.9942511, "lon": 28.9075933 },
+        { "lat": 46.9942717, "lon": 28.9075535 }
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Strada Uzinelor",
+        "name:ru": "Заводская улица",
+        "ref": "L467"
+      }
+    },
+    {
+      "type": "way",
+      "id": 568341897,
+      "bounds": {
+        "minlat": 46.9943506,
+        "minlon": 28.9072879,
+        "maxlat": 46.9943567,
+        "maxlon": 28.9074248
+      },
+      "nodes": [5467958758, 5358449084],
+      "geometry": [
+        { "lat": 46.9943567, "lon": 28.9072879 },
+        { "lat": 46.9943506, "lon": 28.9074248 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "maxspeed": "50",
+        "name": "Strada Uzinelor",
+        "name:ru": "Заводская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 584874113,
+      "bounds": {
+        "minlat": 46.9942717,
+        "minlon": 28.9074654,
+        "maxlat": 46.994357,
+        "maxlon": 28.9075589
+      },
+      "nodes": [
+        5358449081,
+        5590040196,
+        5358449080,
+        6144662124,
+        5590040197,
+        5358449079
+      ],
+      "geometry": [
+        { "lat": 46.9942717, "lon": 28.9075535 },
+        { "lat": 46.994298, "lon": 28.9075589 },
+        { "lat": 46.9943234, "lon": 28.9075482 },
+        { "lat": 46.9943437, "lon": 28.9075232 },
+        { "lat": 46.9943553, "lon": 28.9074882 },
+        { "lat": 46.994357, "lon": 28.9074654 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "junction": "roundabout",
+        "lanes": "2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 584874115,
+      "bounds": {
+        "minlat": 46.9943506,
+        "minlon": 28.9074248,
+        "maxlat": 46.994357,
+        "maxlon": 28.9074654
+      },
+      "nodes": [5358449079, 5358449084],
+      "geometry": [
+        { "lat": 46.994357, "lon": 28.9074654 },
+        { "lat": 46.9943506, "lon": 28.9074248 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 584875691,
+      "bounds": {
+        "minlat": 46.9977472,
+        "minlon": 28.8975188,
+        "maxlat": 46.997858,
+        "maxlon": 28.8978832
+      },
+      "nodes": [426668765, 426668757],
+      "geometry": [
+        { "lat": 46.9977472, "lon": 28.8978832 },
+        { "lat": 46.997858, "lon": 28.8975188 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Uzinelor",
+        "name:ru": "Заводская улица",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 584875692,
+      "bounds": {
+        "minlat": 46.997858,
+        "minlon": 28.8972247,
+        "maxlat": 46.9979397,
+        "maxlon": 28.8975188
+      },
+      "nodes": [426668757, 426668750],
+      "geometry": [
+        { "lat": 46.997858, "lon": 28.8975188 },
+        { "lat": 46.9979397, "lon": 28.8972247 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Uzinelor",
+        "name:ru": "Заводская улица",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 584875693,
+      "bounds": {
+        "minlat": 46.9975175,
+        "minlon": 28.8980846,
+        "maxlat": 46.9976848,
+        "maxlon": 28.8983128
+      },
+      "nodes": [426668762, 426668764],
+      "geometry": [
+        { "lat": 46.9975175, "lon": 28.8983128 },
+        { "lat": 46.9976848, "lon": 28.8980846 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Uzinelor",
+        "name:ru": "Заводская улица",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 584875698,
+      "bounds": {
+        "minlat": 46.9977121,
+        "minlon": 28.8979233,
+        "maxlat": 46.9977587,
+        "maxlon": 28.8980695
+      },
+      "nodes": [5741806300, 5590054509, 5741806302, 5590054508, 5741806301],
+      "geometry": [
+        { "lat": 46.9977121, "lon": 28.8980695 },
+        { "lat": 46.9977349, "lon": 28.8980429 },
+        { "lat": 46.9977509, "lon": 28.8980072 },
+        { "lat": 46.9977587, "lon": 28.897966 },
+        { "lat": 46.9977578, "lon": 28.8979233 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "junction": "roundabout"
+      }
+    },
+    {
+      "type": "way",
+      "id": 593796732,
+      "bounds": {
+        "minlat": 47.014948,
+        "minlon": 28.8455938,
+        "maxlat": 47.0157937,
+        "maxlon": 28.8468593
+      },
+      "nodes": [4490101370, 271282899],
+      "geometry": [
+        { "lat": 47.014948, "lon": 28.8468593 },
+        { "lat": 47.0157937, "lon": 28.8455938 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:-1840": "str. Millionnaia",
+        "name:1840-1877": "str. Moskovskaia",
+        "name:1877-1924": "str. Aleksandrovskaia",
+        "name:1924-1944": "bd. Alexandru cel Bun",
+        "name:1944-1952": "strada Lenin",
+        "name:1952-1990": "bulevardul Lenin",
+        "name:bg": "бул. Стефан Велики",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "name_1": "bd. Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Ștefan cel Mare și Sfînt din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 645447409,
+      "bounds": {
+        "minlat": 47.0234464,
+        "minlon": 28.8667653,
+        "maxlat": 47.0237401,
+        "maxlon": 28.8669122
+      },
+      "nodes": [269416562, 269416564],
+      "geometry": [
+        { "lat": 47.0234464, "lon": 28.8669122 },
+        { "lat": 47.0237401, "lon": 28.8667653 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "50",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 645447410,
+      "bounds": {
+        "minlat": 47.0230795,
+        "minlon": 28.8659663,
+        "maxlat": 47.0230993,
+        "maxlon": 28.8661982
+      },
+      "nodes": [275786730, 269416535],
+      "geometry": [
+        { "lat": 47.0230993, "lon": 28.8659663 },
+        { "lat": 47.0230795, "lon": 28.8661982 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "50",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 645447412,
+      "bounds": {
+        "minlat": 47.0237401,
+        "minlon": 28.866213,
+        "maxlat": 47.0238903,
+        "maxlon": 28.8667653
+      },
+      "nodes": [
+        269416564,
+        6144711708,
+        281058813,
+        6144711709,
+        391311359,
+        6144711710,
+        281058825
+      ],
+      "geometry": [
+        { "lat": 47.0237401, "lon": 28.8667653 },
+        { "lat": 47.0238301, "lon": 28.8666254 },
+        { "lat": 47.0238672, "lon": 28.8665445 },
+        { "lat": 47.0238895, "lon": 28.866439 },
+        { "lat": 47.0238903, "lon": 28.8663616 },
+        { "lat": 47.0238886, "lon": 28.8663143 },
+        { "lat": 47.0238724, "lon": 28.866213 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "50",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 645447413,
+      "bounds": {
+        "minlat": 47.0235893,
+        "minlon": 28.8656996,
+        "maxlat": 47.0238724,
+        "maxlon": 28.866213
+      },
+      "nodes": [281058825, 275786723],
+      "geometry": [
+        { "lat": 47.0238724, "lon": 28.866213 },
+        { "lat": 47.0235893, "lon": 28.8656996 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "50",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 645447414,
+      "bounds": {
+        "minlat": 47.0137875,
+        "minlon": 28.8552271,
+        "maxlat": 47.0138186,
+        "maxlon": 28.8552814
+      },
+      "nodes": [269122171, 1736603921],
+      "geometry": [
+        { "lat": 47.0137875, "lon": 28.8552814 },
+        { "lat": 47.0138186, "lon": 28.8552271 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "junction": "roundabout",
+        "maxspeed": "50",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 645447415,
+      "bounds": {
+        "minlat": 47.013469,
+        "minlon": 28.8548168,
+        "maxlat": 47.0135115,
+        "maxlon": 28.8548897
+      },
+      "nodes": [2441326779, 3224218004, 269122186],
+      "geometry": [
+        { "lat": 47.0135115, "lon": 28.8548168 },
+        { "lat": 47.0134882, "lon": 28.8548524 },
+        { "lat": 47.013469, "lon": 28.8548897 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "junction": "roundabout",
+        "maxspeed": "50",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 645447417,
+      "bounds": {
+        "minlat": 47.0135115,
+        "minlon": 28.8547502,
+        "maxlat": 47.0137216,
+        "maxlon": 28.8548168
+      },
+      "nodes": [269122182, 269122183, 269122184, 300804970, 2441326779],
+      "geometry": [
+        { "lat": 47.0137216, "lon": 28.8547696 },
+        { "lat": 47.0136674, "lon": 28.8547502 },
+        { "lat": 47.0136116, "lon": 28.8547525 },
+        { "lat": 47.0135582, "lon": 28.8547763 },
+        { "lat": 47.0135115, "lon": 28.8548168 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "junction": "roundabout",
+        "maxspeed": "50",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 645447419,
+      "bounds": {
+        "minlat": 47.0137216,
+        "minlon": 28.8547696,
+        "maxlat": 47.0138574,
+        "maxlon": 28.8550146
+      },
+      "nodes": [269122181, 2441326780, 3250264170, 269122182],
+      "geometry": [
+        { "lat": 47.0138574, "lon": 28.8550146 },
+        { "lat": 47.0138325, "lon": 28.8549179 },
+        { "lat": 47.0137864, "lon": 28.8548287 },
+        { "lat": 47.0137216, "lon": 28.8547696 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "junction": "roundabout",
+        "maxspeed": "50",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 645447421,
+      "bounds": {
+        "minlat": 47.0138186,
+        "minlon": 28.8550146,
+        "maxlat": 47.0138574,
+        "maxlon": 28.8552271
+      },
+      "nodes": [1736603921, 3224218003, 269122180, 269122181],
+      "geometry": [
+        { "lat": 47.0138186, "lon": 28.8552271 },
+        { "lat": 47.013841, "lon": 28.8551655 },
+        { "lat": 47.0138529, "lon": 28.8550965 },
+        { "lat": 47.0138574, "lon": 28.8550146 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "junction": "roundabout",
+        "maxspeed": "50",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 645447423,
+      "bounds": {
+        "minlat": 47.0136113,
+        "minlon": 28.8552814,
+        "maxlat": 47.0137875,
+        "maxlon": 28.8553624
+      },
+      "nodes": [269122191, 1862921151, 1862921154, 269070971, 269122171],
+      "geometry": [
+        { "lat": 47.0136113, "lon": 28.855359 },
+        { "lat": 47.0136588, "lon": 28.8553624 },
+        { "lat": 47.0137056, "lon": 28.8553501 },
+        { "lat": 47.0137492, "lon": 28.8553226 },
+        { "lat": 47.0137875, "lon": 28.8552814 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "junction": "roundabout",
+        "maxspeed": "50",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 645447425,
+      "bounds": {
+        "minlat": 47.0135577,
+        "minlon": 28.8553349,
+        "maxlat": 47.0136113,
+        "maxlon": 28.855359
+      },
+      "nodes": [1862921147, 269122191],
+      "geometry": [
+        { "lat": 47.0135577, "lon": 28.8553349 },
+        { "lat": 47.0136113, "lon": 28.855359 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "junction": "roundabout",
+        "maxspeed": "50",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 647057521,
+      "bounds": {
+        "minlat": 47.0163091,
+        "minlon": 28.8464543,
+        "maxlat": 47.0163984,
+        "maxlon": 28.8467325
+      },
+      "nodes": [875666521, 875666797],
+      "geometry": [
+        { "lat": 47.0163091, "lon": 28.8464543 },
+        { "lat": 47.0163984, "lon": 28.8467325 }
+      ],
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 647057524,
+      "bounds": {
+        "minlat": 47.0163984,
+        "minlon": 28.8467325,
+        "maxlat": 47.0178477,
+        "maxlon": 28.8490668
+      },
+      "nodes": [
+        875666797,
+        376362723,
+        4563632524,
+        5288514720,
+        276640588,
+        2106915707,
+        271283219
+      ],
+      "geometry": [
+        { "lat": 47.0163984, "lon": 28.8467325 },
+        { "lat": 47.016531, "lon": 28.8471142 },
+        { "lat": 47.016675, "lon": 28.8473775 },
+        { "lat": 47.0169516, "lon": 28.8477958 },
+        { "lat": 47.0170422, "lon": 28.8479206 },
+        { "lat": 47.0177529, "lon": 28.8489318 },
+        { "lat": 47.0178477, "lon": 28.8490668 }
+      ],
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655677776,
+      "bounds": {
+        "minlat": 46.9976848,
+        "minlon": 28.8980695,
+        "maxlat": 46.9977121,
+        "maxlon": 28.8980846
+      },
+      "nodes": [426668764, 5741806300],
+      "geometry": [
+        { "lat": 46.9976848, "lon": 28.8980846 },
+        { "lat": 46.9977121, "lon": 28.8980695 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "junction": "roundabout"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655677780,
+      "bounds": {
+        "minlat": 46.9977472,
+        "minlon": 28.8978832,
+        "maxlat": 46.9977578,
+        "maxlon": 28.8979233
+      },
+      "nodes": [5741806301, 426668765],
+      "geometry": [
+        { "lat": 46.9977578, "lon": 28.8979233 },
+        { "lat": 46.9977472, "lon": 28.8978832 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "junction": "roundabout"
+      }
+    },
+    {
+      "type": "way",
+      "id": 663489807,
+      "bounds": {
+        "minlat": 47.0136581,
+        "minlon": 28.8491962,
+        "maxlat": 47.0136875,
+        "maxlon": 28.84945
+      },
+      "nodes": [662932302, 662932301],
+      "geometry": [
+        { "lat": 47.0136875, "lon": 28.8491962 },
+        { "lat": 47.0136581, "lon": 28.84945 }
+      ],
+      "tags": {
+        "highway": "trunk"
+      }
+    },
+    {
+      "type": "way",
+      "id": 683298713,
+      "bounds": {
+        "minlat": 46.9840664,
+        "minlon": 28.936348,
+        "maxlat": 46.9841549,
+        "maxlon": 28.9379444
+      },
+      "nodes": [368720498, 5937766515, 369008336, 1209422186],
+      "geometry": [
+        { "lat": 46.9840664, "lon": 28.936348 },
+        { "lat": 46.9841233, "lon": 28.937232 },
+        { "lat": 46.9841383, "lon": 28.9374656 },
+        { "lat": 46.9841549, "lon": 28.9379444 }
+      ],
+      "tags": {
+        "highway": "residential",
+        "is_in": "Bubueci",
+        "name": "Strada Bubuiog"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2516 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.7 8b86ff77",
+  "osm3s": {
+    "timestamp_osm_base": "2019-10-04T21:52:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 24760292,
+      "bounds": {
+        "minlat": 47.0282989,
+        "minlon": 28.8382966,
+        "maxlat": 47.0285401,
+        "maxlon": 28.8384289
+      },
+      "nodes": [
+        269070985,
+        6791429380,
+        862969004,
+        6791429379,
+        373193607,
+        862968985
+      ],
+      "geometry": [
+        { "lat": 47.0282989, "lon": 28.838328 },
+        { "lat": 47.0283454, "lon": 28.8382966 },
+        { "lat": 47.0283928, "lon": 28.8383 },
+        { "lat": 47.0284371, "lon": 28.8383136 },
+        { "lat": 47.0284777, "lon": 28.8383487 },
+        { "lat": 47.0285401, "lon": 28.8384289 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Grigore Vieru",
+        "name:ro": "Bulevardul Grigore Vieru",
+        "name:ru": "проспект Григория Виеру",
+        "name_1": "bd. Grigore Vieru",
+        "old_name": "Bulevardul Tineretului",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24760743,
+      "bounds": {
+        "minlat": 47.0385135,
+        "minlon": 28.8528223,
+        "maxlat": 47.0391177,
+        "maxlon": 28.8540045
+      },
+      "nodes": [269070974, 3513463792, 3513464493, 5748504668, 278503067],
+      "geometry": [
+        { "lat": 47.0385135, "lon": 28.8528223 },
+        { "lat": 47.038569, "lon": 28.8529296 },
+        { "lat": 47.0387248, "lon": 28.8532374 },
+        { "lat": 47.0389301, "lon": 28.8536579 },
+        { "lat": 47.0391177, "lon": 28.8540045 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24775864,
+      "bounds": {
+        "minlat": 47.0455326,
+        "minlon": 28.8486716,
+        "maxlat": 47.0503991,
+        "maxlon": 28.8502092
+      },
+      "nodes": [
+        269222048,
+        5727391860,
+        1124813305,
+        269222049,
+        5727391859,
+        4566797191,
+        3513490020,
+        5727391858,
+        286835475,
+        679901426,
+        6398416794,
+        286835464,
+        270796286
+      ],
+      "geometry": [
+        { "lat": 47.0455326, "lon": 28.8486778 },
+        { "lat": 47.0456764, "lon": 28.8486817 },
+        { "lat": 47.0458295, "lon": 28.8486716 },
+        { "lat": 47.0459656, "lon": 28.8486757 },
+        { "lat": 47.0460726, "lon": 28.8486946 },
+        { "lat": 47.0461637, "lon": 28.8487255 },
+        { "lat": 47.0462816, "lon": 28.8487747 },
+        { "lat": 47.0467799, "lon": 28.8489415 },
+        { "lat": 47.0472776, "lon": 28.8491367 },
+        { "lat": 47.0487954, "lon": 28.8496816 },
+        { "lat": 47.0491969, "lon": 28.8498178 },
+        { "lat": 47.0492696, "lon": 28.8498425 },
+        { "lat": 47.0503991, "lon": 28.8502092 }
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "no",
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "is_in:country": "Moldova;MD",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Calea Orheiului",
+        "name:ru": "улица Каля Орхеюлуй",
+        "old_name": "улица Кантемира",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24776845,
+      "bounds": {
+        "minlat": 47.0347587,
+        "minlon": 28.8473009,
+        "maxlat": 47.0352147,
+        "maxlon": 28.8479594
+      },
+      "nodes": [269075350, 269230041],
+      "geometry": [
+        { "lat": 47.0352147, "lon": 28.8479594 },
+        { "lat": 47.0347587, "lon": 28.8473009 }
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "6",
+        "layer": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "name_1": "bd. Renașterii Naționale",
+        "old_name": "Bulevardul Tineretului",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24776848,
+      "bounds": {
+        "minlat": 47.0342463,
+        "minlon": 28.8465406,
+        "maxlat": 47.0347587,
+        "maxlon": 28.8473009
+      },
+      "nodes": [269230041, 269243146],
+      "geometry": [
+        { "lat": 47.0347587, "lon": 28.8473009 },
+        { "lat": 47.0342463, "lon": 28.8465406 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "name_1": "bd. Renașterii Naționale",
+        "old_name": "Bulevardul Tineretului",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24778559,
+      "bounds": {
+        "minlat": 47.0338153,
+        "minlon": 28.8459067,
+        "maxlat": 47.0338416,
+        "maxlon": 28.845945
+      },
+      "nodes": [269243144, 993433624],
+      "geometry": [
+        { "lat": 47.0338416, "lon": 28.845945 },
+        { "lat": 47.0338153, "lon": 28.8459067 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "name_1": "bd. Renașterii Naționale",
+        "old_name": "проспект Молодёжи",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24778560,
+      "bounds": {
+        "minlat": 47.0338416,
+        "minlon": 28.845945,
+        "maxlat": 47.0342463,
+        "maxlon": 28.8465406
+      },
+      "nodes": [269243146, 269243144],
+      "geometry": [
+        { "lat": 47.0342463, "lon": 28.8465406 },
+        { "lat": 47.0338416, "lon": 28.845945 }
+      ],
+      "tags": {
+        "bridge": "viaduct",
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "6",
+        "layer": "1",
+        "maxspeed": "50",
+        "name": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "name_1": "bd. Renașterii Naționale",
+        "old_name": "Bulevardul Tineretului",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24797531,
+      "bounds": {
+        "minlat": 47.0370569,
+        "minlon": 28.8506793,
+        "maxlat": 47.0385135,
+        "maxlon": 28.8528223
+      },
+      "nodes": [269070974, 5748504669, 5748504670, 269070975, 269070976],
+      "geometry": [
+        { "lat": 47.0385135, "lon": 28.8528223 },
+        { "lat": 47.0382896, "lon": 28.8524831 },
+        { "lat": 47.0380235, "lon": 28.8520969 },
+        { "lat": 47.0375443, "lon": 28.851392 },
+        { "lat": 47.0370569, "lon": 28.8506793 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "name_1": "bd. Renașterii Naționale",
+        "old_name": "Bulevardul Tineretului",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24797532,
+      "bounds": {
+        "minlat": 47.039431,
+        "minlon": 28.8537537,
+        "maxlat": 47.0407728,
+        "maxlon": 28.8538114
+      },
+      "nodes": [269071036, 6816749110, 3513463770, 269421263],
+      "geometry": [
+        { "lat": 47.0407728, "lon": 28.8538114 },
+        { "lat": 47.0402242, "lon": 28.8537857 },
+        { "lat": 47.0397666, "lon": 28.8537564 },
+        { "lat": 47.039431, "lon": 28.8537537 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24807798,
+      "bounds": {
+        "minlat": 47.0533438,
+        "minlon": 28.8504,
+        "maxlat": 47.05397,
+        "maxlon": 28.8512439
+      },
+      "nodes": [269524056, 269524055, 269527321, 269527322, 280924657],
+      "geometry": [
+        { "lat": 47.0533438, "lon": 28.8512439 },
+        { "lat": 47.053432, "lon": 28.8510675 },
+        { "lat": 47.0535914, "lon": 28.8508602 },
+        { "lat": 47.0537907, "lon": 28.8506248 },
+        { "lat": 47.05397, "lon": 28.8504 }
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "no",
+        "highway": "tertiary",
+        "is_in:country": "Moldova;MD",
+        "lanes": "2",
+        "maxspeed": "50",
+        "motor_vehicle": "yes",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24824961,
+      "bounds": {
+        "minlat": 47.0448966,
+        "minlon": 28.8489707,
+        "maxlat": 47.045306,
+        "maxlon": 28.8496229
+      },
+      "nodes": [269071055, 3002855745, 6367829369],
+      "geometry": [
+        { "lat": 47.0448966, "lon": 28.8496229 },
+        { "lat": 47.0451249, "lon": 28.8492626 },
+        { "lat": 47.045306, "lon": 28.8489707 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Renaşterii Naţionale",
+        "name:ro": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "oneway": "yes",
+        "turn:lanes": "through|through|right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24829712,
+      "bounds": {
+        "minlat": 47.0236502,
+        "minlon": 28.833846,
+        "maxlat": 47.0251078,
+        "maxlon": 28.835936
+      },
+      "nodes": [269230044, 471411806, 4563611325, 818603363, 269474310],
+      "geometry": [
+        { "lat": 47.0236502, "lon": 28.833846 },
+        { "lat": 47.0237603, "lon": 28.83401 },
+        { "lat": 47.0243779, "lon": 28.8348917 },
+        { "lat": 47.0250651, "lon": 28.835875 },
+        { "lat": 47.0251078, "lon": 28.835936 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Aleksandr Pușkin",
+        "name:ro": "Strada Aleksandr Pușkin",
+        "name:ru": "улица Александра Пушкина",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24837189,
+      "bounds": {
+        "minlat": 47.052976,
+        "minlon": 28.8501077,
+        "maxlat": 47.0542216,
+        "maxlon": 28.8508979
+      },
+      "nodes": [269527324, 930316127, 1557395478, 269843776],
+      "geometry": [
+        { "lat": 47.0542216, "lon": 28.8501077 },
+        { "lat": 47.054065, "lon": 28.8501906 },
+        { "lat": 47.0536312, "lon": 28.8504724 },
+        { "lat": 47.052976, "lon": 28.8508979 }
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "no",
+        "highway": "tertiary",
+        "is_in:country": "Moldova;MD",
+        "lanes": "2",
+        "maxspeed": "50",
+        "motor_vehicle": "yes",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24837190,
+      "bounds": {
+        "minlat": 47.0542216,
+        "minlon": 28.8469573,
+        "maxlat": 47.0594054,
+        "maxlon": 28.8501077
+      },
+      "nodes": [
+        269527324,
+        4566797194,
+        280925034,
+        1557395500,
+        1057543056,
+        4566797189,
+        276641024,
+        820321423,
+        820321566,
+        4566797195,
+        1675032072,
+        6378189788,
+        4566796788,
+        1557395620,
+        3546831395,
+        1557395651,
+        3546800307
+      ],
+      "geometry": [
+        { "lat": 47.0542216, "lon": 28.8501077 },
+        { "lat": 47.0543148, "lon": 28.8500408 },
+        { "lat": 47.0545754, "lon": 28.8498597 },
+        { "lat": 47.0546153, "lon": 28.8498321 },
+        { "lat": 47.0547668, "lon": 28.8497313 },
+        { "lat": 47.0551132, "lon": 28.8494878 },
+        { "lat": 47.0557527, "lon": 28.8490457 },
+        { "lat": 47.0567049, "lon": 28.8484191 },
+        { "lat": 47.0568145, "lon": 28.848353 },
+        { "lat": 47.0575396, "lon": 28.8479161 },
+        { "lat": 47.0578258, "lon": 28.847756 },
+        { "lat": 47.0579489, "lon": 28.8476828 },
+        { "lat": 47.0580318, "lon": 28.8476327 },
+        { "lat": 47.0584484, "lon": 28.8474147 },
+        { "lat": 47.0591931, "lon": 28.8470568 },
+        { "lat": 47.0593089, "lon": 28.8470071 },
+        { "lat": 47.0594054, "lon": 28.8469573 }
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "no",
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Strada Ceucari",
+        "name:ro": "Strada Ceucari",
+        "name:ru": "улица Чеукарь",
+        "old_name": "Чевкарский переулок",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24848583,
+      "bounds": {
+        "minlat": 47.0416915,
+        "minlon": 28.853651,
+        "maxlat": 47.04292,
+        "maxlon": 28.8536767
+      },
+      "nodes": [269071039, 269972741, 622293885, 3513472409, 2441691816],
+      "geometry": [
+        { "lat": 47.0416915, "lon": 28.8536767 },
+        { "lat": 47.042133, "lon": 28.8536518 },
+        { "lat": 47.0423663, "lon": 28.8536528 },
+        { "lat": 47.0424986, "lon": 28.853651 },
+        { "lat": 47.04292, "lon": 28.8536527 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Renaşterii Naţionale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24849099,
+      "bounds": {
+        "minlat": 47.0438011,
+        "minlon": 28.8496229,
+        "maxlat": 47.0448966,
+        "maxlon": 28.8517188
+      },
+      "nodes": [269527362, 269071049, 269071055],
+      "geometry": [
+        { "lat": 47.0438011, "lon": 28.8517188 },
+        { "lat": 47.0442548, "lon": 28.8508306 },
+        { "lat": 47.0448966, "lon": 28.8496229 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Renaşterii Naţionale",
+        "name:ro": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "oneway": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24855029,
+      "bounds": {
+        "minlat": 47.0433523,
+        "minlon": 28.8528638,
+        "maxlat": 47.0434555,
+        "maxlon": 28.853257
+      },
+      "nodes": [269843784, 269843787],
+      "geometry": [
+        { "lat": 47.0433523, "lon": 28.853257 },
+        { "lat": 47.0434555, "lon": 28.8528638 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24855598,
+      "bounds": {
+        "minlat": 47.0285768,
+        "minlon": 28.8353054,
+        "maxlat": 47.0294872,
+        "maxlon": 28.8365723
+      },
+      "nodes": [269071080, 4136208987, 4974242192, 269495905],
+      "geometry": [
+        { "lat": 47.0294872, "lon": 28.8365723 },
+        { "lat": 47.0293152, "lon": 28.8363329 },
+        { "lat": 47.0286455, "lon": 28.8354011 },
+        { "lat": 47.0285768, "lon": 28.8353054 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Mitropolit Bănulescu-Bodoni",
+        "name:ru": "улица Митрополита Бэнулеску-Бодони",
+        "old_name": "улица Гоголя",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24855603,
+      "bounds": {
+        "minlat": 47.0275321,
+        "minlon": 28.8387615,
+        "maxlat": 47.0279785,
+        "maxlon": 28.8394283
+      },
+      "nodes": [269071077, 579549932],
+      "geometry": [
+        { "lat": 47.0275321, "lon": 28.8394283 },
+        { "lat": 47.0279785, "lon": 28.8387615 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "name": "Strada Constantin Tănase",
+        "name:ro": "Strada Constantin Tănase",
+        "name:ru": "улица Константина Тэнасе",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24855646,
+      "bounds": {
+        "minlat": 47.0407728,
+        "minlon": 28.8537381,
+        "maxlat": 47.0413644,
+        "maxlon": 28.8538114
+      },
+      "nodes": [269071036, 369009768],
+      "geometry": [
+        { "lat": 47.0407728, "lon": 28.8538114 },
+        { "lat": 47.0413644, "lon": 28.8537381 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Renaşterii Naţionale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "old_name": "проспект Молодёжи"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25563730,
+      "bounds": {
+        "minlat": 47.0654075,
+        "minlon": 28.8433596,
+        "maxlat": 47.0663647,
+        "maxlon": 28.8440169
+      },
+      "nodes": [
+        278628474,
+        5741892502,
+        5741892501,
+        278628478,
+        5741892500,
+        278628479,
+        5741892499,
+        278628481,
+        5741892498,
+        5741892497,
+        278628482,
+        278628489,
+        5741892495,
+        5741892496,
+        278628491,
+        4566797197
+      ],
+      "geometry": [
+        { "lat": 47.0663063, "lon": 28.8437218 },
+        { "lat": 47.0663438, "lon": 28.8436557 },
+        { "lat": 47.0663595, "lon": 28.8436005 },
+        { "lat": 47.0663647, "lon": 28.8435621 },
+        { "lat": 47.0663595, "lon": 28.8434916 },
+        { "lat": 47.066347, "lon": 28.8434333 },
+        { "lat": 47.066325, "lon": 28.8434041 },
+        { "lat": 47.0662905, "lon": 28.8433703 },
+        { "lat": 47.0662561, "lon": 28.8433596 },
+        { "lat": 47.0662247, "lon": 28.8433596 },
+        { "lat": 47.0661756, "lon": 28.8433703 },
+        { "lat": 47.0658244, "lon": 28.8435698 },
+        { "lat": 47.0656907, "lon": 28.8436603 },
+        { "lat": 47.0656217, "lon": 28.8437125 },
+        { "lat": 47.0655684, "lon": 28.8437693 },
+        { "lat": 47.0654075, "lon": 28.8440169 }
+      ],
+      "tags": {
+        "highway": "service",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 27168258,
+      "bounds": {
+        "minlat": 47.0394524,
+        "minlon": 28.8538114,
+        "maxlat": 47.0407728,
+        "maxlon": 28.8541721
+      },
+      "nodes": [269071035, 3513461285, 1983401662, 269071036],
+      "geometry": [
+        { "lat": 47.0394524, "lon": 28.8541721 },
+        { "lat": 47.0398976, "lon": 28.8540615 },
+        { "lat": 47.0403145, "lon": 28.8539446 },
+        { "lat": 47.0407728, "lon": 28.8538114 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "maxspeed": "50",
+        "name": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 27461077,
+      "bounds": {
+        "minlat": 47.0243964,
+        "minlon": 28.8292506,
+        "maxlat": 47.0255605,
+        "maxlon": 28.8309905
+      },
+      "nodes": [269972803, 818603381, 6696508532, 269496210, 4563450985],
+      "geometry": [
+        { "lat": 47.0255605, "lon": 28.8309905 },
+        { "lat": 47.0253253, "lon": 28.8305919 },
+        { "lat": 47.0246112, "lon": 28.8295579 },
+        { "lat": 47.0244785, "lon": 28.8293657 },
+        { "lat": 47.0243964, "lon": 28.8292506 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Mitropolit Bănulescu-Bodoni",
+        "name:ru": "улица Митрополита Бэнулеску-Бодони",
+        "old_name": "улица Гоголя",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 28127241,
+      "bounds": {
+        "minlat": 47.0385135,
+        "minlon": 28.8528223,
+        "maxlat": 47.0393621,
+        "maxlon": 28.8537027
+      },
+      "nodes": [278503073, 3513462983, 269070974],
+      "geometry": [
+        { "lat": 47.0393621, "lon": 28.8537027 },
+        { "lat": 47.038927, "lon": 28.8532421 },
+        { "lat": 47.0385135, "lon": 28.8528223 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 30749972,
+      "bounds": {
+        "minlat": 47.0259055,
+        "minlon": 28.837063,
+        "maxlat": 47.0266663,
+        "maxlon": 28.8381405
+      },
+      "nodes": [269469309, 269495902],
+      "geometry": [
+        { "lat": 47.0259055, "lon": 28.837063 },
+        { "lat": 47.0266663, "lon": 28.8381405 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Aleksandr Pușkin",
+        "name:ru": "улица Александра Пушкина",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 32436271,
+      "bounds": {
+        "minlat": 47.0287261,
+        "minlon": 28.8365723,
+        "maxlat": 47.0294872,
+        "maxlon": 28.8376926
+      },
+      "nodes": [269230028, 5748489145, 862969039, 4974242185, 269071080],
+      "geometry": [
+        { "lat": 47.0287261, "lon": 28.8376926 },
+        { "lat": 47.02876, "lon": 28.8376269 },
+        { "lat": 47.0290374, "lon": 28.8372382 },
+        { "lat": 47.0293367, "lon": 28.8367951 },
+        { "lat": 47.0294872, "lon": 28.8365723 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "name": "Strada Constantin Tănase",
+        "name:ro": "Strada Constantin Tănase",
+        "name:ru": "улица Константина Тэнасе",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38809915,
+      "bounds": {
+        "minlat": 47.0251078,
+        "minlon": 28.835936,
+        "maxlat": 47.0259055,
+        "maxlon": 28.837063
+      },
+      "nodes": [269474310, 1455227281, 269469309],
+      "geometry": [
+        { "lat": 47.0251078, "lon": 28.835936 },
+        { "lat": 47.0251343, "lon": 28.8359734 },
+        { "lat": 47.0259055, "lon": 28.837063 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Aleksandr Pușkin",
+        "name:ru": "улица Александра Пушкина",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 46909916,
+      "bounds": {
+        "minlat": 47.0278057,
+        "minlon": 28.8341957,
+        "maxlat": 47.0285768,
+        "maxlon": 28.8353054
+      },
+      "nodes": [269495905, 3952167565, 269846734],
+      "geometry": [
+        { "lat": 47.0285768, "lon": 28.8353054 },
+        { "lat": 47.0278719, "lon": 28.8342894 },
+        { "lat": 47.0278057, "lon": 28.8341957 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Mitropolit Bănulescu-Bodoni",
+        "name:ru": "улица Митрополита Бэнулеску-Бодони",
+        "old_name": "улица Гоголя",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 49565741,
+      "bounds": {
+        "minlat": 47.0255605,
+        "minlon": 28.8309905,
+        "maxlat": 47.0278057,
+        "maxlon": 28.8341957
+      },
+      "nodes": [
+        269846734,
+        1180989081,
+        2121289046,
+        4563611326,
+        891695543,
+        269474263,
+        4560587397,
+        2937562961,
+        471411807,
+        269972803
+      ],
+      "geometry": [
+        { "lat": 47.0278057, "lon": 28.8341957 },
+        { "lat": 47.0277035, "lon": 28.8340483 },
+        { "lat": 47.0275333, "lon": 28.8338027 },
+        { "lat": 47.0274061, "lon": 28.8336191 },
+        { "lat": 47.0270807, "lon": 28.8331495 },
+        { "lat": 47.0270331, "lon": 28.8330808 },
+        { "lat": 47.0269637, "lon": 28.8329807 },
+        { "lat": 47.0257561, "lon": 28.8312725 },
+        { "lat": 47.0256736, "lon": 28.8311558 },
+        { "lat": 47.0255605, "lon": 28.8309905 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Mitropolit Bănulescu-Bodoni",
+        "name:ro": "Strada Mitropolit Bănulescu-Bodoni",
+        "name:ru": "улица Митрополита Бэнулеску-Бодони",
+        "old_name": "улица Гоголя",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 49565745,
+      "bounds": {
+        "minlat": 47.0266663,
+        "minlon": 28.8381405,
+        "maxlat": 47.0275321,
+        "maxlon": 28.8394283
+      },
+      "nodes": [269495902, 579549922, 269071077],
+      "geometry": [
+        { "lat": 47.0266663, "lon": 28.8381405 },
+        { "lat": 47.0271114, "lon": 28.8388022 },
+        { "lat": 47.0275321, "lon": 28.8394283 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Aleksandr Pușkin",
+        "name:ru": "улица Александра Пушкина",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 52060164,
+      "bounds": {
+        "minlat": 47.0617553,
+        "minlon": 28.8443525,
+        "maxlat": 47.0652073,
+        "maxlon": 28.8459541
+      },
+      "nodes": [
+        269527363,
+        1557395928,
+        4566796787,
+        6557959949,
+        286835419,
+        4058585362,
+        4058585365,
+        1041948382,
+        4058585367,
+        1557396029,
+        6557959951,
+        1557396058
+      ],
+      "geometry": [
+        { "lat": 47.0617553, "lon": 28.8459541 },
+        { "lat": 47.0619135, "lon": 28.8458906 },
+        { "lat": 47.0621401, "lon": 28.845798 },
+        { "lat": 47.0630318, "lon": 28.8454335 },
+        { "lat": 47.0631533, "lon": 28.8453896 },
+        { "lat": 47.0634474, "lon": 28.8452504 },
+        { "lat": 47.0639073, "lon": 28.84504 },
+        { "lat": 47.0639848, "lon": 28.8450046 },
+        { "lat": 47.0645096, "lon": 28.8447246 },
+        { "lat": 47.0645794, "lon": 28.8446874 },
+        { "lat": 47.0650322, "lon": 28.8444459 },
+        { "lat": 47.0652073, "lon": 28.8443525 }
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "no",
+        "highway": "tertiary",
+        "horse": "yes",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Ceucari",
+        "name:ru": "улица Чеукарь",
+        "old_name": "Чевкарский переулок",
+        "oneway": "no",
+        "postal_code": "MD-2020",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 52391614,
+      "bounds": {
+        "minlat": 47.0515191,
+        "minlon": 28.8503952,
+        "maxlat": 47.052976,
+        "maxlon": 28.8508979
+      },
+      "nodes": [269843776, 6233132430, 2148880325, 270296443],
+      "geometry": [
+        { "lat": 47.052976, "lon": 28.8508979 },
+        { "lat": 47.0525191, "lon": 28.850741 },
+        { "lat": 47.0516105, "lon": 28.850429 },
+        { "lat": 47.0515191, "lon": 28.8503952 }
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "no",
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "is_in:country": "Moldova;MD",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Calea Orheiului",
+        "name:ru": "улица Каля Орхеюлуй",
+        "old_name": "улица Кантемира",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 52391615,
+      "bounds": {
+        "minlat": 47.0459865,
+        "minlon": 28.8484643,
+        "maxlat": 47.0504244,
+        "maxlon": 28.8500378
+      },
+      "nodes": [
+        270796285,
+        6398416793,
+        286835450,
+        3195179764,
+        301111937,
+        4566797192,
+        3002855746,
+        269222027,
+        5727391852,
+        1833176562
+      ],
+      "geometry": [
+        { "lat": 47.0504244, "lon": 28.8500378 },
+        { "lat": 47.0492365, "lon": 28.8496328 },
+        { "lat": 47.0491104, "lon": 28.8495898 },
+        { "lat": 47.048213, "lon": 28.8492775 },
+        { "lat": 47.0473498, "lon": 28.8489753 },
+        { "lat": 47.0466158, "lon": 28.8486976 },
+        { "lat": 47.0461986, "lon": 28.8485472 },
+        { "lat": 47.0461089, "lon": 28.8485194 },
+        { "lat": 47.0460492, "lon": 28.8484936 },
+        { "lat": 47.0459865, "lon": 28.8484643 }
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "no",
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "is_in:country": "Moldova;MD",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Calea Orheiului",
+        "name:ru": "улица Каля Орхеюлуй",
+        "old_name": "улица Кантемира",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 52391617,
+      "bounds": {
+        "minlat": 47.05397,
+        "minlon": 28.8501077,
+        "maxlat": 47.0542216,
+        "maxlon": 28.8504
+      },
+      "nodes": [280924657, 394547832, 269527324],
+      "geometry": [
+        { "lat": 47.05397, "lon": 28.8504 },
+        { "lat": 47.0540533, "lon": 28.8503043 },
+        { "lat": 47.0542216, "lon": 28.8501077 }
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Ceucari",
+        "name:ro": "Strada Ceucari",
+        "name:ru": "улица Чеукарь",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 52391618,
+      "bounds": {
+        "minlat": 47.0503991,
+        "minlon": 28.8502092,
+        "maxlat": 47.0533438,
+        "maxlon": 28.8512439
+      },
+      "nodes": [
+        270796286,
+        301111101,
+        5727391857,
+        2148880323,
+        4566797190,
+        269524056
+      ],
+      "geometry": [
+        { "lat": 47.0503991, "lon": 28.8502092 },
+        { "lat": 47.0514484, "lon": 28.8505651 },
+        { "lat": 47.0515036, "lon": 28.850581 },
+        { "lat": 47.051583, "lon": 28.850613 },
+        { "lat": 47.0516614, "lon": 28.8506414 },
+        { "lat": 47.0533438, "lon": 28.8512439 }
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "no",
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "is_in:country": "Moldova;MD",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Calea Orheiului",
+        "name:ru": "улица Каля Орхеюлуй",
+        "old_name": "улица Кантемира",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 56759896,
+      "bounds": {
+        "minlat": 47.0504244,
+        "minlon": 28.8500378,
+        "maxlat": 47.0515191,
+        "maxlon": 28.8503952
+      },
+      "nodes": [270296443, 6394912749, 4566797193, 5727391854, 270796285],
+      "geometry": [
+        { "lat": 47.0515191, "lon": 28.8503952 },
+        { "lat": 47.0510844, "lon": 28.8502562 },
+        { "lat": 47.0510222, "lon": 28.8502363 },
+        { "lat": 47.0507172, "lon": 28.8501345 },
+        { "lat": 47.0504244, "lon": 28.8500378 }
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "no",
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "is_in:country": "Moldova;MD",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Calea Orheiului",
+        "name:ro": "Strada Calea Orheiului",
+        "name:ru": "улица Каля Орхеюлуй",
+        "old_name": "улица Кантемира",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 85633933,
+      "bounds": {
+        "minlat": 47.0337411,
+        "minlon": 28.8457198,
+        "maxlat": 47.0338153,
+        "maxlon": 28.8459067
+      },
+      "nodes": [993433624, 993433542],
+      "geometry": [
+        { "lat": 47.0338153, "lon": 28.8459067 },
+        { "lat": 47.0337411, "lon": 28.8457198 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Grigore Vieru",
+        "name:ru": "проспект Григория Виеру",
+        "old_name": "проспект Молодёжи",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 85633940,
+      "bounds": {
+        "minlat": 47.0323073,
+        "minlon": 28.8433844,
+        "maxlat": 47.0337411,
+        "maxlon": 28.8457198
+      },
+      "nodes": [
+        993433542,
+        993433535,
+        270072758,
+        2972032156,
+        269070981,
+        6648488525,
+        6657554988,
+        270072750
+      ],
+      "geometry": [
+        { "lat": 47.0337411, "lon": 28.8457198 },
+        { "lat": 47.0334777, "lon": 28.8451445 },
+        { "lat": 47.0333902, "lon": 28.8449717 },
+        { "lat": 47.0333488, "lon": 28.8448972 },
+        { "lat": 47.0333285, "lon": 28.8448673 },
+        { "lat": 47.0324986, "lon": 28.8436617 },
+        { "lat": 47.0324073, "lon": 28.8435303 },
+        { "lat": 47.0323073, "lon": 28.8433844 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Grigore Vieru",
+        "name:ru": "проспект Григория Виеру",
+        "name_1": "bd. Grigore Vieru",
+        "old_name": "Bulevardul Tineretului",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 85633958,
+      "bounds": {
+        "minlat": 47.03367,
+        "minlon": 28.8457925,
+        "maxlat": 47.0338153,
+        "maxlon": 28.8459067
+      },
+      "nodes": [993433471, 993433624],
+      "geometry": [
+        { "lat": 47.03367, "lon": 28.8457925 },
+        { "lat": 47.0338153, "lon": 28.8459067 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Grigore Vieru",
+        "name:ru": "проспект Григория Виеру",
+        "old_name": "проспект Молодёжи",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 91876431,
+      "bounds": {
+        "minlat": 47.0297289,
+        "minlon": 28.8402051,
+        "maxlat": 47.0322096,
+        "maxlon": 28.8438275
+      },
+      "nodes": [
+        269070988,
+        6425941626,
+        993433527,
+        6648488522,
+        3122019074,
+        270072752,
+        6657554987
+      ],
+      "geometry": [
+        { "lat": 47.0297289, "lon": 28.8402051 },
+        { "lat": 47.0299706, "lon": 28.8405571 },
+        { "lat": 47.030536, "lon": 28.8413803 },
+        { "lat": 47.0308632, "lon": 28.8418611 },
+        { "lat": 47.0308944, "lon": 28.841907 },
+        { "lat": 47.0321051, "lon": 28.8436735 },
+        { "lat": 47.0322096, "lon": 28.8438275 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Grigore Vieru",
+        "name:ro": "Bulevardul Grigore Vieru",
+        "name:ru": "проспект Григория Виеру",
+        "name_1": "bd. Grigore Vieru",
+        "old_name": "Bulevardul Tineretului",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 121854711,
+      "bounds": {
+        "minlat": 47.0225532,
+        "minlon": 28.8280608,
+        "maxlat": 47.0235485,
+        "maxlon": 28.8296094
+      },
+      "nodes": [269079958, 860057815, 388602677, 277140945, 4532783346],
+      "geometry": [
+        { "lat": 47.0235485, "lon": 28.8280608 },
+        { "lat": 47.0234913, "lon": 28.8281475 },
+        { "lat": 47.0231066, "lon": 28.8287484 },
+        { "lat": 47.0227986, "lon": 28.8292275 },
+        { "lat": 47.0225532, "lon": 28.8296094 }
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada 31 August 1989",
+        "name:ru": "улица 31 Августа 1989",
+        "old_name": "Киевская улица",
+        "oneway": "yes",
+        "postal_code": "MD-2012"
+      }
+    },
+    {
+      "type": "way",
+      "id": 121854713,
+      "bounds": {
+        "minlat": 47.0215937,
+        "minlon": 28.8309614,
+        "maxlat": 47.0236502,
+        "maxlon": 28.833846
+      },
+      "nodes": [
+        269079959,
+        1486104462,
+        269474319,
+        372447053,
+        818603370,
+        661015233,
+        269230044
+      ],
+      "geometry": [
+        { "lat": 47.0215937, "lon": 28.8309614 },
+        { "lat": 47.0225007, "lon": 28.8322259 },
+        { "lat": 47.0225217, "lon": 28.8322551 },
+        { "lat": 47.0225766, "lon": 28.8323328 },
+        { "lat": 47.022953, "lon": 28.8328644 },
+        { "lat": 47.0233882, "lon": 28.8334877 },
+        { "lat": 47.0236502, "lon": 28.833846 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Aleksandr Pușkin",
+        "name:ro": "Strada Aleksandr Pușkin",
+        "name:ru": "улица Александра Пушкина",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 142293680,
+      "bounds": {
+        "minlat": 47.0652073,
+        "minlon": 28.8437218,
+        "maxlat": 47.0663063,
+        "maxlon": 28.8443525
+      },
+      "nodes": [1557396058, 394547842, 278628474],
+      "geometry": [
+        { "lat": 47.0652073, "lon": 28.8443525 },
+        { "lat": 47.0654709, "lon": 28.8441998 },
+        { "lat": 47.0663063, "lon": 28.8437218 }
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada Ceucari",
+        "name:ru": "улица Чеукарь",
+        "old_name": "Чевкарский переулок",
+        "oneway": "yes",
+        "postal_code": "MD-2020",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 174950177,
+      "bounds": {
+        "minlat": 47.0352147,
+        "minlon": 28.8479594,
+        "maxlat": 47.0358131,
+        "maxlon": 28.8488374
+      },
+      "nodes": [1124813402, 269075350],
+      "geometry": [
+        { "lat": 47.0358131, "lon": 28.8488374 },
+        { "lat": 47.0352147, "lon": 28.8479594 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "name_1": "bd. Renașterii Naționale",
+        "old_name": "Bulevardul Tineretului",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 174950179,
+      "bounds": {
+        "minlat": 47.0358131,
+        "minlon": 28.8488374,
+        "maxlat": 47.0359345,
+        "maxlon": 28.8490226
+      },
+      "nodes": [690812144, 1124813402],
+      "geometry": [
+        { "lat": 47.0359345, "lon": 28.8490226 },
+        { "lat": 47.0358131, "lon": 28.8488374 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "name_1": "bd. Renașterii Naționale",
+        "old_name": "Bulevardul Tineretului",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 174950180,
+      "bounds": {
+        "minlat": 47.0359345,
+        "minlon": 28.8490226,
+        "maxlat": 47.0370569,
+        "maxlon": 28.8506793
+      },
+      "nodes": [269070976, 1589778896, 1589778880, 4563611322, 690812144],
+      "geometry": [
+        { "lat": 47.0370569, "lon": 28.8506793 },
+        { "lat": 47.0369302, "lon": 28.8504923 },
+        { "lat": 47.0365189, "lon": 28.8498852 },
+        { "lat": 47.0361122, "lon": 28.8492849 },
+        { "lat": 47.0359345, "lon": 28.8490226 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Bulevardul Renașterii Naționale",
+        "name:ro": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "name_1": "bd. Renașterii Naționale",
+        "old_name": "Bulevardul Tineretului",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236106335,
+      "bounds": {
+        "minlat": 47.0413644,
+        "minlon": 28.8536767,
+        "maxlat": 47.0416915,
+        "maxlon": 28.8537381
+      },
+      "nodes": [369009768, 269071039],
+      "geometry": [
+        { "lat": 47.0413644, "lon": 28.8537381 },
+        { "lat": 47.0416915, "lon": 28.8536767 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Renaşterii Naţionale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "old_name": "проспект Молодёжи"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236106342,
+      "bounds": {
+        "minlat": 47.0448966,
+        "minlon": 28.8485285,
+        "maxlat": 47.0451589,
+        "maxlon": 28.8496229
+      },
+      "nodes": [2441691842, 1833173869, 1833173868, 269071055],
+      "geometry": [
+        { "lat": 47.0451589, "lon": 28.8485285 },
+        { "lat": 47.0451245, "lon": 28.8488021 },
+        { "lat": 47.0450579, "lon": 28.8491425 },
+        { "lat": 47.0448966, "lon": 28.8496229 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Renaşterii Naţionale",
+        "name:ro": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 310960964,
+      "bounds": {
+        "minlat": 47.028684,
+        "minlon": 28.8376926,
+        "maxlat": 47.0299368,
+        "maxlon": 28.8398945
+      },
+      "nodes": [
+        269495913,
+        1852479893,
+        4563611327,
+        1852479886,
+        862969065,
+        5748489146,
+        373193608,
+        5748489147,
+        862968906,
+        5748489148,
+        269230028
+      ],
+      "geometry": [
+        { "lat": 47.0299368, "lon": 28.8398945 },
+        { "lat": 47.029774, "lon": 28.8396569 },
+        { "lat": 47.0294248, "lon": 28.8391544 },
+        { "lat": 47.0292914, "lon": 28.8389575 },
+        { "lat": 47.0287432, "lon": 28.8381413 },
+        { "lat": 47.0287058, "lon": 28.8380609 },
+        { "lat": 47.0286936, "lon": 28.8380025 },
+        { "lat": 47.028684, "lon": 28.8379209 },
+        { "lat": 47.0286858, "lon": 28.8378582 },
+        { "lat": 47.0286986, "lon": 28.8377771 },
+        { "lat": 47.0287261, "lon": 28.8376926 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Grigore Vieru",
+        "name:ro": "Bulevardul Grigore Vieru",
+        "name:ru": "проспект Григория Виеру",
+        "name_1": "bd. Grigore Vieru",
+        "old_name": "Bulevardul Tineretului",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 320537344,
+      "bounds": {
+        "minlat": 47.0299368,
+        "minlon": 28.8398945,
+        "maxlat": 47.0323073,
+        "maxlon": 28.8433844
+      },
+      "nodes": [
+        270072750,
+        4563611328,
+        6648488523,
+        270072741,
+        3987534604,
+        269495913
+      ],
+      "geometry": [
+        { "lat": 47.0323073, "lon": 28.8433844 },
+        { "lat": 47.0319864, "lon": 28.8429172 },
+        { "lat": 47.0310706, "lon": 28.841565 },
+        { "lat": 47.0310036, "lon": 28.8414661 },
+        { "lat": 47.0301465, "lon": 28.8402036 },
+        { "lat": 47.0299368, "lon": 28.8398945 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Grigore Vieru",
+        "name:ro": "Bulevardul Grigore Vieru",
+        "name:ru": "проспект Григория Виеру",
+        "name_1": "bd. Grigore Vieru",
+        "old_name": "Bulevardul Tineretului",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 320537345,
+      "bounds": {
+        "minlat": 47.0322611,
+        "minlon": 28.8439034,
+        "maxlat": 47.0322755,
+        "maxlon": 28.8439226
+      },
+      "nodes": [458445174, 1563605388],
+      "geometry": [
+        { "lat": 47.0322611, "lon": 28.8439034 },
+        { "lat": 47.0322755, "lon": 28.8439226 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Grigore Vieru",
+        "name:ru": "проспект Григория Виеру",
+        "old_name": "проспект Молодёжи",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 344600092,
+      "bounds": {
+        "minlat": 47.0431416,
+        "minlon": 28.8517188,
+        "maxlat": 47.0438011,
+        "maxlon": 28.8526971
+      },
+      "nodes": [
+        269527362,
+        6634288069,
+        6634288067,
+        6634288068,
+        3513477715,
+        3513477491,
+        3513477993
+      ],
+      "geometry": [
+        { "lat": 47.0438011, "lon": 28.8517188 },
+        { "lat": 47.0436769, "lon": 28.8518721 },
+        { "lat": 47.0436086, "lon": 28.8520064 },
+        { "lat": 47.0435371, "lon": 28.8521484 },
+        { "lat": 47.0434491, "lon": 28.8522939 },
+        { "lat": 47.0433086, "lon": 28.8524864 },
+        { "lat": 47.0431416, "lon": 28.8526971 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "maxspeed": "50",
+        "name": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "old_name": "проспект Молодёжи",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 348584216,
+      "bounds": {
+        "minlat": 47.0594054,
+        "minlon": 28.8459541,
+        "maxlat": 47.0617553,
+        "maxlon": 28.8469573
+      },
+      "nodes": [
+        3546800307,
+        3546800306,
+        4060023977,
+        4566797196,
+        1557395824,
+        269527363
+      ],
+      "geometry": [
+        { "lat": 47.0594054, "lon": 28.8469573 },
+        { "lat": 47.059921, "lon": 28.8467497 },
+        { "lat": 47.0608605, "lon": 28.8463346 },
+        { "lat": 47.0612908, "lon": 28.8461432 },
+        { "lat": 47.0615743, "lon": 28.8460249 },
+        { "lat": 47.0617553, "lon": 28.8459541 }
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "no",
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Strada Ceucari",
+        "name:ru": "улица Чеукарь",
+        "old_name": "Чевкарский переулок",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 349539998,
+      "bounds": {
+        "minlat": 47.0434555,
+        "minlon": 28.8517188,
+        "maxlat": 47.0438011,
+        "maxlon": 28.8528638
+      },
+      "nodes": [269843787, 4566744966, 269527320, 6634288070, 269527362],
+      "geometry": [
+        { "lat": 47.0434555, "lon": 28.8528638 },
+        { "lat": 47.043552, "lon": 28.8524797 },
+        { "lat": 47.0436321, "lon": 28.8522114 },
+        { "lat": 47.0437295, "lon": 28.851972 },
+        { "lat": 47.0438011, "lon": 28.8517188 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 350572577,
+      "bounds": {
+        "minlat": 47.0333239,
+        "minlon": 28.8454088,
+        "maxlat": 47.03367,
+        "maxlon": 28.8457925
+      },
+      "nodes": [993433515, 993433471],
+      "geometry": [
+        { "lat": 47.0333239, "lon": 28.8454088 },
+        { "lat": 47.03367, "lon": 28.8457925 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Grigore Vieru",
+        "name:ru": "проспект Григория Виеру",
+        "name_1": "bd. Grigore Vieru",
+        "old_name": "Bulevardul Tineretului",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 409894877,
+      "bounds": {
+        "minlat": 47.0322755,
+        "minlon": 28.8439226,
+        "maxlat": 47.0333239,
+        "maxlon": 28.8454088
+      },
+      "nodes": [
+        1563605388,
+        6648488524,
+        4563611323,
+        993433518,
+        2972032155,
+        993433515
+      ],
+      "geometry": [
+        { "lat": 47.0322755, "lon": 28.8439226 },
+        { "lat": 47.0322946, "lon": 28.8439504 },
+        { "lat": 47.0324182, "lon": 28.84413 },
+        { "lat": 47.0331177, "lon": 28.8451669 },
+        { "lat": 47.0331412, "lon": 28.845199 },
+        { "lat": 47.0333239, "lon": 28.8454088 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Grigore Vieru",
+        "name:ro": "Bulevardul Grigore Vieru",
+        "name:ru": "проспект Григория Виеру",
+        "name_1": "bd. Grigore Vieru",
+        "old_name": "Bulevardul Tineretului",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 457076155,
+      "bounds": {
+        "minlat": 47.0215937,
+        "minlon": 28.8296094,
+        "maxlat": 47.0225532,
+        "maxlon": 28.8309614
+      },
+      "nodes": [
+        4532783346,
+        818603331,
+        818603411,
+        1557395410,
+        6194702812,
+        269079959
+      ],
+      "geometry": [
+        { "lat": 47.0225532, "lon": 28.8296094 },
+        { "lat": 47.0223961, "lon": 28.8298308 },
+        { "lat": 47.0223286, "lon": 28.8299259 },
+        { "lat": 47.0223126, "lon": 28.8299485 },
+        { "lat": 47.0216761, "lon": 28.8308453 },
+        { "lat": 47.0215937, "lon": 28.8309614 }
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada 31 August 1989",
+        "name:ru": "улица 31 Августа 1989",
+        "old_name": "Киевская улица",
+        "oneway": "yes",
+        "postal_code": "MD-2012"
+      }
+    },
+    {
+      "type": "way",
+      "id": 461135440,
+      "bounds": {
+        "minlat": 47.0652073,
+        "minlon": 28.8440169,
+        "maxlat": 47.0654075,
+        "maxlon": 28.8443525
+      },
+      "nodes": [4566797197, 278628492, 1557396058],
+      "geometry": [
+        { "lat": 47.0654075, "lon": 28.8440169 },
+        { "lat": 47.065273, "lon": 28.844248 },
+        { "lat": 47.0652073, "lon": 28.8443525 }
+      ],
+      "tags": {
+        "highway": "service",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 506948354,
+      "bounds": {
+        "minlat": 47.0235485,
+        "minlon": 28.8280608,
+        "maxlat": 47.0243964,
+        "maxlon": 28.8292506
+      },
+      "nodes": [4563450985, 1759418283, 269079958],
+      "geometry": [
+        { "lat": 47.0243964, "lon": 28.8292506 },
+        { "lat": 47.0236177, "lon": 28.8281515 },
+        { "lat": 47.0235485, "lon": 28.8280608 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Mitropolit Bănulescu-Bodoni",
+        "name:ru": "улица Митрополита Бэнулеску-Бодони",
+        "old_name": "улица Гоголя",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 508030852,
+      "bounds": {
+        "minlat": 47.0285401,
+        "minlon": 28.8384289,
+        "maxlat": 47.0297289,
+        "maxlon": 28.8402051
+      },
+      "nodes": [862968985, 4563611324, 1852479890, 269070988],
+      "geometry": [
+        { "lat": 47.0285401, "lon": 28.8384289 },
+        { "lat": 47.0288156, "lon": 28.8388395 },
+        { "lat": 47.0295538, "lon": 28.8399477 },
+        { "lat": 47.0297289, "lon": 28.8402051 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Grigore Vieru",
+        "name:ru": "проспект Григория Виеру",
+        "name_1": "bd. Grigore Vieru",
+        "old_name": "Bulevardul Tineretului",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 630155075,
+      "bounds": {
+        "minlat": 47.0279785,
+        "minlon": 28.838328,
+        "maxlat": 47.0282989,
+        "maxlon": 28.8387615
+      },
+      "nodes": [579549932, 269070985],
+      "geometry": [
+        { "lat": 47.0279785, "lon": 28.8387615 },
+        { "lat": 47.0282989, "lon": 28.838328 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "name": "Strada Constantin Tănase",
+        "name:ro": "Strada Constantin Tănase",
+        "name:ru": "улица Константина Тэнасе",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655678545,
+      "bounds": {
+        "minlat": 47.0428803,
+        "minlon": 28.8529339,
+        "maxlat": 47.042949,
+        "maxlon": 28.8529952
+      },
+      "nodes": [273327503, 3513477490],
+      "geometry": [
+        { "lat": 47.042949, "lon": 28.8529339 },
+        { "lat": 47.0428803, "lon": 28.8529952 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "50",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655678548,
+      "bounds": {
+        "minlat": 47.0433464,
+        "minlon": 28.853257,
+        "maxlat": 47.0433537,
+        "maxlon": 28.8534019
+      },
+      "nodes": [595683973, 4162206719, 269843784],
+      "geometry": [
+        { "lat": 47.0433464, "lon": 28.8534019 },
+        { "lat": 47.0433537, "lon": 28.8533298 },
+        { "lat": 47.0433523, "lon": 28.853257 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "50",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655678549,
+      "bounds": {
+        "minlat": 47.043053,
+        "minlon": 28.8534019,
+        "maxlat": 47.0433464,
+        "maxlon": 28.8537176
+      },
+      "nodes": [
+        269406280,
+        6729027122,
+        269843781,
+        269843782,
+        269843783,
+        595683973
+      ],
+      "geometry": [
+        { "lat": 47.043053, "lon": 28.8537176 },
+        { "lat": 47.0431421, "lon": 28.853707 },
+        { "lat": 47.0432057, "lon": 28.8536695 },
+        { "lat": 47.0432693, "lon": 28.8536011 },
+        { "lat": 47.0433174, "lon": 28.8535095 },
+        { "lat": 47.0433464, "lon": 28.8534019 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "50",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655678550,
+      "bounds": {
+        "minlat": 47.0429999,
+        "minlon": 28.8537078,
+        "maxlat": 47.043053,
+        "maxlon": 28.8537176
+      },
+      "nodes": [4162206717, 269406280],
+      "geometry": [
+        { "lat": 47.0429999, "lon": 28.8537078 },
+        { "lat": 47.043053, "lon": 28.8537176 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "50",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655678551,
+      "bounds": {
+        "minlat": 47.04292,
+        "minlon": 28.8536527,
+        "maxlat": 47.0429999,
+        "maxlon": 28.8537078
+      },
+      "nodes": [2441691816, 269972749, 4162206717],
+      "geometry": [
+        { "lat": 47.04292, "lon": 28.8536527 },
+        { "lat": 47.0429522, "lon": 28.853679 },
+        { "lat": 47.0429999, "lon": 28.8537078 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "50",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655679019,
+      "bounds": {
+        "minlat": 47.0454872,
+        "minlon": 28.8486778,
+        "maxlat": 47.0455326,
+        "maxlon": 28.8487089
+      },
+      "nodes": [269071057, 269222048],
+      "geometry": [
+        { "lat": 47.0454872, "lon": 28.8487089 },
+        { "lat": 47.0455326, "lon": 28.8486778 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "50"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655679020,
+      "bounds": {
+        "minlat": 47.0451312,
+        "minlon": 28.848423,
+        "maxlat": 47.0451589,
+        "maxlon": 28.8485285
+      },
+      "nodes": [1833173871, 2441691842],
+      "geometry": [
+        { "lat": 47.0451312, "lon": 28.848423 },
+        { "lat": 47.0451589, "lon": 28.8485285 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "50"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655679021,
+      "bounds": {
+        "minlat": 47.0451252,
+        "minlon": 28.848001,
+        "maxlat": 47.0452471,
+        "maxlon": 28.848423
+      },
+      "nodes": [269222040, 6144757557, 269222042, 269222043, 1833173871],
+      "geometry": [
+        { "lat": 47.0452471, "lon": 28.848001 },
+        { "lat": 47.045186, "lon": 28.8480816 },
+        { "lat": 47.045144, "lon": 28.8481853 },
+        { "lat": 47.0451252, "lon": 28.8483027 },
+        { "lat": 47.0451312, "lon": 28.848423 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "50",
+        "turn:lanes": "through|through|through"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655679022,
+      "bounds": {
+        "minlat": 47.0452471,
+        "minlon": 28.8479364,
+        "maxlat": 47.0453856,
+        "maxlon": 28.848001
+      },
+      "nodes": [269222038, 269222039, 4265035117, 269222040],
+      "geometry": [
+        { "lat": 47.0453856, "lon": 28.8479364 },
+        { "lat": 47.045337, "lon": 28.8479455 },
+        { "lat": 47.0452904, "lon": 28.8479673 },
+        { "lat": 47.0452471, "lon": 28.848001 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "50",
+        "turn:lanes": "through|through;right|through;right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655679023,
+      "bounds": {
+        "minlat": 47.0453856,
+        "minlon": 28.8479364,
+        "maxlat": 47.0455821,
+        "maxlon": 28.848045
+      },
+      "nodes": [4265035119, 4844497514, 4844497515, 269222038],
+      "geometry": [
+        { "lat": 47.0455821, "lon": 28.848045 },
+        { "lat": 47.045524, "lon": 28.8479835 },
+        { "lat": 47.0454569, "lon": 28.8479464 },
+        { "lat": 47.0453856, "lon": 28.8479364 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "50",
+        "turn:lanes": "through|through;right|through;right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655679024,
+      "bounds": {
+        "minlat": 47.0455821,
+        "minlon": 28.848045,
+        "maxlat": 47.0456428,
+        "maxlon": 28.8481703
+      },
+      "nodes": [269222037, 6367829371, 4265035119],
+      "geometry": [
+        { "lat": 47.0456428, "lon": 28.8481703 },
+        { "lat": 47.045613, "lon": 28.8481028 },
+        { "lat": 47.0455821, "lon": 28.848045 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "50",
+        "turn:lanes": "through|through;right|through;right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655901333,
+      "bounds": {
+        "minlat": 47.0394118,
+        "minlon": 28.8541721,
+        "maxlat": 47.0394524,
+        "maxlon": 28.8542204
+      },
+      "nodes": [269972734, 269071035],
+      "geometry": [
+        { "lat": 47.0394118, "lon": 28.8542204 },
+        { "lat": 47.0394524, "lon": 28.8541721 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "maxspeed": "50",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655901334,
+      "bounds": {
+        "minlat": 47.0391396,
+        "minlon": 28.8541111,
+        "maxlat": 47.0394118,
+        "maxlon": 28.854262
+      },
+      "nodes": [
+        278503077,
+        369024658,
+        269972732,
+        278503069,
+        4526547279,
+        4526547280,
+        269972734
+      ],
+      "geometry": [
+        { "lat": 47.0391396, "lon": 28.8541111 },
+        { "lat": 47.0391703, "lon": 28.8541736 },
+        { "lat": 47.0392113, "lon": 28.8542217 },
+        { "lat": 47.0392596, "lon": 28.8542519 },
+        { "lat": 47.0393117, "lon": 28.854262 },
+        { "lat": 47.0393637, "lon": 28.8542512 },
+        { "lat": 47.0394118, "lon": 28.8542204 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "maxspeed": "50",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655901337,
+      "bounds": {
+        "minlat": 47.0391177,
+        "minlon": 28.8540045,
+        "maxlat": 47.0391396,
+        "maxlon": 28.8541111
+      },
+      "nodes": [278503067, 278503077],
+      "geometry": [
+        { "lat": 47.0391177, "lon": 28.8540045 },
+        { "lat": 47.0391396, "lon": 28.8541111 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "maxspeed": "50",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655901340,
+      "bounds": {
+        "minlat": 47.0393621,
+        "minlon": 28.8537027,
+        "maxlat": 47.039431,
+        "maxlon": 28.8537537
+      },
+      "nodes": [269421263, 4526547277, 278503073],
+      "geometry": [
+        { "lat": 47.039431, "lon": 28.8537537 },
+        { "lat": 47.0393942, "lon": 28.8537202 },
+        { "lat": 47.0393621, "lon": 28.8537027 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "maxspeed": "50",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 680089657,
+      "bounds": {
+        "minlat": 47.0456428,
+        "minlon": 28.8481703,
+        "maxlat": 47.0459865,
+        "maxlon": 28.8484643
+      },
+      "nodes": [
+        1833176562,
+        5727391853,
+        6427640543,
+        1124812782,
+        6192768768,
+        269222037
+      ],
+      "geometry": [
+        { "lat": 47.0459865, "lon": 28.8484643 },
+        { "lat": 47.0458907, "lon": 28.8483946 },
+        { "lat": 47.0458716, "lon": 28.8483786 },
+        { "lat": 47.0457969, "lon": 28.8483156 },
+        { "lat": 47.0457267, "lon": 28.84825 },
+        { "lat": 47.0456428, "lon": 28.8481703 }
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "no",
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "is_in:country": "Moldova;MD",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Calea Orheiului",
+        "name:ru": "улица Каля Орхеюлуй",
+        "old_name": "улица Кантемира",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|through;right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 680089658,
+      "bounds": {
+        "minlat": 47.045306,
+        "minlon": 28.8487089,
+        "maxlat": 47.0454872,
+        "maxlon": 28.8489707
+      },
+      "nodes": [6367829369, 3513488889, 269071057],
+      "geometry": [
+        { "lat": 47.045306, "lon": 28.8489707 },
+        { "lat": 47.045337, "lon": 28.8489263 },
+        { "lat": 47.0454872, "lon": 28.8487089 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Renaşterii Naţionale",
+        "name:ro": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 706069131,
+      "bounds": {
+        "minlat": 47.042949,
+        "minlon": 28.8526971,
+        "maxlat": 47.0431416,
+        "maxlon": 28.8529339
+      },
+      "nodes": [3513477993, 273327503],
+      "geometry": [
+        { "lat": 47.0431416, "lon": 28.8526971 },
+        { "lat": 47.042949, "lon": 28.8529339 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "maxspeed": "50",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 706069133,
+      "bounds": {
+        "minlat": 47.0426696,
+        "minlon": 28.8529952,
+        "maxlat": 47.0428803,
+        "maxlon": 28.8531172
+      },
+      "nodes": [3513477490, 6634288065],
+      "geometry": [
+        { "lat": 47.0428803, "lon": 28.8529952 },
+        { "lat": 47.0426696, "lon": 28.8531172 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 706069134,
+      "bounds": {
+        "minlat": 47.0416915,
+        "minlon": 28.8531172,
+        "maxlat": 47.0426696,
+        "maxlon": 28.8536767
+      },
+      "nodes": [
+        6634288065,
+        273327507,
+        3513477489,
+        6634288063,
+        269071041,
+        506548675,
+        269071039
+      ],
+      "geometry": [
+        { "lat": 47.0426696, "lon": 28.8531172 },
+        { "lat": 47.0425568, "lon": 28.853212 },
+        { "lat": 47.0423983, "lon": 28.8533164 },
+        { "lat": 47.0422949, "lon": 28.8533745 },
+        { "lat": 47.0421978, "lon": 28.8534188 },
+        { "lat": 47.0419995, "lon": 28.8535223 },
+        { "lat": 47.0416915, "lon": 28.8536767 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Renaşterii Naţionale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "old_name": "проспект Молодёжи",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 708489180,
+      "bounds": {
+        "minlat": 47.0322096,
+        "minlon": 28.8438275,
+        "maxlat": 47.0322611,
+        "maxlon": 28.8439034
+      },
+      "nodes": [6657554987, 458445174],
+      "geometry": [
+        { "lat": 47.0322096, "lon": 28.8438275 },
+        { "lat": 47.0322611, "lon": 28.8439034 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Grigore Vieru",
+        "name:ro": "Bulevardul Grigore Vieru",
+        "name:ru": "проспект Григория Виеру",
+        "name_1": "bd. Grigore Vieru",
+        "old_name": "Bulevardul Tineretului",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    }
+  ]
+}

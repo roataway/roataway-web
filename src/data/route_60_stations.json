@@ -1,0 +1,353 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.7 8b86ff77",
+  "osm3s": {
+    "timestamp_osm_base": "2019-10-04T21:52:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 325004990,
+      "lat": 47.0225088,
+      "lon": 28.8295459,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. 31 August 1989",
+        "name:ro": "str. 31 August 1989",
+        "name:ru": "ул. 31 Августа 1989",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325004999,
+      "lat": 47.0243474,
+      "lon": 28.8349551,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bd. Ștefan cel Mare și Sfânt",
+        "name:ro": "Bd. Ștefan cel Mare și Sfânt",
+        "name:ru": "Площадь Великого Национального Собрания",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052760,
+      "lat": 47.0244375,
+      "lon": 28.8291614,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Grădina Publică",
+        "name:ru": "Парк",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052768,
+      "lat": 47.036029,
+      "lon": 28.8494001,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Circul",
+        "name:en": "Circus",
+        "name:ru": "Цирк",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052769,
+      "lat": 47.0366359,
+      "lon": 28.8497218,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Circ",
+        "name:ru": "Цирк",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052772,
+      "lat": 47.0287792,
+      "lon": 28.8388897,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "bd. Grigore Vieru",
+        "name:ru": "Бульвар Григория Виеру",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052773,
+      "lat": 47.0274523,
+      "lon": 28.8335423,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Columna",
+        "name:ru": "ул. Колумна",
+        "old_name": "ул. Фрунзе",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339210,
+      "lat": 47.0052687,
+      "lon": 28.8870581,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Asociația \"Beton Armat\"",
+        "name:ru": "Ассоциация \"Армированный бетон\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339213,
+      "lat": 47.0086455,
+      "lon": 28.8802687,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Asociația \"Agromașina\"",
+        "name:ru": "Ассоциация \"Агромашина\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339215,
+      "lat": 47.0096376,
+      "lon": 28.8785616,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Asociația \"Agromașina\"",
+        "name:ru": "Ассоциация \"Агромашина\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339225,
+      "lat": 47.0181662,
+      "lon": 28.8704309,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Asociaţia \"Cerealiere\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339226,
+      "lat": 47.0180956,
+      "lon": 28.8708503,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Asociaţia \"Cerialiere\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339230,
+      "lat": 47.0223274,
+      "lon": 28.8671697,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Asociaţia \"Tutun-CTC\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339233,
+      "lat": 47.0121854,
+      "lon": 28.8763751,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Keramin",
+        "name:ru": "Керамин",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339234,
+      "lat": 47.0116154,
+      "lon": 28.8765952,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Keramin",
+        "name:ru": "Керамин",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339237,
+      "lat": 47.0148863,
+      "lon": 28.8737847,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Centrul Comercial \"Progres\"",
+        "name:ru": "Коммерческий центр \"Прогресс\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339239,
+      "lat": 47.0147515,
+      "lon": 28.8736119,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Centrul Comercial \"Progres\"",
+        "name:ru": "Коммерческий центр \"Прогресс\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339280,
+      "lat": 47.0294757,
+      "lon": 28.8390869,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Eugen Doga",
+        "name:ru": "ул. Евгения Доги",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339323,
+      "lat": 47.0387472,
+      "lon": 28.85819,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Kiev",
+        "name:ru": "Киевская ул.",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339350,
+      "lat": 47.0355636,
+      "lon": 28.8617721,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Dumitru Rîşcanu",
+        "name:ru": "Дмитрий Рышкану",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339351,
+      "lat": 47.0309278,
+      "lon": 28.8635815,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Florării",
+        "name:ru": "Флорэрий",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339355,
+      "lat": 47.0351231,
+      "lon": 28.8622037,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Dumitru Rîşcanu",
+        "name:ru": "Дмитрий Рышкану",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 461604330,
+      "lat": 47.032016,
+      "lon": 28.8427908,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Romană",
+        "name:ru": "ул. Романэ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 461604331,
+      "lat": 47.0323655,
+      "lon": 28.8442191,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Romană",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1836506522,
+      "lat": 47.0385793,
+      "lon": 28.8580075,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Tudor Vladimirescu",
+        "name:ru": "Тудор Владимиреску",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2144170985,
+      "lat": 47.0315634,
+      "lon": 28.8631485,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Florării",
+        "name:ru": "Флорэрий",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4563611318,
+      "lat": 47.0045905,
+      "lon": 28.8869455,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Asociația \"Beton Armat\"",
+        "name:ru": "Ассоциация \"Армированный бетон\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4563611331,
+      "lat": 47.0221375,
+      "lon": 28.867647,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Asociaţia \"Tutun-CTC\"",
+        "public_transport": "platform"
+      }
+    }
+  ]
+}
