@@ -1,0 +1,4864 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.7 8b86ff77",
+  "osm3s": {
+    "timestamp_osm_base": "2019-10-04T21:52:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 24760745,
+      "bounds": {
+        "minlat": 47.0406004,
+        "minlon": 28.8435909,
+        "maxlat": 47.0408266,
+        "maxlon": 28.8441077
+      },
+      "nodes": [
+        269078361,
+        385028036,
+        269078368,
+        385028035,
+        289430492,
+        385028034,
+        6789287231,
+        2466721464
+      ],
+      "geometry": [
+        { "lat": 47.040655, "lon": 28.8435909 },
+        { "lat": 47.0406165, "lon": 28.8436793 },
+        { "lat": 47.0406004, "lon": 28.8437814 },
+        { "lat": 47.0406084, "lon": 28.8438856 },
+        { "lat": 47.0406397, "lon": 28.8439799 },
+        { "lat": 47.0406907, "lon": 28.8440534 },
+        { "lat": 47.0407523, "lon": 28.8440899 },
+        { "lat": 47.0408266, "lon": 28.8441077 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "50",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24760758,
+      "bounds": {
+        "minlat": 47.0426234,
+        "minlon": 28.8325222,
+        "maxlat": 47.0426715,
+        "maxlon": 28.832601
+      },
+      "nodes": [269078492, 269078526],
+      "geometry": [
+        { "lat": 47.0426234, "lon": 28.8325222 },
+        { "lat": 47.0426715, "lon": 28.832601 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Mihai Viteazul",
+        "name:ru": "улица Михая Витязула",
+        "old_name": "Оргеевская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24760760,
+      "bounds": {
+        "minlat": 47.0434063,
+        "minlon": 28.8330725,
+        "maxlat": 47.0436049,
+        "maxlon": 28.8336567
+      },
+      "nodes": [
+        269078501,
+        2441691836,
+        1714116105,
+        364841568,
+        1714116103,
+        1714116102,
+        1714116101,
+        1714116094,
+        1714116093,
+        269078503
+      ],
+      "geometry": [
+        { "lat": 47.0435879, "lon": 28.8336567 },
+        { "lat": 47.0436008, "lon": 28.8335805 },
+        { "lat": 47.0436049, "lon": 28.8335022 },
+        { "lat": 47.0436, "lon": 28.833424 },
+        { "lat": 47.0435863, "lon": 28.8333481 },
+        { "lat": 47.043564, "lon": 28.8332766 },
+        { "lat": 47.043534, "lon": 28.8332116 },
+        { "lat": 47.043497, "lon": 28.8331549 },
+        { "lat": 47.043454, "lon": 28.8331081 },
+        { "lat": 47.0434063, "lon": 28.8330725 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "junction": "roundabout",
+        "maxspeed": "50"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24764671,
+      "bounds": {
+        "minlat": 47.0338537,
+        "minlon": 28.8186263,
+        "maxlat": 47.0352529,
+        "maxlon": 28.8207431
+      },
+      "nodes": [269972794, 5588363978, 4566744973, 6425958362, 269240827],
+      "geometry": [
+        { "lat": 47.0338537, "lon": 28.8186263 },
+        { "lat": 47.0339865, "lon": 28.8188273 },
+        { "lat": 47.0341578, "lon": 28.8190864 },
+        { "lat": 47.0351088, "lon": 28.8205251 },
+        { "lat": 47.0352529, "lon": 28.8207431 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Strada Mihai Viteazul",
+        "name:ru": "улица Михая Витязула",
+        "old_name": "Оргеевская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24778301,
+      "bounds": {
+        "minlat": 47.0409995,
+        "minlon": 28.8427621,
+        "maxlat": 47.041075,
+        "maxlon": 28.8436463
+      },
+      "nodes": [6142918045, 4081270706, 6789287236, 6789287237, 269240565],
+      "geometry": [
+        { "lat": 47.0409995, "lon": 28.8436463 },
+        { "lat": 47.0410558, "lon": 28.8433472 },
+        { "lat": 47.0410543, "lon": 28.8430967 },
+        { "lat": 47.0410646, "lon": 28.8429341 },
+        { "lat": 47.041075, "lon": 28.8427621 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Petricani",
+        "name:ro": "Strada Petricani",
+        "name:ru": "Петриканская улица",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24778310,
+      "bounds": {
+        "minlat": 47.0426715,
+        "minlon": 28.832601,
+        "maxlat": 47.0432368,
+        "maxlon": 28.8330437
+      },
+      "nodes": [269078505, 4081275801, 1714116084, 269078526],
+      "geometry": [
+        { "lat": 47.0432368, "lon": 28.8330437 },
+        { "lat": 47.0430344, "lon": 28.8328936 },
+        { "lat": 47.0428838, "lon": 28.832766 },
+        { "lat": 47.0426715, "lon": 28.832601 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Mihai Viteazul",
+        "name:ro": "Strada Mihai Viteazul",
+        "name:ru": "улица Михая Витязула",
+        "old_name": "Оргеевская улица",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24778311,
+      "bounds": {
+        "minlat": 47.0428444,
+        "minlon": 28.8336898,
+        "maxlat": 47.0429931,
+        "maxlon": 28.8353961
+      },
+      "nodes": [
+        269078514,
+        364838502,
+        364838503,
+        5728084421,
+        364838504,
+        5728084422,
+        6425964241,
+        269240586
+      ],
+      "geometry": [
+        { "lat": 47.0429931, "lon": 28.8336898 },
+        { "lat": 47.042975, "lon": 28.8339832 },
+        { "lat": 47.042975, "lon": 28.8342954 },
+        { "lat": 47.0429608, "lon": 28.8345559 },
+        { "lat": 47.0429269, "lon": 28.8348344 },
+        { "lat": 47.0428641, "lon": 28.8351792 },
+        { "lat": 47.0428444, "lon": 28.8352771 },
+        { "lat": 47.0428556, "lon": 28.8353961 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "maxspeed": "50",
+        "name": "Strada Petricani",
+        "name:ro": "Strada Petricani",
+        "name:ru": "Петриканская улица",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24778312,
+      "bounds": {
+        "minlat": 47.0407114,
+        "minlon": 28.8427621,
+        "maxlat": 47.041075,
+        "maxlon": 28.8435265
+      },
+      "nodes": [
+        269240565,
+        6789287206,
+        289430477,
+        1124812384,
+        4081191768,
+        289430490
+      ],
+      "geometry": [
+        { "lat": 47.041075, "lon": 28.8427621 },
+        { "lat": 47.0409963, "lon": 28.8429151 },
+        { "lat": 47.0409134, "lon": 28.8431352 },
+        { "lat": 47.0408444, "lon": 28.8432774 },
+        { "lat": 47.0407959, "lon": 28.843353 },
+        { "lat": 47.0407114, "lon": 28.8435265 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Petricani",
+        "name:ro": "Strada Petricani",
+        "name:ru": "Петриканская улица",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24778313,
+      "bounds": {
+        "minlat": 47.0408266,
+        "minlon": 28.8441077,
+        "maxlat": 47.0419088,
+        "maxlon": 28.8446002
+      },
+      "nodes": [2466721464, 6789287235, 1870604088, 1870604082, 694216633],
+      "geometry": [
+        { "lat": 47.0408266, "lon": 28.8441077 },
+        { "lat": 47.0409643, "lon": 28.844157 },
+        { "lat": 47.0412243, "lon": 28.8442825 },
+        { "lat": 47.0415254, "lon": 28.8444312 },
+        { "lat": 47.0419088, "lon": 28.8446002 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Calea Orheiului",
+        "name:ro": "Strada Calea Orheiului",
+        "name:ru": "улица Каля Орхеюлуй",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24797058,
+      "bounds": {
+        "minlat": 47.0356891,
+        "minlon": 28.8898944,
+        "maxlat": 47.0360992,
+        "maxlon": 28.8899209
+      },
+      "nodes": [4117785816, 3861272418, 269416883],
+      "geometry": [
+        { "lat": 47.0356891, "lon": 28.8898944 },
+        { "lat": 47.0359373, "lon": 28.8899209 },
+        { "lat": 47.0360992, "lon": 28.8899206 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Meșterul Manole",
+        "name:ru": "улица Мештерул Маноле",
+        "old_name": "улица Добровольского",
+        "oneway": "yes",
+        "trolley_wire": "yes",
+        "turn:lanes": "through|through|through"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24797742,
+      "bounds": {
+        "minlat": 47.0330004,
+        "minlon": 28.8888424,
+        "maxlat": 47.0359605,
+        "maxlon": 28.8890834
+      },
+      "nodes": [
+        269075327,
+        365139319,
+        4117785814,
+        604063339,
+        370403200,
+        270062079
+      ],
+      "geometry": [
+        { "lat": 47.0359605, "lon": 28.8889581 },
+        { "lat": 47.0357416, "lon": 28.8890541 },
+        { "lat": 47.035722, "lon": 28.8890583 },
+        { "lat": 47.0355962, "lon": 28.8890834 },
+        { "lat": 47.0351069, "lon": 28.8890442 },
+        { "lat": 47.0330004, "lon": 28.8888424 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Meșterul Manole",
+        "name:ru": "улица Мештерул Маноле",
+        "old_name": "улица Добровольского",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24797743,
+      "bounds": {
+        "minlat": 47.0429999,
+        "minlon": 28.8537078,
+        "maxlat": 47.0432916,
+        "maxlon": 28.8544468
+      },
+      "nodes": [
+        4162206717,
+        269424224,
+        269424226,
+        3513478681,
+        4162206718,
+        269424227
+      ],
+      "geometry": [
+        { "lat": 47.0429999, "lon": 28.8537078 },
+        { "lat": 47.0430818, "lon": 28.8538231 },
+        { "lat": 47.0431522, "lon": 28.8539537 },
+        { "lat": 47.0432098, "lon": 28.8540972 },
+        { "lat": 47.0432535, "lon": 28.8542509 },
+        { "lat": 47.0432916, "lon": 28.8544468 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Bogdan Voievod",
+        "name:ru": "улица Богдан Воевод",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24797744,
+      "bounds": {
+        "minlat": 47.0432916,
+        "minlon": 28.8538101,
+        "maxlat": 47.0433266,
+        "maxlon": 28.8544468
+      },
+      "nodes": [269424227, 6729027133, 4081188328, 1737632762],
+      "geometry": [
+        { "lat": 47.0432916, "lon": 28.8544468 },
+        { "lat": 47.0433049, "lon": 28.8541755 },
+        { "lat": 47.0433079, "lon": 28.8541131 },
+        { "lat": 47.0433266, "lon": 28.8538101 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Bogdan Voievod",
+        "name:ru": "улица Богдан Воевод",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24797745,
+      "bounds": {
+        "minlat": 47.043276,
+        "minlon": 28.8544468,
+        "maxlat": 47.0432916,
+        "maxlon": 28.8546972
+      },
+      "nodes": [269424227, 622293888],
+      "geometry": [
+        { "lat": 47.0432916, "lon": 28.8544468 },
+        { "lat": 47.043276, "lon": 28.8546972 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Strada Bogdan Voievod",
+        "name:ru": "улица Богдан Воевод",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24824961,
+      "bounds": {
+        "minlat": 47.0448966,
+        "minlon": 28.8489707,
+        "maxlat": 47.045306,
+        "maxlon": 28.8496229
+      },
+      "nodes": [269071055, 3002855745, 6367829369],
+      "geometry": [
+        { "lat": 47.0448966, "lon": 28.8496229 },
+        { "lat": 47.0451249, "lon": 28.8492626 },
+        { "lat": 47.045306, "lon": 28.8489707 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Renaşterii Naţionale",
+        "name:ro": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "oneway": "yes",
+        "turn:lanes": "through|through|right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24848585,
+      "bounds": {
+        "minlat": 47.0272085,
+        "minlon": 28.7915814,
+        "maxlat": 47.0276419,
+        "maxlon": 28.7926221
+      },
+      "nodes": [269972707, 269403216, 269403249, 269403252],
+      "geometry": [
+        { "lat": 47.0272085, "lon": 28.7926221 },
+        { "lat": 47.027308, "lon": 28.7923783 },
+        { "lat": 47.027427, "lon": 28.792108 },
+        { "lat": 47.0276419, "lon": 28.7915814 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Alba Iulia",
+        "name:ro": "Bulevardul Alba Iulia",
+        "name:ru": "бульвар Алба-Юлия",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24848586,
+      "bounds": {
+        "minlat": 47.0268806,
+        "minlon": 28.7931374,
+        "maxlat": 47.0271983,
+        "maxlon": 28.7934629
+      },
+      "nodes": [269403179, 269972706],
+      "geometry": [
+        { "lat": 47.0268806, "lon": 28.7931374 },
+        { "lat": 47.0271983, "lon": 28.7934629 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "40",
+        "name": "Strada Ion Creangă",
+        "name:ro": "Strada Ion Creangă",
+        "name:ru": "улица Иона Крянгэ",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24848587,
+      "bounds": {
+        "minlat": 47.0271938,
+        "minlon": 28.7928465,
+        "maxlat": 47.0271983,
+        "maxlon": 28.7934629
+      },
+      "nodes": [269972706, 269972716],
+      "geometry": [
+        { "lat": 47.0271983, "lon": 28.7934629 },
+        { "lat": 47.0271938, "lon": 28.7928465 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "40",
+        "name": "Strada Ion Creangă",
+        "name:ro": "Strada Ion Creangă",
+        "name:ru": "улица Иона Крянгэ",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24848588,
+      "bounds": {
+        "minlat": 47.0268741,
+        "minlon": 28.7915814,
+        "maxlat": 47.0276419,
+        "maxlon": 28.7922493
+      },
+      "nodes": [269403252, 269972758, 269972762, 269972709],
+      "geometry": [
+        { "lat": 47.0276419, "lon": 28.7915814 },
+        { "lat": 47.0273466, "lon": 28.7918602 },
+        { "lat": 47.0270794, "lon": 28.7920882 },
+        { "lat": 47.0268741, "lon": 28.7922493 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Alba Iulia",
+        "name:ro": "Bulevardul Alba Iulia",
+        "name:ru": "бульвар Алба-Юлия",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24848589,
+      "bounds": {
+        "minlat": 47.0276419,
+        "minlon": 28.7903824,
+        "maxlat": 47.028245,
+        "maxlon": 28.7915814
+      },
+      "nodes": [269403252, 457318851, 4563305181, 960658699],
+      "geometry": [
+        { "lat": 47.0276419, "lon": 28.7915814 },
+        { "lat": 47.027742, "lon": 28.7913923 },
+        { "lat": 47.0279344, "lon": 28.7910196 },
+        { "lat": 47.028245, "lon": 28.7903824 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Bulevardul Alba Iulia",
+        "name:ro": "Bulevardul Alba Iulia",
+        "name:ru": "бульвар Алба-Юлия",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24848593,
+      "bounds": {
+        "minlat": 47.0297493,
+        "minlon": 28.8003307,
+        "maxlat": 47.0303042,
+        "maxlon": 28.8017185
+      },
+      "nodes": [269972755, 269972696, 6187438208],
+      "geometry": [
+        { "lat": 47.0303042, "lon": 28.8017185 },
+        { "lat": 47.0301665, "lon": 28.8014255 },
+        { "lat": 47.0297493, "lon": 28.8003307 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "40",
+        "name": "Strada Ion Creangă",
+        "name:ro": "Strada Ion Creangă",
+        "name:ru": "улица Иона Крянгэ",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24848596,
+      "bounds": {
+        "minlat": 47.0369689,
+        "minlon": 28.8116861,
+        "maxlat": 47.0372541,
+        "maxlon": 28.8120685
+      },
+      "nodes": [269972680, 4566744960, 4335286915],
+      "geometry": [
+        { "lat": 47.0372541, "lon": 28.8120685 },
+        { "lat": 47.0370641, "lon": 28.8118136 },
+        { "lat": 47.0369689, "lon": 28.8116861 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Ion Creangă",
+        "name:ro": "Strada Ion Creangă",
+        "name:ru": "улица Иона Крянгэ"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24848597,
+      "bounds": {
+        "minlat": 47.0372541,
+        "minlon": 28.8120685,
+        "maxlat": 47.0375854,
+        "maxlon": 28.812634
+      },
+      "nodes": [269972680, 269972785, 269972786],
+      "geometry": [
+        { "lat": 47.0372541, "lon": 28.8120685 },
+        { "lat": 47.037459, "lon": 28.8124642 },
+        { "lat": 47.0375854, "lon": 28.812634 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Ion Creangă",
+        "name:ro": "Strada Ion Creangă",
+        "name:ru": "улица Иона Крянгэ",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24848601,
+      "bounds": {
+        "minlat": 47.0372541,
+        "minlon": 28.8120685,
+        "maxlat": 47.0377144,
+        "maxlon": 28.8122182
+      },
+      "nodes": [5781274899, 5588387122, 5588387123, 366288431, 269972680],
+      "geometry": [
+        { "lat": 47.0377144, "lon": 28.8122182 },
+        { "lat": 47.0376267, "lon": 28.812217 },
+        { "lat": 47.037495, "lon": 28.8122169 },
+        { "lat": 47.0373678, "lon": 28.8121662 },
+        { "lat": 47.0372541, "lon": 28.8120685 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Ion Creangă",
+        "name:ro": "Strada Ion Creangă",
+        "name:ru": "улица Иона Крянгэ",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24849099,
+      "bounds": {
+        "minlat": 47.0438011,
+        "minlon": 28.8496229,
+        "maxlat": 47.0448966,
+        "maxlon": 28.8517188
+      },
+      "nodes": [269527362, 269071049, 269071055],
+      "geometry": [
+        { "lat": 47.0438011, "lon": 28.8517188 },
+        { "lat": 47.0442548, "lon": 28.8508306 },
+        { "lat": 47.0448966, "lon": 28.8496229 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Renaşterii Naţionale",
+        "name:ro": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "oneway": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24855029,
+      "bounds": {
+        "minlat": 47.0433523,
+        "minlon": 28.8528638,
+        "maxlat": 47.0434555,
+        "maxlon": 28.853257
+      },
+      "nodes": [269843784, 269843787],
+      "geometry": [
+        { "lat": 47.0433523, "lon": 28.853257 },
+        { "lat": 47.0434555, "lon": 28.8528638 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24855030,
+      "bounds": {
+        "minlat": 47.0445699,
+        "minlon": 28.8477852,
+        "maxlat": 47.0450113,
+        "maxlon": 28.8482863
+      },
+      "nodes": [269222782, 4566744968, 1143717000, 1833173870, 6367829370],
+      "geometry": [
+        { "lat": 47.0445699, "lon": 28.8477852 },
+        { "lat": 47.0446971, "lon": 28.8479277 },
+        { "lat": 47.044801, "lon": 28.848044 },
+        { "lat": 47.0449732, "lon": 28.8482452 },
+        { "lat": 47.0450113, "lon": 28.8482863 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Calea Orheiului",
+        "name:ro": "Strada Calea Orheiului",
+        "name:ru": "улица Каля Орхеюлуй",
+        "oneway": "yes",
+        "turn:lanes": "through|through|right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24858480,
+      "bounds": {
+        "minlat": 47.0426715,
+        "minlon": 28.832601,
+        "maxlat": 47.0429681,
+        "maxlon": 28.833474
+      },
+      "nodes": [269078526, 269078528, 269078512],
+      "geometry": [
+        { "lat": 47.0426715, "lon": 28.832601 },
+        { "lat": 47.0428441, "lon": 28.8330673 },
+        { "lat": 47.0429681, "lon": 28.833474 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Mihai Viteazul",
+        "name:ro": "Strada Mihai Viteazul",
+        "name:ru": "улица Михая Витязула",
+        "old_name": "Оргеевская улица",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24858481,
+      "bounds": {
+        "minlat": 47.0406435,
+        "minlon": 28.8293618,
+        "maxlat": 47.0426234,
+        "maxlon": 28.8325222
+      },
+      "nodes": [270109202, 269070931, 384853850, 269078492],
+      "geometry": [
+        { "lat": 47.0406435, "lon": 28.8293618 },
+        { "lat": 47.0411151, "lon": 28.8301152 },
+        { "lat": 47.0416176, "lon": 28.8309147 },
+        { "lat": 47.0426234, "lon": 28.8325222 }
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "layer": "2",
+        "loc_name": "Podul Mihai Viteazul",
+        "loc_name:ru": "Оргеевский Мост",
+        "maxspeed": "50",
+        "name": "Strada Mihai Viteazul",
+        "name:ru": "улица Михая Витязула",
+        "old_name": "Оргеевская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25108331,
+      "bounds": {
+        "minlat": 47.042792,
+        "minlon": 28.8529952,
+        "maxlat": 47.04292,
+        "maxlon": 28.8536527
+      },
+      "nodes": [
+        3513477490,
+        273327505,
+        298088382,
+        269406253,
+        269406277,
+        2441691816
+      ],
+      "geometry": [
+        { "lat": 47.0428803, "lon": 28.8529952 },
+        { "lat": 47.042819, "lon": 28.8531254 },
+        { "lat": 47.042792, "lon": 28.8532689 },
+        { "lat": 47.0428014, "lon": 28.8534172 },
+        { "lat": 47.0428461, "lon": 28.8535509 },
+        { "lat": 47.04292, "lon": 28.8536527 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "50",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25548918,
+      "bounds": {
+        "minlat": 47.0428556,
+        "minlon": 28.8338787,
+        "maxlat": 47.0434786,
+        "maxlon": 28.8353961
+      },
+      "nodes": [
+        269240586,
+        2441691817,
+        6425964243,
+        4566744964,
+        279542536,
+        269240587,
+        4081286102,
+        269078524
+      ],
+      "geometry": [
+        { "lat": 47.0428556, "lon": 28.8353961 },
+        { "lat": 47.0429328, "lon": 28.8353205 },
+        { "lat": 47.0429642, "lon": 28.8352282 },
+        { "lat": 47.043172, "lon": 28.8346169 },
+        { "lat": 47.0432391, "lon": 28.8344712 },
+        { "lat": 47.0433179, "lon": 28.8342734 },
+        { "lat": 47.0433762, "lon": 28.8341282 },
+        { "lat": 47.0434786, "lon": 28.8338787 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "maxspeed": "50",
+        "name": "Strada Petricani",
+        "name:ro": "Strada Petricani",
+        "name:ru": "Петриканская улица",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25548919,
+      "bounds": {
+        "minlat": 47.041075,
+        "minlon": 28.8421001,
+        "maxlat": 47.0412668,
+        "maxlon": 28.8427621
+      },
+      "nodes": [269240565, 4566744969, 4566744965, 5728084426, 269240569],
+      "geometry": [
+        { "lat": 47.041075, "lon": 28.8427621 },
+        { "lat": 47.0411062, "lon": 28.8426438 },
+        { "lat": 47.0412154, "lon": 28.8422665 },
+        { "lat": 47.0412246, "lon": 28.8422369 },
+        { "lat": 47.0412668, "lon": 28.8421001 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Strada Petricani",
+        "name:ro": "Strada Petricani",
+        "name:ru": "Петриканская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25589165,
+      "bounds": {
+        "minlat": 47.0372136,
+        "minlon": 28.8128351,
+        "maxlat": 47.0375792,
+        "maxlon": 28.813519
+      },
+      "nodes": [269972791, 5588387121, 269972667],
+      "geometry": [
+        { "lat": 47.0375792, "lon": 28.8128351 },
+        { "lat": 47.037464, "lon": 28.8130733 },
+        { "lat": 47.0372136, "lon": 28.813519 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfînt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 27168260,
+      "bounds": {
+        "minlat": 47.0445699,
+        "minlon": 28.8477852,
+        "maxlat": 47.0452471,
+        "maxlon": 28.848001
+      },
+      "nodes": [269222040, 6427640545, 1124812130, 1143717006, 269222782],
+      "geometry": [
+        { "lat": 47.0452471, "lon": 28.848001 },
+        { "lat": 47.0450639, "lon": 28.8479731 },
+        { "lat": 47.0450038, "lon": 28.8479639 },
+        { "lat": 47.0447587, "lon": 28.847877 },
+        { "lat": 47.0445699, "lon": 28.8477852 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Calea Orheiului",
+        "name:ro": "Strada Calea Orheiului",
+        "name:ru": "улица Каля Орхеюлуй",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 33080374,
+      "bounds": {
+        "minlat": 47.0379573,
+        "minlon": 28.8133366,
+        "maxlat": 47.0382062,
+        "maxlon": 28.8186773
+      },
+      "nodes": [
+        269240631,
+        5722303364,
+        269240632,
+        269240639,
+        5346650320,
+        4566744962,
+        269240641,
+        269240643,
+        269240644,
+        5722303366,
+        269240645,
+        5722303365,
+        1608612877,
+        269240647,
+        269972784
+      ],
+      "geometry": [
+        { "lat": 47.0379573, "lon": 28.8186773 },
+        { "lat": 47.0379823, "lon": 28.8185358 },
+        { "lat": 47.0379917, "lon": 28.8183895 },
+        { "lat": 47.0379945, "lon": 28.8167729 },
+        { "lat": 47.0380093, "lon": 28.8161894 },
+        { "lat": 47.0380086, "lon": 28.8161056 },
+        { "lat": 47.038023, "lon": 28.8155501 },
+        { "lat": 47.0380479, "lon": 28.8148134 },
+        { "lat": 47.0380668, "lon": 28.8145164 },
+        { "lat": 47.0380764, "lon": 28.8143706 },
+        { "lat": 47.038093, "lon": 28.8142121 },
+        { "lat": 47.0381185, "lon": 28.8140168 },
+        { "lat": 47.0381548, "lon": 28.8137945 },
+        { "lat": 47.03817, "lon": 28.8137031 },
+        { "lat": 47.0382062, "lon": 28.8133366 }
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Henri Coandă",
+        "name:ru": "улица Анри Коандэ",
+        "old_name": "Моторная улица",
+        "oneway": "yes",
+        "postal_code": "MD-2004"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38297452,
+      "bounds": {
+        "minlat": 47.0359355,
+        "minlon": 28.8186773,
+        "maxlat": 47.0379573,
+        "maxlon": 28.8217961
+      },
+      "nodes": [269846276, 6425954934, 4566744963, 6824904469, 269240631],
+      "geometry": [
+        { "lat": 47.0359355, "lon": 28.8217961 },
+        { "lat": 47.0360731, "lon": 28.8215578 },
+        { "lat": 47.0369617, "lon": 28.8202371 },
+        { "lat": 47.0378607, "lon": 28.8188714 },
+        { "lat": 47.0379573, "lon": 28.8186773 }
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Columna",
+        "name:ru": "улица Колумна",
+        "old_name": "ул. Фрунзе",
+        "oneway": "yes",
+        "postal_code": "MD-2004"
+      }
+    },
+    {
+      "type": "way",
+      "id": 46909904,
+      "bounds": {
+        "minlat": 47.0338537,
+        "minlon": 28.8172356,
+        "maxlat": 47.0347284,
+        "maxlon": 28.8186263
+      },
+      "nodes": [269972794, 5588363977, 2961149717, 4563504818, 1608612101],
+      "geometry": [
+        { "lat": 47.0338537, "lon": 28.8186263 },
+        { "lat": 47.0339988, "lon": 28.8183963 },
+        { "lat": 47.0341531, "lon": 28.8181508 },
+        { "lat": 47.0343219, "lon": 28.8178824 },
+        { "lat": 47.0347284, "lon": 28.8172356 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:-1840": "str. Millionnaia",
+        "name:1840-1877": "str. Moskovskaia",
+        "name:1877-1924": "str. Aleksandrovskaia",
+        "name:1924-1931": "bd. Alexandru cel Bun",
+        "name:1931-1944": "bd. Regele Carol II",
+        "name:1944-1952": "strada Lenin",
+        "name:1952-1990": "bulevardul Lenin",
+        "name:bg": "бул. Стефан Велики",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "name_1": "bd.Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "postal_code": "MD-2004",
+        "surface": "asphalt",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Ștefan cel Mare și Sfînt din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 49359159,
+      "bounds": {
+        "minlat": 47.0118326,
+        "minlon": 28.8869996,
+        "maxlat": 47.0123291,
+        "maxlon": 28.8873449
+      },
+      "nodes": [
+        626869963,
+        626869961,
+        626869962,
+        626710806,
+        626710803,
+        269524250
+      ],
+      "geometry": [
+        { "lat": 47.0118326, "lon": 28.8869996 },
+        { "lat": 47.011884, "lon": 28.8871518 },
+        { "lat": 47.0119698, "lon": 28.8872301 },
+        { "lat": 47.012059, "lon": 28.8872856 },
+        { "lat": 47.0121808, "lon": 28.887323 },
+        { "lat": 47.0123291, "lon": 28.8873449 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Meșterul Manole",
+        "name:ru": "улица Мештерул Маноле",
+        "old_name": "улица Добровольского",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 49868154,
+      "bounds": {
+        "minlat": 47.0126461,
+        "minlon": 28.8873782,
+        "maxlat": 47.0209881,
+        "maxlon": 28.8882935
+      },
+      "nodes": [
+        4566489110,
+        4566489109,
+        633621364,
+        895317926,
+        4566489108,
+        283747092
+      ],
+      "geometry": [
+        { "lat": 47.0126461, "lon": 28.8873782 },
+        { "lat": 47.0157202, "lon": 28.887701 },
+        { "lat": 47.0179583, "lon": 28.887936 },
+        { "lat": 47.0203916, "lon": 28.8881992 },
+        { "lat": 47.0206556, "lon": 28.8882513 },
+        { "lat": 47.0209881, "lon": 28.8882935 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Meșterul Manole",
+        "name:ro": "Strada Meșterul Manole",
+        "name:ru": "улица Мештерул Маноле",
+        "old_name": "улица Добровольского",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 52060155,
+      "bounds": {
+        "minlat": 47.0392518,
+        "minlon": 28.8271476,
+        "maxlat": 47.0394408,
+        "maxlon": 28.8274454
+      },
+      "nodes": [269495932, 6208735338],
+      "geometry": [
+        { "lat": 47.0392518, "lon": 28.8271476 },
+        { "lat": 47.0394408, "lon": 28.8274454 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Mihai Viteazul",
+        "name:ru": "улица Михая Витязула",
+        "old_name": "Оргеевская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 52060158,
+      "bounds": {
+        "minlat": 47.0291423,
+        "minlon": 28.7875547,
+        "maxlat": 47.0296331,
+        "maxlon": 28.7885584
+      },
+      "nodes": [269976724, 4955274886, 4563305180, 365980352],
+      "geometry": [
+        { "lat": 47.0291423, "lon": 28.7885584 },
+        { "lat": 47.0292834, "lon": 28.7882692 },
+        { "lat": 47.0295032, "lon": 28.7878242 },
+        { "lat": 47.0296331, "lon": 28.7875547 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Bulevardul Alba Iulia",
+        "name:ro": "Bulevardul Alba Iulia",
+        "name:ru": "бульвар Алба-Юлия",
+        "old_name": "пр-т Энгельса",
+        "oneway": "no",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 52060162,
+      "bounds": {
+        "minlat": 47.0359355,
+        "minlon": 28.8217961,
+        "maxlat": 47.0365699,
+        "maxlon": 28.8228242
+      },
+      "nodes": [269846276, 5728629564, 2937562963, 4566744972, 6208715825],
+      "geometry": [
+        { "lat": 47.0359355, "lon": 28.8217961 },
+        { "lat": 47.0360272, "lon": 28.8219639 },
+        { "lat": 47.0361832, "lon": 28.8222155 },
+        { "lat": 47.0363623, "lon": 28.8225128 },
+        { "lat": 47.0365699, "lon": 28.8228242 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Strada Mihai Viteazul",
+        "name:ru": "улица Михая Витязула",
+        "old_name": "Оргеевская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 52060163,
+      "bounds": {
+        "minlat": 47.0352529,
+        "minlon": 28.8207431,
+        "maxlat": 47.0359355,
+        "maxlon": 28.8217961
+      },
+      "nodes": [
+        269240827,
+        6425958360,
+        5720237225,
+        2937562962,
+        6425954936,
+        269846276
+      ],
+      "geometry": [
+        { "lat": 47.0352529, "lon": 28.8207431 },
+        { "lat": 47.0353271, "lon": 28.8208322 },
+        { "lat": 47.0354697, "lon": 28.8210652 },
+        { "lat": 47.0357105, "lon": 28.821457 },
+        { "lat": 47.03581, "lon": 28.8215918 },
+        { "lat": 47.0359355, "lon": 28.8217961 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Strada Mihai Viteazul",
+        "name:ru": "улица Михая Витязула",
+        "old_name": "Оргеевская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 52061938,
+      "bounds": {
+        "minlat": 47.0384351,
+        "minlon": 28.7693329,
+        "maxlat": 47.0385949,
+        "maxlon": 28.769654
+      },
+      "nodes": [269403450, 623021929],
+      "geometry": [
+        { "lat": 47.0384351, "lon": 28.769654 },
+        { "lat": 47.0385949, "lon": 28.7693329 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Bulevardul Alba Iulia",
+        "name:ro": "Bulevardul Alba Iulia",
+        "name:ru": "бульвар Алба-Юлия",
+        "old_name": "пр-т Энгельса",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 52132049,
+      "bounds": {
+        "minlat": 47.0433266,
+        "minlon": 28.8534019,
+        "maxlat": 47.0433464,
+        "maxlon": 28.8538101
+      },
+      "nodes": [1737632762, 595683973],
+      "geometry": [
+        { "lat": 47.0433266, "lon": 28.8538101 },
+        { "lat": 47.0433464, "lon": 28.8534019 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Bogdan Voievod",
+        "name:ru": "улица Богдан Воевод",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 52299536,
+      "bounds": {
+        "minlat": 47.0209881,
+        "minlon": 28.8882935,
+        "maxlat": 47.0332848,
+        "maxlon": 28.8896674
+      },
+      "nodes": [
+        283747092,
+        4566489107,
+        365139321,
+        849390983,
+        283594006,
+        4566489106,
+        6585435413,
+        4566489105,
+        4117785801,
+        269416814
+      ],
+      "geometry": [
+        { "lat": 47.0209881, "lon": 28.8882935 },
+        { "lat": 47.0246143, "lon": 28.8886707 },
+        { "lat": 47.02542, "lon": 28.8887612 },
+        { "lat": 47.0255163, "lon": 28.888772 },
+        { "lat": 47.0271537, "lon": 28.8889551 },
+        { "lat": 47.0278402, "lon": 28.8890327 },
+        { "lat": 47.0285136, "lon": 28.8891088 },
+        { "lat": 47.0327125, "lon": 28.8895833 },
+        { "lat": 47.0330408, "lon": 28.8896204 },
+        { "lat": 47.0332848, "lon": 28.8896674 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Meșterul Manole",
+        "name:ro": "Strada Meșterul Manole",
+        "name:ru": "улица Мештерул Маноле",
+        "old_name": "улица Добровольского",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 52299537,
+      "bounds": {
+        "minlat": 47.0211198,
+        "minlon": 28.8874843,
+        "maxlat": 47.0330004,
+        "maxlon": 28.8888424
+      },
+      "nodes": [
+        270062079,
+        4117785401,
+        4566489122,
+        370403188,
+        370403187,
+        386836012,
+        627616624,
+        283594007,
+        283594009,
+        4566489121,
+        276879882
+      ],
+      "geometry": [
+        { "lat": 47.0330004, "lon": 28.8888424 },
+        { "lat": 47.0326603, "lon": 28.8887674 },
+        { "lat": 47.0323976, "lon": 28.8887345 },
+        { "lat": 47.0321069, "lon": 28.8887109 },
+        { "lat": 47.0314943, "lon": 28.8886395 },
+        { "lat": 47.0306158, "lon": 28.8885095 },
+        { "lat": 47.0292969, "lon": 28.8883942 },
+        { "lat": 47.0272, "lon": 28.8881461 },
+        { "lat": 47.0254314, "lon": 28.8879681 },
+        { "lat": 47.02473, "lon": 28.8878937 },
+        { "lat": 47.0211198, "lon": 28.8874843 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Meșterul Manole",
+        "name:ro": "Strada Meșterul Manole",
+        "name:ru": "улица Мештерул Маноле",
+        "old_name": "улица Добровольского",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 52299542,
+      "bounds": {
+        "minlat": 47.0129703,
+        "minlon": 28.8866015,
+        "maxlat": 47.0211198,
+        "maxlon": 28.8874843
+      },
+      "nodes": [
+        276879882,
+        2795174342,
+        2795174348,
+        4566489120,
+        633621365,
+        4566489119,
+        4566489118
+      ],
+      "geometry": [
+        { "lat": 47.0211198, "lon": 28.8874843 },
+        { "lat": 47.020922, "lon": 28.8874564 },
+        { "lat": 47.0204522, "lon": 28.8874045 },
+        { "lat": 47.0201207, "lon": 28.8873679 },
+        { "lat": 47.0180141, "lon": 28.8871351 },
+        { "lat": 47.0153683, "lon": 28.8868427 },
+        { "lat": 47.0129703, "lon": 28.8866015 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Meșterul Manole",
+        "name:ro": "Strada Meșterul Manole",
+        "name:ru": "улица Мештерул Маноле",
+        "old_name": "улица Добровольского",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 61158998,
+      "bounds": {
+        "minlat": 47.0326278,
+        "minlon": 28.80563,
+        "maxlat": 47.033444,
+        "maxlon": 28.8069419
+      },
+      "nodes": [269078468, 4349065014, 269972685, 1083486461],
+      "geometry": [
+        { "lat": 47.033444, "lon": 28.8069419 },
+        { "lat": 47.0333378, "lon": 28.8067576 },
+        { "lat": 47.0332636, "lon": 28.8066392 },
+        { "lat": 47.0326278, "lon": 28.80563 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Ion Creangă",
+        "name:ru": "улица Иона Крянгэ"
+      }
+    },
+    {
+      "type": "way",
+      "id": 80346247,
+      "bounds": {
+        "minlat": 47.0419088,
+        "minlon": 28.8446002,
+        "maxlat": 47.0432577,
+        "maxlon": 28.8462154
+      },
+      "nodes": [
+        694216633,
+        5727391864,
+        269078356,
+        5727391863,
+        1061240735,
+        270051016,
+        622646408
+      ],
+      "geometry": [
+        { "lat": 47.0419088, "lon": 28.8446002 },
+        { "lat": 47.0421125, "lon": 28.8447754 },
+        { "lat": 47.0422507, "lon": 28.8449159 },
+        { "lat": 47.0424589, "lon": 28.84514 },
+        { "lat": 47.04266, "lon": 28.8453785 },
+        { "lat": 47.0429675, "lon": 28.8458144 },
+        { "lat": 47.0432577, "lon": 28.8462154 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Strada Calea Orheiului",
+        "name:ro": "Strada Calea Orheiului",
+        "name:ru": "улица Каля Орхеюлуй",
+        "oneway": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 97534907,
+      "bounds": {
+        "minlat": 47.0432719,
+        "minlon": 28.8546972,
+        "maxlat": 47.0432994,
+        "maxlon": 28.8557167
+      },
+      "nodes": [622293888, 269078456, 5288454369, 269078459],
+      "geometry": [
+        { "lat": 47.043276, "lon": 28.8546972 },
+        { "lat": 47.0432719, "lon": 28.855036 },
+        { "lat": 47.0432828, "lon": 28.8555149 },
+        { "lat": 47.0432994, "lon": 28.8557167 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "30",
+        "name": "Strada Bogdan Voievod",
+        "name:ro": "Strada Bogdan Voievod",
+        "name:ru": "улица Богдан Воевод",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 110531148,
+      "bounds": {
+        "minlat": 47.0402385,
+        "minlon": 28.8287146,
+        "maxlat": 47.0406435,
+        "maxlon": 28.8293618
+      },
+      "nodes": [270878334, 270109202],
+      "geometry": [
+        { "lat": 47.0402385, "lon": 28.8287146 },
+        { "lat": 47.0406435, "lon": 28.8293618 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Mihai Viteazul",
+        "name:ro": "Strada Mihai Viteazul",
+        "name:ru": "улица Михая Витязула",
+        "old_name": "Оргеевская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 176564409,
+      "bounds": {
+        "minlat": 47.0414264,
+        "minlon": 28.8440975,
+        "maxlat": 47.0419088,
+        "maxlon": 28.8446002
+      },
+      "nodes": [
+        694216633,
+        5727391865,
+        1870604079,
+        1870604085,
+        5723412853,
+        269078353
+      ],
+      "geometry": [
+        { "lat": 47.0419088, "lon": 28.8446002 },
+        { "lat": 47.0418034, "lon": 28.8444681 },
+        { "lat": 47.0416684, "lon": 28.8443382 },
+        { "lat": 47.0416102, "lon": 28.8442727 },
+        { "lat": 47.0415178, "lon": 28.8441795 },
+        { "lat": 47.0414264, "lon": 28.8440975 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Calea Orheiului",
+        "name:ro": "Strada Calea Orheiului",
+        "name:ru": "улица Каля Орхеюлуй",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 208886379,
+      "bounds": {
+        "minlat": 47.0366187,
+        "minlon": 28.8879522,
+        "maxlat": 47.0368316,
+        "maxlon": 28.8892244
+      },
+      "nodes": [279847837, 6841641438, 3861243157, 3861243160, 322510111],
+      "geometry": [
+        { "lat": 47.0366187, "lon": 28.8892244 },
+        { "lat": 47.036664, "lon": 28.8888194 },
+        { "lat": 47.0367184, "lon": 28.8884555 },
+        { "lat": 47.036751, "lon": 28.8883021 },
+        { "lat": 47.0368316, "lon": 28.8879522 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "40",
+        "name": "Strada Alecu Russo",
+        "name:ru": "улица Алеку Руссо",
+        "old_name": "улица Федько",
+        "oneway": "yes",
+        "postal_code": "MD-2044",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236106342,
+      "bounds": {
+        "minlat": 47.0448966,
+        "minlon": 28.8485285,
+        "maxlat": 47.0451589,
+        "maxlon": 28.8496229
+      },
+      "nodes": [2441691842, 1833173869, 1833173868, 269071055],
+      "geometry": [
+        { "lat": 47.0451589, "lon": 28.8485285 },
+        { "lat": 47.0451245, "lon": 28.8488021 },
+        { "lat": 47.0450579, "lon": 28.8491425 },
+        { "lat": 47.0448966, "lon": 28.8496229 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Renaşterii Naţionale",
+        "name:ro": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236135815,
+      "bounds": {
+        "minlat": 47.04229,
+        "minlon": 28.8370383,
+        "maxlat": 47.0425062,
+        "maxlon": 28.8380616
+      },
+      "nodes": [1929654603, 5727945970],
+      "geometry": [
+        { "lat": 47.04229, "lon": 28.8380616 },
+        { "lat": 47.0425062, "lon": 28.8370383 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Strada Petricani",
+        "name:ro": "Strada Petricani",
+        "name:ru": "Петриканская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236135816,
+      "bounds": {
+        "minlat": 47.0421768,
+        "minlon": 28.8380616,
+        "maxlat": 47.04229,
+        "maxlon": 28.8386235
+      },
+      "nodes": [622646390, 1929654603],
+      "geometry": [
+        { "lat": 47.0421768, "lon": 28.8386235 },
+        { "lat": 47.04229, "lon": 28.8380616 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Strada Petricani",
+        "name:ro": "Strada Petricani",
+        "name:ru": "Петриканская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236135817,
+      "bounds": {
+        "minlat": 47.0412668,
+        "minlon": 28.8413564,
+        "maxlat": 47.0414842,
+        "maxlon": 28.8421001
+      },
+      "nodes": [269240569, 5728084425, 289430462],
+      "geometry": [
+        { "lat": 47.0412668, "lon": 28.8421001 },
+        { "lat": 47.0414191, "lon": 28.8415711 },
+        { "lat": 47.0414842, "lon": 28.8413564 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Strada Petricani",
+        "name:ro": "Strada Petricani",
+        "name:ru": "Петриканская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236139337,
+      "bounds": {
+        "minlat": 47.0441162,
+        "minlon": 28.860172,
+        "maxlat": 47.0442088,
+        "maxlon": 28.8606297
+      },
+      "nodes": [676296043, 3002855744, 6427518708],
+      "geometry": [
+        { "lat": 47.0441162, "lon": 28.860172 },
+        { "lat": 47.0441793, "lon": 28.8604837 },
+        { "lat": 47.0442088, "lon": 28.8606297 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "30",
+        "name": "Strada Bogdan Voievod",
+        "name:ro": "str. Bogdan Voievod",
+        "name:ru": "улица Богдан Воевод",
+        "oneway": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236319211,
+      "bounds": {
+        "minlat": 47.0365194,
+        "minlon": 28.8141019,
+        "maxlat": 47.0368146,
+        "maxlon": 28.8145437
+      },
+      "nodes": [1608612373, 1608612424],
+      "geometry": [
+        { "lat": 47.0365194, "lon": 28.8145437 },
+        { "lat": 47.0368146, "lon": 28.8141019 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfînt",
+        "name:-1840": "str. Millionnaia",
+        "name:1840-1877": "str. Moskovskaia",
+        "name:1877-1924": "str. Aleksandrovskaia",
+        "name:1924-1931": "bd. Alexandru cel Bun",
+        "name:1931-1944": "bd. Regele Carol II",
+        "name:1944-1952": "strada Lenin",
+        "name:1952-1990": "bulevardul Lenin",
+        "name:bg": "бул. Стефан Велики",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "name_1": "bd.Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "postal_code": "MD-2004",
+        "surface": "asphalt",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Ștefan cel Mare și Sfînt din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236319214,
+      "bounds": {
+        "minlat": 47.0347284,
+        "minlon": 28.8145437,
+        "maxlat": 47.0365194,
+        "maxlon": 28.8172356
+      },
+      "nodes": [1608612101, 1608612373],
+      "geometry": [
+        { "lat": 47.0347284, "lon": 28.8172356 },
+        { "lat": 47.0365194, "lon": 28.8145437 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:-1840": "str. Millionnaia",
+        "name:1840-1877": "str. Moskovskaia",
+        "name:1877-1924": "str. Aleksandrovskaia",
+        "name:1924-1931": "bd. Alexandru cel Bun",
+        "name:1931-1944": "bd. Regele Carol II",
+        "name:1944-1952": "strada Lenin",
+        "name:1952-1990": "bulevardul Lenin",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "name_1": "bd.Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "postal_code": "MD-2004",
+        "surface": "asphalt",
+        "trolley_wire": "yes",
+        "wikipedia:ro": "Bulevardul Ștefan cel Mare și Sfînt din Chișinău"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236319217,
+      "bounds": {
+        "minlat": 47.0368146,
+        "minlon": 28.813519,
+        "maxlat": 47.0372136,
+        "maxlon": 28.8141019
+      },
+      "nodes": [1608612424, 269972667],
+      "geometry": [
+        { "lat": 47.0368146, "lon": 28.8141019 },
+        { "lat": 47.0372136, "lon": 28.813519 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Bulevardul Ștefan cel Mare și Sfînt",
+        "name:-1840": "str. Millionnaia",
+        "name:1840-1877": "str. Moskovskaia",
+        "name:1877-1924": "str. Aleksandrovskaia",
+        "name:1924-1931": "bd. Alexandru cel Bun",
+        "name:1931-1944": "bd. Regele Carol II",
+        "name:1944-1952": "strada Lenin",
+        "name:1952-1990": "bulevardul Lenin",
+        "name:bg": "бул. Стефан Велики",
+        "name:ro": "Bulevardul Ștefan cel Mare și Sfânt",
+        "name:ru": "бульвар Штефан чел Маре",
+        "name_1": "bd. Ștefan cel Mare",
+        "old_name": "bd. Alexandru cel Bun",
+        "postal_code": "MD-2004",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236730807,
+      "bounds": {
+        "minlat": 47.038142,
+        "minlon": 28.8253354,
+        "maxlat": 47.038793,
+        "maxlon": 28.8263876
+      },
+      "nodes": [301111648, 6425958358, 4566744971, 365332441],
+      "geometry": [
+        { "lat": 47.038142, "lon": 28.8253354 },
+        { "lat": 47.0382633, "lon": 28.8255326 },
+        { "lat": 47.0382865, "lon": 28.8255679 },
+        { "lat": 47.038793, "lon": 28.8263876 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Strada Mihai Viteazul",
+        "name:ru": "улица Михая Витязула",
+        "old_name": "Оргеевская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236878982,
+      "bounds": {
+        "minlat": 47.038793,
+        "minlon": 28.8263876,
+        "maxlat": 47.0391123,
+        "maxlon": 28.8269085
+      },
+      "nodes": [365332441, 4321367241, 369840306],
+      "geometry": [
+        { "lat": 47.038793, "lon": 28.8263876 },
+        { "lat": 47.038899, "lon": 28.8265689 },
+        { "lat": 47.0391123, "lon": 28.8269085 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Strada Mihai Viteazul",
+        "name:ru": "улица Михая Витязула",
+        "old_name": "Оргеевская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236878983,
+      "bounds": {
+        "minlat": 47.0376559,
+        "minlon": 28.8245724,
+        "maxlat": 47.038142,
+        "maxlon": 28.8253354
+      },
+      "nodes": [1426069494, 301111648],
+      "geometry": [
+        { "lat": 47.0376559, "lon": 28.8245724 },
+        { "lat": 47.038142, "lon": 28.8253354 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Mihai Viteazul",
+        "name:ru": "улица Михая Витязула",
+        "old_name": "Оргеевская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236878984,
+      "bounds": {
+        "minlat": 47.0391123,
+        "minlon": 28.8269085,
+        "maxlat": 47.0392518,
+        "maxlon": 28.8271476
+      },
+      "nodes": [369840306, 269495932],
+      "geometry": [
+        { "lat": 47.0391123, "lon": 28.8269085 },
+        { "lat": 47.0392518, "lon": 28.8271476 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Mihai Viteazul",
+        "name:ru": "улица Михая Витязула",
+        "old_name": "Оргеевская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 237157428,
+      "bounds": {
+        "minlat": 47.0442041,
+        "minlon": 28.8474274,
+        "maxlat": 47.0445699,
+        "maxlon": 28.8477852
+      },
+      "nodes": [622646449, 269222782],
+      "geometry": [
+        { "lat": 47.0442041, "lon": 28.8474274 },
+        { "lat": 47.0445699, "lon": 28.8477852 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Calea Orheiului",
+        "name:ro": "Strada Calea Orheiului",
+        "name:ru": "улица Каля Орхеюлуй"
+      }
+    },
+    {
+      "type": "way",
+      "id": 237157429,
+      "bounds": {
+        "minlat": 47.0440582,
+        "minlon": 28.8472773,
+        "maxlat": 47.0442041,
+        "maxlon": 28.8474274
+      },
+      "nodes": [278939602, 622646449],
+      "geometry": [
+        { "lat": 47.0440582, "lon": 28.8472773 },
+        { "lat": 47.0442041, "lon": 28.8474274 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Calea Orheiului",
+        "name:ro": "Strada Calea Orheiului",
+        "name:ru": "улица Каля Орхеюлуй"
+      }
+    },
+    {
+      "type": "way",
+      "id": 237157430,
+      "bounds": {
+        "minlat": 47.0432577,
+        "minlon": 28.8462154,
+        "maxlat": 47.0440582,
+        "maxlon": 28.8472773
+      },
+      "nodes": [622646408, 5727391862, 270051017, 5727391861, 278939602],
+      "geometry": [
+        { "lat": 47.0432577, "lon": 28.8462154 },
+        { "lat": 47.0434861, "lon": 28.8465383 },
+        { "lat": 47.0436958, "lon": 28.8468295 },
+        { "lat": 47.0439381, "lon": 28.8471327 },
+        { "lat": 47.0440582, "lon": 28.8472773 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Calea Orheiului",
+        "name:ro": "Strada Calea Orheiului",
+        "name:ru": "улица Каля Орхеюлуй"
+      }
+    },
+    {
+      "type": "way",
+      "id": 237157431,
+      "bounds": {
+        "minlat": 47.0420527,
+        "minlon": 28.8389942,
+        "maxlat": 47.0420965,
+        "maxlon": 28.839181
+      },
+      "nodes": [269240576, 5728084424, 3381832428],
+      "geometry": [
+        { "lat": 47.0420527, "lon": 28.839181 },
+        { "lat": 47.0420717, "lon": 28.8391096 },
+        { "lat": 47.0420965, "lon": 28.8389942 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "6",
+        "name": "Strada Petricani",
+        "name:ro": "Strada Petricani",
+        "name:ru": "Петриканская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 237157432,
+      "bounds": {
+        "minlat": 47.0418288,
+        "minlon": 28.8397415,
+        "maxlat": 47.0419298,
+        "maxlon": 28.8401455
+      },
+      "nodes": [269240573, 5727939986],
+      "geometry": [
+        { "lat": 47.0418288, "lon": 28.8401455 },
+        { "lat": 47.0419298, "lon": 28.8397415 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Strada Petricani",
+        "name:ro": "Strada Petricani",
+        "name:ru": "Петриканская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 237157433,
+      "bounds": {
+        "minlat": 47.0414842,
+        "minlon": 28.8401455,
+        "maxlat": 47.0418288,
+        "maxlon": 28.8413564
+      },
+      "nodes": [289430462, 269240572, 269240573],
+      "geometry": [
+        { "lat": 47.0414842, "lon": 28.8413564 },
+        { "lat": 47.041713, "lon": 28.8405768 },
+        { "lat": 47.0418288, "lon": 28.8401455 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Strada Petricani",
+        "name:ro": "Strada Petricani",
+        "name:ru": "Петриканская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 300961675,
+      "bounds": {
+        "minlat": 47.0442741,
+        "minlon": 28.8614978,
+        "maxlat": 47.0443016,
+        "maxlon": 28.8615326
+      },
+      "nodes": [4265006794, 3050700687],
+      "geometry": [
+        { "lat": 47.0442741, "lon": 28.8614978 },
+        { "lat": 47.0443016, "lon": 28.8615326 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "junction": "roundabout",
+        "lanes": "3",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 300961676,
+      "bounds": {
+        "minlat": 47.0442317,
+        "minlon": 28.8607385,
+        "maxlat": 47.0444322,
+        "maxlon": 28.8612627
+      },
+      "nodes": [3050700690, 6634039687, 6634039686, 3667873539, 6634039796],
+      "geometry": [
+        { "lat": 47.0444322, "lon": 28.8612627 },
+        { "lat": 47.0443903, "lon": 28.8611908 },
+        { "lat": 47.0443676, "lon": 28.8611353 },
+        { "lat": 47.0443118, "lon": 28.8609577 },
+        { "lat": 47.0442317, "lon": 28.8607385 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Bogdan Voievod",
+        "name:ro": "str. Bogdan Voievod",
+        "name:ru": "улица Богдан Воевод",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 311137951,
+      "bounds": {
+        "minlat": 47.0353956,
+        "minlon": 28.7752766,
+        "maxlat": 47.0356741,
+        "maxlon": 28.7758301
+      },
+      "nodes": [269403411, 1177406465, 4563305178, 365960589],
+      "geometry": [
+        { "lat": 47.0353956, "lon": 28.7758301 },
+        { "lat": 47.0354684, "lon": 28.7756771 },
+        { "lat": 47.0355833, "lon": 28.7754533 },
+        { "lat": 47.0356741, "lon": 28.7752766 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Bulevardul Alba Iulia",
+        "name:ro": "Bulevardul Alba Iulia",
+        "name:ru": "бульвар Алба-Юлия",
+        "old_name": "пр-т Энгельса",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 320548207,
+      "bounds": {
+        "minlat": 47.0278436,
+        "minlon": 28.7952127,
+        "maxlat": 47.0279685,
+        "maxlon": 28.795541
+      },
+      "nodes": [269972702, 365981520],
+      "geometry": [
+        { "lat": 47.0279685, "lon": 28.795541 },
+        { "lat": 47.0278436, "lon": 28.7952127 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "40",
+        "name": "Strada Ion Creangă",
+        "name:ro": "Strada Ion Creangă",
+        "name:ru": "улица Иона Крянгэ",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 344600092,
+      "bounds": {
+        "minlat": 47.0431416,
+        "minlon": 28.8517188,
+        "maxlat": 47.0438011,
+        "maxlon": 28.8526971
+      },
+      "nodes": [
+        269527362,
+        6634288069,
+        6634288067,
+        6634288068,
+        3513477715,
+        3513477491,
+        3513477993
+      ],
+      "geometry": [
+        { "lat": 47.0438011, "lon": 28.8517188 },
+        { "lat": 47.0436769, "lon": 28.8518721 },
+        { "lat": 47.0436086, "lon": 28.8520064 },
+        { "lat": 47.0435371, "lon": 28.8521484 },
+        { "lat": 47.0434491, "lon": 28.8522939 },
+        { "lat": 47.0433086, "lon": 28.8524864 },
+        { "lat": 47.0431416, "lon": 28.8526971 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "maxspeed": "50",
+        "name": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "old_name": "проспект Молодёжи",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 349539998,
+      "bounds": {
+        "minlat": 47.0434555,
+        "minlon": 28.8517188,
+        "maxlat": 47.0438011,
+        "maxlon": 28.8528638
+      },
+      "nodes": [269843787, 4566744966, 269527320, 6634288070, 269527362],
+      "geometry": [
+        { "lat": 47.0434555, "lon": 28.8528638 },
+        { "lat": 47.043552, "lon": 28.8524797 },
+        { "lat": 47.0436321, "lon": 28.8522114 },
+        { "lat": 47.0437295, "lon": 28.851972 },
+        { "lat": 47.0438011, "lon": 28.8517188 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 382892301,
+      "bounds": {
+        "minlat": 47.0388731,
+        "minlon": 28.882144,
+        "maxlat": 47.0392658,
+        "maxlon": 28.8833371
+      },
+      "nodes": [3050665983, 6841641420, 283736518],
+      "geometry": [
+        { "lat": 47.0392658, "lon": 28.882144 },
+        { "lat": 47.039241, "lon": 28.8822381 },
+        { "lat": 47.0388731, "lon": 28.8833371 }
+      ],
+      "tags": {
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Alecu Russo",
+        "name:ru": "улица Алеку Руссо",
+        "old_name": "улица Федько",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 382894023,
+      "bounds": {
+        "minlat": 47.0395139,
+        "minlon": 28.8813101,
+        "maxlat": 47.039739,
+        "maxlon": 28.8821901
+      },
+      "nodes": [5707399654, 3861023252, 6841634749, 370403208],
+      "geometry": [
+        { "lat": 47.0395139, "lon": 28.8821901 },
+        { "lat": 47.0395685, "lon": 28.8820087 },
+        { "lat": 47.0396813, "lon": 28.8816006 },
+        { "lat": 47.039739, "lon": 28.8813101 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Alecu Russo",
+        "name:ru": "улица Алеку Руссо",
+        "old_name": "улица Федько",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 382897093,
+      "bounds": {
+        "minlat": 47.0443016,
+        "minlon": 28.8615326,
+        "maxlat": 47.0443486,
+        "maxlon": 28.8621488
+      },
+      "nodes": [
+        3050700687,
+        6634039793,
+        3861536476,
+        3861536474,
+        3861570200,
+        6841641433,
+        3861536475
+      ],
+      "geometry": [
+        { "lat": 47.0443016, "lon": 28.8615326 },
+        { "lat": 47.0443293, "lon": 28.8615867 },
+        { "lat": 47.0443423, "lon": 28.8616432 },
+        { "lat": 47.0443486, "lon": 28.8617425 },
+        { "lat": 47.0443477, "lon": 28.8618149 },
+        { "lat": 47.0443372, "lon": 28.8619601 },
+        { "lat": 47.0443194, "lon": 28.8621488 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Alecu Russo",
+        "name:ro": "Strada Alecu Russo",
+        "name:ru": "улица Алеку Руссо",
+        "old_name": "улица Федько",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 383160938,
+      "bounds": {
+        "minlat": 47.039739,
+        "minlon": 28.8804139,
+        "maxlat": 47.0400814,
+        "maxlon": 28.8813101
+      },
+      "nodes": [370403208, 3861075141, 6841641430],
+      "geometry": [
+        { "lat": 47.039739, "lon": 28.8813101 },
+        { "lat": 47.0398385, "lon": 28.8810632 },
+        { "lat": 47.0400814, "lon": 28.8804139 }
+      ],
+      "tags": {
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "8",
+        "maxspeed": "50",
+        "name": "Strada Alecu Russo",
+        "name:ru": "улица Алеку Руссо",
+        "old_name": "улица Федько",
+        "postal_code": "MD-2044",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 415152465,
+      "bounds": {
+        "minlat": 47.0443896,
+        "minlon": 28.8614665,
+        "maxlat": 47.0444612,
+        "maxlon": 28.861947
+      },
+      "nodes": [6427518703, 6841641434, 3861544149, 6634035672, 3861535560],
+      "geometry": [
+        { "lat": 47.0443896, "lon": 28.861947 },
+        { "lat": 47.0444135, "lon": 28.8618218 },
+        { "lat": 47.0444325, "lon": 28.8617181 },
+        { "lat": 47.044452, "lon": 28.8615667 },
+        { "lat": 47.0444612, "lon": 28.8614665 }
+      ],
+      "tags": {
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Alecu Russo",
+        "name:ro": "Strada Alecu Russo",
+        "name:ru": "улица Алеку Руссо",
+        "old_name": "улица Федько",
+        "oneway": "yes",
+        "postal_code": "MD-2044",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 456332977,
+      "bounds": {
+        "minlat": 47.0393459,
+        "minlon": 28.8813101,
+        "maxlat": 47.039739,
+        "maxlon": 28.8819498
+      },
+      "nodes": [370403208, 6841641425, 6841641426, 4054834502, 3049512453],
+      "geometry": [
+        { "lat": 47.039739, "lon": 28.8813101 },
+        { "lat": 47.0396076, "lon": 28.8815096 },
+        { "lat": 47.03951, "lon": 28.881682 },
+        { "lat": 47.0393776, "lon": 28.8819018 },
+        { "lat": 47.0393459, "lon": 28.8819498 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Alecu Russo",
+        "name:ru": "улица Алеку Руссо",
+        "old_name": "улица Федько",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 460715187,
+      "bounds": {
+        "minlat": 47.041268,
+        "minlon": 28.7631948,
+        "maxlat": 47.0416004,
+        "maxlon": 28.7638784
+      },
+      "nodes": [462242817, 4563305176],
+      "geometry": [
+        { "lat": 47.041268, "lon": 28.7638784 },
+        { "lat": 47.0416004, "lon": 28.7631948 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bulevardul Alba Iulia",
+        "name:ro": "Bulevardul Alba Iulia",
+        "name:ru": "бульвар Алба-Юлия",
+        "old_name": "пр-т Энгельса",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 461102214,
+      "bounds": {
+        "minlat": 47.0123291,
+        "minlon": 28.8873449,
+        "maxlat": 47.0126461,
+        "maxlon": 28.8873782
+      },
+      "nodes": [269524250, 1929654592, 5467965434, 4566489110],
+      "geometry": [
+        { "lat": 47.0123291, "lon": 28.8873449 },
+        { "lat": 47.0124164, "lon": 28.8873541 },
+        { "lat": 47.0125683, "lon": 28.88737 },
+        { "lat": 47.0126461, "lon": 28.8873782 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Meșterul Manole",
+        "name:ru": "улица Мештерул Маноле",
+        "old_name": "улица Добровольского",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 461102215,
+      "bounds": {
+        "minlat": 47.0118326,
+        "minlon": 28.8865125,
+        "maxlat": 47.0129703,
+        "maxlon": 28.8869996
+      },
+      "nodes": [
+        4566489118,
+        365139323,
+        6799572141,
+        2425898172,
+        626710769,
+        5707431151,
+        626710774,
+        626869963
+      ],
+      "geometry": [
+        { "lat": 47.0129703, "lon": 28.8866015 },
+        { "lat": 47.0125531, "lon": 28.8865504 },
+        { "lat": 47.0122622, "lon": 28.8865125 },
+        { "lat": 47.0121057, "lon": 28.8865221 },
+        { "lat": 47.0119699, "lon": 28.8865696 },
+        { "lat": 47.0118949, "lon": 28.8866513 },
+        { "lat": 47.011837, "lon": 28.8867598 },
+        { "lat": 47.0118326, "lon": 28.8869996 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Meșterul Manole",
+        "name:ru": "улица Мештерул Маноле",
+        "old_name": "улица Добровольского",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 461131169,
+      "bounds": {
+        "minlat": 47.0410731,
+        "minlon": 28.7638784,
+        "maxlat": 47.041268,
+        "maxlon": 28.7642626
+      },
+      "nodes": [4563321587, 462242817],
+      "geometry": [
+        { "lat": 47.0410731, "lon": 28.7642626 },
+        { "lat": 47.041268, "lon": 28.7638784 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Alba Iulia",
+        "name:ru": "улица Алба-Юлия",
+        "old_name": "пр-т Энгельса",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 461138197,
+      "bounds": {
+        "minlat": 47.0279685,
+        "minlon": 28.795541,
+        "maxlat": 47.0282277,
+        "maxlon": 28.796254
+      },
+      "nodes": [4563305182, 269972702],
+      "geometry": [
+        { "lat": 47.0282277, "lon": 28.796254 },
+        { "lat": 47.0279685, "lon": 28.795541 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "40",
+        "name": "Strada Ion Creangă",
+        "name:ru": "улица Иона Крянгэ",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 549188166,
+      "bounds": {
+        "minlat": 47.0444322,
+        "minlon": 28.8612627,
+        "maxlat": 47.0444726,
+        "maxlon": 28.8614665
+      },
+      "nodes": [3861535560, 3050700695, 3050700694, 6794130910, 3050700690],
+      "geometry": [
+        { "lat": 47.0444612, "lon": 28.8614665 },
+        { "lat": 47.0444726, "lon": 28.861413 },
+        { "lat": 47.0444712, "lon": 28.861357 },
+        { "lat": 47.0444572, "lon": 28.8613049 },
+        { "lat": 47.0444322, "lon": 28.8612627 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "junction": "roundabout",
+        "lanes": "3",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 584676297,
+      "bounds": {
+        "minlat": 47.0382437,
+        "minlon": 28.8122265,
+        "maxlat": 47.0383021,
+        "maxlon": 28.8132842
+      },
+      "nodes": [
+        6381064062,
+        5748520609,
+        5748520610,
+        366289313,
+        5748520611,
+        366290405,
+        5748520612,
+        5748520613,
+        6185341404,
+        269972781
+      ],
+      "geometry": [
+        { "lat": 47.0382437, "lon": 28.8132842 },
+        { "lat": 47.038261, "lon": 28.8132347 },
+        { "lat": 47.0382793, "lon": 28.8131435 },
+        { "lat": 47.0382957, "lon": 28.8129571 },
+        { "lat": 47.0383021, "lon": 28.8127238 },
+        { "lat": 47.0383003, "lon": 28.8125615 },
+        { "lat": 47.0382957, "lon": 28.8124555 },
+        { "lat": 47.0382756, "lon": 28.8123259 },
+        { "lat": 47.038263, "lon": 28.8122777 },
+        { "lat": 47.0382497, "lon": 28.8122265 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Piața Dimitrie Cantemir",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 584676299,
+      "bounds": {
+        "minlat": 47.0377547,
+        "minlon": 28.8120733,
+        "maxlat": 47.0382497,
+        "maxlon": 28.8122265
+      },
+      "nodes": [
+        269972781,
+        5588387125,
+        5748520608,
+        278939561,
+        5588387124,
+        278939563,
+        5748520607,
+        269972778
+      ],
+      "geometry": [
+        { "lat": 47.0382497, "lon": 28.8122265 },
+        { "lat": 47.0381909, "lon": 28.812156 },
+        { "lat": 47.0381212, "lon": 28.8121055 },
+        { "lat": 47.0380798, "lon": 28.8120841 },
+        { "lat": 47.0380097, "lon": 28.8120733 },
+        { "lat": 47.0379219, "lon": 28.8120827 },
+        { "lat": 47.0378424, "lon": 28.8121149 },
+        { "lat": 47.0377547, "lon": 28.8121645 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Piața Dimitrie Cantemir",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 599291511,
+      "bounds": {
+        "minlat": 47.0392837,
+        "minlon": 28.8819498,
+        "maxlat": 47.0393459,
+        "maxlon": 28.8820272
+      },
+      "nodes": [3049512453, 5701977138, 5707399660],
+      "geometry": [
+        { "lat": 47.0393459, "lon": 28.8819498 },
+        { "lat": 47.0393105, "lon": 28.8819811 },
+        { "lat": 47.0392837, "lon": 28.8820272 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "40",
+        "postal_code": "MD-2044"
+      }
+    },
+    {
+      "type": "way",
+      "id": 599291512,
+      "bounds": {
+        "minlat": 47.0394597,
+        "minlon": 28.8822449,
+        "maxlat": 47.0394923,
+        "maxlon": 28.8822862
+      },
+      "nodes": [5707399653, 3860988037],
+      "geometry": [
+        { "lat": 47.0394597, "lon": 28.8822862 },
+        { "lat": 47.0394923, "lon": 28.8822449 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "40",
+        "postal_code": "MD-2044"
+      }
+    },
+    {
+      "type": "way",
+      "id": 599296597,
+      "bounds": {
+        "minlat": 47.0363538,
+        "minlon": 28.8892244,
+        "maxlat": 47.0366233,
+        "maxlon": 28.8899126
+      },
+      "nodes": [
+        269416885,
+        6841641509,
+        1143717014,
+        279847840,
+        3861243162,
+        279847825,
+        279847837
+      ],
+      "geometry": [
+        { "lat": 47.0363538, "lon": 28.8899126 },
+        { "lat": 47.0364421, "lon": 28.8898237 },
+        { "lat": 47.0365214, "lon": 28.8897302 },
+        { "lat": 47.0365798, "lon": 28.8896141 },
+        { "lat": 47.0366098, "lon": 28.8894979 },
+        { "lat": 47.0366233, "lon": 28.8893857 },
+        { "lat": 47.0366187, "lon": 28.8892244 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "50",
+        "trolley_wire": "yes",
+        "turn:lanes": "through|through;right|through;right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 599296598,
+      "bounds": {
+        "minlat": 47.0360992,
+        "minlon": 28.8899126,
+        "maxlat": 47.0363538,
+        "maxlon": 28.8899288
+      },
+      "nodes": [269416883, 6841641511, 269416885],
+      "geometry": [
+        { "lat": 47.0360992, "lon": 28.8899206 },
+        { "lat": 47.0362209, "lon": 28.8899288 },
+        { "lat": 47.0363538, "lon": 28.8899126 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "50",
+        "trolley_wire": "yes",
+        "turn:lanes": "through|through;right|through;right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 599296599,
+      "bounds": {
+        "minlat": 47.0360054,
+        "minlon": 28.888821,
+        "maxlat": 47.0360893,
+        "maxlon": 28.888892
+      },
+      "nodes": [2441691813, 2441691812],
+      "geometry": [
+        { "lat": 47.0360893, "lon": 28.888821 },
+        { "lat": 47.0360054, "lon": 28.888892 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "50",
+        "trolley_wire": "yes",
+        "turn:lanes": "through|through;right|through;right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 610459510,
+      "bounds": {
+        "minlat": 47.0377144,
+        "minlon": 28.8121645,
+        "maxlat": 47.0377547,
+        "maxlon": 28.8122182
+      },
+      "nodes": [269972778, 5781274899],
+      "geometry": [
+        { "lat": 47.0377547, "lon": 28.8121645 },
+        { "lat": 47.0377144, "lon": 28.8122182 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Piața Dimitrie Cantemir",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 624356191,
+      "bounds": {
+        "minlat": 47.0359605,
+        "minlon": 28.888892,
+        "maxlat": 47.0360054,
+        "maxlon": 28.8889581
+      },
+      "nodes": [2441691812, 269075327],
+      "geometry": [
+        { "lat": 47.0360054, "lon": 28.888892 },
+        { "lat": 47.0359605, "lon": 28.8889581 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "50",
+        "trolley_wire": "yes",
+        "turn:lanes": "through|through;right|through;right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 624356195,
+      "bounds": {
+        "minlat": 47.0375792,
+        "minlon": 28.812634,
+        "maxlat": 47.0375854,
+        "maxlon": 28.8128351
+      },
+      "nodes": [269972786, 269972791],
+      "geometry": [
+        { "lat": 47.0375854, "lon": 28.812634 },
+        { "lat": 47.0375792, "lon": 28.8128351 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Piața Dimitrie Cantemir",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655676501,
+      "bounds": {
+        "minlat": 47.0434786,
+        "minlon": 28.8336567,
+        "maxlat": 47.0435879,
+        "maxlon": 28.8338787
+      },
+      "nodes": [269078524, 2441691831, 2060966025, 4081276966, 269078501],
+      "geometry": [
+        { "lat": 47.0434786, "lon": 28.8338787 },
+        { "lat": 47.0435141, "lon": 28.8338328 },
+        { "lat": 47.0435446, "lon": 28.8337797 },
+        { "lat": 47.0435693, "lon": 28.8337206 },
+        { "lat": 47.0435879, "lon": 28.8336567 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "junction": "roundabout",
+        "maxspeed": "50"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655676503,
+      "bounds": {
+        "minlat": 47.0429681,
+        "minlon": 28.833474,
+        "maxlat": 47.0429931,
+        "maxlon": 28.8336898
+      },
+      "nodes": [269078512, 269078514],
+      "geometry": [
+        { "lat": 47.0429681, "lon": 28.833474 },
+        { "lat": 47.0429931, "lon": 28.8336898 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "junction": "roundabout",
+        "maxspeed": "50"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655676505,
+      "bounds": {
+        "minlat": 47.0432368,
+        "minlon": 28.8330411,
+        "maxlat": 47.0434063,
+        "maxlon": 28.8330725
+      },
+      "nodes": [269078503, 4163506798, 269078505],
+      "geometry": [
+        { "lat": 47.0434063, "lon": 28.8330725 },
+        { "lat": 47.0433229, "lon": 28.8330411 },
+        { "lat": 47.0432368, "lon": 28.8330437 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "junction": "roundabout",
+        "maxspeed": "50"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655676642,
+      "bounds": {
+        "minlat": 47.040655,
+        "minlon": 28.8435265,
+        "maxlat": 47.0407114,
+        "maxlon": 28.8435909
+      },
+      "nodes": [289430490, 269078361],
+      "geometry": [
+        { "lat": 47.0407114, "lon": 28.8435265 },
+        { "lat": 47.040655, "lon": 28.8435909 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "50",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655677038,
+      "bounds": {
+        "minlat": 47.0412275,
+        "minlon": 28.8438986,
+        "maxlat": 47.0414264,
+        "maxlon": 28.8440975
+      },
+      "nodes": [269078353, 5723412854, 269240825],
+      "geometry": [
+        { "lat": 47.0414264, "lon": 28.8440975 },
+        { "lat": 47.0413443, "lon": 28.8440205 },
+        { "lat": 47.0412275, "lon": 28.8438986 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Calea Orheiului",
+        "name:mo": "Strada Calea Orheiului",
+        "name:ru": "улица Каля Орхеюлуй",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655677039,
+      "bounds": {
+        "minlat": 47.0409995,
+        "minlon": 28.8436463,
+        "maxlat": 47.0412275,
+        "maxlon": 28.8438986
+      },
+      "nodes": [269240825, 4081270878, 6142918045],
+      "geometry": [
+        { "lat": 47.0412275, "lon": 28.8438986 },
+        { "lat": 47.0411421, "lon": 28.8437841 },
+        { "lat": 47.0409995, "lon": 28.8436463 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655678545,
+      "bounds": {
+        "minlat": 47.0428803,
+        "minlon": 28.8529339,
+        "maxlat": 47.042949,
+        "maxlon": 28.8529952
+      },
+      "nodes": [273327503, 3513477490],
+      "geometry": [
+        { "lat": 47.042949, "lon": 28.8529339 },
+        { "lat": 47.0428803, "lon": 28.8529952 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "50",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655678548,
+      "bounds": {
+        "minlat": 47.0433464,
+        "minlon": 28.853257,
+        "maxlat": 47.0433537,
+        "maxlon": 28.8534019
+      },
+      "nodes": [595683973, 4162206719, 269843784],
+      "geometry": [
+        { "lat": 47.0433464, "lon": 28.8534019 },
+        { "lat": 47.0433537, "lon": 28.8533298 },
+        { "lat": 47.0433523, "lon": 28.853257 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "50",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655678551,
+      "bounds": {
+        "minlat": 47.04292,
+        "minlon": 28.8536527,
+        "maxlat": 47.0429999,
+        "maxlon": 28.8537078
+      },
+      "nodes": [2441691816, 269972749, 4162206717],
+      "geometry": [
+        { "lat": 47.04292, "lon": 28.8536527 },
+        { "lat": 47.0429522, "lon": 28.853679 },
+        { "lat": 47.0429999, "lon": 28.8537078 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "50",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655679018,
+      "bounds": {
+        "minlat": 47.0455326,
+        "minlon": 28.8483112,
+        "maxlat": 47.0456664,
+        "maxlon": 28.8486778
+      },
+      "nodes": [269222048, 370403167, 6144757558, 269222031],
+      "geometry": [
+        { "lat": 47.0455326, "lon": 28.8486778 },
+        { "lat": 47.0456074, "lon": 28.8485829 },
+        { "lat": 47.0456541, "lon": 28.8484551 },
+        { "lat": 47.0456664, "lon": 28.8483112 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "50",
+        "turn:lanes": "through|through|through"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655679019,
+      "bounds": {
+        "minlat": 47.0454872,
+        "minlon": 28.8486778,
+        "maxlat": 47.0455326,
+        "maxlon": 28.8487089
+      },
+      "nodes": [269071057, 269222048],
+      "geometry": [
+        { "lat": 47.0454872, "lon": 28.8487089 },
+        { "lat": 47.0455326, "lon": 28.8486778 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "50"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655679020,
+      "bounds": {
+        "minlat": 47.0451312,
+        "minlon": 28.848423,
+        "maxlat": 47.0451589,
+        "maxlon": 28.8485285
+      },
+      "nodes": [1833173871, 2441691842],
+      "geometry": [
+        { "lat": 47.0451312, "lon": 28.848423 },
+        { "lat": 47.0451589, "lon": 28.8485285 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "50"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655679022,
+      "bounds": {
+        "minlat": 47.0452471,
+        "minlon": 28.8479364,
+        "maxlat": 47.0453856,
+        "maxlon": 28.848001
+      },
+      "nodes": [269222038, 269222039, 4265035117, 269222040],
+      "geometry": [
+        { "lat": 47.0453856, "lon": 28.8479364 },
+        { "lat": 47.045337, "lon": 28.8479455 },
+        { "lat": 47.0452904, "lon": 28.8479673 },
+        { "lat": 47.0452471, "lon": 28.848001 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "50",
+        "turn:lanes": "through|through;right|through;right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655679023,
+      "bounds": {
+        "minlat": 47.0453856,
+        "minlon": 28.8479364,
+        "maxlat": 47.0455821,
+        "maxlon": 28.848045
+      },
+      "nodes": [4265035119, 4844497514, 4844497515, 269222038],
+      "geometry": [
+        { "lat": 47.0455821, "lon": 28.848045 },
+        { "lat": 47.045524, "lon": 28.8479835 },
+        { "lat": 47.0454569, "lon": 28.8479464 },
+        { "lat": 47.0453856, "lon": 28.8479364 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "50",
+        "turn:lanes": "through|through;right|through;right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655679024,
+      "bounds": {
+        "minlat": 47.0455821,
+        "minlon": 28.848045,
+        "maxlat": 47.0456428,
+        "maxlon": 28.8481703
+      },
+      "nodes": [269222037, 6367829371, 4265035119],
+      "geometry": [
+        { "lat": 47.0456428, "lon": 28.8481703 },
+        { "lat": 47.045613, "lon": 28.8481028 },
+        { "lat": 47.0455821, "lon": 28.848045 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "50",
+        "turn:lanes": "through|through;right|through;right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655897062,
+      "bounds": {
+        "minlat": 47.0394923,
+        "minlon": 28.8821901,
+        "maxlat": 47.0395139,
+        "maxlon": 28.8822449
+      },
+      "nodes": [3860988037, 5707399654],
+      "geometry": [
+        { "lat": 47.0394923, "lon": 28.8822449 },
+        { "lat": 47.0395139, "lon": 28.8821901 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "40",
+        "postal_code": "MD-2044"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655904913,
+      "bounds": {
+        "minlat": 47.0271938,
+        "minlon": 28.7926221,
+        "maxlat": 47.0272109,
+        "maxlon": 28.7928465
+      },
+      "nodes": [269972716, 5715168911, 269972707],
+      "geometry": [
+        { "lat": 47.0271938, "lon": 28.7928465 },
+        { "lat": 47.0272109, "lon": 28.7927357 },
+        { "lat": 47.0272085, "lon": 28.7926221 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "maxspeed": "50",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655904914,
+      "bounds": {
+        "minlat": 47.0267723,
+        "minlon": 28.7930924,
+        "maxlat": 47.0268806,
+        "maxlon": 28.7931374
+      },
+      "nodes": [269403176, 269403179],
+      "geometry": [
+        { "lat": 47.0267723, "lon": 28.7930924 },
+        { "lat": 47.0268806, "lon": 28.7931374 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "maxspeed": "50",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655904915,
+      "bounds": {
+        "minlat": 47.0266061,
+        "minlon": 28.7923924,
+        "maxlat": 47.0267723,
+        "maxlon": 28.7930924
+      },
+      "nodes": [
+        269972711,
+        5715168906,
+        790833426,
+        269972713,
+        269972714,
+        5715168907,
+        269403176
+      ],
+      "geometry": [
+        { "lat": 47.0266831, "lon": 28.7923924 },
+        { "lat": 47.0266316, "lon": 28.7925065 },
+        { "lat": 47.0266061, "lon": 28.7926381 },
+        { "lat": 47.026609, "lon": 28.7927749 },
+        { "lat": 47.02664, "lon": 28.792904 },
+        { "lat": 47.0266962, "lon": 28.7930133 },
+        { "lat": 47.0267723, "lon": 28.7930924 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "maxspeed": "50",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655904916,
+      "bounds": {
+        "minlat": 47.0266831,
+        "minlon": 28.7922988,
+        "maxlat": 47.0267652,
+        "maxlon": 28.7923924
+      },
+      "nodes": [960658349, 269972711],
+      "geometry": [
+        { "lat": 47.0267652, "lon": 28.7922988 },
+        { "lat": 47.0266831, "lon": 28.7923924 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "maxspeed": "50",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655904917,
+      "bounds": {
+        "minlat": 47.0267652,
+        "minlon": 28.7922493,
+        "maxlat": 47.0268741,
+        "maxlon": 28.7922988
+      },
+      "nodes": [269972709, 960658349],
+      "geometry": [
+        { "lat": 47.0268741, "lon": 28.7922493 },
+        { "lat": 47.0267652, "lon": 28.7922988 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "maxspeed": "50",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 660167557,
+      "bounds": {
+        "minlat": 47.0274989,
+        "minlon": 28.794286,
+        "maxlat": 47.0278436,
+        "maxlon": 28.7952127
+      },
+      "nodes": [365981520, 1422510377],
+      "geometry": [
+        { "lat": 47.0278436, "lon": 28.7952127 },
+        { "lat": 47.0274989, "lon": 28.794286 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "40",
+        "name": "Strada Ion Creangă",
+        "name:ro": "Strada Ion Creangă",
+        "name:ru": "улица Иона Крянгэ",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 660238978,
+      "bounds": {
+        "minlat": 47.0340467,
+        "minlon": 28.8077479,
+        "maxlat": 47.0354461,
+        "maxlon": 28.8096393
+      },
+      "nodes": [269972683, 445047690, 269972684, 445047688],
+      "geometry": [
+        { "lat": 47.0354461, "lon": 28.8096393 },
+        { "lat": 47.0349598, "lon": 28.8089865 },
+        { "lat": 47.0345935, "lon": 28.8084941 },
+        { "lat": 47.0340467, "lon": 28.8077479 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Ion Creangă",
+        "name:ro": "Strada Ion Creangă",
+        "name:ru": "улица Иона Крянгэ"
+      }
+    },
+    {
+      "type": "way",
+      "id": 660478861,
+      "bounds": {
+        "minlat": 47.0365644,
+        "minlon": 28.8111445,
+        "maxlat": 47.0369689,
+        "maxlon": 28.8116861
+      },
+      "nodes": [4335286915, 6236926600],
+      "geometry": [
+        { "lat": 47.0369689, "lon": 28.8116861 },
+        { "lat": 47.0365644, "lon": 28.8111445 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Ion Creangă",
+        "name:ro": "Strada Ion Creangă",
+        "name:ru": "улица Иона Крянгэ"
+      }
+    },
+    {
+      "type": "way",
+      "id": 660528156,
+      "bounds": {
+        "minlat": 47.0336983,
+        "minlon": 28.8072768,
+        "maxlat": 47.0340467,
+        "maxlon": 28.8077479
+      },
+      "nodes": [445047688, 289430456, 471411805],
+      "geometry": [
+        { "lat": 47.0340467, "lon": 28.8077479 },
+        { "lat": 47.0337151, "lon": 28.8072993 },
+        { "lat": 47.0336983, "lon": 28.8072768 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Ion Creangă",
+        "name:ro": "Strada Ion Creangă",
+        "name:ru": "улица Иона Крянгэ"
+      }
+    },
+    {
+      "type": "way",
+      "id": 660528308,
+      "bounds": {
+        "minlat": 47.033444,
+        "minlon": 28.8069419,
+        "maxlat": 47.0336983,
+        "maxlon": 28.8072768
+      },
+      "nodes": [471411805, 269078468],
+      "geometry": [
+        { "lat": 47.0336983, "lon": 28.8072768 },
+        { "lat": 47.033444, "lon": 28.8069419 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Ion Creangă",
+        "name:ro": "Strada Ion Creangă",
+        "name:ru": "улица Иона Крянгэ"
+      }
+    },
+    {
+      "type": "way",
+      "id": 660529510,
+      "bounds": {
+        "minlat": 47.0303042,
+        "minlon": 28.8017185,
+        "maxlat": 47.0326278,
+        "maxlon": 28.80563
+      },
+      "nodes": [
+        1083486461,
+        4566744974,
+        4349065008,
+        269972689,
+        4349065005,
+        269972692,
+        5711144299,
+        269972755
+      ],
+      "geometry": [
+        { "lat": 47.0326278, "lon": 28.80563 },
+        { "lat": 47.0324625, "lon": 28.8053556 },
+        { "lat": 47.0320278, "lon": 28.8046074 },
+        { "lat": 47.031929, "lon": 28.8044551 },
+        { "lat": 47.0318699, "lon": 28.8043481 },
+        { "lat": 47.0311082, "lon": 28.8030872 },
+        { "lat": 47.0307555, "lon": 28.80251 },
+        { "lat": 47.0303042, "lon": 28.8017185 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Ion Creangă",
+        "name:ru": "улица Иона Крянгэ"
+      }
+    },
+    {
+      "type": "way",
+      "id": 660529571,
+      "bounds": {
+        "minlat": 47.0354461,
+        "minlon": 28.8096393,
+        "maxlat": 47.0361306,
+        "maxlon": 28.8105636
+      },
+      "nodes": [315343785, 4335286900, 269972683],
+      "geometry": [
+        { "lat": 47.0361306, "lon": 28.8105636 },
+        { "lat": 47.035844, "lon": 28.8101766 },
+        { "lat": 47.0354461, "lon": 28.8096393 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Ion Creangă",
+        "name:ro": "Strada Ion Creangă",
+        "name:ru": "улица Иона Крянгэ"
+      }
+    },
+    {
+      "type": "way",
+      "id": 660645981,
+      "bounds": {
+        "minlat": 47.0425062,
+        "minlon": 28.8367051,
+        "maxlat": 47.0425754,
+        "maxlon": 28.8370383
+      },
+      "nodes": [5727945970, 6190918103],
+      "geometry": [
+        { "lat": 47.0425062, "lon": 28.8370383 },
+        { "lat": 47.0425754, "lon": 28.8367051 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Strada Petricani",
+        "name:ro": "Strada Petricani",
+        "name:ru": "Петриканская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 660646235,
+      "bounds": {
+        "minlat": 47.0420965,
+        "minlon": 28.8386235,
+        "maxlat": 47.0421768,
+        "maxlon": 28.8389942
+      },
+      "nodes": [3381832428, 622646390],
+      "geometry": [
+        { "lat": 47.0420965, "lon": 28.8389942 },
+        { "lat": 47.0421768, "lon": 28.8386235 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Strada Petricani",
+        "name:ro": "Strada Petricani",
+        "name:ru": "Петриканская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 660646373,
+      "bounds": {
+        "minlat": 47.0419607,
+        "minlon": 28.839181,
+        "maxlat": 47.0420527,
+        "maxlon": 28.8396146
+      },
+      "nodes": [3381832427, 269240576],
+      "geometry": [
+        { "lat": 47.0419607, "lon": 28.8396146 },
+        { "lat": 47.0420527, "lon": 28.839181 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Strada Petricani",
+        "name:ro": "Strada Petricani",
+        "name:ru": "Петриканская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 660646374,
+      "bounds": {
+        "minlat": 47.0419298,
+        "minlon": 28.8396146,
+        "maxlat": 47.0419607,
+        "maxlon": 28.8397415
+      },
+      "nodes": [5727939986, 3381832427],
+      "geometry": [
+        { "lat": 47.0419298, "lon": 28.8397415 },
+        { "lat": 47.0419607, "lon": 28.8396146 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Petricani",
+        "name:ro": "Strada Petricani",
+        "name:ru": "Петриканская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 660881614,
+      "bounds": {
+        "minlat": 47.0294266,
+        "minlon": 28.7994765,
+        "maxlat": 47.0297493,
+        "maxlon": 28.8003307
+      },
+      "nodes": [6187438208, 269972697, 269972698],
+      "geometry": [
+        { "lat": 47.0297493, "lon": 28.8003307 },
+        { "lat": 47.029603, "lon": 28.7999466 },
+        { "lat": 47.0294266, "lon": 28.7994765 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "40",
+        "name": "Strada Ion Creangă",
+        "name:ro": "Strada Ion Creangă",
+        "name:ru": "улица Иона Крянгэ",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 660882301,
+      "bounds": {
+        "minlat": 47.0289232,
+        "minlon": 28.7981274,
+        "maxlat": 47.0294266,
+        "maxlon": 28.7994765
+      },
+      "nodes": [269972698, 269972699, 5173031443],
+      "geometry": [
+        { "lat": 47.0294266, "lon": 28.7994765 },
+        { "lat": 47.02923, "lon": 28.7989481 },
+        { "lat": 47.0289232, "lon": 28.7981274 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "40",
+        "name": "Strada Ion Creangă",
+        "name:ro": "Strada Ion Creangă",
+        "name:ru": "улица Иона Крянгэ",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 660882476,
+      "bounds": {
+        "minlat": 47.0288193,
+        "minlon": 28.7978508,
+        "maxlat": 47.0289232,
+        "maxlon": 28.7981274
+      },
+      "nodes": [5173031443, 5173031448],
+      "geometry": [
+        { "lat": 47.0289232, "lon": 28.7981274 },
+        { "lat": 47.0288193, "lon": 28.7978508 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "40",
+        "name": "Strada Ion Creangă",
+        "name:ro": "Strada Ion Creangă",
+        "name:ru": "улица Иона Крянгэ",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 660882477,
+      "bounds": {
+        "minlat": 47.0285558,
+        "minlon": 28.7971417,
+        "maxlat": 47.0288193,
+        "maxlon": 28.7978508
+      },
+      "nodes": [5173031448, 269972700, 5173031446],
+      "geometry": [
+        { "lat": 47.0288193, "lon": 28.7978508 },
+        { "lat": 47.0286622, "lon": 28.7974292 },
+        { "lat": 47.0285558, "lon": 28.7971417 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "40",
+        "name": "Strada Ion Creangă",
+        "name:ro": "Strada Ion Creangă",
+        "name:ru": "улица Иона Крянгэ",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 660882478,
+      "bounds": {
+        "minlat": 47.0282277,
+        "minlon": 28.796254,
+        "maxlat": 47.0285558,
+        "maxlon": 28.7971417
+      },
+      "nodes": [5173031446, 269972701, 4563305182],
+      "geometry": [
+        { "lat": 47.0285558, "lon": 28.7971417 },
+        { "lat": 47.0282495, "lon": 28.7963138 },
+        { "lat": 47.0282277, "lon": 28.796254 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "40",
+        "name": "Strada Ion Creangă",
+        "name:ro": "Strada Ion Creangă",
+        "name:ru": "улица Иона Крянгэ",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 660884121,
+      "bounds": {
+        "minlat": 47.0271983,
+        "minlon": 28.7934629,
+        "maxlat": 47.0274989,
+        "maxlon": 28.794286
+      },
+      "nodes": [1422510377, 269972703, 1422510369, 269972706],
+      "geometry": [
+        { "lat": 47.0274989, "lon": 28.794286 },
+        { "lat": 47.0273206, "lon": 28.7938065 },
+        { "lat": 47.0272157, "lon": 28.7935117 },
+        { "lat": 47.0271983, "lon": 28.7934629 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "40",
+        "name": "Strada Ion Creangă",
+        "name:ro": "Strada Ion Creangă",
+        "name:ru": "улица Иона Крянгэ",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 660884395,
+      "bounds": {
+        "minlat": 47.0284291,
+        "minlon": 28.7885584,
+        "maxlat": 47.0291423,
+        "maxlon": 28.7900025
+      },
+      "nodes": [279078067, 5715168912, 4563321583, 4955274887, 269976724],
+      "geometry": [
+        { "lat": 47.0284291, "lon": 28.7900025 },
+        { "lat": 47.0286321, "lon": 28.7895991 },
+        { "lat": 47.0288064, "lon": 28.7892299 },
+        { "lat": 47.0290565, "lon": 28.7887297 },
+        { "lat": 47.0291423, "lon": 28.7885584 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Bulevardul Alba Iulia",
+        "name:ro": "Bulevardul Alba Iulia",
+        "name:ru": "бульвар Алба-Юлия",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 660884396,
+      "bounds": {
+        "minlat": 47.028245,
+        "minlon": 28.7900025,
+        "maxlat": 47.0284291,
+        "maxlon": 28.7903824
+      },
+      "nodes": [960658699, 279078067],
+      "geometry": [
+        { "lat": 47.028245, "lon": 28.7903824 },
+        { "lat": 47.0284291, "lon": 28.7900025 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Bulevardul Alba Iulia",
+        "name:ro": "Bulevardul Alba Iulia",
+        "name:ru": "бульвар Алба-Юлия",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 660884397,
+      "bounds": {
+        "minlat": 47.0296331,
+        "minlon": 28.7778752,
+        "maxlat": 47.0343962,
+        "maxlon": 28.7875547
+      },
+      "nodes": [
+        365980352,
+        482480528,
+        482480539,
+        269976721,
+        4563321584,
+        269976719,
+        4563305179,
+        269976717,
+        5827142028,
+        365980358
+      ],
+      "geometry": [
+        { "lat": 47.0296331, "lon": 28.7875547 },
+        { "lat": 47.0299524, "lon": 28.7869009 },
+        { "lat": 47.0302113, "lon": 28.7863728 },
+        { "lat": 47.0307382, "lon": 28.7853071 },
+        { "lat": 47.0319694, "lon": 28.7828069 },
+        { "lat": 47.0322435, "lon": 28.7822502 },
+        { "lat": 47.0325797, "lon": 28.7815642 },
+        { "lat": 47.0337595, "lon": 28.779157 },
+        { "lat": 47.0339017, "lon": 28.7788706 },
+        { "lat": 47.0343962, "lon": 28.7778752 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Bulevardul Alba Iulia",
+        "name:ro": "Bulevardul Alba Iulia",
+        "name:ru": "бульвар Алба-Юлия",
+        "old_name": "пр-т Энгельса",
+        "oneway": "no",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 660884430,
+      "bounds": {
+        "minlat": 47.0343962,
+        "minlon": 28.7758301,
+        "maxlat": 47.0353956,
+        "maxlon": 28.7778752
+      },
+      "nodes": [365980358, 4563321585, 1177406655, 269403411],
+      "geometry": [
+        { "lat": 47.0343962, "lon": 28.7778752 },
+        { "lat": 47.0350507, "lon": 28.7765303 },
+        { "lat": 47.0353024, "lon": 28.776019 },
+        { "lat": 47.0353956, "lon": 28.7758301 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Bulevardul Alba Iulia",
+        "name:ro": "Bulevardul Alba-Iulia",
+        "name:ru": "бульвар Алба-Юлия",
+        "old_name": "пр-т Энгельса",
+        "oneway": "no",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 661279632,
+      "bounds": {
+        "minlat": 47.0427347,
+        "minlon": 28.8353961,
+        "maxlat": 47.0428556,
+        "maxlon": 28.8359428
+      },
+      "nodes": [6190918100, 4566744970, 269240586],
+      "geometry": [
+        { "lat": 47.0427347, "lon": 28.8359428 },
+        { "lat": 47.0427962, "lon": 28.8356498 },
+        { "lat": 47.0428556, "lon": 28.8353961 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Strada Petricani",
+        "name:ro": "Strada Petricani",
+        "name:ru": "Петриканская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 661279633,
+      "bounds": {
+        "minlat": 47.0425754,
+        "minlon": 28.8359428,
+        "maxlat": 47.0427347,
+        "maxlon": 28.8367051
+      },
+      "nodes": [6190918103, 5728084423, 6190918100],
+      "geometry": [
+        { "lat": 47.0425754, "lon": 28.8367051 },
+        { "lat": 47.0426492, "lon": 28.8363496 },
+        { "lat": 47.0427347, "lon": 28.8359428 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Petricani",
+        "name:ro": "Strada Petricani",
+        "name:ru": "Петриканская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 661298463,
+      "bounds": {
+        "minlat": 47.0437021,
+        "minlon": 28.8581008,
+        "maxlat": 47.0441162,
+        "maxlon": 28.860172
+      },
+      "nodes": [595684199, 4566499749, 676296043],
+      "geometry": [
+        { "lat": 47.0437021, "lon": 28.8581008 },
+        { "lat": 47.0440516, "lon": 28.8598604 },
+        { "lat": 47.0441162, "lon": 28.860172 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "30",
+        "name": "Strada Bogdan Voievod",
+        "name:ro": "Strada Bogdan Voievod",
+        "name:ru": "улица Богдан Воевод",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 661298464,
+      "bounds": {
+        "minlat": 47.0434411,
+        "minlon": 28.8568244,
+        "maxlat": 47.0437021,
+        "maxlon": 28.8581008
+      },
+      "nodes": [673727894, 595684199],
+      "geometry": [
+        { "lat": 47.0434411, "lon": 28.8568244 },
+        { "lat": 47.0437021, "lon": 28.8581008 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "30",
+        "name": "Strada Bogdan Voievod",
+        "name:ro": "Strada Bogdan Voievod",
+        "name:ru": "улица Богдан Воевод",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 661298465,
+      "bounds": {
+        "minlat": 47.0433037,
+        "minlon": 28.855767,
+        "maxlat": 47.0434411,
+        "maxlon": 28.8568244
+      },
+      "nodes": [
+        1983401691,
+        3861505599,
+        4566744967,
+        1129259177,
+        5766009353,
+        673727894
+      ],
+      "geometry": [
+        { "lat": 47.0433037, "lon": 28.855767 },
+        { "lat": 47.0433223, "lon": 28.8559651 },
+        { "lat": 47.0433349, "lon": 28.8560858 },
+        { "lat": 47.0433564, "lon": 28.8562892 },
+        { "lat": 47.043395, "lon": 28.8565601 },
+        { "lat": 47.0434411, "lon": 28.8568244 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "30",
+        "name": "Strada Bogdan Voievod",
+        "name:ro": "Strada Bogdan Voievod",
+        "name:ru": "улица Богдан Воевод",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 661298467,
+      "bounds": {
+        "minlat": 47.0432994,
+        "minlon": 28.8557167,
+        "maxlat": 47.0433037,
+        "maxlon": 28.855767
+      },
+      "nodes": [269078459, 1983401691],
+      "geometry": [
+        { "lat": 47.0432994, "lon": 28.8557167 },
+        { "lat": 47.0433037, "lon": 28.855767 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "30",
+        "name": "Strada Bogdan Voievod",
+        "name:ro": "Strada Bogdan Voievod",
+        "name:ru": "улица Богдан Воевод",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 663288800,
+      "bounds": {
+        "minlat": 47.0365699,
+        "minlon": 28.8228242,
+        "maxlat": 47.0367805,
+        "maxlon": 28.823166
+      },
+      "nodes": [6208715825, 1482557702],
+      "geometry": [
+        { "lat": 47.0365699, "lon": 28.8228242 },
+        { "lat": 47.0367805, "lon": 28.823166 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Strada Mihai Viteazul",
+        "name:ru": "улица Михая Витязула",
+        "old_name": "Оргеевская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 663288802,
+      "bounds": {
+        "minlat": 47.0367805,
+        "minlon": 28.823166,
+        "maxlat": 47.0376559,
+        "maxlon": 28.8245724
+      },
+      "nodes": [1482557702, 6651756623, 1426069494],
+      "geometry": [
+        { "lat": 47.0367805, "lon": 28.823166 },
+        { "lat": 47.0374383, "lon": 28.8242168 },
+        { "lat": 47.0376559, "lon": 28.8245724 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Strada Mihai Viteazul",
+        "name:ru": "улица Михая Витязула",
+        "old_name": "Оргеевская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 663291575,
+      "bounds": {
+        "minlat": 47.0394408,
+        "minlon": 28.8274454,
+        "maxlat": 47.040126,
+        "maxlon": 28.8285292
+      },
+      "nodes": [6208735338, 5720237224, 4168345071],
+      "geometry": [
+        { "lat": 47.0394408, "lon": 28.8274454 },
+        { "lat": 47.0396839, "lon": 28.8278285 },
+        { "lat": 47.040126, "lon": 28.8285292 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Mihai Viteazul",
+        "name:ru": "улица Михая Витязула",
+        "old_name": "Оргеевская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 663291672,
+      "bounds": {
+        "minlat": 47.040126,
+        "minlon": 28.8285292,
+        "maxlat": 47.0402385,
+        "maxlon": 28.8287146
+      },
+      "nodes": [4168345071, 270878334],
+      "geometry": [
+        { "lat": 47.040126, "lon": 28.8285292 },
+        { "lat": 47.0402385, "lon": 28.8287146 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Mihai Viteazul",
+        "name:ru": "улица Михая Витязула",
+        "old_name": "Оргеевская улица"
+      }
+    },
+    {
+      "type": "way",
+      "id": 664440031,
+      "bounds": {
+        "minlat": 47.0356741,
+        "minlon": 28.769654,
+        "maxlat": 47.0384351,
+        "maxlon": 28.7752766
+      },
+      "nodes": [
+        365960589,
+        5827141031,
+        1119723365,
+        1063806572,
+        282152123,
+        562829506,
+        4563321586,
+        562829377,
+        269403450
+      ],
+      "geometry": [
+        { "lat": 47.0356741, "lon": 28.7752766 },
+        { "lat": 47.036006, "lon": 28.7745963 },
+        { "lat": 47.0365756, "lon": 28.7734291 },
+        { "lat": 47.0377413, "lon": 28.7710582 },
+        { "lat": 47.0377848, "lon": 28.7709661 },
+        { "lat": 47.0380631, "lon": 28.7703993 },
+        { "lat": 47.0382744, "lon": 28.76998 },
+        { "lat": 47.0382993, "lon": 28.7699306 },
+        { "lat": 47.0384351, "lon": 28.769654 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Bulevardul Alba Iulia",
+        "name:ro": "Bulevardul Alba Iulia",
+        "name:ru": "бульвар Алба-Юлия",
+        "old_name": "пр-т Энгельса",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 665873316,
+      "bounds": {
+        "minlat": 47.0386675,
+        "minlon": 28.7642626,
+        "maxlat": 47.0410731,
+        "maxlon": 28.769188
+      },
+      "nodes": [
+        5235069019,
+        562829371,
+        623021928,
+        269403464,
+        4563305177,
+        365964818,
+        1526774449,
+        269403475,
+        5715168913,
+        5715376870,
+        1526774484,
+        3226766315,
+        4563321587
+      ],
+      "geometry": [
+        { "lat": 47.0386675, "lon": 28.769188 },
+        { "lat": 47.0386874, "lon": 28.7691482 },
+        { "lat": 47.039034, "lon": 28.7684286 },
+        { "lat": 47.0392172, "lon": 28.7680481 },
+        { "lat": 47.0393959, "lon": 28.7676848 },
+        { "lat": 47.0398562, "lon": 28.7667478 },
+        { "lat": 47.040038, "lon": 28.7663793 },
+        { "lat": 47.040091, "lon": 28.7662758 },
+        { "lat": 47.0403182, "lon": 28.7658103 },
+        { "lat": 47.0405192, "lon": 28.7653981 },
+        { "lat": 47.0405675, "lon": 28.765287 },
+        { "lat": 47.0410035, "lon": 28.7644192 },
+        { "lat": 47.0410731, "lon": 28.7642626 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Bulevardul Alba Iulia",
+        "name:ro": "Bulevardul Alba Iulia",
+        "name:ru": "бульвар Алба-Юлия",
+        "old_name": "пр-т Энгельса",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 665873317,
+      "bounds": {
+        "minlat": 47.0385949,
+        "minlon": 28.769188,
+        "maxlat": 47.0386675,
+        "maxlon": 28.7693329
+      },
+      "nodes": [623021929, 5235069019],
+      "geometry": [
+        { "lat": 47.0385949, "lon": 28.7693329 },
+        { "lat": 47.0386675, "lon": 28.769188 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Bulevardul Alba Iulia",
+        "name:ro": "Bulevardul Alba Iulia",
+        "name:ru": "бульвар Алба-Юлия",
+        "old_name": "пр-т Энгельса",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 666174026,
+      "bounds": {
+        "minlat": 47.0361306,
+        "minlon": 28.8105636,
+        "maxlat": 47.0365644,
+        "maxlon": 28.8111445
+      },
+      "nodes": [6236926600, 315343785],
+      "geometry": [
+        { "lat": 47.0365644, "lon": 28.8111445 },
+        { "lat": 47.0361306, "lon": 28.8105636 }
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Ion Creangă",
+        "name:ro": "Strada Ion Creangă",
+        "name:ru": "улица Иона Крянгэ"
+      }
+    },
+    {
+      "type": "way",
+      "id": 680089655,
+      "bounds": {
+        "minlat": 47.0456428,
+        "minlon": 28.8481703,
+        "maxlat": 47.0456664,
+        "maxlon": 28.8483112
+      },
+      "nodes": [269222031, 269222037],
+      "geometry": [
+        { "lat": 47.0456664, "lon": 28.8483112 },
+        { "lat": 47.0456428, "lon": 28.8481703 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "50",
+        "turn:lanes": "through|through;right|through;right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 680089658,
+      "bounds": {
+        "minlat": 47.045306,
+        "minlon": 28.8487089,
+        "maxlat": 47.0454872,
+        "maxlon": 28.8489707
+      },
+      "nodes": [6367829369, 3513488889, 269071057],
+      "geometry": [
+        { "lat": 47.045306, "lon": 28.8489707 },
+        { "lat": 47.045337, "lon": 28.8489263 },
+        { "lat": 47.0454872, "lon": 28.8487089 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Bulevardul Renaşterii Naţionale",
+        "name:ro": "Bulevardul Renașterii Naționale",
+        "name:ru": "проспект Ренаштерий Национале",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 680089659,
+      "bounds": {
+        "minlat": 47.0450113,
+        "minlon": 28.8482863,
+        "maxlat": 47.0451312,
+        "maxlon": 28.848423
+      },
+      "nodes": [6367829370, 1833173871],
+      "geometry": [
+        { "lat": 47.0450113, "lon": 28.8482863 },
+        { "lat": 47.0451312, "lon": 28.848423 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Calea Orheiului",
+        "name:ro": "Strada Calea Orheiului",
+        "name:ru": "улица Каля Орхеюлуй",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 683300019,
+      "bounds": {
+        "minlat": 47.0382062,
+        "minlon": 28.8132842,
+        "maxlat": 47.0382437,
+        "maxlon": 28.8133366
+      },
+      "nodes": [269972784, 6381064062],
+      "geometry": [
+        { "lat": 47.0382062, "lon": 28.8133366 },
+        { "lat": 47.0382437, "lon": 28.8132842 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Piața Dimitrie Cantemir",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 690496839,
+      "bounds": {
+        "minlat": 47.0360893,
+        "minlon": 28.8883532,
+        "maxlat": 47.0365722,
+        "maxlon": 28.888821
+      },
+      "nodes": [5707399663, 3861254193, 6478121938, 2441691813],
+      "geometry": [
+        { "lat": 47.0365722, "lon": 28.8883532 },
+        { "lat": 47.0364797, "lon": 28.8884438 },
+        { "lat": 47.0362777, "lon": 28.8886246 },
+        { "lat": 47.0360893, "lon": 28.888821 }
+      ],
+      "tags": {
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Alecu Russo",
+        "name:ru": "улица Алеку Руссо",
+        "old_name": "улица Федько",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|through;right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 690497593,
+      "bounds": {
+        "minlat": 47.0332848,
+        "minlon": 28.8896674,
+        "maxlat": 47.0356891,
+        "maxlon": 28.8898944
+      },
+      "nodes": [269416814, 5093050116, 4117785816],
+      "geometry": [
+        { "lat": 47.0332848, "lon": 28.8896674 },
+        { "lat": 47.0343596, "lon": 28.8897581 },
+        { "lat": 47.0356891, "lon": 28.8898944 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Meșterul Manole",
+        "name:ru": "улица Мештерул Маноле",
+        "old_name": "улица Добровольского",
+        "oneway": "yes",
+        "trolley_wire": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 706041396,
+      "bounds": {
+        "minlat": 47.0442286,
+        "minlon": 28.8607385,
+        "maxlat": 47.0442516,
+        "maxlon": 28.8613469
+      },
+      "nodes": [
+        6634039796,
+        6634039732,
+        6634035684,
+        6634035683,
+        6634039795,
+        6634035670,
+        4054910466
+      ],
+      "geometry": [
+        { "lat": 47.0442317, "lon": 28.8607385 },
+        { "lat": 47.0442286, "lon": 28.8609075 },
+        { "lat": 47.04423, "lon": 28.8610074 },
+        { "lat": 47.0442409, "lon": 28.8610947 },
+        { "lat": 47.0442491, "lon": 28.8611808 },
+        { "lat": 47.0442507, "lon": 28.8612446 },
+        { "lat": 47.0442516, "lon": 28.8613469 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Bogdan Voievod",
+        "name:mo": "Strada Bogdan Voievod",
+        "name:ro": "Strada Bogdan Voievod",
+        "name:ru": "улица Богдан Воевод",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 706041402,
+      "bounds": {
+        "minlat": 47.0442477,
+        "minlon": 28.8613469,
+        "maxlat": 47.0442741,
+        "maxlon": 28.8614978
+      },
+      "nodes": [4054910466, 6634035675, 6634035674, 4265006794],
+      "geometry": [
+        { "lat": 47.0442516, "lon": 28.8613469 },
+        { "lat": 47.0442477, "lon": 28.8613999 },
+        { "lat": 47.0442555, "lon": 28.861452 },
+        { "lat": 47.0442741, "lon": 28.8614978 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "junction": "roundabout",
+        "lanes": "3",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 706069131,
+      "bounds": {
+        "minlat": 47.042949,
+        "minlon": 28.8526971,
+        "maxlat": 47.0431416,
+        "maxlon": 28.8529339
+      },
+      "nodes": [3513477993, 273327503],
+      "geometry": [
+        { "lat": 47.0431416, "lon": 28.8526971 },
+        { "lat": 47.042949, "lon": 28.8529339 }
+      ],
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "E 584",
+        "maxspeed": "50",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 722400322,
+      "bounds": {
+        "minlat": 47.0442088,
+        "minlon": 28.8606297,
+        "maxlat": 47.0442317,
+        "maxlon": 28.8607385
+      },
+      "nodes": [6427518708, 269078463, 6634039796],
+      "geometry": [
+        { "lat": 47.0442088, "lon": 28.8606297 },
+        { "lat": 47.044222, "lon": 28.8606948 },
+        { "lat": 47.0442317, "lon": 28.8607385 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "30",
+        "name": "Strada Bogdan Voievod",
+        "name:ro": "str. Bogdan Voievod",
+        "name:ru": "улица Богдан Воевод",
+        "oneway": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 730291301,
+      "bounds": {
+        "minlat": 47.0388731,
+        "minlon": 28.8822862,
+        "maxlat": 47.0394597,
+        "maxlon": 28.8833371
+      },
+      "nodes": [283736518, 3861108362, 6841641427, 5707399653],
+      "geometry": [
+        { "lat": 47.0388731, "lon": 28.8833371 },
+        { "lat": 47.0393779, "lon": 28.8824465 },
+        { "lat": 47.0394217, "lon": 28.8823605 },
+        { "lat": 47.0394597, "lon": 28.8822862 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "40",
+        "name": "Strada Alecu Russo",
+        "name:ru": "улица Алеку Руссо",
+        "old_name": "улица Федько",
+        "oneway": "yes",
+        "postal_code": "MD-2044"
+      }
+    },
+    {
+      "type": "way",
+      "id": 730291302,
+      "bounds": {
+        "minlat": 47.0392658,
+        "minlon": 28.8820272,
+        "maxlat": 47.0392837,
+        "maxlon": 28.882144
+      },
+      "nodes": [5707399660, 5701977139, 3050665983],
+      "geometry": [
+        { "lat": 47.0392837, "lon": 28.8820272 },
+        { "lat": 47.0392682, "lon": 28.8820834 },
+        { "lat": 47.0392658, "lon": 28.882144 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "maxspeed": "40",
+        "postal_code": "MD-2044"
+      }
+    },
+    {
+      "type": "way",
+      "id": 730291306,
+      "bounds": {
+        "minlat": 47.0400814,
+        "minlon": 28.8801124,
+        "maxlat": 47.0401942,
+        "maxlon": 28.8804139
+      },
+      "nodes": [6841641430, 6841641418, 6841641417],
+      "geometry": [
+        { "lat": 47.0400814, "lon": 28.8804139 },
+        { "lat": 47.0401785, "lon": 28.8801545 },
+        { "lat": 47.0401942, "lon": 28.8801124 }
+      ],
+      "tags": {
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Strada Alecu Russo",
+        "name:ru": "улица Алеку Руссо",
+        "old_name": "улица Федько",
+        "postal_code": "MD-2044",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 730291307,
+      "bounds": {
+        "minlat": 47.0368316,
+        "minlon": 28.8833371,
+        "maxlat": 47.0388731,
+        "maxlon": 28.8879522
+      },
+      "nodes": [
+        283736518,
+        365139306,
+        3861005848,
+        3861156293,
+        4566499752,
+        3861157097,
+        4566499751,
+        322510111
+      ],
+      "geometry": [
+        { "lat": 47.0388731, "lon": 28.8833371 },
+        { "lat": 47.0386747, "lon": 28.8837905 },
+        { "lat": 47.0386283, "lon": 28.8838966 },
+        { "lat": 47.0383112, "lon": 28.8846132 },
+        { "lat": 47.0382722, "lon": 28.8847006 },
+        { "lat": 47.0374884, "lon": 28.8864626 },
+        { "lat": 47.0371347, "lon": 28.887262 },
+        { "lat": 47.0368316, "lon": 28.8879522 }
+      ],
+      "tags": {
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Strada Alecu Russo",
+        "name:ru": "улица Алеку Руссо",
+        "old_name": "улица Федько",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 730291308,
+      "bounds": {
+        "minlat": 47.043038,
+        "minlon": 28.8621488,
+        "maxlat": 47.0443194,
+        "maxlon": 28.8685942
+      },
+      "nodes": [
+        3861536475,
+        4566499754,
+        639868030,
+        623647376,
+        3861320728,
+        3861314697,
+        3861390787,
+        4566499750,
+        3861390395,
+        5589880192,
+        4170042153,
+        4566499753,
+        6841641461,
+        3861536607
+      ],
+      "geometry": [
+        { "lat": 47.0443194, "lon": 28.8621488 },
+        { "lat": 47.0442128, "lon": 28.8626848 },
+        { "lat": 47.0440637, "lon": 28.8634349 },
+        { "lat": 47.0439752, "lon": 28.8638803 },
+        { "lat": 47.0438348, "lon": 28.8645864 },
+        { "lat": 47.0437557, "lon": 28.8649842 },
+        { "lat": 47.0436454, "lon": 28.8655402 },
+        { "lat": 47.0435314, "lon": 28.8661127 },
+        { "lat": 47.0434934, "lon": 28.8663039 },
+        { "lat": 47.043388, "lon": 28.8668337 },
+        { "lat": 47.0433308, "lon": 28.8671216 },
+        { "lat": 47.0432798, "lon": 28.867378 },
+        { "lat": 47.0430837, "lon": 28.8683645 },
+        { "lat": 47.043038, "lon": 28.8685942 }
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Strada Alecu Russo",
+        "name:ro": "Strada Alecu Russo",
+        "name:ru": "улица Алеку Руссо",
+        "old_name": "улица Федько",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 730291309,
+      "bounds": {
+        "minlat": 47.0443194,
+        "minlon": 28.861947,
+        "maxlat": 47.0443896,
+        "maxlon": 28.8621488
+      },
+      "nodes": [3861536475, 6427518703],
+      "geometry": [
+        { "lat": 47.0443194, "lon": 28.8621488 },
+        { "lat": 47.0443896, "lon": 28.861947 }
+      ],
+      "tags": {
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Alecu Russo",
+        "name:ro": "Strada Alecu Russo",
+        "name:ru": "улица Алеку Руссо",
+        "old_name": "улица Федько",
+        "oneway": "yes",
+        "postal_code": "MD-2044",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 730291310,
+      "bounds": {
+        "minlat": 47.0365722,
+        "minlon": 28.8879522,
+        "maxlat": 47.0368316,
+        "maxlon": 28.8883532
+      },
+      "nodes": [322510111, 3861254194, 5707399663],
+      "geometry": [
+        { "lat": 47.0368316, "lon": 28.8879522 },
+        { "lat": 47.0366688, "lon": 28.8882269 },
+        { "lat": 47.0365722, "lon": 28.8883532 }
+      ],
+      "tags": {
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Strada Alecu Russo",
+        "name:ru": "улица Алеку Руссо",
+        "old_name": "улица Федько",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 730291317,
+      "bounds": {
+        "minlat": 47.0401942,
+        "minlon": 28.8685942,
+        "maxlat": 47.043038,
+        "maxlon": 28.8801124
+      },
+      "nodes": [
+        6841641417,
+        1482581109,
+        269075326,
+        6841634748,
+        3861060635,
+        269075325,
+        6841641445,
+        6841634746,
+        6841634747,
+        269075324,
+        1130785058,
+        6841641406,
+        3861536607
+      ],
+      "geometry": [
+        { "lat": 47.0401942, "lon": 28.8801124 },
+        { "lat": 47.0402277, "lon": 28.8800229 },
+        { "lat": 47.0404428, "lon": 28.8794104 },
+        { "lat": 47.040667, "lon": 28.878722 },
+        { "lat": 47.0408708, "lon": 28.8780652 },
+        { "lat": 47.0410393, "lon": 28.8774773 },
+        { "lat": 47.0411787, "lon": 28.8769696 },
+        { "lat": 47.0413142, "lon": 28.8764564 },
+        { "lat": 47.0414879, "lon": 28.8757265 },
+        { "lat": 47.0416808, "lon": 28.8748763 },
+        { "lat": 47.0423921, "lon": 28.871573 },
+        { "lat": 47.042773, "lon": 28.8698201 },
+        { "lat": 47.043038, "lon": 28.8685942 }
+      ],
+      "tags": {
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "6",
+        "maxspeed": "50",
+        "name": "Strada Alecu Russo",
+        "name:ru": "улица Алеку Руссо",
+        "old_name": "улица Федько",
+        "postal_code": "MD-2044",
+        "surface": "asphalt"
+      }
+    }
+  ]
+}

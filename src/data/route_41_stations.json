@@ -1,0 +1,347 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.7 8b86ff77",
+  "osm3s": {
+    "timestamp_osm_base": "2019-10-04T21:52:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 325004957,
+      "lat": 47.0084584,
+      "lon": 28.8273085,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Piaţa Pan Halippa",
+        "name:ru": "Площадь Пана Халипы",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005073,
+      "lat": 47.0281582,
+      "lon": 28.796342,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Ion Creangă",
+        "name:ru": "ул. Ион Крянгэ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005077,
+      "lat": 47.0218326,
+      "lon": 28.8049124,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Vasile Lupu",
+        "name:ru": "Василе Лупу",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005186,
+      "lat": 47.0028774,
+      "lon": 28.816803,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Dokuciaev",
+        "name:ru": "ул. Докучаева",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005189,
+      "lat": 46.999051,
+      "lon": 28.8087899,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Telecentru",
+        "name:ru": "Телецентр",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005191,
+      "lat": 47.004913,
+      "lon": 28.8213058,
+      "tags": {
+        "highway": "bus_stop",
+        "loc_name": "Secenov",
+        "name": "str. Gh. Tudor",
+        "name:ru": "ул. Г. Тудор",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339147,
+      "lat": 47.0128935,
+      "lon": 28.8279157,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Anton Crihan",
+        "name:ru": "ул. Антон Крихан",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339171,
+      "lat": 47.0234849,
+      "lon": 28.7897652,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Vasile Lupu",
+        "name:ru": "Василе Лупу",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339241,
+      "lat": 47.0295265,
+      "lon": 28.8018086,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "V. Belinskii",
+        "name:ru": "В. Белинский",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339250,
+      "lat": 47.0221449,
+      "lon": 28.8098131,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Eugen Coca",
+        "name:ru": "ул. Евгений Кока",
+        "operator": "3, 4",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339255,
+      "lat": 47.0244211,
+      "lon": 28.7926284,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Constituției",
+        "name:ru": "ул. Конституции",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339490,
+      "lat": 47.0247505,
+      "lon": 28.7824549,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Clinica Veterinară Republicană",
+        "name:ru": "Республиканская ветеринарная клиника",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339496,
+      "lat": 46.9974728,
+      "lon": 28.7838359,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Sfânta Vineri",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339536,
+      "lat": 47.0256747,
+      "lon": 28.7778274,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Uzina Experimentală",
+        "name:ru": "Экспериментальный механический завод",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339537,
+      "lat": 47.0158647,
+      "lon": 28.7480661,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Str. Cartușa",
+        "name:ru": "Поликлиника",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339544,
+      "lat": 46.9964113,
+      "lon": 28.8014944,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Sihastrului",
+        "name:ru": "ул. Сихаструлуй",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339573,
+      "lat": 47.0013201,
+      "lon": 28.7773954,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Academia de Administrare Publică",
+        "name:en": "Public Administration Academy",
+        "name:ru": "Институт им. Николая Димо",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339575,
+      "lat": 47.000327,
+      "lon": 28.7797425,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. M. Lermontov",
+        "name:ru": "ул. М. Лермонтова",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339583,
+      "lat": 46.9982602,
+      "lon": 28.8066396,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Pietrarilor",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1032276238,
+      "lat": 47.0064518,
+      "lon": 28.8249976,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Magazin \"Fidesco\"",
+        "name:ru": "Магазин \"Фидеско\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2398208056,
+      "lat": 47.0266486,
+      "lon": 28.7736304,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Uzina chimică",
+        "name:ru": "Химзавод",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2398208058,
+      "lat": 47.0187387,
+      "lon": 28.7653803,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Primăria Durleşti",
+        "name:ru": "Примэрия Дурлешт",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2398208061,
+      "lat": 47.018799,
+      "lon": 28.7558478,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Testemiţanu",
+        "name:ru": "ул. Тестемицану",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2398208080,
+      "lat": 47.0061544,
+      "lon": 28.7664828,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Caucaz",
+        "name:ru": "ул. Кавказская",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2398208084,
+      "lat": 47.0130805,
+      "lon": 28.7556573,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Str. Nicolae Dimo 2",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2398208112,
+      "lat": 47.0093187,
+      "lon": 28.7623952,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Str. Nicolae Dimo 27",
+        "name:ro": "Str. Nicolae Dimo",
+        "name:ru": "ул. Николая Димо",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2616042623,
+      "lat": 47.0256967,
+      "lon": 28.8027519,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. P. Ceaikovski",
+        "name:ru": "ул. Петра Чайковского",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4568532112,
+      "lat": 47.0216953,
+      "lon": 28.7676093,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Cişmelelor",
+        "public_transport": "platform"
+      }
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.7 8b86ff77",
+  "osm3s": {
+    "timestamp_osm_base": "2019-10-04T21:52:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 325005039,
+      "lat": 47.0371529,
+      "lon": 28.8121895,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Universitatea Pedagogică de Stat „Ion Creangă“",
+        "name:ru": "Государственный педагогический университет им. Иона Крянгэ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005042,
+      "lat": 47.0371021,
+      "lon": 28.8116957,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Universitatea Pedagogică de Stat „Ion Creangă“",
+        "name:ru": "Государственный педагогический университет им. Иона Крянгэ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005065,
+      "lat": 47.0282921,
+      "lon": 28.7962046,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Doina și Ion Aldea-Teodorovici",
+        "name:ru": "ул. Дойна и Ион Алдя-Теодорович",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005073,
+      "lat": 47.0281582,
+      "lon": 28.796342,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Ion Creangă",
+        "name:ru": "ул. Ион Крянгэ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005081,
+      "lat": 47.0325536,
+      "lon": 28.8052341,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Ștefan Neaga",
+        "name:ru": "ул. Штефана Няга",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005084,
+      "lat": 47.032428,
+      "lon": 28.8054233,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Ștefan Neaga",
+        "name:ru": "ул. Штефана Няга",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339067,
+      "lat": 47.0621768,
+      "lon": 28.8458975,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "covered": "yes",
+        "highway": "bus_stop",
+        "name": "str. Socoleni",
+        "name:ru": "ул. Соколень",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339159,
+      "lat": 47.0340215,
+      "lon": 28.8192612,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Universitatea de Stat de Medicină și Farmacie",
+        "name:ru": "Государственный университет Медицины и Фармации",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339174,
+      "lat": 47.0370472,
+      "lon": 28.8203371,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Asociația „Tracom“",
+        "name:ru": "Ассоциация \"Траком\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339324,
+      "lat": 47.0542585,
+      "lon": 28.8498929,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Calea Orheiului",
+        "name:ru": "ул. Каля Орхеюлуй",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339403,
+      "lat": 47.0362593,
+      "lon": 28.8226288,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Columna",
+        "name:ru": "ул. Колумна",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 449672988,
+      "lat": 47.0383077,
+      "lon": 28.8253542,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Albișoara",
+        "name:ru": "ул. Албишоара",
+        "old_name": "ул. Набережная",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 613009714,
+      "lat": 47.0382456,
+      "lon": 28.8256815,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Albișoara",
+        "name:ru": "ул. Албишоара",
+        "old_name": "ул. Набережная",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 694216625,
+      "lat": 47.0409989,
+      "lon": 28.8426189,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Gara \"Vesterniceni\"",
+        "name:ru": "ул. Вокзал \"Вестерничены\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1035241557,
+      "lat": 47.0613022,
+      "lon": 28.8460111,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Socoleni",
+        "name:ru": "ул. Соколень",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1209486292,
+      "lat": 47.0575091,
+      "lon": 28.8477965,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Iazului",
+        "name:ru": "ул. Язулуй",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1211607992,
+      "lat": 47.0551428,
+      "lon": 28.8496256,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Ceucari",
+        "name:ru": "ул. Чеукарь",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1211611471,
+      "lat": 47.0580755,
+      "lon": 28.8477516,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Iazului",
+        "name:ru": "ул. Язулуй",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1211614943,
+      "lat": 47.0510337,
+      "lon": 28.8500667,
+      "tags": {
+        "bench": "yes",
+        "covered": "yes",
+        "highway": "bus_stop",
+        "name": "str. Vasile Badiu",
+        "name:ru": "ул. Василе Бадю",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1211616127,
+      "lat": 47.0516229,
+      "lon": 28.850732,
+      "tags": {
+        "bench": "no",
+        "covered": "yes",
+        "highway": "bus_stop",
+        "name": "str. Vasile Badiu",
+        "name:ru": "ул. Василе Бадю",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1557395459,
+      "lat": 47.046181,
+      "lon": 28.8488458,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Calea Orheiului",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1557395464,
+      "lat": 47.0466317,
+      "lon": 28.8485801,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "bd. Renașterii Naționale",
+        "name:ru": "пр. Ренаштерий Национале",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1557396061,
+      "lat": 47.065218,
+      "lon": 28.8444294,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Liceul \"George Călinescu\"",
+        "name:ru": "Лицей им. Джордже Кэлинеску",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1557396084,
+      "lat": 47.0653801,
+      "lon": 28.8439748,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Liceul \"George Călinescu\"",
+        "name:ru": "Лицей им. Джордже Кэлинеску",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1558999570,
+      "lat": 47.0413403,
+      "lon": 28.842274,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Gara \"Vesterniceni\" №21, 23, 27",
+        "name:ru": "ул. Вокзал \"Вестерничены\"",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1558999573,
+      "lat": 47.0446015,
+      "lon": 28.8479992,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Bd. Renașterii Naționale",
+        "name:ro": "Bd. Renașterii Naționale",
+        "name:ru": "Коммерческий центр \"Супратен\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1558999576,
+      "lat": 47.0447877,
+      "lon": 28.8477432,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Calea Orheiului",
+        "name:ru": "ул. Каля Орхеюлуй",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2635477677,
+      "lat": 47.042694,
+      "lon": 28.8356669,
+      "tags": {
+        "addr:housenumber": "15/3",
+        "addr:postcode": "2059",
+        "addr:street": "Strada Petricani",
+        "email": "info@decorelli.md",
+        "highway": "bus_stop",
+        "name": "DECORELLI",
+        "name:ru": "ДЕКОРЕЛЛИ",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00",
+        "phone": "+37369728782",
+        "public_transport": "platform",
+        "shop": "hardware",
+        "website": "https://decorelli.md"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2635477682,
+      "lat": 47.0432548,
+      "lon": 28.8346676,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Centrul Comercial \"Supraten\"",
+        "name:ru": "Коммерческий центр \"Супратен\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4566744961,
+      "lat": 47.0380999,
+      "lon": 28.8161255,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Mitropolit Dosoftei",
+        "name:ru": "Митрополит Дософтей",
+        "public_transport": "platform"
+      }
+    }
+  ]
+}

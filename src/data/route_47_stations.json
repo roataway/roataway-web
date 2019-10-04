@@ -1,0 +1,322 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.7 8b86ff77",
+  "osm3s": {
+    "timestamp_osm_base": "2019-10-04T21:52:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 325004990,
+      "lat": 47.0225088,
+      "lon": 28.8295459,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. 31 August 1989",
+        "name:ro": "str. 31 August 1989",
+        "name:ru": "ул. 31 Августа 1989",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325004999,
+      "lat": 47.0243474,
+      "lon": 28.8349551,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bd. Ștefan cel Mare și Sfânt",
+        "name:ro": "Bd. Ștefan cel Mare și Sfânt",
+        "name:ru": "Площадь Великого Национального Собрания",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052760,
+      "lat": 47.0244375,
+      "lon": 28.8291614,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Grădina Publică",
+        "name:ru": "Парк",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052768,
+      "lat": 47.036029,
+      "lon": 28.8494001,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Circul",
+        "name:en": "Circus",
+        "name:ru": "Цирк",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052769,
+      "lat": 47.0366359,
+      "lon": 28.8497218,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Circ",
+        "name:ru": "Цирк",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052772,
+      "lat": 47.0287792,
+      "lon": 28.8388897,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "bd. Grigore Vieru",
+        "name:ru": "Бульвар Григория Виеру",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052773,
+      "lat": 47.0274523,
+      "lon": 28.8335423,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Columna",
+        "name:ru": "ул. Колумна",
+        "old_name": "ул. Фрунзе",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339067,
+      "lat": 47.0621768,
+      "lon": 28.8458975,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "covered": "yes",
+        "highway": "bus_stop",
+        "name": "str. Socoleni",
+        "name:ru": "ул. Соколень",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339280,
+      "lat": 47.0294757,
+      "lon": 28.8390869,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Eugen Doga",
+        "name:ru": "ул. Евгения Доги",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339324,
+      "lat": 47.0542585,
+      "lon": 28.8498929,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Calea Orheiului",
+        "name:ru": "ул. Каля Орхеюлуй",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 461604330,
+      "lat": 47.032016,
+      "lon": 28.8427908,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Romană",
+        "name:ru": "ул. Романэ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 461604331,
+      "lat": 47.0323655,
+      "lon": 28.8442191,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Romană",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1035241557,
+      "lat": 47.0613022,
+      "lon": 28.8460111,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Socoleni",
+        "name:ru": "ул. Соколень",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1209486292,
+      "lat": 47.0575091,
+      "lon": 28.8477965,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Iazului",
+        "name:ru": "ул. Язулуй",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1211607992,
+      "lat": 47.0551428,
+      "lon": 28.8496256,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Ceucari",
+        "name:ru": "ул. Чеукарь",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1211611471,
+      "lat": 47.0580755,
+      "lon": 28.8477516,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Iazului",
+        "name:ru": "ул. Язулуй",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1211614943,
+      "lat": 47.0510337,
+      "lon": 28.8500667,
+      "tags": {
+        "bench": "yes",
+        "covered": "yes",
+        "highway": "bus_stop",
+        "name": "str. Vasile Badiu",
+        "name:ru": "ул. Василе Бадю",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1211616127,
+      "lat": 47.0516229,
+      "lon": 28.850732,
+      "tags": {
+        "bench": "no",
+        "covered": "yes",
+        "highway": "bus_stop",
+        "name": "str. Vasile Badiu",
+        "name:ru": "ул. Василе Бадю",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1557395456,
+      "lat": 47.0436246,
+      "lon": 28.852523,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Florilor",
+        "name:ro": "Florilor 6/2",
+        "name:ru": "ул. Флорилор",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1557395459,
+      "lat": 47.046181,
+      "lon": 28.8488458,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Calea Orheiului",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1557395464,
+      "lat": 47.0466317,
+      "lon": 28.8485801,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "bd. Renașterii Naționale",
+        "name:ru": "пр. Ренаштерий Национале",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1557396061,
+      "lat": 47.065218,
+      "lon": 28.8444294,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Liceul \"George Călinescu\"",
+        "name:ru": "Лицей им. Джордже Кэлинеску",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1557396084,
+      "lat": 47.0653801,
+      "lon": 28.8439748,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Liceul \"George Călinescu\"",
+        "name:ru": "Лицей им. Джордже Кэлинеску",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4566499748,
+      "lat": 47.0425074,
+      "lon": 28.8530971,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Tipografia centrală",
+        "name:ru": "Центральная типография",
+        "public_transport": "platform"
+      }
+    }
+  ]
+}

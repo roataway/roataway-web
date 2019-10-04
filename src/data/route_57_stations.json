@@ -1,0 +1,466 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.7 8b86ff77",
+  "osm3s": {
+    "timestamp_osm_base": "2019-10-04T21:52:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 280924752,
+      "lat": 47.0584639,
+      "lon": 28.8675067,
+      "tags": {
+        "amenity": "bus_station",
+        "highway": "bus_stop",
+        "name": "str. Studenților",
+        "name:ru": "ул. Студенческая",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325004929,
+      "lat": 46.996991,
+      "lon": 28.8090044,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Miorița",
+        "name:ru": "ул. Миорица",
+        "old_name": "ул. Прянишникова",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325004932,
+      "lat": 46.993722,
+      "lon": 28.8150109,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Campusul Academic",
+        "name:ru": "Академический Городок",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325004934,
+      "lat": 46.9931771,
+      "lon": 28.8201395,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Colegiul de Construcții",
+        "name:ru": "Строительный колледж",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325004940,
+      "lat": 46.9980181,
+      "lon": 28.8203898,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. V. Korolenko",
+        "name:ru": "ул. В. Короленко",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325004946,
+      "lat": 47.001116,
+      "lon": 28.8219818,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Gh. Asachi",
+        "name:ru": "ул. Георге Асаки",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325004949,
+      "lat": 47.003521,
+      "lon": 28.824314,
+      "tags": {
+        "highway": "bus_stop",
+        "loc_name": "Academia de Politia",
+        "name": "str. Gh. Tudor",
+        "name:ru": "ул. Г. Тудор",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325004954,
+      "lat": 47.0089282,
+      "lon": 28.8278221,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Piaţa Pan Halippa",
+        "name:ru": "Кинотеатр \"Гаудеамус\"",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325004979,
+      "lat": 47.0183652,
+      "lon": 28.8230148,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Universitatea de Stat",
+        "name:ru": "Государственный университет",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325004984,
+      "lat": 47.0190219,
+      "lon": 28.8273444,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Mihail Kogalniceanu",
+        "name:ru": "ул. Пушкина",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325004987,
+      "lat": 47.0213214,
+      "lon": 28.8306802,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Casa Presei",
+        "name:ru": "Дом Печати",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325004996,
+      "lat": 47.0221766,
+      "lon": 28.8259731,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. București",
+        "name:ro": "str. București",
+        "name:ru": "ул. Букурешть",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325004999,
+      "lat": 47.0243474,
+      "lon": 28.8349551,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bd. Ștefan cel Mare și Sfânt",
+        "name:ro": "Bd. Ștefan cel Mare și Sfânt",
+        "name:ru": "Площадь Великого Национального Собрания",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005186,
+      "lat": 47.0028774,
+      "lon": 28.816803,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Dokuciaev",
+        "name:ru": "ул. Докучаева",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005189,
+      "lat": 46.999051,
+      "lon": 28.8087899,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Telecentru",
+        "name:ru": "Телецентр",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325005191,
+      "lat": 47.004913,
+      "lon": 28.8213058,
+      "tags": {
+        "highway": "bus_stop",
+        "loc_name": "Secenov",
+        "name": "str. Gh. Tudor",
+        "name:ru": "ул. Г. Тудор",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052760,
+      "lat": 47.0244375,
+      "lon": 28.8291614,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Grădina Publică",
+        "name:ru": "Парк",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052764,
+      "lat": 47.0432207,
+      "lon": 28.8607499,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Str. Alecu Russo",
+        "name:ro": "Str. Alecu Russo",
+        "name:ru": "ул. Алеку Руссо",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052765,
+      "lat": 47.0498674,
+      "lon": 28.8636871,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Miron Costin",
+        "name:ru": "ул. Мирона Костина",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052766,
+      "lat": 47.0491288,
+      "lon": 28.8630222,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Miron Costin",
+        "name:ru": "ул. Мирона Костина",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052767,
+      "lat": 47.0586327,
+      "lon": 28.8666919,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Studenților",
+        "name:ru": "ул. Студенческая",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052768,
+      "lat": 47.036029,
+      "lon": 28.8494001,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Circul",
+        "name:en": "Circus",
+        "name:ru": "Цирк",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052769,
+      "lat": 47.0366359,
+      "lon": 28.8497218,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Circ",
+        "name:ru": "Цирк",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052772,
+      "lat": 47.0287792,
+      "lon": 28.8388897,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "bd. Grigore Vieru",
+        "name:ru": "Бульвар Григория Виеру",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052773,
+      "lat": 47.0274523,
+      "lon": 28.8335423,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Columna",
+        "name:ru": "ул. Колумна",
+        "old_name": "ул. Фрунзе",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052774,
+      "lat": 47.0402243,
+      "lon": 28.8599565,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Kiev",
+        "name:ru": "ул. Киевская",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340052775,
+      "lat": 47.0454792,
+      "lon": 28.8620731,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Str. Alecu Russo",
+        "name:en": "Str. Moscow Avenue",
+        "name:ro": "Str. Bulevardul Moscova",
+        "name:ru": "ул. Московский проспект",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339107,
+      "lat": 47.015483,
+      "lon": 28.8264898,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Mihai Eminescu",
+        "name:ru": "ул. Михая Эминеску",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339147,
+      "lat": 47.0128935,
+      "lon": 28.8279157,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Anton Crihan",
+        "name:ru": "ул. Антон Крихан",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339280,
+      "lat": 47.0294757,
+      "lon": 28.8390869,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Eugen Doga",
+        "name:ru": "ул. Евгения Доги",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376339320,
+      "lat": 47.039707,
+      "lon": 28.8593514,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Kiev",
+        "name:ru": "ул. Киевская",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 461604330,
+      "lat": 47.032016,
+      "lon": 28.8427908,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "str. Romană",
+        "name:ru": "ул. Романэ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 461604331,
+      "lat": 47.0323655,
+      "lon": 28.8442191,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Romană",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 461604333,
+      "lat": 47.0549227,
+      "lon": 28.8651157,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Matei Basarab",
+        "name:ro": "str. Matei Basarab 13/5",
+        "name:ru": "ул. Матей Басараб",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 461604334,
+      "lat": 47.0554695,
+      "lon": 28.8658568,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "str. Matei Basarab",
+        "name:ru": "ул. Матей Басараб",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1032276238,
+      "lat": 47.0064518,
+      "lon": 28.8249976,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Magazin \"Fidesco\"",
+        "name:ru": "Магазин \"Фидеско\"",
+        "public_transport": "platform"
+      }
+    }
+  ]
+}
