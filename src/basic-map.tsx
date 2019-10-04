@@ -30,11 +30,14 @@ const state: Viewport = {
 }
 
 export function BasicMap() {
+  const [isAnimatedMarker, setIsAnimatedMarker] = React.useState(true)
   return (
     <Map
       id={'map'}
       style={{ height: '100vh' }}
       zoomControl={false}
+      onzoomstart={() => setIsAnimatedMarker(false)}
+      onzoomend={() => setIsAnimatedMarker(true)}
       viewport={state}>
       <TileLayer
         attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -53,11 +56,10 @@ export function BasicMap() {
               // container, and then adding another HTML element inside, which
               // will use the `arrow` class with a `transform: rotate`.
               icon={divIcon({
-                className: 'arrow-container',
-                html:
-                  '<div class="arrow" style="transform: rotate(' +
-                  p.direction +
-                  'deg)">',
+                className: `arrow-container ${
+                  isAnimatedMarker ? 'animated-marker' : ''
+                }`,
+                html: `<div class="arrow" style="transform: rotate(${p.direction}deg)"></div>`,
               })}
             />
           ))
