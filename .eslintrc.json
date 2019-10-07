@@ -1,11 +1,5 @@
 {
-  "extends": ["react-app", "plugin:compat/recommended"],
-  "settings": {
-    "polyfills": [
-      "Object.values",
-      "Promise"
-    ]
-  },
+  "extends": ["react-app"],
   "rules": {
     "react/jsx-no-literals": "warn"
   }
