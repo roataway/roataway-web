@@ -28,6 +28,7 @@
     "@types/react-dom": "^16.9.0",
     "@types/react-leaflet": "^2.4.0",
     "@winify/react-scripts": "^3.1.1",
+    "csv-parse": "^4.6.3",
     "eslint-plugin-compat": "^3.3.0",
     "gh-pages": "^2.1.1",
     "husky": "^3.0.5",
