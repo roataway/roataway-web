@@ -54,9 +54,9 @@ export function RouteSelectDialog(props: Props) {
         <DialogContentText id="alert-dialog-description">
           {routes.map(r => (
             <Button
-              onClick={() => selectRoute(r.name_concise)}
+              onClick={() => selectRoute(r.id_upstream)}
               color="secondary"
-              variant={selectedRoutes.has(r.name_concise) ? 'outlined' : 'text'}
+              variant={selectedRoutes.has(r.id_upstream) ? 'outlined' : 'text'}
               key={r.id_upstream}>
               {r.name_concise}
             </Button>
