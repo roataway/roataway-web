@@ -9,5 +9,7 @@ type Route = {
 }
 
 export const routes: Route[] = csvLoader<Route>('./routes.csv').sort((a, b) =>
-  a.name_concise.localeCompare(b.name_concise),
+  a.name_concise.localeCompare(b.name_concise, undefined, {
+    numeric: true,
+  }),
 )

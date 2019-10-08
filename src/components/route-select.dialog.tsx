@@ -50,6 +50,7 @@ export function RouteSelectDialog(props: Props) {
             <Button
               onClick={() => selectRoute(r.name_concise)}
               color="secondary"
+              variant={selectedRoutes.has(r.name_concise) ? 'outlined' : 'text'}
               key={r.id_upstream}>
               {r.name_concise}
             </Button>
