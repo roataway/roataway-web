@@ -17,14 +17,19 @@ The data are stored in GeoJSON, in 2 files:
 - `route_<upstream_id>_segments.json`
 - `route_<upstream_id>_stations.json`
 
+Installation:
 
-Examples of use:
+- `virtualenv -p python3 venv-getRoute`
+- `source venv-getRoute/bin/activate`
+- `pip install osm2geojson`
 
-- `./getRoute --csv ../src/data/routes.csv --dst out` - Get all the routes specified in
+Examples of use (activate the virtualenv via `source venv-getRoute/bin/activate` first):
+
+- `python getRoute --csv ../src/data/routes.csv --dst out` - Get all the routes specified in
   `../src/data/routes.csv` and save the resulting files to `out/` in the current directory.
-- `./getRoute -r 9478330` - Retrieve data about relation `9478330`; in this case the file
+- `python getRoute -r 9478330` - Retrieve data about relation `9478330`; in this case the file
   name will use the `relation_id`, rather than the `upstream_id`.
-- `./getRoute --help` - See what command line args are available
+- `python getRoute --help` - See what command line args are available
 
 If all is well, you will see something like this:
 
@@ -38,3 +43,13 @@ If all is well, you will see something like this:
 ```
 
 And the metadata will be saved in the directory you've indicated.
+
+Note that the Overpass API of OSM returns a JSON which does not conform to the GeoJSON
+schema (though they look the same to the untrained eye)! Thus, the tool relies on a
+third-party library, `osm2geojson` to do the conversion.
+
+What happens in principle:
+
+- retrieve XML data from Overpass
+- use `osm2geojson` to convert that XML to GeoJSON
+- save GeoJSON to file
