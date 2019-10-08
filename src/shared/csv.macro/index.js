@@ -4,7 +4,7 @@ const { createMacro } = require('babel-plugin-macros')
 const parse = require('csv-parse/lib/sync')
 
 module.exports = createMacro(graphqlMacro)
-module.exports.csvLoader = path => []
+module.exports.csvLoader = filePath => []
 
 function graphqlMacro({
   references,

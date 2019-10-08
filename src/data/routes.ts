@@ -8,4 +8,6 @@ type Route = {
   osm_relation: string
 }
 
-export const routes: Route[] = csvLoader('./routes.csv')
+export const routes: Route[] = csvLoader<Route>('./routes.csv').sort((a, b) =>
+  a.name_concise.localeCompare(b.name_concise),
+)
