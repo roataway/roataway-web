@@ -4,7 +4,7 @@ const { createMacro } = require('babel-plugin-macros')
 const parse = require('csv-parse/lib/sync')
 
 module.exports = createMacro(graphqlMacro)
-module.exports.csvLoader = path => []
+module.exports.csvLoader = filePath => []
 
 function graphqlMacro({
   references,
@@ -21,6 +21,10 @@ function graphqlMacro({
       const json = parse(fs.readFileSync(absolutePath, 'utf8'), {
         columns: true,
         skip_empty_lines: true,
+        trim: true,
+        // skip_lines_with_error: true,
+        quote: false,
+        // escape: '\''
       })
       referencePath.parentPath.replaceWithSourceString(JSON.stringify(json))
     })
