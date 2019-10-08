@@ -3,6 +3,7 @@ import { Map, TileLayer, Viewport, Marker, GeoJSON } from 'react-leaflet'
 import { GeoJsonObject } from 'geojson'
 import { divIcon } from 'leaflet'
 import 'leaflet/dist/leaflet.css'
+import { ErrorBoundary } from './components/error-boundary'
 import './style.css'
 import { Positions } from './use-positions'
 
@@ -56,7 +57,9 @@ export function TheMap({ selectedRoutes }: Props) {
 
       {Object.entries(routesSegments).map(([id, rs]) =>
         selectedRoutes.has(id) ? (
-          <GeoJSON key={`route-segments-${id}`} data={rs!} />
+          <ErrorBoundary>
+            <GeoJSON key={`route-segments-${id}`} data={rs!} />
+          </ErrorBoundary>
         ) : (
           undefined
         ),
@@ -64,7 +67,9 @@ export function TheMap({ selectedRoutes }: Props) {
 
       {Object.entries(routesStations).map(([id, rs]) =>
         selectedRoutes.has(id) ? (
-          <GeoJSON key={`route-stations-${id}`} data={rs!} />
+          <ErrorBoundary>
+            <GeoJSON key={`route-stations-${id}`} data={rs!} />
+          </ErrorBoundary>
         ) : (
           undefined
         ),
