@@ -7,10 +7,13 @@ import urllib.parse
 import csv
 import os
 import logging
+import json
+
+import osm2geojson
 
 # The queries are documented here: https://github.com/roataway/web-ui/tree/master/src/data
-QUERY_SEGMENTS = "http://overpass-api.de/api/interpreter?data=[out:json];relation%%20(%s)%%3B>>%%3Bway._%%3Bout%%20geom%%3B"
-QUERY_STATIONS = "http://overpass-api.de/api/interpreter?data=[out:json];relation%%20(%s)%%3B>>%%3Bnode._%%20[public_transport%%3Dplatform]%%3Bout%%3B"
+QUERY_SEGMENTS = "https://overpass-api.de/api/interpreter?data=relation%%20%%28%s%%29%%3B%%0A%%3E%%3E%%3B%%0Away._%%3B%%0Aout%%20geom%%3B"
+QUERY_STATIONS = "https://overpass-api.de/api/interpreter?data=relation%%20%%28%s%%29%%3B%%0A%%3E%%3E%%3B%%0Anode._%%20%%5Bpublic_transport%%3Dplatform%%5D%%3B%%0Aout%%20geom%%3B"
 
 TEMPLATE_SEGMENTS = "route_%s_segments.json"
 TEMPLATE_STATIONS = "route_%s_stations.json"
@@ -26,7 +29,7 @@ def get_url(url):
 
 
 def save_route(upstream_id, osm_relation, target_path):
-    """Save a given route to a JSON file.
+    """Save a given route to a GeoJSON file.
     :param upstream_id: int, the identifier of the route in the upstream
                         tracking system.
     :param osm_relation: int, the identifier of the route in OpenStreetMap.
@@ -38,10 +41,14 @@ def save_route(upstream_id, osm_relation, target_path):
 
 
     with open(os.path.join(target_path, TEMPLATE_SEGMENTS % upstream_id), 'w') as f:
-        f.write(segments)
+        geojson_segments = osm2geojson.xml2geojson(segments)
+        geojson_segments = json.dumps(geojson_segments, indent=4)
+        f.write(geojson_segments)
 
     with open(os.path.join(target_path, TEMPLATE_STATIONS % upstream_id), 'w') as f:
-        f.write(stations)
+        geojson_stations = osm2geojson.xml2geojson(stations)
+        geojson_stations = json.dumps(geojson_stations, indent=4)
+        f.write(geojson_stations)
 
 
 def process_csv(csv_path, target_path):
