@@ -1,3533 +1,3019 @@
 {
-  "version": 0.6,
-  "generator": "Overpass API 0.7.55.7 8b86ff77",
-  "osm3s": {
-    "timestamp_osm_base": "2019-10-04T21:52:02Z",
-    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
-  },
-  "elements": [
-    {
-      "type": "way",
-      "id": 24760936,
-      "bounds": {
-        "minlat": 47.0109404,
-        "minlon": 28.8435187,
-        "maxlat": 47.0111875,
-        "maxlon": 28.843882
-      },
-      "nodes": [269079969, 270272840],
-      "geometry": [
-        { "lat": 47.0109404, "lon": 28.843882 },
-        { "lat": 47.0111875, "lon": 28.8435187 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Strada București",
-        "name:ru": "улица Букурешть",
-        "old_name": "улица Искры",
-        "oneway": "no"
-      }
-    },
-    {
-      "type": "way",
-      "id": 24797064,
-      "bounds": {
-        "minlat": 46.9915757,
-        "minlon": 28.7888518,
-        "maxlat": 46.9926191,
-        "maxlon": 28.7917883
-      },
-      "nodes": [
-        269415906,
-        4563611297,
-        269415911,
-        5727713990,
-        269415943,
-        269415948
-      ],
-      "geometry": [
-        { "lat": 46.9915757, "lon": 28.7888518 },
-        { "lat": 46.9917318, "lon": 28.7892895 },
-        { "lat": 46.9919069, "lon": 28.7897877 },
-        { "lat": 46.9920943, "lon": 28.7903107 },
-        { "lat": 46.9922805, "lon": 28.7908368 },
-        { "lat": 46.9926191, "lon": 28.7917883 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Șoseaua Hîncești",
-        "name:ru": "Хынчештское шоссе",
-        "old_name": "Котовское Шоссе",
-        "ref": "R3"
-      }
-    },
-    {
-      "type": "way",
-      "id": 24961871,
-      "bounds": {
-        "minlat": 46.9780129,
-        "minlon": 28.845063,
-        "maxlat": 46.9782603,
-        "maxlon": 28.8454546
-      },
-      "nodes": [272305012, 1251187095],
-      "geometry": [
-        { "lat": 46.9780129, "lon": 28.845063 },
-        { "lat": 46.9782603, "lon": 28.8454546 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Traian",
-        "name:ro": "Bulevardul Traian",
-        "name:ru": "проспект Траян",
-        "name_1": "bd. Traian",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Traian din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 24964687,
-      "bounds": {
-        "minlat": 47.0157937,
-        "minlon": 28.8455938,
-        "maxlat": 47.0162439,
-        "maxlon": 28.8462555
-      },
-      "nodes": [271282899, 271283220],
-      "geometry": [
-        { "lat": 47.0157937, "lon": 28.8455938 },
-        { "lat": 47.0162439, "lon": 28.8462555 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Strada Ismail",
-        "name:ru": "Измаильская улица",
-        "oneway": "no",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 24964737,
-      "bounds": {
-        "minlat": 47.0162439,
-        "minlon": 28.8462555,
-        "maxlat": 47.0163091,
-        "maxlon": 28.8464543
-      },
-      "nodes": [271283220, 875666521],
-      "geometry": [
-        { "lat": 47.0162439, "lon": 28.8462555 },
-        { "lat": 47.0163091, "lon": 28.8464543 }
-      ],
-      "tags": {
-        "highway": "residential",
-        "lanes": "1",
-        "oneway": "yes",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 25126868,
-      "bounds": {
-        "minlat": 47.0100463,
-        "minlon": 28.858909,
-        "maxlat": 47.0107663,
-        "maxlon": 28.8594722
-      },
-      "nodes": [
-        273672801,
-        5743498073,
-        273672803,
-        5743498074,
-        6208784464,
-        273672806
-      ],
-      "geometry": [
-        { "lat": 47.0107663, "lon": 28.858909 },
-        { "lat": 47.0105726, "lon": 28.8590767 },
-        { "lat": 47.0104271, "lon": 28.8591937 },
-        { "lat": 47.0102938, "lon": 28.8592839 },
-        { "lat": 47.0100981, "lon": 28.8594328 },
-        { "lat": 47.0100463, "lon": 28.8594722 }
-      ],
-      "tags": {
-        "admin_level": "10",
-        "boundary": "administrative",
-        "highway": "trunk",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Iuri Gagarin",
-        "name:ro": "Bulevardul Iuri Gagarin",
-        "name:ru": "проспект Гагарина",
-        "name_1": "bd. Gagarin",
-        "oneway": "yes",
-        "postal_code": "MD-2000",
-        "trolley_wire": "yes",
-        "wikidata": "Q4099031",
-        "wikipedia": "ro:Bulevardul Iuri Gagarin din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 25208261,
-      "bounds": {
-        "minlat": 46.9978436,
-        "minlon": 28.8057795,
-        "maxlat": 46.9984377,
-        "maxlon": 28.8074482
-      },
-      "nodes": [
-        274852712,
-        6667995097,
-        6667974544,
-        469103471,
-        4563611299,
-        468206867,
-        275282223
-      ],
-      "geometry": [
-        { "lat": 46.9984377, "lon": 28.8074482 },
-        { "lat": 46.9984026, "lon": 28.8073495 },
-        { "lat": 46.9983968, "lon": 28.8073345 },
-        { "lat": 46.9983606, "lon": 28.8072325 },
-        { "lat": 46.9981682, "lon": 28.8066892 },
-        { "lat": 46.9980751, "lon": 28.8064214 },
-        { "lat": 46.9978436, "lon": 28.8057795 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "3",
-        "layer": "2",
-        "maxspeed": "50",
-        "name": "Șoseaua Hîncești",
-        "name:ru": "Хынчешское шоссе",
-        "oneway": "yes",
-        "ref": "R3"
-      }
-    },
-    {
-      "type": "way",
-      "id": 25262945,
-      "bounds": {
-        "minlat": 46.9964865,
-        "minlon": 28.8028467,
-        "maxlat": 46.9966232,
-        "maxlon": 28.8037315
-      },
-      "nodes": [365109054, 6670231478, 6765254589, 6670231479, 269416025],
-      "geometry": [
-        { "lat": 46.9964865, "lon": 28.8028467 },
-        { "lat": 46.9965549, "lon": 28.8031748 },
-        { "lat": 46.9965796, "lon": 28.8033203 },
-        { "lat": 46.996597, "lon": 28.8034551 },
-        { "lat": 46.9966232, "lon": 28.8037315 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "3",
-        "maxspeed": "50",
-        "oneway": "yes",
-        "ref": "R3",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
-      "id": 25300677,
-      "bounds": {
-        "minlat": 46.9985299,
-        "minlon": 28.8598047,
-        "maxlat": 47.000997,
-        "maxlon": 28.8600477
-      },
-      "nodes": [
-        273936331,
-        4563451493,
-        4563451494,
-        4579190400,
-        1258789448,
-        890891426,
-        271248437
-      ],
-      "geometry": [
-        { "lat": 47.000997, "lon": 28.8600477 },
-        { "lat": 47.0007495, "lon": 28.8600299 },
-        { "lat": 46.9999453, "lon": 28.8599486 },
-        { "lat": 46.9993996, "lon": 28.8598929 },
-        { "lat": 46.998758, "lon": 28.8598275 },
-        { "lat": 46.9986981, "lon": 28.8598214 },
-        { "lat": 46.9985299, "lon": 28.8598047 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ro": "Bulevardul Decebal",
-        "name:ru": "проспект Децебала",
-        "name_1": "bd. Decebal",
-        "old_name": "улицаТимошенко",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 25341044,
-      "bounds": {
-        "minlat": 46.9978016,
-        "minlon": 28.8077522,
-        "maxlat": 46.9980471,
-        "maxlon": 28.8080704
-      },
-      "nodes": [286566057, 6805330333, 371122893],
-      "geometry": [
-        { "lat": 46.9980471, "lon": 28.8077522 },
-        { "lat": 46.9979586, "lon": 28.8078669 },
-        { "lat": 46.9978016, "lon": 28.8080704 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Strada Miorița",
-        "name:ru": "улица Миорица",
-        "oneway": "yes",
-        "ref": "M3;R3",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 25480033,
-      "bounds": {
-        "minlat": 46.9954513,
-        "minlon": 28.8435869,
-        "maxlat": 46.9995893,
-        "maxlon": 28.8452473
-      },
-      "nodes": [277647488, 5740620991, 5740620992, 300247410],
-      "geometry": [
-        { "lat": 46.9954513, "lon": 28.8452473 },
-        { "lat": 46.9960817, "lon": 28.8449586 },
-        { "lat": 46.9968714, "lon": 28.8446441 },
-        { "lat": 46.9995893, "lon": 28.8435869 }
-      ],
-      "tags": {
-        "admin_level": "10",
-        "boundary": "administrative",
-        "bridge": "yes",
-        "highway": "trunk",
-        "lanes": "3",
-        "layer": "2",
-        "loc_name": "Viaduct",
-        "loc_name:ru": "Виадук",
-        "maxspeed": "70",
-        "name": "Bulevardul Dacia",
-        "name:ro": "Bd.Dacia",
-        "name:ru": "проспект Дачия",
-        "old_name": "пр. Мира",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 25720093,
-      "bounds": {
-        "minlat": 47.0107663,
-        "minlon": 28.8583247,
-        "maxlat": 47.0111494,
-        "maxlon": 28.858909
-      },
-      "nodes": [273672801, 4563451491, 4563450976],
-      "geometry": [
-        { "lat": 47.0107663, "lon": 28.858909 },
-        { "lat": 47.0110071, "lon": 28.8585485 },
-        { "lat": 47.0111494, "lon": 28.8583247 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Iuri Gagarin",
-        "name:ro": "Bulevardul Iuri Gagarin",
-        "name:ru": "проспект Гагарина",
-        "name_1": "bd. Gagarin",
-        "postal_code": "MD-2000",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Iuri Gagarin din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 26134590,
-      "bounds": {
-        "minlat": 46.9867426,
-        "minlon": 28.8477028,
-        "maxlat": 46.9931903,
-        "maxlon": 28.8567436
-      },
-      "nodes": [
-        286123858,
-        286123840,
-        4566543119,
-        286123841,
-        4566543118,
-        392001900,
-        372466325,
-        392001921,
-        4566543117,
-        286123842,
-        286123843,
-        286123857
-      ],
-      "geometry": [
-        { "lat": 46.9867426, "lon": 28.8567436 },
-        { "lat": 46.9870416, "lon": 28.8564815 },
-        { "lat": 46.9871681, "lon": 28.8563752 },
-        { "lat": 46.9874723, "lon": 28.8559475 },
-        { "lat": 46.9897177, "lon": 28.8527873 },
-        { "lat": 46.9908352, "lon": 28.8512145 },
-        { "lat": 46.9909431, "lon": 28.8510753 },
-        { "lat": 46.9923468, "lon": 28.8491185 },
-        { "lat": 46.9924381, "lon": 28.8489912 },
-        { "lat": 46.9928934, "lon": 28.8483564 },
-        { "lat": 46.9930975, "lon": 28.8479207 },
-        { "lat": 46.9931903, "lon": 28.8477028 }
-      ],
-      "tags": {
-        "highway": "residential",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 27350341,
-      "bounds": {
-        "minlat": 46.9995893,
-        "minlon": 28.8427415,
-        "maxlat": 47.0017921,
-        "maxlon": 28.8435869
-      },
-      "nodes": [300247410, 2595899735, 300009210, 273707135, 370422737],
-      "geometry": [
-        { "lat": 46.9995893, "lon": 28.8435869 },
-        { "lat": 47.0001984, "lon": 28.8433565 },
-        { "lat": 47.0009287, "lon": 28.8430737 },
-        { "lat": 47.0013854, "lon": 28.8428964 },
-        { "lat": 47.0017921, "lon": 28.8427415 }
-      ],
-      "tags": {
-        "admin_level": "10",
-        "boundary": "administrative",
-        "highway": "trunk",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Dacia",
-        "name:ro": "Bd.Dacia",
-        "name:ru": "проспект Дачия",
-        "old_name": "пр. Мира",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 27350346,
-      "bounds": {
-        "minlat": 47.0092882,
-        "minlon": 28.8427602,
-        "maxlat": 47.010646,
-        "maxlon": 28.843503
-      },
-      "nodes": [
-        273707158,
-        273707160,
-        5740620986,
-        273707164,
-        1096407703,
-        273707169,
-        273707173,
-        1103348607
-      ],
-      "geometry": [
-        { "lat": 47.0092882, "lon": 28.8427602 },
-        { "lat": 47.0095808, "lon": 28.8428069 },
-        { "lat": 47.0097297, "lon": 28.8428446 },
-        { "lat": 47.0098095, "lon": 28.8428799 },
-        { "lat": 47.0100041, "lon": 28.842964 },
-        { "lat": 47.0102246, "lon": 28.8431094 },
-        { "lat": 47.0104735, "lon": 28.8433242 },
-        { "lat": 47.010646, "lon": 28.843503 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Dacia",
-        "name:ru": "проспект Дачия",
-        "old_name": "пр. Мира",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 27641093,
-      "bounds": {
-        "minlat": 46.9784939,
-        "minlon": 28.8455614,
-        "maxlat": 46.9786612,
-        "maxlon": 28.8458163
-      },
-      "nodes": [303575598, 4563307314],
-      "geometry": [
-        { "lat": 46.9784939, "lon": 28.8458163 },
-        { "lat": 46.9786612, "lon": 28.8455614 }
-      ],
-      "tags": {
-        "highway": "service",
-        "oneway": "yes",
-        "psv": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 28021138,
-      "bounds": {
-        "minlat": 46.9954624,
-        "minlon": 28.7995393,
-        "maxlat": 46.995629,
-        "maxlon": 28.799712
-      },
-      "nodes": [275282216, 286502189],
-      "geometry": [
-        { "lat": 46.995629, "lon": 28.799712 },
-        { "lat": 46.9954624, "lon": 28.7995393 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "3",
-        "maxspeed": "50",
-        "oneway": "yes",
-        "ref": "R3",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
-      "id": 28021139,
-      "bounds": {
-        "minlat": 46.9966232,
-        "minlon": 28.8037315,
-        "maxlat": 46.9980471,
-        "maxlon": 28.8077522
-      },
-      "nodes": [
-        269416025,
-        286502174,
-        6805330334,
-        6805330331,
-        6667974510,
-        286566057
-      ],
-      "geometry": [
-        { "lat": 46.9966232, "lon": 28.8037315 },
-        { "lat": 46.9973416, "lon": 28.8057545 },
-        { "lat": 46.9979324, "lon": 28.8074306 },
-        { "lat": 46.9979443, "lon": 28.8074646 },
-        { "lat": 46.9980126, "lon": 28.8076583 },
-        { "lat": 46.9980471, "lon": 28.8077522 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "3",
-        "layer": "2",
-        "maxspeed": "40",
-        "name": "Șoseaua Hîncești",
-        "name:ru": "Хынчешское шоссе",
-        "oneway": "yes",
-        "ref": "R3"
-      }
-    },
-    {
-      "type": "way",
-      "id": 29022005,
-      "bounds": {
-        "minlat": 46.9920693,
-        "minlon": 28.8155376,
-        "maxlat": 46.9936723,
-        "maxlon": 28.8192944
-      },
-      "nodes": [
-        286502207,
-        303587311,
-        269416072,
-        275033336,
-        4566543125,
-        269416088,
-        863039421,
-        331196494,
-        269416094
-      ],
-      "geometry": [
-        { "lat": 46.9936723, "lon": 28.8155376 },
-        { "lat": 46.9932497, "lon": 28.8165823 },
-        { "lat": 46.9930769, "lon": 28.8170053 },
-        { "lat": 46.9925837, "lon": 28.8182225 },
-        { "lat": 46.9924852, "lon": 28.8184805 },
-        { "lat": 46.9923968, "lon": 28.8186731 },
-        { "lat": 46.9923047, "lon": 28.8188647 },
-        { "lat": 46.9921908, "lon": 28.819091 },
-        { "lat": 46.9920693, "lon": 28.8192944 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Strada Miorița",
-        "name:ru": "улица Миорица",
-        "old_name": "улица Прянишникова",
-        "oneway": "no",
-        "ref": "M3;R3",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 29022008,
-      "bounds": {
-        "minlat": 46.9817425,
-        "minlon": 28.8377424,
-        "maxlat": 46.9822385,
-        "maxlon": 28.8388889
-      },
-      "nodes": [278126689, 2961149689, 908309579, 1486056926, 4955532804],
-      "geometry": [
-        { "lat": 46.9817425, "lon": 28.8388889 },
-        { "lat": 46.9819187, "lon": 28.8384774 },
-        { "lat": 46.9819432, "lon": 28.8384161 },
-        { "lat": 46.9820512, "lon": 28.8381574 },
-        { "lat": 46.9822385, "lon": 28.8377424 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "maxspeed": "50",
-        "name": "Strada Grenoble",
-        "name:ru": "улица Гренобля",
-        "oneway": "no",
-        "ref": "M3",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 29022011,
-      "bounds": {
-        "minlat": 47.0066218,
-        "minlon": 28.8422919,
-        "maxlat": 47.0092882,
-        "maxlon": 28.8427602
-      },
-      "nodes": [299340568, 1097122660, 273707158],
-      "geometry": [
-        { "lat": 47.0066218, "lon": 28.8422919 },
-        { "lat": 47.0091546, "lon": 28.8427361 },
-        { "lat": 47.0092882, "lon": 28.8427602 }
-      ],
-      "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "bridge": "yes",
-        "cycleway": "lane",
-        "foot": "yes",
-        "highway": "trunk",
-        "lanes": "3",
-        "layer": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Dacia",
-        "name:ro": "Bd.Dacia",
-        "name:ru": "проспект Дачия",
-        "old_name": "пр. Мира",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 30748493,
-      "bounds": {
-        "minlat": 47.0039131,
-        "minlon": 28.8596008,
-        "maxlat": 47.0042616,
-        "maxlon": 28.8596398
-      },
-      "nodes": [278939606, 273672823],
-      "geometry": [
-        { "lat": 47.0042616, "lon": 28.8596008 },
-        { "lat": 47.0039131, "lon": 28.8596398 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ru": "проспект Децебала",
-        "name_1": "bd. Decebal",
-        "old_name": "улицаТимошенко",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 30748497,
-      "bounds": {
-        "minlat": 47.0042616,
-        "minlon": 28.8595909,
-        "maxlat": 47.0048418,
-        "maxlon": 28.8596008
-      },
-      "nodes": [340061864, 273672821, 278939606],
-      "geometry": [
-        { "lat": 47.0048418, "lon": 28.8595925 },
-        { "lat": 47.0044861, "lon": 28.8595909 },
-        { "lat": 47.0042616, "lon": 28.8596008 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ru": "проспект Децебала",
-        "name_1": "bd. Decebal",
-        "old_name": "улицаТимошенко",
-        "oneway": "no",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 30749960,
-      "bounds": {
-        "minlat": 46.9913343,
-        "minlon": 28.8192944,
-        "maxlat": 46.9920693,
-        "maxlon": 28.8204563
-      },
-      "nodes": [269416094, 863039180, 863038881, 5711427808, 271247534],
-      "geometry": [
-        { "lat": 46.9920693, "lon": 28.8192944 },
-        { "lat": 46.9918866, "lon": 28.8195417 },
-        { "lat": 46.9915883, "lon": 28.8200225 },
-        { "lat": 46.9914578, "lon": 28.8202224 },
-        { "lat": 46.9913343, "lon": 28.8204563 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Strada Miorița",
-        "name:ro": "Strada Miorița",
-        "name:ru": "улица Миорица",
-        "old_name": "улица Прянишникова",
-        "oneway": "no",
-        "ref": "M3"
-      }
-    },
-    {
-      "type": "way",
-      "id": 30749975,
-      "bounds": {
-        "minlat": 47.009772,
-        "minlon": 28.8594722,
-        "maxlat": 47.0100463,
-        "maxlon": 28.8599414
-      },
-      "nodes": [273672806, 5936387761, 1297178835, 273672810],
-      "geometry": [
-        { "lat": 47.0100463, "lon": 28.8594722 },
-        { "lat": 47.0099266, "lon": 28.8596316 },
-        { "lat": 47.0098334, "lon": 28.8597877 },
-        { "lat": 47.009772, "lon": 28.8599414 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Iuri Gagarin",
-        "name:ro": "Bulevardul Iuri Gagarin",
-        "name:ru": "проспект Гагарина",
-        "name_1": "bd. Gagarin",
-        "oneway": "yes",
-        "postal_code": "MD-2000",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Iuri Gagarin din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 32473712,
-      "bounds": {
-        "minlat": 46.9943289,
-        "minlon": 28.7966157,
-        "maxlat": 46.9953245,
-        "maxlon": 28.7996516
-      },
-      "nodes": [365109046, 365109048, 5727713992, 2961149703, 365109059],
-      "geometry": [
-        { "lat": 46.9943289, "lon": 28.7966157 },
-        { "lat": 46.99452, "lon": 28.7974225 },
-        { "lat": 46.994811, "lon": 28.7982444 },
-        { "lat": 46.9951154, "lon": 28.7990741 },
-        { "lat": 46.9953245, "lon": 28.7996516 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Șoseaua Hîncești",
-        "name:ru": "Хынчешское шоссе",
-        "oneway": "yes",
-        "ref": "R3"
-      }
-    },
-    {
-      "type": "way",
-      "id": 32473713,
-      "bounds": {
-        "minlat": 46.9949403,
-        "minlon": 28.798051,
-        "maxlat": 46.9954624,
-        "maxlon": 28.7995393
-      },
-      "nodes": [286502189, 269421572],
-      "geometry": [
-        { "lat": 46.9954624, "lon": 28.7995393 },
-        { "lat": 46.9949403, "lon": 28.798051 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Șoseaua Hîncești",
-        "name:ru": "Хынчештское шоссе",
-        "old_name": "Котовское Шоссе",
-        "oneway": "yes",
-        "ref": "R3"
-      }
-    },
-    {
-      "type": "way",
-      "id": 32484376,
-      "bounds": {
-        "minlat": 47.0138574,
-        "minlon": 28.8550146,
-        "maxlat": 47.0142694,
-        "maxlon": 28.8552128
-      },
-      "nodes": [1736603933, 3250264172, 365228385, 269122181],
-      "geometry": [
-        { "lat": 47.0142694, "lon": 28.8552128 },
-        { "lat": 47.014109, "lon": 28.8551652 },
-        { "lat": 47.0139793, "lon": 28.8551035 },
-        { "lat": 47.0138574, "lon": 28.8550146 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "maxspeed": "50",
-        "name": "Bulevardul Dimitrie Cantemir",
-        "name:ru": "проспект Дмитрия Кантемира",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 32484377,
-      "bounds": {
-        "minlat": 47.0142694,
-        "minlon": 28.8551821,
-        "maxlat": 47.0143566,
-        "maxlon": 28.8552128
-      },
-      "nodes": [1736603933, 2136579145],
-      "geometry": [
-        { "lat": 47.0142694, "lon": 28.8552128 },
-        { "lat": 47.0143566, "lon": 28.8551821 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Dimitrie Cantemir",
-        "name:ru": "проспект Дмитрия Кантемира"
-      }
-    },
-    {
-      "type": "way",
-      "id": 32888668,
-      "bounds": {
-        "minlat": 47.0017921,
-        "minlon": 28.8423165,
-        "maxlat": 47.0029252,
-        "maxlon": 28.8427415
-      },
-      "nodes": [370422737, 370422727],
-      "geometry": [
-        { "lat": 47.0017921, "lon": 28.8427415 },
-        { "lat": 47.0029252, "lon": 28.8423165 }
-      ],
-      "tags": {
-        "admin_level": "10",
-        "boundary": "administrative",
-        "bridge": "yes",
-        "highway": "trunk",
-        "lanes": "3",
-        "layer": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Dacia",
-        "name:ru": "проспект Дачия",
-        "old_name": "проспект Мира",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 32888670,
-      "bounds": {
-        "minlat": 47.0029252,
-        "minlon": 28.8419773,
-        "maxlat": 47.0066218,
-        "maxlon": 28.8423165
-      },
-      "nodes": [
-        370422727,
-        6769331374,
-        3697017055,
-        273707137,
-        273707139,
-        273707142,
-        5740620987,
-        273707145,
-        273707148,
-        4566543116,
-        273707152,
-        1097122789,
-        299340568
-      ],
-      "geometry": [
-        { "lat": 47.0029252, "lon": 28.8423165 },
-        { "lat": 47.0030059, "lon": 28.8422868 },
-        { "lat": 47.0031717, "lon": 28.8422257 },
-        { "lat": 47.003262, "lon": 28.8421906 },
-        { "lat": 47.0034718, "lon": 28.8421227 },
-        { "lat": 47.0037486, "lon": 28.8420454 },
-        { "lat": 47.004028, "lon": 28.8419976 },
-        { "lat": 47.0042556, "lon": 28.8419773 },
-        { "lat": 47.0045296, "lon": 28.8419835 },
-        { "lat": 47.0050016, "lon": 28.8420274 },
-        { "lat": 47.0050868, "lon": 28.8420353 },
-        { "lat": 47.0060967, "lon": 28.8422122 },
-        { "lat": 47.0066218, "lon": 28.8422919 }
-      ],
-      "tags": {
-        "admin_level": "10",
-        "boundary": "administrative",
-        "highway": "trunk",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Dacia",
-        "name:ru": "проспект Дачия",
-        "old_name": "пр. Мира",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 32952169,
-      "bounds": {
-        "minlat": 46.9981188,
-        "minlon": 28.8076515,
-        "maxlat": 46.9985108,
-        "maxlon": 28.8079432
-      },
-      "nodes": [371122354, 371122352],
-      "geometry": [
-        { "lat": 46.9981188, "lon": 28.8079432 },
-        { "lat": 46.9985108, "lon": 28.8076515 }
-      ],
-      "tags": {
-        "bridge": "viaduct",
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "layer": "2",
-        "maxspeed": "50",
-        "name": "Strada Miorița",
-        "name:ru": "улица Миорица",
-        "oneway": "yes",
-        "ref": "M3;R3",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
-      "id": 32952210,
-      "bounds": {
-        "minlat": 46.9978016,
-        "minlon": 28.8079432,
-        "maxlat": 46.9981188,
-        "maxlon": 28.8080704
-      },
-      "nodes": [371122893, 371122354],
-      "geometry": [
-        { "lat": 46.9978016, "lon": 28.8080704 },
-        { "lat": 46.9981188, "lon": 28.8079432 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "maxspeed": "50",
-        "name": "Strada Miorița",
-        "name:ru": "улица Миорица",
-        "oneway": "yes",
-        "ref": "M3;R3",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
-      "id": 38292096,
-      "bounds": {
-        "minlat": 46.9780129,
-        "minlon": 28.8431604,
-        "maxlat": 46.9798795,
-        "maxlon": 28.845063
-      },
-      "nodes": [
-        272305012,
-        5711434897,
-        304287346,
-        5711427691,
-        5711427690,
-        275033338,
-        303575595
-      ],
-      "geometry": [
-        { "lat": 46.9780129, "lon": 28.845063 },
-        { "lat": 46.9784397, "lon": 28.8447041 },
-        { "lat": 46.9788438, "lon": 28.8443213 },
-        { "lat": 46.9793624, "lon": 28.8438151 },
-        { "lat": 46.9796016, "lon": 28.8435564 },
-        { "lat": 46.979756, "lon": 28.8433577 },
-        { "lat": 46.9798795, "lon": 28.8431604 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Strada Grenoble",
-        "name:ru": "улица Гренобля",
-        "oneway": "no",
-        "ref": "M3",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 38809921,
-      "bounds": {
-        "minlat": 47.0129522,
-        "minlon": 28.8548897,
-        "maxlat": 47.013469,
-        "maxlon": 28.8555731
-      },
-      "nodes": [269122186, 6144694942, 3250264168, 365228387, 278156649],
-      "geometry": [
-        { "lat": 47.013469, "lon": 28.8548897 },
-        { "lat": 47.0133896, "lon": 28.8549337 },
-        { "lat": 47.0133286, "lon": 28.8549763 },
-        { "lat": 47.0131108, "lon": 28.8552732 },
-        { "lat": 47.0129522, "lon": 28.8555731 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Iuri Gagarin",
-        "name:ru": "проспект Гагарина",
-        "oneway": "yes",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 38835328,
-      "bounds": {
-        "minlat": 46.9872772,
-        "minlon": 28.8577243,
-        "maxlat": 46.9909247,
-        "maxlon": 28.8585954
-      },
-      "nodes": [
-        995239713,
-        286848418,
-        286848416,
-        273672862,
-        1258789445,
-        4563611304,
-        4429079476,
-        5735883136,
-        1110181609,
-        4563611314,
-        286043444
-      ],
-      "geometry": [
-        { "lat": 46.9909247, "lon": 28.8585954 },
-        { "lat": 46.9904297, "lon": 28.8584703 },
-        { "lat": 46.9901088, "lon": 28.8583922 },
-        { "lat": 46.9894808, "lon": 28.8582528 },
-        { "lat": 46.9893486, "lon": 28.8582291 },
-        { "lat": 46.9890905, "lon": 28.8581736 },
-        { "lat": 46.9889118, "lon": 28.8581245 },
-        { "lat": 46.9883269, "lon": 28.8579808 },
-        { "lat": 46.987759, "lon": 28.8578422 },
-        { "lat": 46.9875175, "lon": 28.8577861 },
-        { "lat": 46.9872772, "lon": 28.8577243 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "4",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ro": "Bulevardul Decebal",
-        "name:ru": "проспект Дечебала",
-        "name_1": "bd.Decebal",
-        "old_name": "улица Тимошенко",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 38835329,
-      "bounds": {
-        "minlat": 46.9980766,
-        "minlon": 28.8597752,
-        "maxlat": 46.9985299,
-        "maxlon": 28.8598047
-      },
-      "nodes": [271248437, 276641038],
-      "geometry": [
-        { "lat": 46.9985299, "lon": 28.8598047 },
-        { "lat": 46.9980766, "lon": 28.8597752 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ro": "Bulevardul Decebal",
-        "name:ru": "проспект Децебала",
-        "name_1": "bd. Decebal",
-        "old_name": "улицаТимошенко",
-        "oneway": "no",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 38959499,
-      "bounds": {
-        "minlat": 46.9824816,
-        "minlon": 28.8319575,
-        "maxlat": 46.9859193,
-        "maxlon": 28.8372309
-      },
-      "nodes": [
-        4955532807,
-        1486056939,
-        4563307313,
-        2961149692,
-        304287349,
-        6475014530,
-        421561176,
-        421561164,
-        271247531,
-        5711427694,
-        1334872688,
-        5711427844,
-        304287348,
-        5711427845,
-        4566543121,
-        1290861078,
-        278387625
-      ],
-      "geometry": [
-        { "lat": 46.9824816, "lon": 28.8372309 },
-        { "lat": 46.9825944, "lon": 28.8370199 },
-        { "lat": 46.9827145, "lon": 28.8368082 },
-        { "lat": 46.9827497, "lon": 28.8367461 },
-        { "lat": 46.9833003, "lon": 28.8357769 },
-        { "lat": 46.9835782, "lon": 28.8352718 },
-        { "lat": 46.9837243, "lon": 28.8350626 },
-        { "lat": 46.9841364, "lon": 28.8344289 },
-        { "lat": 46.9841671, "lon": 28.8343865 },
-        { "lat": 46.9844333, "lon": 28.8339734 },
-        { "lat": 46.984697, "lon": 28.8335638 },
-        { "lat": 46.9850234, "lon": 28.8330692 },
-        { "lat": 46.9853352, "lon": 28.8326424 },
-        { "lat": 46.9855554, "lon": 28.8323621 },
-        { "lat": 46.9857837, "lon": 28.8321097 },
-        { "lat": 46.9858448, "lon": 28.8320402 },
-        { "lat": 46.9859193, "lon": 28.8319575 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "maxspeed": "50",
-        "name": "Strada Grenoble",
-        "name:ru": "улица Гренобля",
-        "postal_code": "MD-2019",
-        "ref": "M3",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 39129989,
-      "bounds": {
-        "minlat": 46.9936723,
-        "minlon": 28.8090407,
-        "maxlat": 46.9970306,
-        "maxlon": 28.8155376
-      },
-      "nodes": [
-        4563307293,
-        365974603,
-        1326278790,
-        1326278785,
-        275033342,
-        269416056,
-        269416059,
-        665933263,
-        4566543124,
-        5711427809,
-        1326278702,
-        4563307292,
-        277368011,
-        286502207
-      ],
-      "geometry": [
-        { "lat": 46.9970306, "lon": 28.8090407 },
-        { "lat": 46.9965737, "lon": 28.8097514 },
-        { "lat": 46.9965292, "lon": 28.80982 },
-        { "lat": 46.9964056, "lon": 28.8100163 },
-        { "lat": 46.995988, "lon": 28.8106682 },
-        { "lat": 46.9955054, "lon": 28.8114254 },
-        { "lat": 46.9952159, "lon": 28.8119037 },
-        { "lat": 46.9950079, "lon": 28.8123055 },
-        { "lat": 46.9948137, "lon": 28.8127341 },
-        { "lat": 46.9943656, "lon": 28.8138362 },
-        { "lat": 46.9939222, "lon": 28.8149298 },
-        { "lat": 46.9938475, "lon": 28.8151137 },
-        { "lat": 46.9938102, "lon": 28.8152052 },
-        { "lat": 46.9936723, "lon": 28.8155376 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Strada Miorița",
-        "name:ru": "улица Миорица",
-        "old_name": "улица Прянишникова",
-        "oneway": "no",
-        "ref": "M3;R3",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 40325068,
-      "bounds": {
-        "minlat": 46.9862484,
-        "minlon": 28.8567436,
-        "maxlat": 46.9867426,
-        "maxlon": 28.857418
-      },
-      "nodes": [273707415, 4168367146, 286123858],
-      "geometry": [
-        { "lat": 46.9862484, "lon": 28.857418 },
-        { "lat": 46.9866197, "lon": 28.856915 },
-        { "lat": 46.9867426, "lon": 28.8567436 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Dacia",
-        "name:ro": "Bulevardul Dacia",
-        "name:ru": "проспект Дачия",
-        "old_name": "пр. Мира",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 46606201,
-      "bounds": {
-        "minlat": 46.9942982,
-        "minlon": 28.8452473,
-        "maxlat": 46.9954513,
-        "maxlon": 28.8461659
-      },
-      "nodes": [
-        276641039,
-        273707114,
-        1737632757,
-        273707116,
-        273707118,
-        273707122,
-        277647488
-      ],
-      "geometry": [
-        { "lat": 46.9942982, "lon": 28.8461659 },
-        { "lat": 46.9944322, "lon": 28.8460173 },
-        { "lat": 46.9945639, "lon": 28.845898 },
-        { "lat": 46.9946423, "lon": 28.8458296 },
-        { "lat": 46.9949165, "lon": 28.8456061 },
-        { "lat": 46.9952555, "lon": 28.8453688 },
-        { "lat": 46.9954513, "lon": 28.8452473 }
-      ],
-      "tags": {
-        "admin_level": "10",
-        "boundary": "administrative",
-        "highway": "trunk",
-        "lanes": "3",
-        "maxspeed": "70",
-        "name": "Bulevardul Dacia",
-        "name:ro": "Bd.Dacia",
-        "name:ru": "проспект Дачия",
-        "old_name": "пр. Мира",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 46909907,
-      "bounds": {
-        "minlat": 46.9938929,
-        "minlon": 28.8461659,
-        "maxlat": 46.9942982,
-        "maxlon": 28.8467274
-      },
-      "nodes": [276116730, 286123849, 273707110, 276641039],
-      "geometry": [
-        { "lat": 46.9938929, "lon": 28.8467274 },
-        { "lat": 46.9940914, "lon": 28.8464599 },
-        { "lat": 46.994187, "lon": 28.8463164 },
-        { "lat": 46.9942982, "lon": 28.8461659 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Dacia",
-        "name:ru": "проспект Дачия",
-        "old_name": "проспект Мира",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 46909911,
-      "bounds": {
-        "minlat": 46.9951926,
-        "minlon": 28.859403,
-        "maxlat": 46.9980766,
-        "maxlon": 28.8597752
-      },
-      "nodes": [
-        276641038,
-        5735906459,
-        273940014,
-        890890991,
-        1258789429,
-        4563450974,
-        273983858
-      ],
-      "geometry": [
-        { "lat": 46.9980766, "lon": 28.8597752 },
-        { "lat": 46.9977132, "lon": 28.8597436 },
-        { "lat": 46.9973358, "lon": 28.8596972 },
-        { "lat": 46.9970745, "lon": 28.859661 },
-        { "lat": 46.9970303, "lon": 28.8596549 },
-        { "lat": 46.9968959, "lon": 28.8596361 },
-        { "lat": 46.9951926, "lon": 28.859403 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ro": "Bulevardul Decebal",
-        "name:ru": "проспект Децебала",
-        "name_1": "bd. Decebal",
-        "old_name": "улицаТимошенко",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 46909914,
-      "bounds": {
-        "minlat": 47.0137971,
-        "minlon": 28.8426074,
-        "maxlat": 47.0149884,
-        "maxlon": 28.8443239
-      },
-      "nodes": [271282898, 4560540511, 5770614072, 619321546],
-      "geometry": [
-        { "lat": 47.0137971, "lon": 28.8426074 },
-        { "lat": 47.0138548, "lon": 28.8426966 },
-        { "lat": 47.0143929, "lon": 28.8434618 },
-        { "lat": 47.0149884, "lon": 28.8443239 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Strada Ismail",
-        "name:ro": "Strada Ismail",
-        "name:ru": "Измаильская улица",
-        "oneway": "no",
-        "ref": "R3",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 48216570,
-      "bounds": {
-        "minlat": 47.0111875,
-        "minlon": 28.8426049,
-        "maxlat": 47.0118661,
-        "maxlon": 28.8435187
-      },
-      "nodes": [270272840, 2961149706, 5722206061, 269474960],
-      "geometry": [
-        { "lat": 47.0111875, "lon": 28.8435187 },
-        { "lat": 47.0114304, "lon": 28.8431854 },
-        { "lat": 47.0116591, "lon": 28.8428773 },
-        { "lat": 47.0118661, "lon": 28.8426049 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Strada București",
-        "name:ru": "улица Букурешть",
-        "old_name": "улица Искры",
-        "oneway": "no"
-      }
-    },
-    {
-      "type": "way",
-      "id": 49868165,
-      "bounds": {
-        "minlat": 47.0190965,
-        "minlon": 28.8503968,
-        "maxlat": 47.0194965,
-        "maxlon": 28.850996
-      },
-      "nodes": [271283221, 5770614070, 1117403253, 271282902],
-      "geometry": [
-        { "lat": 47.0190965, "lon": 28.8503968 },
-        { "lat": 47.0192383, "lon": 28.8506039 },
-        { "lat": 47.0193777, "lon": 28.8508159 },
-        { "lat": 47.0194965, "lon": 28.850996 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Strada Ismail",
-        "name:ru": "Измаильская улица",
-        "oneway": "no",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 49875420,
-      "bounds": {
-        "minlat": 46.9897448,
-        "minlon": 28.821292,
-        "maxlat": 46.9910984,
-        "maxlon": 28.8260681
-      },
-      "nodes": [
-        2602104829,
-        286572442,
-        4563307311,
-        3373771667,
-        276630041,
-        5711427806,
-        1361795786,
-        861388613,
-        4566543123,
-        443004548,
-        276847370,
-        2961149700,
-        859683497,
-        277140941
-      ],
-      "geometry": [
-        { "lat": 46.9897448, "lon": 28.8260681 },
-        { "lat": 46.9897802, "lon": 28.8259661 },
-        { "lat": 46.9899328, "lon": 28.8254946 },
-        { "lat": 46.9901607, "lon": 28.8248001 },
-        { "lat": 46.9903219, "lon": 28.824312 },
-        { "lat": 46.9904566, "lon": 28.823875 },
-        { "lat": 46.9905791, "lon": 28.8234235 },
-        { "lat": 46.9908306, "lon": 28.822442 },
-        { "lat": 46.9909048, "lon": 28.8221292 },
-        { "lat": 46.990973, "lon": 28.821842 },
-        { "lat": 46.99099, "lon": 28.82177 },
-        { "lat": 46.9910064, "lon": 28.8217026 },
-        { "lat": 46.991073, "lon": 28.8214193 },
-        { "lat": 46.9910984, "lon": 28.821292 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "maxspeed": "50",
-        "name": "Strada Grenoble",
-        "name:ru": "улица Гренобля",
-        "oneway": "no",
-        "postal_code": "MD-2019",
-        "ref": "M3",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 50132937,
-      "bounds": {
-        "minlat": 46.995629,
-        "minlon": 28.799712,
-        "maxlat": 46.9978436,
-        "maxlon": 28.8057795
-      },
-      "nodes": [
-        275282223,
-        6758715707,
-        1323876059,
-        4563611298,
-        979846661,
-        979846351,
-        2961149705,
-        6765254588,
-        275282216
-      ],
-      "geometry": [
-        { "lat": 46.9978436, "lon": 28.8057795 },
-        { "lat": 46.9973442, "lon": 28.8043707 },
-        { "lat": 46.9968072, "lon": 28.8028561 },
-        { "lat": 46.9963377, "lon": 28.801533 },
-        { "lat": 46.9961771, "lon": 28.8010804 },
-        { "lat": 46.9958871, "lon": 28.8002634 },
-        { "lat": 46.9958035, "lon": 28.8000685 },
-        { "lat": 46.995732, "lon": 28.7999133 },
-        { "lat": 46.995629, "lon": 28.799712 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "3",
-        "layer": "2",
-        "maxspeed": "50",
-        "name": "Șoseaua Hîncești",
-        "name:ru": "Хынчешское шоссе",
-        "oneway": "yes",
-        "ref": "R3",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
-      "id": 50132944,
-      "bounds": {
-        "minlat": 46.9931903,
-        "minlon": 28.8467274,
-        "maxlat": 46.9938929,
-        "maxlon": 28.8477028
-      },
-      "nodes": [286123857, 2961149702, 392001926, 276116730],
-      "geometry": [
-        { "lat": 46.9931903, "lon": 28.8477028 },
-        { "lat": 46.9932253, "lon": 28.8476519 },
-        { "lat": 46.9934745, "lon": 28.8473073 },
-        { "lat": 46.9938929, "lon": 28.8467274 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Dacia",
-        "name:ro": "Bulevardul Dacia",
-        "name:ru": "проспект Дачия",
-        "old_name": "пр. Мира",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 50132945,
-      "bounds": {
-        "minlat": 46.9861168,
-        "minlon": 28.8573219,
-        "maxlat": 46.9862484,
-        "maxlon": 28.857418
-      },
-      "nodes": [273707415, 273706988],
-      "geometry": [
-        { "lat": 46.9862484, "lon": 28.857418 },
-        { "lat": 46.9861168, "lon": 28.8573219 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ru": "проспект Децебала",
-        "name_1": "bd. Decebal",
-        "old_name": "улицаТимошенко",
-        "surface": "asphalt",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 52456843,
-      "bounds": {
-        "minlat": 47.000997,
-        "minlon": 28.8599679,
-        "maxlat": 47.001681,
-        "maxlon": 28.8600477
-      },
-      "nodes": [276641026, 273672828, 6208797490, 273936331],
-      "geometry": [
-        { "lat": 47.001681, "lon": 28.8599679 },
-        { "lat": 47.0013133, "lon": 28.8600321 },
-        { "lat": 47.0010798, "lon": 28.8600436 },
-        { "lat": 47.000997, "lon": 28.8600477 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ru": "проспект Децебала",
-        "name_1": "bd. Decebal",
-        "old_name": "улицаТимошенко",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 58609929,
-      "bounds": {
-        "minlat": 46.9984377,
-        "minlon": 28.8074482,
-        "maxlat": 46.9985108,
-        "maxlon": 28.8076515
-      },
-      "nodes": [371122352, 274852712],
-      "geometry": [
-        { "lat": 46.9985108, "lon": 28.8076515 },
-        { "lat": 46.9984377, "lon": 28.8074482 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "3",
-        "layer": "2",
-        "maxspeed": "50",
-        "name": "Șoseaua Hîncești",
-        "name:ru": "Хынчешское шоссе",
-        "oneway": "yes",
-        "ref": "R3",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 58641693,
-      "bounds": {
-        "minlat": 46.9926191,
-        "minlon": 28.7917883,
-        "maxlat": 46.9927175,
-        "maxlon": 28.7920746
-      },
-      "nodes": [269415948, 503520832],
-      "geometry": [
-        { "lat": 46.9926191, "lon": 28.7917883 },
-        { "lat": 46.9927175, "lon": 28.7920746 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Șoseaua Hîncești",
-        "name:ru": "Хынчештское шоссе",
-        "old_name": "Котовское Шоссе",
-        "ref": "R3"
-      }
-    },
-    {
-      "type": "way",
-      "id": 74009542,
-      "bounds": {
-        "minlat": 47.0128102,
-        "minlon": 28.841224,
-        "maxlat": 47.0137971,
-        "maxlon": 28.8426074
-      },
-      "nodes": [271282897, 4560540495, 5770614073, 4560540507, 271282898],
-      "geometry": [
-        { "lat": 47.0128102, "lon": 28.841224 },
-        { "lat": 47.0128922, "lon": 28.8413403 },
-        { "lat": 47.0133169, "lon": 28.8419204 },
-        { "lat": 47.0137201, "lon": 28.8424982 },
-        { "lat": 47.0137971, "lon": 28.8426074 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Strada Ismail",
-        "name:ru": "Измаильская улица",
-        "oneway": "no",
-        "ref": "R3",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 94361434,
-      "bounds": {
-        "minlat": 46.9910984,
-        "minlon": 28.8204563,
-        "maxlat": 46.9913343,
-        "maxlon": 28.821292
-      },
-      "nodes": [277140941, 1361795844, 5711427807, 5758637929, 271247534],
-      "geometry": [
-        { "lat": 46.9910984, "lon": 28.821292 },
-        { "lat": 46.9911559, "lon": 28.8210639 },
-        { "lat": 46.9912334, "lon": 28.820724 },
-        { "lat": 46.9912823, "lon": 28.8205714 },
-        { "lat": 46.9913343, "lon": 28.8204563 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "maxspeed": "50",
-        "name": "Strada Grenoble",
-        "name:ru": "улица Гренобля",
-        "postal_code": "MD-2019",
-        "ref": "M3",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 94519601,
-      "bounds": {
-        "minlat": 47.0118661,
-        "minlon": 28.841224,
-        "maxlat": 47.0128102,
-        "maxlon": 28.8426049
-      },
-      "nodes": [269474960, 2422307694, 4560540498, 271282897],
-      "geometry": [
-        { "lat": 47.0118661, "lon": 28.8426049 },
-        { "lat": 47.0119615, "lon": 28.8424654 },
-        { "lat": 47.012722, "lon": 28.8413529 },
-        { "lat": 47.0128102, "lon": 28.841224 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Strada București",
-        "name:ru": "улица Букурешть",
-        "old_name": "улица Искры",
-        "oneway": "no"
-      }
-    },
-    {
-      "type": "way",
-      "id": 116811079,
-      "bounds": {
-        "minlat": 47.0091844,
-        "minlon": 28.8599414,
-        "maxlat": 47.009772,
-        "maxlon": 28.8602957
-      },
-      "nodes": [273672810, 5936387750, 1316044681, 2404521425, 1316044680],
-      "geometry": [
-        { "lat": 47.009772, "lon": 28.8599414 },
-        { "lat": 47.009594, "lon": 28.860155 },
-        { "lat": 47.0094657, "lon": 28.8602427 },
-        { "lat": 47.0094046, "lon": 28.8602643 },
-        { "lat": 47.0091844, "lon": 28.8602957 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "maxspeed": "50",
-        "oneway": "yes",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 121108833,
-      "bounds": {
-        "minlat": 46.9943289,
-        "minlon": 28.7966157,
-        "maxlat": 46.9949403,
-        "maxlon": 28.798051
-      },
-      "nodes": [269421572, 365109042, 365109046],
-      "geometry": [
-        { "lat": 46.9949403, "lon": 28.798051 },
-        { "lat": 46.9946638, "lon": 28.7972743 },
-        { "lat": 46.9943289, "lon": 28.7966157 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "3",
-        "name": "Șoseaua Hîncești",
-        "name:ru": "Хынчештское шоссе",
-        "old_name": "Котовское Шоссе",
-        "oneway": "yes",
-        "ref": "R3"
-      }
-    },
-    {
-      "type": "way",
-      "id": 121916144,
-      "bounds": {
-        "minlat": 46.9789095,
-        "minlon": 28.8431604,
-        "maxlat": 46.9798795,
-        "maxlon": 28.8451831
-      },
-      "nodes": [1251187093, 1422510366, 303575599, 303575595],
-      "geometry": [
-        { "lat": 46.9789095, "lon": 28.8451831 },
-        { "lat": 46.9793287, "lon": 28.8445634 },
-        { "lat": 46.9797081, "lon": 28.8438813 },
-        { "lat": 46.9798795, "lon": 28.8431604 }
-      ],
-      "tags": {
-        "highway": "service",
-        "oneway": "yes",
-        "psv": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 121916146,
-      "bounds": {
-        "minlat": 46.9784939,
-        "minlon": 28.8458163,
-        "maxlat": 46.9816548,
-        "maxlon": 28.8506163
-      },
-      "nodes": [
-        303575598,
-        4563611317,
-        1013121893,
-        304287351,
-        304287355,
-        4563307294,
-        275227168
-      ],
-      "geometry": [
-        { "lat": 46.9784939, "lon": 28.8458163 },
-        { "lat": 46.9787303, "lon": 28.8461704 },
-        { "lat": 46.9791279, "lon": 28.8467662 },
-        { "lat": 46.9797696, "lon": 28.8477276 },
-        { "lat": 46.9804791, "lon": 28.8488277 },
-        { "lat": 46.9813355, "lon": 28.8501305 },
-        { "lat": 46.9816548, "lon": 28.8506163 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Traian",
-        "name:ro": "Bulevardul Traian",
-        "name:ru": "проспект Траян",
-        "name_1": "bd. Traian",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Traian din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 121916152,
-      "bounds": {
-        "minlat": 46.9782603,
-        "minlon": 28.8454546,
-        "maxlat": 46.9784939,
-        "maxlon": 28.8458163
-      },
-      "nodes": [1251187095, 303575598],
-      "geometry": [
-        { "lat": 46.9782603, "lon": 28.8454546 },
-        { "lat": 46.9784939, "lon": 28.8458163 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Traian",
-        "name:ro": "Bulevardul Traian",
-        "name:ru": "проспект Траян",
-        "name_1": "bd. Traian",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Traian din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 121916157,
-      "bounds": {
-        "minlat": 46.9798795,
-        "minlon": 28.8388889,
-        "maxlat": 46.9817425,
-        "maxlon": 28.8431604
-      },
-      "nodes": [
-        303575595,
-        271246575,
-        5711427692,
-        5711427693,
-        287319536,
-        908309235,
-        1805769225,
-        4566543120,
-        1096333358,
-        278126689
-      ],
-      "geometry": [
-        { "lat": 46.9798795, "lon": 28.8431604 },
-        { "lat": 46.9800926, "lon": 28.8427636 },
-        { "lat": 46.980305, "lon": 28.8423218 },
-        { "lat": 46.9805106, "lon": 28.8418163 },
-        { "lat": 46.9809121, "lon": 28.8408814 },
-        { "lat": 46.9809773, "lon": 28.8407245 },
-        { "lat": 46.9812434, "lon": 28.8400891 },
-        { "lat": 46.9814465, "lon": 28.83961 },
-        { "lat": 46.981585, "lon": 28.8392895 },
-        { "lat": 46.9817425, "lon": 28.8388889 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Strada Grenoble",
-        "name:ru": "улица Гренобля",
-        "oneway": "no",
-        "ref": "M3",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 135164623,
-      "bounds": {
-        "minlat": 46.9850181,
-        "minlon": 28.7779665,
-        "maxlat": 46.9858227,
-        "maxlon": 28.7788559
-      },
-      "nodes": [602720435, 272318446, 1941877402],
-      "geometry": [
-        { "lat": 46.9850181, "lon": 28.7779665 },
-        { "lat": 46.9853024, "lon": 28.7782814 },
-        { "lat": 46.9858227, "lon": 28.7788559 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Șoseaua Hîncești",
-        "name:ru": "Хынчешское шоссе",
-        "ref": "R3"
-      }
-    },
-    {
-      "type": "way",
-      "id": 135169894,
-      "bounds": {
-        "minlat": 47.0088532,
-        "minlon": 28.8602326,
-        "maxlat": 47.0091844,
-        "maxlon": 28.8602957
-      },
-      "nodes": [1316044680, 273672815],
-      "geometry": [
-        { "lat": 47.0091844, "lon": 28.8602957 },
-        { "lat": 47.0088532, "lon": 28.8602326 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ro": "Bulevardul Decebal",
-        "name:ru": "проспект Децебала",
-        "name_1": "bd. Decebal",
-        "old_name": "улицаТимошенко",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 136517668,
-      "bounds": {
-        "minlat": 47.0149884,
-        "minlon": 28.8443239,
-        "maxlat": 47.0152389,
-        "maxlon": 28.8447339
-      },
-      "nodes": [619321546, 6415940294, 1497504568],
-      "geometry": [
-        { "lat": 47.0149884, "lon": 28.8443239 },
-        { "lat": 47.0152154, "lon": 28.8446957 },
-        { "lat": 47.0152389, "lon": 28.8447339 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Strada Ismail",
-        "name:ru": "Измаильская улица",
-        "oneway": "no",
-        "ref": "R3",
-        "surface": "asphalt",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 161453810,
-      "bounds": {
-        "minlat": 47.0185874,
-        "minlon": 28.851737,
-        "maxlat": 47.0190581,
-        "maxlon": 28.8524125
-      },
-      "nodes": [691587955, 4566693257, 1734215730],
-      "geometry": [
-        { "lat": 47.0185874, "lon": 28.8524125 },
-        { "lat": 47.0189918, "lon": 28.8518281 },
-        { "lat": 47.0190581, "lon": 28.851737 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Dimitrie Cantemir",
-        "name:ro": "Bulevardul Dimitrie Cantemir",
-        "name:ru": "проспект Дмитрия Кантемира"
-      }
-    },
-    {
-      "type": "way",
-      "id": 161453811,
-      "bounds": {
-        "minlat": 47.0190581,
-        "minlon": 28.850996,
-        "maxlat": 47.0194965,
-        "maxlon": 28.851737
-      },
-      "nodes": [1734215730, 6733378168, 619321612, 271282902],
-      "geometry": [
-        { "lat": 47.0190581, "lon": 28.851737 },
-        { "lat": 47.0193101, "lon": 28.8513708 },
-        { "lat": 47.0193672, "lon": 28.8512572 },
-        { "lat": 47.0194965, "lon": 28.850996 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Dimitrie Cantemir",
-        "name:ro": "Bulevardul Dimitrie Cantemir",
-        "name:ru": "проспект Дмитрия Кантемира"
-      }
-    },
-    {
-      "type": "way",
-      "id": 161700547,
-      "bounds": {
-        "minlat": 47.0178477,
-        "minlon": 28.8490668,
-        "maxlat": 47.0190965,
-        "maxlon": 28.8503968
-      },
-      "nodes": [
-        271283219,
-        619321579,
-        5789367662,
-        271283217,
-        5789367661,
-        287841483,
-        2106915723,
-        271283221
-      ],
-      "geometry": [
-        { "lat": 47.0178477, "lon": 28.8490668 },
-        { "lat": 47.0179306, "lon": 28.8491872 },
-        { "lat": 47.0184064, "lon": 28.8498781 },
-        { "lat": 47.0184408, "lon": 28.8499281 },
-        { "lat": 47.0184736, "lon": 28.8499543 },
-        { "lat": 47.0187555, "lon": 28.8501799 },
-        { "lat": 47.0188425, "lon": 28.8502373 },
-        { "lat": 47.0190965, "lon": 28.8503968 }
-      ],
-      "tags": {
-        "highway": "residential",
-        "lanes": "1",
-        "oneway": "yes",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 161700550,
-      "bounds": {
-        "minlat": 47.011318,
-        "minlon": 28.8571586,
-        "maxlat": 47.0119059,
-        "maxlon": 28.8580637
-      },
-      "nodes": [278126675, 278126678],
-      "geometry": [
-        { "lat": 47.011318, "lon": 28.8580637 },
-        { "lat": 47.0119059, "lon": 28.8571586 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Iuri Gagarin",
-        "name:ro": "Bulevardul Iuri Gagarin",
-        "name:ru": "проспект Гагарина",
-        "name_1": "bd. Gagarin",
-        "postal_code": "MD-2000",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Iuri Gagarin din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 161700555,
-      "bounds": {
-        "minlat": 47.0119059,
-        "minlon": 28.8555731,
-        "maxlat": 47.0129522,
-        "maxlon": 28.8571586
-      },
-      "nodes": [278126678, 278156649],
-      "geometry": [
-        { "lat": 47.0119059, "lon": 28.8571586 },
-        { "lat": 47.0129522, "lon": 28.8555731 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Iuri Gagarin",
-        "name:ro": "Bulevardul Iuri Gagarin",
-        "name:ru": "проспект Гагарина",
-        "name_1": "bd. Gagarin",
-        "postal_code": "MD-2000",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 161700559,
-      "bounds": {
-        "minlat": 47.0074465,
-        "minlon": 28.8599886,
-        "maxlat": 47.0088532,
-        "maxlon": 28.8602326
-      },
-      "nodes": [273672815, 5751715597, 4563450975, 4563451492, 281118635],
-      "geometry": [
-        { "lat": 47.0088532, "lon": 28.8602326 },
-        { "lat": 47.0087763, "lon": 28.8602224 },
-        { "lat": 47.0082209, "lon": 28.8601181 },
-        { "lat": 47.007557, "lon": 28.8600073 },
-        { "lat": 47.0074465, "lon": 28.8599886 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ro": "Bulevardul Decebal",
-        "name:ru": "проспект Децебала",
-        "name_1": "bd. Decebal",
-        "old_name": "улицаТимошенко",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 161700565,
-      "bounds": {
-        "minlat": 47.0071657,
-        "minlon": 28.8599364,
-        "maxlat": 47.0074465,
-        "maxlon": 28.8599886
-      },
-      "nodes": [281118635, 1140518069],
-      "geometry": [
-        { "lat": 47.0074465, "lon": 28.8599886 },
-        { "lat": 47.0071657, "lon": 28.8599364 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ro": "Bulevardul Decebal",
-        "name:ru": "проспект Децебала",
-        "name_1": "bd. Decebal",
-        "old_name": "улицаТимошенко",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 161700567,
-      "bounds": {
-        "minlat": 47.016742,
-        "minlon": 28.8539305,
-        "maxlat": 47.0172094,
-        "maxlon": 28.8542342
-      },
-      "nodes": [612530529, 6733378167, 5768251958, 1317177453],
-      "geometry": [
-        { "lat": 47.016742, "lon": 28.8542342 },
-        { "lat": 47.0169031, "lon": 28.8541394 },
-        { "lat": 47.0170569, "lon": 28.8540393 },
-        { "lat": 47.0172094, "lon": 28.8539305 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Dimitrie Cantemir",
-        "name:ro": "Bulevardul Dimitrie Cantemir",
-        "name:ru": "проспект Дмитрия Кантемира"
-      }
-    },
-    {
-      "type": "way",
-      "id": 161700571,
-      "bounds": {
-        "minlat": 47.0157558,
-        "minlon": 28.8545406,
-        "maxlat": 47.0160497,
-        "maxlon": 28.8546526
-      },
-      "nodes": [275941973, 691588010],
-      "geometry": [
-        { "lat": 47.0157558, "lon": 28.8546526 },
-        { "lat": 47.0160497, "lon": 28.8545406 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Dimitrie Cantemir",
-        "name:ro": "Bulevardul Dimitrie Cantemir",
-        "name:ru": "проспект Дмитрия Кантемира"
-      }
-    },
-    {
-      "type": "way",
-      "id": 161700572,
-      "bounds": {
-        "minlat": 47.0148932,
-        "minlon": 28.8548814,
-        "maxlat": 47.0151527,
-        "maxlon": 28.8549806
-      },
-      "nodes": [280921475, 691587949, 691588011],
-      "geometry": [
-        { "lat": 47.0148932, "lon": 28.8549806 },
-        { "lat": 47.0150549, "lon": 28.8549166 },
-        { "lat": 47.0151527, "lon": 28.8548814 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Dimitrie Cantemir",
-        "name:ro": "Bulevardul Dimitrie Cantemir",
-        "name:ru": "проспект Дмитрия Кантемира"
-      }
-    },
-    {
-      "type": "way",
-      "id": 161700573,
-      "bounds": {
-        "minlat": 47.0160497,
-        "minlon": 28.8544656,
-        "maxlat": 47.0162451,
-        "maxlon": 28.8545406
-      },
-      "nodes": [691588010, 2443577605],
-      "geometry": [
-        { "lat": 47.0160497, "lon": 28.8545406 },
-        { "lat": 47.0162451, "lon": 28.8544656 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Dimitrie Cantemir",
-        "name:ro": "Bulevardul Dimitrie Cantemir",
-        "name:ru": "проспект Дмитрия Кантемира"
-      }
-    },
-    {
-      "type": "way",
-      "id": 161700577,
-      "bounds": {
-        "minlat": 47.0151527,
-        "minlon": 28.8546526,
-        "maxlat": 47.0157558,
-        "maxlon": 28.8548814
-      },
-      "nodes": [691588011, 818643396, 275941973],
-      "geometry": [
-        { "lat": 47.0151527, "lon": 28.8548814 },
-        { "lat": 47.0156854, "lon": 28.8546793 },
-        { "lat": 47.0157558, "lon": 28.8546526 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Dimitrie Cantemir",
-        "name:ro": "Bulevardul Dimitrie Cantemir",
-        "name:ru": "проспект Дмитрия Кантемира"
-      }
-    },
-    {
-      "type": "way",
-      "id": 161700578,
-      "bounds": {
-        "minlat": 47.0172094,
-        "minlon": 28.8533455,
-        "maxlat": 47.0178653,
-        "maxlon": 28.8539305
-      },
-      "nodes": [1317177453, 5768251959, 612530531, 691587977],
-      "geometry": [
-        { "lat": 47.0172094, "lon": 28.8539305 },
-        { "lat": 47.0174287, "lon": 28.8537581 },
-        { "lat": 47.0176596, "lon": 28.8535496 },
-        { "lat": 47.0178653, "lon": 28.8533455 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Dimitrie Cantemir",
-        "name:ro": "Bulevardul Dimitrie Cantemir",
-        "name:ru": "проспект Дмитрия Кантемира"
-      }
-    },
-    {
-      "type": "way",
-      "id": 161700603,
-      "bounds": {
-        "minlat": 47.0152389,
-        "minlon": 28.8447339,
-        "maxlat": 47.0157937,
-        "maxlon": 28.8455938
-      },
-      "nodes": [1497504568, 6531530219, 5770614071, 5202295060, 271282899],
-      "geometry": [
-        { "lat": 47.0152389, "lon": 28.8447339 },
-        { "lat": 47.015297, "lon": 28.8448243 },
-        { "lat": 47.0154634, "lon": 28.8450833 },
-        { "lat": 47.0156443, "lon": 28.8453707 },
-        { "lat": 47.0157937, "lon": 28.8455938 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Strada Ismail",
-        "name:ru": "Измаильская улица",
-        "oneway": "no",
-        "ref": "R3",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 161807630,
-      "bounds": {
-        "minlat": 46.9869045,
-        "minlon": 28.8576317,
-        "maxlat": 46.9872772,
-        "maxlon": 28.8577243
-      },
-      "nodes": [286043444, 5735883137, 1737632753],
-      "geometry": [
-        { "lat": 46.9872772, "lon": 28.8577243 },
-        { "lat": 46.9870959, "lon": 28.8576794 },
-        { "lat": 46.9869045, "lon": 28.8576317 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "4",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ru": "проспект Децебала",
-        "name_1": "bd. Decebal",
-        "old_name": "улицаТимошенко",
-        "surface": "asphalt",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 161807631,
-      "bounds": {
-        "minlat": 46.9862484,
-        "minlon": 28.857418,
-        "maxlat": 46.9867194,
-        "maxlon": 28.857573
-      },
-      "nodes": [315522390, 5735883140, 273707415],
-      "geometry": [
-        { "lat": 46.9867194, "lon": 28.857573 },
-        { "lat": 46.986458, "lon": 28.8574945 },
-        { "lat": 46.9862484, "lon": 28.857418 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "4",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ru": "проспект Децебала",
-        "name_1": "bd. Decebal",
-        "old_name": "улицаТимошенко",
-        "surface": "asphalt",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 161807632,
-      "bounds": {
-        "minlat": 46.9867194,
-        "minlon": 28.857573,
-        "maxlat": 46.9869045,
-        "maxlon": 28.8576317
-      },
-      "nodes": [1737632753, 392010611, 315522390],
-      "geometry": [
-        { "lat": 46.9869045, "lon": 28.8576317 },
-        { "lat": 46.986815, "lon": 28.8576011 },
-        { "lat": 46.9867194, "lon": 28.857573 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "4",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ru": "проспект Децебала",
-        "name_1": "bd. Decebal",
-        "old_name": "улицаТимошенко",
-        "surface": "asphalt",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 236320239,
-      "bounds": {
-        "minlat": 47.0165466,
-        "minlon": 28.8542342,
-        "maxlat": 47.016742,
-        "maxlon": 28.8543321
-      },
-      "nodes": [2443577610, 612530529],
-      "geometry": [
-        { "lat": 47.0165466, "lon": 28.8543321 },
-        { "lat": 47.016742, "lon": 28.8542342 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Dimitrie Cantemir",
-        "name:ro": "Bulevardul Dimitrie Cantemir",
-        "name:ru": "проспект Дмитрия Кантемира"
-      }
-    },
-    {
-      "type": "way",
-      "id": 236320240,
-      "bounds": {
-        "minlat": 47.0162451,
-        "minlon": 28.8543321,
-        "maxlat": 47.0165466,
-        "maxlon": 28.8544656
-      },
-      "nodes": [2443577605, 269493287, 2443577610],
-      "geometry": [
-        { "lat": 47.0162451, "lon": 28.8544656 },
-        { "lat": 47.0163573, "lon": 28.854421 },
-        { "lat": 47.0165466, "lon": 28.8543321 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Dimitrie Cantemir",
-        "name:ro": "Bulevardul Dimitrie Cantemir",
-        "name:ru": "проспект Дмитрия Кантемира"
-      }
-    },
-    {
-      "type": "way",
-      "id": 236320241,
-      "bounds": {
-        "minlat": 47.0143566,
-        "minlon": 28.8549806,
-        "maxlat": 47.0148932,
-        "maxlon": 28.8551821
-      },
-      "nodes": [2136579145, 4566693256, 5768251956, 280921475],
-      "geometry": [
-        { "lat": 47.0143566, "lon": 28.8551821 },
-        { "lat": 47.0145847, "lon": 28.8550994 },
-        { "lat": 47.0147496, "lon": 28.8550355 },
-        { "lat": 47.0148932, "lon": 28.8549806 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Dimitrie Cantemir",
-        "name:ro": "Bulevardul Dimitrie Cantemir",
-        "name:ru": "проспект Дмитрия Кантемира"
-      }
-    },
-    {
-      "type": "way",
-      "id": 236320242,
-      "bounds": {
-        "minlat": 47.0178653,
-        "minlon": 28.8524125,
-        "maxlat": 47.0185874,
-        "maxlon": 28.8533455
-      },
-      "nodes": [691587977, 5768251960, 269493289, 691587955],
-      "geometry": [
-        { "lat": 47.0178653, "lon": 28.8533455 },
-        { "lat": 47.0180611, "lon": 28.8531256 },
-        { "lat": 47.0182549, "lon": 28.8528709 },
-        { "lat": 47.0185874, "lon": 28.8524125 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Dimitrie Cantemir",
-        "name:ro": "Bulevardul Dimitrie Cantemir",
-        "name:ru": "проспект Дмитрия Кантемира"
-      }
-    },
-    {
-      "type": "way",
-      "id": 236323233,
-      "bounds": {
-        "minlat": 47.002142,
-        "minlon": 28.8598638,
-        "maxlat": 47.0024692,
-        "maxlon": 28.8599137
-      },
-      "nodes": [895351066, 273672826],
-      "geometry": [
-        { "lat": 47.0024692, "lon": 28.8598638 },
-        { "lat": 47.002142, "lon": 28.8599137 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ru": "проспект Децебала",
-        "name_1": "bd. Decebal",
-        "old_name": "улицаТимошенко",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 236323234,
-      "bounds": {
-        "minlat": 47.001681,
-        "minlon": 28.8599137,
-        "maxlat": 47.002142,
-        "maxlon": 28.8599679
-      },
-      "nodes": [273672826, 276641026],
-      "geometry": [
-        { "lat": 47.002142, "lon": 28.8599137 },
-        { "lat": 47.001681, "lon": 28.8599679 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ru": "проспект Децебала",
-        "name_1": "bd. Decebal",
-        "old_name": "улицаТимошенко",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 236323235,
-      "bounds": {
-        "minlat": 47.0066884,
-        "minlon": 28.8598451,
-        "maxlat": 47.0071657,
-        "maxlon": 28.8599364
-      },
-      "nodes": [1140518069, 2443603435],
-      "geometry": [
-        { "lat": 47.0071657, "lon": 28.8599364 },
-        { "lat": 47.0066884, "lon": 28.8598451 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ro": "Bulevardul Decebal",
-        "name:ru": "проспект Децебала",
-        "name_1": "bd. Decebal",
-        "old_name": "улицаТимошенко",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 236323236,
-      "bounds": {
-        "minlat": 47.0048418,
-        "minlon": 28.8595925,
-        "maxlat": 47.005091,
-        "maxlon": 28.8596019
-      },
-      "nodes": [273672820, 340061864],
-      "geometry": [
-        { "lat": 47.005091, "lon": 28.8596019 },
-        { "lat": 47.0048418, "lon": 28.8595925 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Bulevardul Decebal",
-        "name:ro": "Bulevardul Decebal",
-        "name:ru": "проспект Децебала",
-        "name_1": "bd. Decebal",
-        "old_name": "улицаТимошенко",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 236323237,
-      "bounds": {
-        "minlat": 46.9929107,
-        "minlon": 28.8590765,
-        "maxlat": 46.9944356,
-        "maxlon": 28.8592922
-      },
-      "nodes": [2117687665, 5735883134, 4563611313],
-      "geometry": [
-        { "lat": 46.9944356, "lon": 28.8592922 },
-        { "lat": 46.9936933, "lon": 28.8591907 },
-        { "lat": 46.9929107, "lon": 28.8590765 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ru": "проспект Децебала",
-        "name_1": "bd. Decebal",
-        "old_name": "улицаТимошенко",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 236323238,
-      "bounds": {
-        "minlat": 46.9927964,
-        "minlon": 28.8590577,
-        "maxlat": 46.9929107,
-        "maxlon": 28.8590783
-      },
-      "nodes": [4563611313, 5348837384, 276118935],
-      "geometry": [
-        { "lat": 46.9929107, "lon": 28.8590765 },
-        { "lat": 46.9929047, "lon": 28.8590783 },
-        { "lat": 46.9927964, "lon": 28.8590577 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ru": "проспект Децебала",
-        "name_1": "bd. Decebal",
-        "old_name": "улицаТимошенко",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 236323239,
-      "bounds": {
-        "minlat": 46.9944356,
-        "minlon": 28.8592922,
-        "maxlat": 46.9951926,
-        "maxlon": 28.859403
-      },
-      "nodes": [273983858, 1258789435, 3633148009, 2117687665],
-      "geometry": [
-        { "lat": 46.9951926, "lon": 28.859403 },
-        { "lat": 46.9950992, "lon": 28.8593873 },
-        { "lat": 46.9948027, "lon": 28.8593415 },
-        { "lat": 46.9944356, "lon": 28.8592922 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ro": "Bulevardul Decebal",
-        "name:ru": "проспект Децебала",
-        "name_1": "bd. Decebal",
-        "old_name": "улицаТимошенко",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 236323240,
-      "bounds": {
-        "minlat": 47.0024692,
-        "minlon": 28.8596398,
-        "maxlat": 47.0039131,
-        "maxlon": 28.8598638
-      },
-      "nodes": [273672823, 895350972, 273672825, 895351066],
-      "geometry": [
-        { "lat": 47.0039131, "lon": 28.8596398 },
-        { "lat": 47.0032549, "lon": 28.8597441 },
-        { "lat": 47.0026672, "lon": 28.8598301 },
-        { "lat": 47.0024692, "lon": 28.8598638 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ru": "проспект Децебала",
-        "name_1": "bd. Decebal",
-        "old_name": "улицаТимошенко",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 236323241,
-      "bounds": {
-        "minlat": 47.0057342,
-        "minlon": 28.8596803,
-        "maxlat": 47.0066884,
-        "maxlon": 28.8598451
-      },
-      "nodes": [2443603435, 273672816, 5738902905],
-      "geometry": [
-        { "lat": 47.0066884, "lon": 28.8598451 },
-        { "lat": 47.0064506, "lon": 28.8598051 },
-        { "lat": 47.0057342, "lon": 28.8596803 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ro": "Bulevardul Decebal",
-        "name:ru": "проспект Децебала",
-        "name_1": "bd. Decebal",
-        "old_name": "улицаТимошенко",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 236473667,
-      "bounds": {
-        "minlat": 46.986539,
-        "minlon": 28.7796605,
-        "maxlat": 46.9867335,
-        "maxlon": 28.779902
-      },
-      "nodes": [738745997, 278726051],
-      "geometry": [
-        { "lat": 46.986539, "lon": 28.7796605 },
-        { "lat": 46.9867335, "lon": 28.779902 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "8",
-        "maxspeed": "70",
-        "name": "Șoseaua Hîncești",
-        "name:ru": "Хынчешское шоссе",
-        "ref": "R3",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
-      "id": 236473672,
-      "bounds": {
-        "minlat": 46.9914147,
-        "minlon": 28.7883998,
-        "maxlat": 46.9915757,
-        "maxlon": 28.7888518
-      },
-      "nodes": [503520840, 269415906],
-      "geometry": [
-        { "lat": 46.9914147, "lon": 28.7883998 },
-        { "lat": 46.9915757, "lon": 28.7888518 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Șoseaua Hîncești",
-        "name:ru": "Хынчешское шоссе",
-        "ref": "R3"
-      }
-    },
-    {
-      "type": "way",
-      "id": 236473674,
-      "bounds": {
-        "minlat": 46.9858227,
-        "minlon": 28.7788559,
-        "maxlat": 46.986539,
-        "maxlon": 28.7796605
-      },
-      "nodes": [1941877402, 738745997],
-      "geometry": [
-        { "lat": 46.9858227, "lon": 28.7788559 },
-        { "lat": 46.986539, "lon": 28.7796605 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "2",
-        "maxspeed": "70",
-        "name": "Șoseaua Hîncești",
-        "name:ru": "Хынчешское шоссе",
-        "ref": "R3"
-      }
-    },
-    {
-      "type": "way",
-      "id": 236473676,
-      "bounds": {
-        "minlat": 46.9909411,
-        "minlon": 28.7871441,
-        "maxlat": 46.9914147,
-        "maxlon": 28.7883998
-      },
-      "nodes": [429232779, 272318463, 503520840],
-      "geometry": [
-        { "lat": 46.9909411, "lon": 28.7871441 },
-        { "lat": 46.9913226, "lon": 28.7881436 },
-        { "lat": 46.9914147, "lon": 28.7883998 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "4",
-        "maxspeed": "50",
-        "name": "Șoseaua Hîncești",
-        "name:ru": "Хынчешское шоссе",
-        "ref": "R3"
-      }
-    },
-    {
-      "type": "way",
-      "id": 236473684,
-      "bounds": {
-        "minlat": 46.9927175,
-        "minlon": 28.7920746,
-        "maxlat": 46.9937146,
-        "maxlon": 28.7948693
-      },
-      "nodes": [503520832, 503520826],
-      "geometry": [
-        { "lat": 46.9927175, "lon": 28.7920746 },
-        { "lat": 46.9937146, "lon": 28.7948693 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Șoseaua Hîncești",
-        "name:ru": "Хынчештское шоссе",
-        "old_name": "Котовское Шоссе",
-        "ref": "R3"
-      }
-    },
-    {
-      "type": "way",
-      "id": 236473685,
-      "bounds": {
-        "minlat": 46.9937146,
-        "minlon": 28.7948693,
-        "maxlat": 46.9943289,
-        "maxlon": 28.7966157
-      },
-      "nodes": [503520826, 5727713991, 365109046],
-      "geometry": [
-        { "lat": 46.9937146, "lon": 28.7948693 },
-        { "lat": 46.994018, "lon": 28.7957306 },
-        { "lat": 46.9943289, "lon": 28.7966157 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Șoseaua Hîncești",
-        "name:ru": "Хынчештское шоссе",
-        "old_name": "Котовское Шоссе",
-        "ref": "R3"
-      }
-    },
-    {
-      "type": "way",
-      "id": 236526489,
-      "bounds": {
-        "minlat": 46.9953245,
-        "minlon": 28.7996516,
-        "maxlat": 46.9964865,
-        "maxlon": 28.8028467
-      },
-      "nodes": [365109059, 4563632528, 365109051, 365109054],
-      "geometry": [
-        { "lat": 46.9953245, "lon": 28.7996516 },
-        { "lat": 46.9957802, "lon": 28.8009285 },
-        { "lat": 46.9960389, "lon": 28.8016532 },
-        { "lat": 46.9964865, "lon": 28.8028467 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Șoseaua Hîncești",
-        "name:ru": "Хынчешское шоссе",
-        "oneway": "yes",
-        "ref": "R3"
-      }
-    },
-    {
-      "type": "way",
-      "id": 236577645,
-      "bounds": {
-        "minlat": 46.9816548,
-        "minlon": 28.8506163,
-        "maxlat": 46.9861168,
-        "maxlon": 28.8573219
-      },
-      "nodes": [
-        275227168,
-        830589582,
-        313154814,
-        4563611316,
-        5387421561,
-        1056726098,
-        621500774,
-        286673314,
-        4563611315,
-        4563307295,
-        392001910,
-        304287356,
-        273706988
-      ],
-      "geometry": [
-        { "lat": 46.9816548, "lon": 28.8506163 },
-        { "lat": 46.981792, "lon": 28.8508229 },
-        { "lat": 46.9821149, "lon": 28.8513094 },
-        { "lat": 46.9821924, "lon": 28.8514279 },
-        { "lat": 46.9827694, "lon": 28.8523103 },
-        { "lat": 46.9828845, "lon": 28.8524863 },
-        { "lat": 46.9842623, "lon": 28.8545933 },
-        { "lat": 46.9849004, "lon": 28.8555703 },
-        { "lat": 46.9849931, "lon": 28.855716 },
-        { "lat": 46.9856202, "lon": 28.8566815 },
-        { "lat": 46.9857612, "lon": 28.8568888 },
-        { "lat": 46.9858829, "lon": 28.8570514 },
-        { "lat": 46.9861168, "lon": 28.8573219 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Traian",
-        "name:ro": "Bulevardul Traian",
-        "name:ru": "проспект Траян",
-        "name_1": "bd. Traian",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Traian din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 298295856,
-      "bounds": {
-        "minlat": 46.9859193,
-        "minlon": 28.8260681,
-        "maxlat": 46.9897448,
-        "maxlon": 28.8319575
-      },
-      "nodes": [
-        278387625,
-        4563307312,
-        1486056957,
-        1486056970,
-        271247532,
-        1486056983,
-        281816151,
-        286571045,
-        5711427846,
-        1486057055,
-        276847368,
-        5711427848,
-        5711427847,
-        1486057134,
-        286571053,
-        365229882,
-        4566543122,
-        1486057239,
-        2602104829
-      ],
-      "geometry": [
-        { "lat": 46.9859193, "lon": 28.8319575 },
-        { "lat": 46.9861168, "lon": 28.8317303 },
-        { "lat": 46.9863236, "lon": 28.831504 },
-        { "lat": 46.9866945, "lon": 28.831081 },
-        { "lat": 46.9868056, "lon": 28.8309481 },
-        { "lat": 46.9876748, "lon": 28.8297832 },
-        { "lat": 46.9879656, "lon": 28.8293815 },
-        { "lat": 46.9883644, "lon": 28.8288361 },
-        { "lat": 46.9886276, "lon": 28.8284714 },
-        { "lat": 46.9888818, "lon": 28.8280992 },
-        { "lat": 46.9889266, "lon": 28.8280282 },
-        { "lat": 46.9890731, "lon": 28.827721 },
-        { "lat": 46.9891374, "lon": 28.8275687 },
-        { "lat": 46.9891986, "lon": 28.8274068 },
-        { "lat": 46.9892326, "lon": 28.8273263 },
-        { "lat": 46.9893896, "lon": 28.8269437 },
-        { "lat": 46.9896266, "lon": 28.8263552 },
-        { "lat": 46.9896941, "lon": 28.8261912 },
-        { "lat": 46.9897448, "lon": 28.8260681 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "maxspeed": "50",
-        "name": "Strada Grenoble",
-        "name:ru": "улица Гренобля",
-        "postal_code": "MD-2019",
-        "ref": "M3",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 320542397,
-      "bounds": {
-        "minlat": 46.9867335,
-        "minlon": 28.779902,
-        "maxlat": 46.9909411,
-        "maxlon": 28.7871441
-      },
-      "nodes": [
-        278726051,
-        5727718127,
-        5727714522,
-        4563611296,
-        5727714523,
-        272318447,
-        272318448,
-        272318449,
-        5727714524,
-        272318450,
-        272318451,
-        272318452,
-        5727714525,
-        272318453,
-        272318457,
-        5727714526,
-        429232779
-      ],
-      "geometry": [
-        { "lat": 46.9867335, "lon": 28.779902 },
-        { "lat": 46.9869083, "lon": 28.780124 },
-        { "lat": 46.9870512, "lon": 28.7802979 },
-        { "lat": 46.9873183, "lon": 28.7806435 },
-        { "lat": 46.9875554, "lon": 28.7809612 },
-        { "lat": 46.9877846, "lon": 28.7812809 },
-        { "lat": 46.9882809, "lon": 28.7819986 },
-        { "lat": 46.9886686, "lon": 28.7826032 },
-        { "lat": 46.9889409, "lon": 28.7830503 },
-        { "lat": 46.9891902, "lon": 28.7834969 },
-        { "lat": 46.9894023, "lon": 28.7838799 },
-        { "lat": 46.9897446, "lon": 28.7845251 },
-        { "lat": 46.9898998, "lon": 28.7848227 },
-        { "lat": 46.9900529, "lon": 28.7851368 },
-        { "lat": 46.9905499, "lon": 28.7862089 },
-        { "lat": 46.9907522, "lon": 28.7866777 },
-        { "lat": 46.9909411, "lon": 28.7871441 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "8",
-        "maxspeed": "70",
-        "name": "Șoseaua Hîncești",
-        "name:ru": "Хынчешское шоссе",
-        "ref": "R3",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
-      "id": 460715188,
-      "bounds": {
-        "minlat": 46.9970306,
-        "minlon": 28.8080704,
-        "maxlat": 46.9978016,
-        "maxlon": 28.8090407
-      },
-      "nodes": [
-        371122893,
-        1326278872,
-        269416043,
-        269416044,
-        1326278812,
-        4563307293
-      ],
-      "geometry": [
-        { "lat": 46.9978016, "lon": 28.8080704 },
-        { "lat": 46.9977199, "lon": 28.8081481 },
-        { "lat": 46.9975489, "lon": 28.8083372 },
-        { "lat": 46.9973475, "lon": 28.8085823 },
-        { "lat": 46.9971385, "lon": 28.808869 },
-        { "lat": 46.9970306, "lon": 28.8090407 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "int_ref": "E 584",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Strada Miorița",
-        "name:ro": "Strada Miorița",
-        "name:ru": "улица Миорица",
-        "old_name": "улица Прянишникова",
-        "oneway": "no",
-        "ref": "M3;R3",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 460715189,
-      "bounds": {
-        "minlat": 46.9786612,
-        "minlon": 28.8451831,
-        "maxlat": 46.9789095,
-        "maxlon": 28.8455614
-      },
-      "nodes": [4563307314, 1251187093],
-      "geometry": [
-        { "lat": 46.9786612, "lon": 28.8455614 },
-        { "lat": 46.9789095, "lon": 28.8451831 }
-      ],
-      "tags": {
-        "highway": "service",
-        "oneway": "yes",
-        "psv": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 464094107,
-      "bounds": {
-        "minlat": 47.0111494,
-        "minlon": 28.8580637,
-        "maxlat": 47.011318,
-        "maxlon": 28.8583247
-      },
-      "nodes": [4563450976, 278126675],
-      "geometry": [
-        { "lat": 47.0111494, "lon": 28.8583247 },
-        { "lat": 47.011318, "lon": 28.8580637 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Iuri Gagarin",
-        "name:ro": "Bulevardul Iuri Gagarin",
-        "name:ru": "проспект Гагарина",
-        "name_1": "bd. Gagarin",
-        "postal_code": "MD-2000",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Iuri Gagarin din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 506962271,
-      "bounds": {
-        "minlat": 46.9822385,
-        "minlon": 28.8374241,
-        "maxlat": 46.9823877,
-        "maxlon": 28.8377424
-      },
-      "nodes": [4955532804, 4965761461, 271246576],
-      "geometry": [
-        { "lat": 46.9822385, "lon": 28.8377424 },
-        { "lat": 46.9823805, "lon": 28.8374387 },
-        { "lat": 46.9823877, "lon": 28.8374241 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "maxspeed": "50",
-        "name": "Strada Grenoble",
-        "name:ru": "улица Гренобля",
-        "oneway": "no",
-        "ref": "M3",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 506963403,
-      "bounds": {
-        "minlat": 46.9823877,
-        "minlon": 28.8372309,
-        "maxlat": 46.9824816,
-        "maxlon": 28.8374241
-      },
-      "nodes": [271246576, 4955532807],
-      "geometry": [
-        { "lat": 46.9823877, "lon": 28.8374241 },
-        { "lat": 46.9824816, "lon": 28.8372309 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "maxspeed": "50",
-        "name": "Strada Grenoble",
-        "name:ru": "улица Гренобля",
-        "postal_code": "MD-2019",
-        "ref": "M3",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 568331682,
-      "bounds": {
-        "minlat": 46.9909247,
-        "minlon": 28.8585954,
-        "maxlat": 46.9927964,
-        "maxlon": 28.8590577
-      },
-      "nodes": [276118935, 890891203, 4563611305, 5735883135, 995239713],
-      "geometry": [
-        { "lat": 46.9927964, "lon": 28.8590577 },
-        { "lat": 46.9925802, "lon": 28.8590022 },
-        { "lat": 46.9923416, "lon": 28.8589275 },
-        { "lat": 46.9916681, "lon": 28.8587675 },
-        { "lat": 46.9909247, "lon": 28.8585954 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "4",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ru": "проспект Дечебала",
-        "name_1": "bd.Decebal",
-        "old_name": "улица Тимошенко",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 645447415,
-      "bounds": {
-        "minlat": 47.013469,
-        "minlon": 28.8548168,
-        "maxlat": 47.0135115,
-        "maxlon": 28.8548897
-      },
-      "nodes": [2441326779, 3224218004, 269122186],
-      "geometry": [
-        { "lat": 47.0135115, "lon": 28.8548168 },
-        { "lat": 47.0134882, "lon": 28.8548524 },
-        { "lat": 47.013469, "lon": 28.8548897 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "junction": "roundabout",
-        "maxspeed": "50",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 645447417,
-      "bounds": {
-        "minlat": 47.0135115,
-        "minlon": 28.8547502,
-        "maxlat": 47.0137216,
-        "maxlon": 28.8548168
-      },
-      "nodes": [269122182, 269122183, 269122184, 300804970, 2441326779],
-      "geometry": [
-        { "lat": 47.0137216, "lon": 28.8547696 },
-        { "lat": 47.0136674, "lon": 28.8547502 },
-        { "lat": 47.0136116, "lon": 28.8547525 },
-        { "lat": 47.0135582, "lon": 28.8547763 },
-        { "lat": 47.0135115, "lon": 28.8548168 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "junction": "roundabout",
-        "maxspeed": "50",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 645447419,
-      "bounds": {
-        "minlat": 47.0137216,
-        "minlon": 28.8547696,
-        "maxlat": 47.0138574,
-        "maxlon": 28.8550146
-      },
-      "nodes": [269122181, 2441326780, 3250264170, 269122182],
-      "geometry": [
-        { "lat": 47.0138574, "lon": 28.8550146 },
-        { "lat": 47.0138325, "lon": 28.8549179 },
-        { "lat": 47.0137864, "lon": 28.8548287 },
-        { "lat": 47.0137216, "lon": 28.8547696 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "junction": "roundabout",
-        "maxspeed": "50",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 647057521,
-      "bounds": {
-        "minlat": 47.0163091,
-        "minlon": 28.8464543,
-        "maxlat": 47.0163984,
-        "maxlon": 28.8467325
-      },
-      "nodes": [875666521, 875666797],
-      "geometry": [
-        { "lat": 47.0163091, "lon": 28.8464543 },
-        { "lat": 47.0163984, "lon": 28.8467325 }
-      ],
-      "tags": {
-        "highway": "residential",
-        "lanes": "1",
-        "oneway": "yes",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 647057524,
-      "bounds": {
-        "minlat": 47.0163984,
-        "minlon": 28.8467325,
-        "maxlat": 47.0178477,
-        "maxlon": 28.8490668
-      },
-      "nodes": [
-        875666797,
-        376362723,
-        4563632524,
-        5288514720,
-        276640588,
-        2106915707,
-        271283219
-      ],
-      "geometry": [
-        { "lat": 47.0163984, "lon": 28.8467325 },
-        { "lat": 47.016531, "lon": 28.8471142 },
-        { "lat": 47.016675, "lon": 28.8473775 },
-        { "lat": 47.0169516, "lon": 28.8477958 },
-        { "lat": 47.0170422, "lon": 28.8479206 },
-        { "lat": 47.0177529, "lon": 28.8489318 },
-        { "lat": 47.0178477, "lon": 28.8490668 }
-      ],
-      "tags": {
-        "highway": "residential",
-        "lanes": "1",
-        "oneway": "yes",
-        "trolley_wire": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 663297816,
-      "bounds": {
-        "minlat": 47.005091,
-        "minlon": 28.8596019,
-        "maxlat": 47.0057342,
-        "maxlon": 28.8596803
-      },
-      "nodes": [5738902905, 273672817, 2404521391, 273672820],
-      "geometry": [
-        { "lat": 47.0057342, "lon": 28.8596803 },
-        { "lat": 47.0054458, "lon": 28.85963 },
-        { "lat": 47.0052881, "lon": 28.8596123 },
-        { "lat": 47.005091, "lon": 28.8596019 }
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Bulevardul Decebal",
-        "name:ro": "Bulevardul Decebal",
-        "name:ru": "проспект Децебала",
-        "name_1": "bd. Decebal",
-        "old_name": "улицаТимошенко",
-        "trolley_wire": "yes",
-        "wikipedia:ro": "Bulevardul Decebal din Chișinău"
-      }
-    },
-    {
-      "type": "way",
-      "id": 683997239,
-      "bounds": {
-        "minlat": 47.010646,
-        "minlon": 28.843503,
-        "maxlat": 47.0109404,
-        "maxlon": 28.843882
-      },
-      "nodes": [1103348607, 1096407571, 269079969],
-      "geometry": [
-        { "lat": 47.010646, "lon": 28.843503 },
-        { "lat": 47.0107215, "lon": 28.8435928 },
-        { "lat": 47.0109404, "lon": 28.843882 }
-      ],
-      "tags": {
-        "highway": "trunk",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Bulevardul Dacia",
-        "name:ru": "проспект Дачия",
-        "old_name": "пр. Мира",
-        "oneway": "yes"
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 24760936,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Strada Bucure\u0219ti",
+          "name:ru": "\u0443\u043b\u0438\u0446\u0430 \u0411\u0443\u043a\u0443\u0440\u0435\u0448\u0442\u044c",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430 \u0418\u0441\u043a\u0440\u044b",
+          "oneway": "no"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.843882, 47.0109404], [28.8435187, 47.0111875]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 24797064,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "\u0218oseaua H\u00eence\u0219ti",
+          "name:ru": "\u0425\u044b\u043d\u0447\u0435\u0448\u0442\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435",
+          "old_name": "\u041a\u043e\u0442\u043e\u0432\u0441\u043a\u043e\u0435 \u0428\u043e\u0441\u0441\u0435",
+          "ref": "R3"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.7888518, 46.9915757],
+          [28.7892895, 46.9917318],
+          [28.7897877, 46.9919069],
+          [28.7903107, 46.9920943],
+          [28.7908368, 46.9922805],
+          [28.7917883, 46.9926191]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 24961871,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Traian",
+          "name:ro": "Bulevardul Traian",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0422\u0440\u0430\u044f\u043d",
+          "name_1": "bd. Traian",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Traian din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.845063, 46.9780129], [28.8454546, 46.9782603]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 24964687,
+        "tags": {
+          "highway": "trunk",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Strada Ismail",
+          "name:ru": "\u0418\u0437\u043c\u0430\u0438\u043b\u044c\u0441\u043a\u0430\u044f \u0443\u043b\u0438\u0446\u0430",
+          "oneway": "no",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8455938, 47.0157937], [28.8462555, 47.0162439]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 24964737,
+        "tags": {
+          "highway": "residential",
+          "lanes": "1",
+          "oneway": "yes",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8462555, 47.0162439], [28.8464543, 47.0163091]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 25126868,
+        "tags": {
+          "admin_level": "10",
+          "boundary": "administrative",
+          "highway": "trunk",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Iuri Gagarin",
+          "name:ro": "Bulevardul Iuri Gagarin",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0413\u0430\u0433\u0430\u0440\u0438\u043d\u0430",
+          "name_1": "bd. Gagarin",
+          "oneway": "yes",
+          "postal_code": "MD-2000",
+          "trolley_wire": "yes",
+          "wikidata": "Q4099031",
+          "wikipedia": "ro:Bulevardul Iuri Gagarin din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [28.858909, 47.0107663],
+            [28.8590767, 47.0105726],
+            [28.8591937, 47.0104271],
+            [28.8592839, 47.0102938],
+            [28.8594328, 47.0100981],
+            [28.8594722, 47.0100463],
+            [28.858909, 47.0107663]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 25208261,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "3",
+          "layer": "2",
+          "maxspeed": "50",
+          "name": "\u0218oseaua H\u00eence\u0219ti",
+          "name:ru": "\u0425\u044b\u043d\u0447\u0435\u0448\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435",
+          "oneway": "yes",
+          "ref": "R3"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8074482, 46.9984377],
+          [28.8073495, 46.9984026],
+          [28.8073345, 46.9983968],
+          [28.8072325, 46.9983606],
+          [28.8066892, 46.9981682],
+          [28.8064214, 46.9980751],
+          [28.8057795, 46.9978436]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 25262945,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "3",
+          "maxspeed": "50",
+          "oneway": "yes",
+          "ref": "R3",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8028467, 46.9964865],
+          [28.8031748, 46.9965549],
+          [28.8033203, 46.9965796],
+          [28.8034551, 46.996597],
+          [28.8037315, 46.9966232]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 25300677,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ro": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0446\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd. Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430\u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8600477, 47.000997],
+          [28.8600299, 47.0007495],
+          [28.8599486, 46.9999453],
+          [28.8598929, 46.9993996],
+          [28.8598275, 46.998758],
+          [28.8598214, 46.9986981],
+          [28.8598047, 46.9985299]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 25341044,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Strada Miori\u021ba",
+          "name:ru": "\u0443\u043b\u0438\u0446\u0430 \u041c\u0438\u043e\u0440\u0438\u0446\u0430",
+          "oneway": "yes",
+          "ref": "M3;R3",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8077522, 46.9980471],
+          [28.8078669, 46.9979586],
+          [28.8080704, 46.9978016]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 25480033,
+        "tags": {
+          "admin_level": "10",
+          "boundary": "administrative",
+          "bridge": "yes",
+          "highway": "trunk",
+          "lanes": "3",
+          "layer": "2",
+          "loc_name": "Viaduct",
+          "loc_name:ru": "\u0412\u0438\u0430\u0434\u0443\u043a",
+          "maxspeed": "70",
+          "name": "Bulevardul Dacia",
+          "name:ro": "Bd.Dacia",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
+          "old_name": "\u043f\u0440. \u041c\u0438\u0440\u0430",
+          "oneway": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [28.8452473, 46.9954513],
+            [28.8449586, 46.9960817],
+            [28.8446441, 46.9968714],
+            [28.8435869, 46.9995893],
+            [28.8452473, 46.9954513]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 25720093,
+        "tags": {
+          "highway": "trunk",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Iuri Gagarin",
+          "name:ro": "Bulevardul Iuri Gagarin",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0413\u0430\u0433\u0430\u0440\u0438\u043d\u0430",
+          "name_1": "bd. Gagarin",
+          "postal_code": "MD-2000",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Iuri Gagarin din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.858909, 47.0107663],
+          [28.8585485, 47.0110071],
+          [28.8583247, 47.0111494]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 26134590,
+        "tags": {
+          "highway": "residential",
+          "oneway": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8567436, 46.9867426],
+          [28.8564815, 46.9870416],
+          [28.8563752, 46.9871681],
+          [28.8559475, 46.9874723],
+          [28.8527873, 46.9897177],
+          [28.8512145, 46.9908352],
+          [28.8510753, 46.9909431],
+          [28.8491185, 46.9923468],
+          [28.8489912, 46.9924381],
+          [28.8483564, 46.9928934],
+          [28.8479207, 46.9930975],
+          [28.8477028, 46.9931903]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 27350341,
+        "tags": {
+          "admin_level": "10",
+          "boundary": "administrative",
+          "highway": "trunk",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Dacia",
+          "name:ro": "Bd.Dacia",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
+          "old_name": "\u043f\u0440. \u041c\u0438\u0440\u0430",
+          "oneway": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [28.843000122005698, 47.001118226621536],
+            [28.8428964, 47.0013854],
+            [28.8427415, 47.0017921],
+            [28.843000122005698, 47.001118226621536]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 27350346,
+        "tags": {
+          "highway": "trunk",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Dacia",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
+          "old_name": "\u043f\u0440. \u041c\u0438\u0440\u0430",
+          "oneway": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8427602, 47.0092882],
+          [28.8428069, 47.0095808],
+          [28.8428446, 47.0097297],
+          [28.8428799, 47.0098095],
+          [28.842964, 47.0100041],
+          [28.8431094, 47.0102246],
+          [28.8433242, 47.0104735],
+          [28.843503, 47.010646]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 27641093,
+        "tags": {
+          "highway": "service",
+          "oneway": "yes",
+          "psv": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8458163, 46.9784939], [28.8455614, 46.9786612]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 28021138,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "3",
+          "maxspeed": "50",
+          "oneway": "yes",
+          "ref": "R3",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.799712, 46.995629], [28.7995393, 46.9954624]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 28021139,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "3",
+          "layer": "2",
+          "maxspeed": "40",
+          "name": "\u0218oseaua H\u00eence\u0219ti",
+          "name:ru": "\u0425\u044b\u043d\u0447\u0435\u0448\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435",
+          "oneway": "yes",
+          "ref": "R3"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8037315, 46.9966232],
+          [28.8057545, 46.9973416],
+          [28.8074306, 46.9979324],
+          [28.8074646, 46.9979443],
+          [28.8076583, 46.9980126],
+          [28.8077522, 46.9980471]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 29022005,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Strada Miori\u021ba",
+          "name:ru": "\u0443\u043b\u0438\u0446\u0430 \u041c\u0438\u043e\u0440\u0438\u0446\u0430",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430 \u041f\u0440\u044f\u043d\u0438\u0448\u043d\u0438\u043a\u043e\u0432\u0430",
+          "oneway": "no",
+          "ref": "M3;R3",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8155376, 46.9936723],
+          [28.8165823, 46.9932497],
+          [28.8170053, 46.9930769],
+          [28.8182225, 46.9925837],
+          [28.8184805, 46.9924852],
+          [28.8186731, 46.9923968],
+          [28.8188647, 46.9923047],
+          [28.819091, 46.9921908],
+          [28.8192944, 46.9920693]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 29022008,
+        "tags": {
+          "highway": "trunk",
+          "maxspeed": "50",
+          "name": "Strada Grenoble",
+          "name:ru": "\u0443\u043b\u0438\u0446\u0430 \u0413\u0440\u0435\u043d\u043e\u0431\u043b\u044f",
+          "oneway": "no",
+          "ref": "M3",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8388889, 46.9817425],
+          [28.8384774, 46.9819187],
+          [28.8384161, 46.9819432],
+          [28.8381574, 46.9820512],
+          [28.8377424, 46.9822385]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 29022011,
+        "tags": {
+          "access": "yes",
+          "bicycle": "yes",
+          "bridge": "yes",
+          "cycleway": "lane",
+          "foot": "yes",
+          "highway": "trunk",
+          "lanes": "3",
+          "layer": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Dacia",
+          "name:ro": "Bd.Dacia",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
+          "old_name": "\u043f\u0440. \u041c\u0438\u0440\u0430",
+          "oneway": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8422919, 47.0066218],
+          [28.8427361, 47.0091546],
+          [28.8427602, 47.0092882]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 30748493,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0446\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd. Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430\u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8596008, 47.0042616], [28.8596398, 47.0039131]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 30748497,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0446\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd. Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430\u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "oneway": "no",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8595925, 47.0048418],
+          [28.8595909, 47.0044861],
+          [28.8596008, 47.0042616]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 30749960,
+        "tags": {
+          "highway": "trunk",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Strada Miori\u021ba",
+          "name:ro": "Strada Miori\u021ba",
+          "name:ru": "\u0443\u043b\u0438\u0446\u0430 \u041c\u0438\u043e\u0440\u0438\u0446\u0430",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430 \u041f\u0440\u044f\u043d\u0438\u0448\u043d\u0438\u043a\u043e\u0432\u0430",
+          "oneway": "no",
+          "ref": "M3"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8192944, 46.9920693],
+          [28.8195417, 46.9918866],
+          [28.8200225, 46.9915883],
+          [28.8202224, 46.9914578],
+          [28.8204563, 46.9913343]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 30749975,
+        "tags": {
+          "highway": "trunk",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Iuri Gagarin",
+          "name:ro": "Bulevardul Iuri Gagarin",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0413\u0430\u0433\u0430\u0440\u0438\u043d\u0430",
+          "name_1": "bd. Gagarin",
+          "oneway": "yes",
+          "postal_code": "MD-2000",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Iuri Gagarin din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8594722, 47.0100463],
+          [28.8596316, 47.0099266],
+          [28.8597877, 47.0098334],
+          [28.8599414, 47.009772]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 32473712,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "\u0218oseaua H\u00eence\u0219ti",
+          "name:ru": "\u0425\u044b\u043d\u0447\u0435\u0448\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435",
+          "oneway": "yes",
+          "ref": "R3"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.7966157, 46.9943289],
+          [28.7974225, 46.99452],
+          [28.7982444, 46.994811],
+          [28.7990741, 46.9951154],
+          [28.7996516, 46.9953245]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 32473713,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "\u0218oseaua H\u00eence\u0219ti",
+          "name:ru": "\u0425\u044b\u043d\u0447\u0435\u0448\u0442\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435",
+          "old_name": "\u041a\u043e\u0442\u043e\u0432\u0441\u043a\u043e\u0435 \u0428\u043e\u0441\u0441\u0435",
+          "oneway": "yes",
+          "ref": "R3"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.7995393, 46.9954624], [28.798051, 46.9949403]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 32484376,
+        "tags": {
+          "highway": "primary",
+          "maxspeed": "50",
+          "name": "Bulevardul Dimitrie Cantemir",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u043c\u0438\u0442\u0440\u0438\u044f \u041a\u0430\u043d\u0442\u0435\u043c\u0438\u0440\u0430",
+          "oneway": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8552128, 47.0142694],
+          [28.8551652, 47.014109],
+          [28.8551035, 47.0139793],
+          [28.8550146, 47.0138574]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 32484377,
+        "tags": {
+          "highway": "primary",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Dimitrie Cantemir",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u043c\u0438\u0442\u0440\u0438\u044f \u041a\u0430\u043d\u0442\u0435\u043c\u0438\u0440\u0430"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8552128, 47.0142694], [28.8551821, 47.0143566]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 32888670,
+        "tags": {
+          "admin_level": "10",
+          "boundary": "administrative",
+          "highway": "trunk",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Dacia",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
+          "old_name": "\u043f\u0440. \u041c\u0438\u0440\u0430",
+          "oneway": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [28.8423165, 47.0029252],
+            [28.8422868, 47.0030059],
+            [28.8422257, 47.0031717],
+            [28.8421906, 47.003262],
+            [28.8421227, 47.0034718],
+            [28.8420454, 47.0037486],
+            [28.8419976, 47.004028],
+            [28.8419773, 47.0042556],
+            [28.8419835, 47.0045296],
+            [28.8420274, 47.0050016],
+            [28.8420353, 47.0050868],
+            [28.8422122, 47.0060967],
+            [28.8422919, 47.0066218],
+            [28.8423165, 47.0029252]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 32952169,
+        "tags": {
+          "bridge": "viaduct",
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "layer": "2",
+          "maxspeed": "50",
+          "name": "Strada Miori\u021ba",
+          "name:ru": "\u0443\u043b\u0438\u0446\u0430 \u041c\u0438\u043e\u0440\u0438\u0446\u0430",
+          "oneway": "yes",
+          "ref": "M3;R3",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8079432, 46.9981188], [28.8076515, 46.9985108]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 32952210,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "maxspeed": "50",
+          "name": "Strada Miori\u021ba",
+          "name:ru": "\u0443\u043b\u0438\u0446\u0430 \u041c\u0438\u043e\u0440\u0438\u0446\u0430",
+          "oneway": "yes",
+          "ref": "M3;R3",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8080704, 46.9978016], [28.8079432, 46.9981188]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 38292096,
+        "tags": {
+          "highway": "trunk",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Strada Grenoble",
+          "name:ru": "\u0443\u043b\u0438\u0446\u0430 \u0413\u0440\u0435\u043d\u043e\u0431\u043b\u044f",
+          "oneway": "no",
+          "ref": "M3",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.845063, 46.9780129],
+          [28.8447041, 46.9784397],
+          [28.8443213, 46.9788438],
+          [28.8438151, 46.9793624],
+          [28.8435564, 46.9796016],
+          [28.8433577, 46.979756],
+          [28.8431604, 46.9798795]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 38809921,
+        "tags": {
+          "highway": "trunk",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Iuri Gagarin",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0413\u0430\u0433\u0430\u0440\u0438\u043d\u0430",
+          "oneway": "yes",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8548897, 47.013469],
+          [28.8549337, 47.0133896],
+          [28.8549763, 47.0133286],
+          [28.8552732, 47.0131108],
+          [28.8555731, 47.0129522]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 38835328,
+        "tags": {
+          "highway": "primary",
+          "lanes": "4",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ro": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0447\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd.Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430 \u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8585954, 46.9909247],
+          [28.8584703, 46.9904297],
+          [28.8583922, 46.9901088],
+          [28.8582528, 46.9894808],
+          [28.8582291, 46.9893486],
+          [28.8581736, 46.9890905],
+          [28.8581245, 46.9889118],
+          [28.8579808, 46.9883269],
+          [28.8578422, 46.987759],
+          [28.8577861, 46.9875175],
+          [28.8577243, 46.9872772]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 38835329,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ro": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0446\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd. Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430\u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "oneway": "no",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8598047, 46.9985299], [28.8597752, 46.9980766]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 38959499,
+        "tags": {
+          "highway": "trunk",
+          "maxspeed": "50",
+          "name": "Strada Grenoble",
+          "name:ru": "\u0443\u043b\u0438\u0446\u0430 \u0413\u0440\u0435\u043d\u043e\u0431\u043b\u044f",
+          "postal_code": "MD-2019",
+          "ref": "M3",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8372309, 46.9824816],
+          [28.8370199, 46.9825944],
+          [28.8368082, 46.9827145],
+          [28.8367461, 46.9827497],
+          [28.8357769, 46.9833003],
+          [28.8352718, 46.9835782],
+          [28.8350626, 46.9837243],
+          [28.8344289, 46.9841364],
+          [28.8343865, 46.9841671],
+          [28.8339734, 46.9844333],
+          [28.8335638, 46.984697],
+          [28.8330692, 46.9850234],
+          [28.8326424, 46.9853352],
+          [28.8323621, 46.9855554],
+          [28.8321097, 46.9857837],
+          [28.8320402, 46.9858448],
+          [28.8319575, 46.9859193]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 39129989,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Strada Miori\u021ba",
+          "name:ru": "\u0443\u043b\u0438\u0446\u0430 \u041c\u0438\u043e\u0440\u0438\u0446\u0430",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430 \u041f\u0440\u044f\u043d\u0438\u0448\u043d\u0438\u043a\u043e\u0432\u0430",
+          "oneway": "no",
+          "ref": "M3;R3",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8090407, 46.9970306],
+          [28.8097514, 46.9965737],
+          [28.80982, 46.9965292],
+          [28.8100163, 46.9964056],
+          [28.8106682, 46.995988],
+          [28.8114254, 46.9955054],
+          [28.8119037, 46.9952159],
+          [28.8123055, 46.9950079],
+          [28.8127341, 46.9948137],
+          [28.8138362, 46.9943656],
+          [28.8149298, 46.9939222],
+          [28.8151137, 46.9938475],
+          [28.8152052, 46.9938102],
+          [28.8155376, 46.9936723]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 40325068,
+        "tags": {
+          "highway": "trunk",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Dacia",
+          "name:ro": "Bulevardul Dacia",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
+          "old_name": "\u043f\u0440. \u041c\u0438\u0440\u0430",
+          "oneway": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.857418, 46.9862484],
+          [28.856915, 46.9866197],
+          [28.8567436, 46.9867426]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 46606201,
+        "tags": {
+          "admin_level": "10",
+          "boundary": "administrative",
+          "highway": "trunk",
+          "lanes": "3",
+          "maxspeed": "70",
+          "name": "Bulevardul Dacia",
+          "name:ro": "Bd.Dacia",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
+          "old_name": "\u043f\u0440. \u041c\u0438\u0440\u0430",
+          "oneway": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [28.8461659, 46.9942982],
+            [28.8460173, 46.9944322],
+            [28.845898, 46.9945639],
+            [28.8458296, 46.9946423],
+            [28.8456061, 46.9949165],
+            [28.8453688, 46.9952555],
+            [28.8452473, 46.9954513],
+            [28.8461659, 46.9942982]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 46909907,
+        "tags": {
+          "highway": "trunk",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Dacia",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
+          "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
+          "oneway": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8467274, 46.9938929],
+          [28.8464599, 46.9940914],
+          [28.8463164, 46.994187],
+          [28.8461659, 46.9942982]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 46909911,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ro": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0446\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd. Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430\u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8597752, 46.9980766],
+          [28.8597436, 46.9977132],
+          [28.8596972, 46.9973358],
+          [28.859661, 46.9970745],
+          [28.8596549, 46.9970303],
+          [28.8596361, 46.9968959],
+          [28.859403, 46.9951926]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 46909914,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Strada Ismail",
+          "name:ro": "Strada Ismail",
+          "name:ru": "\u0418\u0437\u043c\u0430\u0438\u043b\u044c\u0441\u043a\u0430\u044f \u0443\u043b\u0438\u0446\u0430",
+          "oneway": "no",
+          "ref": "R3",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8426074, 47.0137971],
+          [28.8426966, 47.0138548],
+          [28.8434618, 47.0143929],
+          [28.8443239, 47.0149884]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 48216570,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Strada Bucure\u0219ti",
+          "name:ru": "\u0443\u043b\u0438\u0446\u0430 \u0411\u0443\u043a\u0443\u0440\u0435\u0448\u0442\u044c",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430 \u0418\u0441\u043a\u0440\u044b",
+          "oneway": "no"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8435187, 47.0111875],
+          [28.8431854, 47.0114304],
+          [28.8428773, 47.0116591],
+          [28.8426049, 47.0118661]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 49868165,
+        "tags": {
+          "highway": "trunk",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Strada Ismail",
+          "name:ru": "\u0418\u0437\u043c\u0430\u0438\u043b\u044c\u0441\u043a\u0430\u044f \u0443\u043b\u0438\u0446\u0430",
+          "oneway": "no",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8503968, 47.0190965],
+          [28.8506039, 47.0192383],
+          [28.8508159, 47.0193777],
+          [28.850996, 47.0194965]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 49875420,
+        "tags": {
+          "highway": "trunk",
+          "maxspeed": "50",
+          "name": "Strada Grenoble",
+          "name:ru": "\u0443\u043b\u0438\u0446\u0430 \u0413\u0440\u0435\u043d\u043e\u0431\u043b\u044f",
+          "oneway": "no",
+          "postal_code": "MD-2019",
+          "ref": "M3",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8260681, 46.9897448],
+          [28.8259661, 46.9897802],
+          [28.8254946, 46.9899328],
+          [28.8248001, 46.9901607],
+          [28.824312, 46.9903219],
+          [28.823875, 46.9904566],
+          [28.8234235, 46.9905791],
+          [28.822442, 46.9908306],
+          [28.8221292, 46.9909048],
+          [28.821842, 46.990973],
+          [28.82177, 46.99099],
+          [28.8217026, 46.9910064],
+          [28.8214193, 46.991073],
+          [28.821292, 46.9910984]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 50132937,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "3",
+          "layer": "2",
+          "maxspeed": "50",
+          "name": "\u0218oseaua H\u00eence\u0219ti",
+          "name:ru": "\u0425\u044b\u043d\u0447\u0435\u0448\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435",
+          "oneway": "yes",
+          "ref": "R3",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8057795, 46.9978436],
+          [28.8043707, 46.9973442],
+          [28.8028561, 46.9968072],
+          [28.801533, 46.9963377],
+          [28.8010804, 46.9961771],
+          [28.8002634, 46.9958871],
+          [28.8000685, 46.9958035],
+          [28.7999133, 46.995732],
+          [28.799712, 46.995629]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 50132944,
+        "tags": {
+          "highway": "trunk",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Dacia",
+          "name:ro": "Bulevardul Dacia",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
+          "old_name": "\u043f\u0440. \u041c\u0438\u0440\u0430",
+          "oneway": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8477028, 46.9931903],
+          [28.8476519, 46.9932253],
+          [28.8473073, 46.9934745],
+          [28.8467274, 46.9938929]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 50132945,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0446\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd. Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430\u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "surface": "asphalt",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.857418, 46.9862484], [28.8573219, 46.9861168]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 52456843,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0446\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd. Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430\u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8599679, 47.001681],
+          [28.8600321, 47.0013133],
+          [28.8600436, 47.0010798],
+          [28.8600477, 47.000997]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 58609929,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "3",
+          "layer": "2",
+          "maxspeed": "50",
+          "name": "\u0218oseaua H\u00eence\u0219ti",
+          "name:ru": "\u0425\u044b\u043d\u0447\u0435\u0448\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435",
+          "oneway": "yes",
+          "ref": "R3",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8076515, 46.9985108], [28.8074482, 46.9984377]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 58641693,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "\u0218oseaua H\u00eence\u0219ti",
+          "name:ru": "\u0425\u044b\u043d\u0447\u0435\u0448\u0442\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435",
+          "old_name": "\u041a\u043e\u0442\u043e\u0432\u0441\u043a\u043e\u0435 \u0428\u043e\u0441\u0441\u0435",
+          "ref": "R3"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.7917883, 46.9926191], [28.7920746, 46.9927175]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 74009542,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Strada Ismail",
+          "name:ru": "\u0418\u0437\u043c\u0430\u0438\u043b\u044c\u0441\u043a\u0430\u044f \u0443\u043b\u0438\u0446\u0430",
+          "oneway": "no",
+          "ref": "R3",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.841224, 47.0128102],
+          [28.8413403, 47.0128922],
+          [28.8419204, 47.0133169],
+          [28.8424982, 47.0137201],
+          [28.8426074, 47.0137971]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 94361434,
+        "tags": {
+          "highway": "trunk",
+          "maxspeed": "50",
+          "name": "Strada Grenoble",
+          "name:ru": "\u0443\u043b\u0438\u0446\u0430 \u0413\u0440\u0435\u043d\u043e\u0431\u043b\u044f",
+          "postal_code": "MD-2019",
+          "ref": "M3",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.821292, 46.9910984],
+          [28.8210639, 46.9911559],
+          [28.820724, 46.9912334],
+          [28.8205714, 46.9912823],
+          [28.8204563, 46.9913343]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 94519601,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Strada Bucure\u0219ti",
+          "name:ru": "\u0443\u043b\u0438\u0446\u0430 \u0411\u0443\u043a\u0443\u0440\u0435\u0448\u0442\u044c",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430 \u0418\u0441\u043a\u0440\u044b",
+          "oneway": "no"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8426049, 47.0118661],
+          [28.8424654, 47.0119615],
+          [28.8413529, 47.012722],
+          [28.841224, 47.0128102]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 116811079,
+        "tags": {
+          "highway": "primary",
+          "maxspeed": "50",
+          "oneway": "yes",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8599414, 47.009772],
+          [28.860155, 47.009594],
+          [28.8602427, 47.0094657],
+          [28.8602643, 47.0094046],
+          [28.8602957, 47.0091844]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 121108833,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "3",
+          "name": "\u0218oseaua H\u00eence\u0219ti",
+          "name:ru": "\u0425\u044b\u043d\u0447\u0435\u0448\u0442\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435",
+          "old_name": "\u041a\u043e\u0442\u043e\u0432\u0441\u043a\u043e\u0435 \u0428\u043e\u0441\u0441\u0435",
+          "oneway": "yes",
+          "ref": "R3"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.798051, 46.9949403],
+          [28.7972743, 46.9946638],
+          [28.7966157, 46.9943289]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 121916144,
+        "tags": {
+          "highway": "service",
+          "oneway": "yes",
+          "psv": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8451831, 46.9789095],
+          [28.8445634, 46.9793287],
+          [28.8438813, 46.9797081],
+          [28.8431604, 46.9798795]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 121916146,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Traian",
+          "name:ro": "Bulevardul Traian",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0422\u0440\u0430\u044f\u043d",
+          "name_1": "bd. Traian",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Traian din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8458163, 46.9784939],
+          [28.8461704, 46.9787303],
+          [28.8467662, 46.9791279],
+          [28.8477276, 46.9797696],
+          [28.8488277, 46.9804791],
+          [28.8501305, 46.9813355],
+          [28.8506163, 46.9816548]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 121916152,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Traian",
+          "name:ro": "Bulevardul Traian",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0422\u0440\u0430\u044f\u043d",
+          "name_1": "bd. Traian",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Traian din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8454546, 46.9782603], [28.8458163, 46.9784939]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 121916157,
+        "tags": {
+          "highway": "trunk",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Strada Grenoble",
+          "name:ru": "\u0443\u043b\u0438\u0446\u0430 \u0413\u0440\u0435\u043d\u043e\u0431\u043b\u044f",
+          "oneway": "no",
+          "ref": "M3",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8431604, 46.9798795],
+          [28.8427636, 46.9800926],
+          [28.8423218, 46.980305],
+          [28.8418163, 46.9805106],
+          [28.8408814, 46.9809121],
+          [28.8407245, 46.9809773],
+          [28.8400891, 46.9812434],
+          [28.83961, 46.9814465],
+          [28.8392895, 46.981585],
+          [28.8388889, 46.9817425]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 135164623,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "\u0218oseaua H\u00eence\u0219ti",
+          "name:ru": "\u0425\u044b\u043d\u0447\u0435\u0448\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435",
+          "ref": "R3"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.7779665, 46.9850181],
+          [28.7782814, 46.9853024],
+          [28.7788559, 46.9858227]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 135169894,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ro": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0446\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd. Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430\u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8602957, 47.0091844], [28.8602326, 47.0088532]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 136517668,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Strada Ismail",
+          "name:ru": "\u0418\u0437\u043c\u0430\u0438\u043b\u044c\u0441\u043a\u0430\u044f \u0443\u043b\u0438\u0446\u0430",
+          "oneway": "no",
+          "ref": "R3",
+          "surface": "asphalt",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8443239, 47.0149884],
+          [28.8446957, 47.0152154],
+          [28.8447339, 47.0152389]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 161453810,
+        "tags": {
+          "highway": "primary",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Dimitrie Cantemir",
+          "name:ro": "Bulevardul Dimitrie Cantemir",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u043c\u0438\u0442\u0440\u0438\u044f \u041a\u0430\u043d\u0442\u0435\u043c\u0438\u0440\u0430"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8524125, 47.0185874],
+          [28.8518281, 47.0189918],
+          [28.851737, 47.0190581]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 161453811,
+        "tags": {
+          "highway": "primary",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Dimitrie Cantemir",
+          "name:ro": "Bulevardul Dimitrie Cantemir",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u043c\u0438\u0442\u0440\u0438\u044f \u041a\u0430\u043d\u0442\u0435\u043c\u0438\u0440\u0430"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.851737, 47.0190581],
+          [28.8513708, 47.0193101],
+          [28.8512572, 47.0193672],
+          [28.850996, 47.0194965]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 161700547,
+        "tags": {
+          "highway": "residential",
+          "lanes": "1",
+          "oneway": "yes",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8490668, 47.0178477],
+          [28.8491872, 47.0179306],
+          [28.8498781, 47.0184064],
+          [28.8499281, 47.0184408],
+          [28.8499543, 47.0184736],
+          [28.8501799, 47.0187555],
+          [28.8502373, 47.0188425],
+          [28.8503968, 47.0190965]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 161700550,
+        "tags": {
+          "highway": "trunk",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Iuri Gagarin",
+          "name:ro": "Bulevardul Iuri Gagarin",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0413\u0430\u0433\u0430\u0440\u0438\u043d\u0430",
+          "name_1": "bd. Gagarin",
+          "postal_code": "MD-2000",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Iuri Gagarin din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8580637, 47.011318], [28.8571586, 47.0119059]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 161700555,
+        "tags": {
+          "highway": "trunk",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Iuri Gagarin",
+          "name:ro": "Bulevardul Iuri Gagarin",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0413\u0430\u0433\u0430\u0440\u0438\u043d\u0430",
+          "name_1": "bd. Gagarin",
+          "postal_code": "MD-2000",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8571586, 47.0119059], [28.8555731, 47.0129522]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 161700559,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ro": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0446\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd. Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430\u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8602326, 47.0088532],
+          [28.8602224, 47.0087763],
+          [28.8601181, 47.0082209],
+          [28.8600073, 47.007557],
+          [28.8599886, 47.0074465]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 161700565,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ro": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0446\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd. Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430\u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8599886, 47.0074465], [28.8599364, 47.0071657]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 161700567,
+        "tags": {
+          "highway": "primary",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Dimitrie Cantemir",
+          "name:ro": "Bulevardul Dimitrie Cantemir",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u043c\u0438\u0442\u0440\u0438\u044f \u041a\u0430\u043d\u0442\u0435\u043c\u0438\u0440\u0430"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8542342, 47.016742],
+          [28.8541394, 47.0169031],
+          [28.8540393, 47.0170569],
+          [28.8539305, 47.0172094]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 161700571,
+        "tags": {
+          "highway": "primary",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Dimitrie Cantemir",
+          "name:ro": "Bulevardul Dimitrie Cantemir",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u043c\u0438\u0442\u0440\u0438\u044f \u041a\u0430\u043d\u0442\u0435\u043c\u0438\u0440\u0430"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8546526, 47.0157558], [28.8545406, 47.0160497]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 161700572,
+        "tags": {
+          "highway": "primary",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Dimitrie Cantemir",
+          "name:ro": "Bulevardul Dimitrie Cantemir",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u043c\u0438\u0442\u0440\u0438\u044f \u041a\u0430\u043d\u0442\u0435\u043c\u0438\u0440\u0430"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8549806, 47.0148932],
+          [28.8549166, 47.0150549],
+          [28.8548814, 47.0151527]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 161700573,
+        "tags": {
+          "highway": "primary",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Dimitrie Cantemir",
+          "name:ro": "Bulevardul Dimitrie Cantemir",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u043c\u0438\u0442\u0440\u0438\u044f \u041a\u0430\u043d\u0442\u0435\u043c\u0438\u0440\u0430"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8545406, 47.0160497], [28.8544656, 47.0162451]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 161700577,
+        "tags": {
+          "highway": "primary",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Dimitrie Cantemir",
+          "name:ro": "Bulevardul Dimitrie Cantemir",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u043c\u0438\u0442\u0440\u0438\u044f \u041a\u0430\u043d\u0442\u0435\u043c\u0438\u0440\u0430"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8548814, 47.0151527],
+          [28.8546793, 47.0156854],
+          [28.8546526, 47.0157558]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 161700578,
+        "tags": {
+          "highway": "primary",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Dimitrie Cantemir",
+          "name:ro": "Bulevardul Dimitrie Cantemir",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u043c\u0438\u0442\u0440\u0438\u044f \u041a\u0430\u043d\u0442\u0435\u043c\u0438\u0440\u0430"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8539305, 47.0172094],
+          [28.8537581, 47.0174287],
+          [28.8535496, 47.0176596],
+          [28.8533455, 47.0178653]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 161700603,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Strada Ismail",
+          "name:ru": "\u0418\u0437\u043c\u0430\u0438\u043b\u044c\u0441\u043a\u0430\u044f \u0443\u043b\u0438\u0446\u0430",
+          "oneway": "no",
+          "ref": "R3",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8447339, 47.0152389],
+          [28.8448243, 47.015297],
+          [28.8450833, 47.0154634],
+          [28.8453707, 47.0156443],
+          [28.8455938, 47.0157937]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 161807630,
+        "tags": {
+          "highway": "primary",
+          "lanes": "4",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0446\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd. Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430\u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "surface": "asphalt",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8577243, 46.9872772],
+          [28.8576794, 46.9870959],
+          [28.8576317, 46.9869045]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 161807631,
+        "tags": {
+          "highway": "primary",
+          "lanes": "4",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0446\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd. Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430\u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "surface": "asphalt",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.857573, 46.9867194],
+          [28.8574945, 46.986458],
+          [28.857418, 46.9862484]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 161807632,
+        "tags": {
+          "highway": "primary",
+          "lanes": "4",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0446\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd. Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430\u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "surface": "asphalt",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8576317, 46.9869045],
+          [28.8576011, 46.986815],
+          [28.857573, 46.9867194]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 236320239,
+        "tags": {
+          "highway": "primary",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Dimitrie Cantemir",
+          "name:ro": "Bulevardul Dimitrie Cantemir",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u043c\u0438\u0442\u0440\u0438\u044f \u041a\u0430\u043d\u0442\u0435\u043c\u0438\u0440\u0430"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8543321, 47.0165466], [28.8542342, 47.016742]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 236320240,
+        "tags": {
+          "highway": "primary",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Dimitrie Cantemir",
+          "name:ro": "Bulevardul Dimitrie Cantemir",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u043c\u0438\u0442\u0440\u0438\u044f \u041a\u0430\u043d\u0442\u0435\u043c\u0438\u0440\u0430"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8544656, 47.0162451],
+          [28.854421, 47.0163573],
+          [28.8543321, 47.0165466]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 236320241,
+        "tags": {
+          "highway": "primary",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Dimitrie Cantemir",
+          "name:ro": "Bulevardul Dimitrie Cantemir",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u043c\u0438\u0442\u0440\u0438\u044f \u041a\u0430\u043d\u0442\u0435\u043c\u0438\u0440\u0430"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8551821, 47.0143566],
+          [28.8550994, 47.0145847],
+          [28.8550355, 47.0147496],
+          [28.8549806, 47.0148932]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 236320242,
+        "tags": {
+          "highway": "primary",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Dimitrie Cantemir",
+          "name:ro": "Bulevardul Dimitrie Cantemir",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u043c\u0438\u0442\u0440\u0438\u044f \u041a\u0430\u043d\u0442\u0435\u043c\u0438\u0440\u0430"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8533455, 47.0178653],
+          [28.8531256, 47.0180611],
+          [28.8528709, 47.0182549],
+          [28.8524125, 47.0185874]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 236323233,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0446\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd. Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430\u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8598638, 47.0024692], [28.8599137, 47.002142]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 236323234,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0446\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd. Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430\u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8599137, 47.002142], [28.8599679, 47.001681]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 236323235,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ro": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0446\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd. Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430\u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8599364, 47.0071657], [28.8598451, 47.0066884]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 236323236,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "name": "Bulevardul Decebal",
+          "name:ro": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0446\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd. Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430\u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8596019, 47.005091], [28.8595925, 47.0048418]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 236323237,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0446\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd. Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430\u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8592922, 46.9944356],
+          [28.8591907, 46.9936933],
+          [28.8590765, 46.9929107]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 236323238,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0446\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd. Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430\u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8590765, 46.9929107],
+          [28.8590783, 46.9929047],
+          [28.8590577, 46.9927964]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 236323239,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ro": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0446\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd. Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430\u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.859403, 46.9951926],
+          [28.8593873, 46.9950992],
+          [28.8593415, 46.9948027],
+          [28.8592922, 46.9944356]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 236323240,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0446\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd. Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430\u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8596398, 47.0039131],
+          [28.8597441, 47.0032549],
+          [28.8598301, 47.0026672],
+          [28.8598638, 47.0024692]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 236323241,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ro": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0446\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd. Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430\u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8598451, 47.0066884],
+          [28.8598051, 47.0064506],
+          [28.8596803, 47.0057342]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 236473667,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "8",
+          "maxspeed": "70",
+          "name": "\u0218oseaua H\u00eence\u0219ti",
+          "name:ru": "\u0425\u044b\u043d\u0447\u0435\u0448\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435",
+          "ref": "R3",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.7796605, 46.986539], [28.779902, 46.9867335]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 236473672,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "\u0218oseaua H\u00eence\u0219ti",
+          "name:ru": "\u0425\u044b\u043d\u0447\u0435\u0448\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435",
+          "ref": "R3"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.7883998, 46.9914147], [28.7888518, 46.9915757]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 236473674,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "2",
+          "maxspeed": "70",
+          "name": "\u0218oseaua H\u00eence\u0219ti",
+          "name:ru": "\u0425\u044b\u043d\u0447\u0435\u0448\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435",
+          "ref": "R3"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.7788559, 46.9858227], [28.7796605, 46.986539]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 236473676,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "4",
+          "maxspeed": "50",
+          "name": "\u0218oseaua H\u00eence\u0219ti",
+          "name:ru": "\u0425\u044b\u043d\u0447\u0435\u0448\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435",
+          "ref": "R3"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.7871441, 46.9909411],
+          [28.7881436, 46.9913226],
+          [28.7883998, 46.9914147]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 236473684,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "\u0218oseaua H\u00eence\u0219ti",
+          "name:ru": "\u0425\u044b\u043d\u0447\u0435\u0448\u0442\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435",
+          "old_name": "\u041a\u043e\u0442\u043e\u0432\u0441\u043a\u043e\u0435 \u0428\u043e\u0441\u0441\u0435",
+          "ref": "R3"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.7920746, 46.9927175], [28.7948693, 46.9937146]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 236473685,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "\u0218oseaua H\u00eence\u0219ti",
+          "name:ru": "\u0425\u044b\u043d\u0447\u0435\u0448\u0442\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435",
+          "old_name": "\u041a\u043e\u0442\u043e\u0432\u0441\u043a\u043e\u0435 \u0428\u043e\u0441\u0441\u0435",
+          "ref": "R3"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.7948693, 46.9937146],
+          [28.7957306, 46.994018],
+          [28.7966157, 46.9943289]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 236526489,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "\u0218oseaua H\u00eence\u0219ti",
+          "name:ru": "\u0425\u044b\u043d\u0447\u0435\u0448\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435",
+          "oneway": "yes",
+          "ref": "R3"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.7996516, 46.9953245],
+          [28.8009285, 46.9957802],
+          [28.8016532, 46.9960389],
+          [28.8028467, 46.9964865]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 236577645,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Traian",
+          "name:ro": "Bulevardul Traian",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0422\u0440\u0430\u044f\u043d",
+          "name_1": "bd. Traian",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Traian din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8506163, 46.9816548],
+          [28.8508229, 46.981792],
+          [28.8513094, 46.9821149],
+          [28.8514279, 46.9821924],
+          [28.8523103, 46.9827694],
+          [28.8524863, 46.9828845],
+          [28.8545933, 46.9842623],
+          [28.8555703, 46.9849004],
+          [28.855716, 46.9849931],
+          [28.8566815, 46.9856202],
+          [28.8568888, 46.9857612],
+          [28.8570514, 46.9858829],
+          [28.8573219, 46.9861168]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 298295856,
+        "tags": {
+          "highway": "trunk",
+          "maxspeed": "50",
+          "name": "Strada Grenoble",
+          "name:ru": "\u0443\u043b\u0438\u0446\u0430 \u0413\u0440\u0435\u043d\u043e\u0431\u043b\u044f",
+          "postal_code": "MD-2019",
+          "ref": "M3",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8319575, 46.9859193],
+          [28.8317303, 46.9861168],
+          [28.831504, 46.9863236],
+          [28.831081, 46.9866945],
+          [28.8309481, 46.9868056],
+          [28.8297832, 46.9876748],
+          [28.8293815, 46.9879656],
+          [28.8288361, 46.9883644],
+          [28.8284714, 46.9886276],
+          [28.8280992, 46.9888818],
+          [28.8280282, 46.9889266],
+          [28.827721, 46.9890731],
+          [28.8275687, 46.9891374],
+          [28.8274068, 46.9891986],
+          [28.8273263, 46.9892326],
+          [28.8269437, 46.9893896],
+          [28.8263552, 46.9896266],
+          [28.8261912, 46.9896941],
+          [28.8260681, 46.9897448]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 320542397,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "8",
+          "maxspeed": "70",
+          "name": "\u0218oseaua H\u00eence\u0219ti",
+          "name:ru": "\u0425\u044b\u043d\u0447\u0435\u0448\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435",
+          "ref": "R3",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.779902, 46.9867335],
+          [28.780124, 46.9869083],
+          [28.7802979, 46.9870512],
+          [28.7806435, 46.9873183],
+          [28.7809612, 46.9875554],
+          [28.7812809, 46.9877846],
+          [28.7819986, 46.9882809],
+          [28.7826032, 46.9886686],
+          [28.7830503, 46.9889409],
+          [28.7834969, 46.9891902],
+          [28.7838799, 46.9894023],
+          [28.7845251, 46.9897446],
+          [28.7848227, 46.9898998],
+          [28.7851368, 46.9900529],
+          [28.7862089, 46.9905499],
+          [28.7866777, 46.9907522],
+          [28.7871441, 46.9909411]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 460715188,
+        "tags": {
+          "highway": "trunk",
+          "int_ref": "E 584",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Strada Miori\u021ba",
+          "name:ro": "Strada Miori\u021ba",
+          "name:ru": "\u0443\u043b\u0438\u0446\u0430 \u041c\u0438\u043e\u0440\u0438\u0446\u0430",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430 \u041f\u0440\u044f\u043d\u0438\u0448\u043d\u0438\u043a\u043e\u0432\u0430",
+          "oneway": "no",
+          "ref": "M3;R3",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8080704, 46.9978016],
+          [28.8081481, 46.9977199],
+          [28.8083372, 46.9975489],
+          [28.8085823, 46.9973475],
+          [28.808869, 46.9971385],
+          [28.8090407, 46.9970306]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 460715189,
+        "tags": {
+          "highway": "service",
+          "oneway": "yes",
+          "psv": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8455614, 46.9786612], [28.8451831, 46.9789095]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 464094107,
+        "tags": {
+          "highway": "trunk",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Iuri Gagarin",
+          "name:ro": "Bulevardul Iuri Gagarin",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0413\u0430\u0433\u0430\u0440\u0438\u043d\u0430",
+          "name_1": "bd. Gagarin",
+          "postal_code": "MD-2000",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Iuri Gagarin din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8583247, 47.0111494], [28.8580637, 47.011318]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 506962271,
+        "tags": {
+          "highway": "trunk",
+          "maxspeed": "50",
+          "name": "Strada Grenoble",
+          "name:ru": "\u0443\u043b\u0438\u0446\u0430 \u0413\u0440\u0435\u043d\u043e\u0431\u043b\u044f",
+          "oneway": "no",
+          "ref": "M3",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8377424, 46.9822385],
+          [28.8374387, 46.9823805],
+          [28.8374241, 46.9823877]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 506963403,
+        "tags": {
+          "highway": "trunk",
+          "maxspeed": "50",
+          "name": "Strada Grenoble",
+          "name:ru": "\u0443\u043b\u0438\u0446\u0430 \u0413\u0440\u0435\u043d\u043e\u0431\u043b\u044f",
+          "postal_code": "MD-2019",
+          "ref": "M3",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8374241, 46.9823877], [28.8372309, 46.9824816]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 568331682,
+        "tags": {
+          "highway": "primary",
+          "lanes": "4",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0447\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd.Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430 \u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8590577, 46.9927964],
+          [28.8590022, 46.9925802],
+          [28.8589275, 46.9923416],
+          [28.8587675, 46.9916681],
+          [28.8585954, 46.9909247]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 645447415,
+        "tags": {
+          "highway": "trunk",
+          "junction": "roundabout",
+          "maxspeed": "50",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8548168, 47.0135115],
+          [28.8548524, 47.0134882],
+          [28.8548897, 47.013469]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 645447417,
+        "tags": {
+          "highway": "trunk",
+          "junction": "roundabout",
+          "maxspeed": "50",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8547696, 47.0137216],
+          [28.8547502, 47.0136674],
+          [28.8547525, 47.0136116],
+          [28.8547763, 47.0135582],
+          [28.8548168, 47.0135115]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 645447419,
+        "tags": {
+          "highway": "trunk",
+          "junction": "roundabout",
+          "maxspeed": "50",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8550146, 47.0138574],
+          [28.8549179, 47.0138325],
+          [28.8548287, 47.0137864],
+          [28.8547696, 47.0137216]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 647057521,
+        "tags": {
+          "highway": "residential",
+          "lanes": "1",
+          "oneway": "yes",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[28.8464543, 47.0163091], [28.8467325, 47.0163984]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 647057524,
+        "tags": {
+          "highway": "residential",
+          "lanes": "1",
+          "oneway": "yes",
+          "trolley_wire": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8467325, 47.0163984],
+          [28.8471142, 47.016531],
+          [28.8473775, 47.016675],
+          [28.8477958, 47.0169516],
+          [28.8479206, 47.0170422],
+          [28.8489318, 47.0177529],
+          [28.8490668, 47.0178477]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 663297816,
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed": "50",
+          "name": "Bulevardul Decebal",
+          "name:ro": "Bulevardul Decebal",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0435\u0446\u0435\u0431\u0430\u043b\u0430",
+          "name_1": "bd. Decebal",
+          "old_name": "\u0443\u043b\u0438\u0446\u0430\u0422\u0438\u043c\u043e\u0448\u0435\u043d\u043a\u043e",
+          "trolley_wire": "yes",
+          "wikipedia:ro": "Bulevardul Decebal din Chi\u0219in\u0103u"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.8596803, 47.0057342],
+          [28.85963, 47.0054458],
+          [28.8596123, 47.0052881],
+          [28.8596019, 47.005091]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 683997239,
+        "tags": {
+          "highway": "trunk",
+          "lanes": "3",
+          "maxspeed": "50",
+          "name": "Bulevardul Dacia",
+          "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
+          "old_name": "\u043f\u0440. \u041c\u0438\u0440\u0430",
+          "oneway": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.843503, 47.010646],
+          [28.8435928, 47.0107215],
+          [28.843882, 47.0109404]
+        ]
       }
     }
   ]

@@ -1,597 +1,812 @@
 {
-  "version": 0.6,
-  "generator": "Overpass API 0.7.55.7 8b86ff77",
-  "osm3s": {
-    "timestamp_osm_base": "2019-10-04T21:52:02Z",
-    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
-  },
-  "elements": [
+  "type": "FeatureCollection",
+  "features": [
     {
-      "type": "node",
-      "id": 325005049,
-      "lat": 47.0381774,
-      "lon": 28.8099481,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "Piaţa Dimitrie Cantemir",
-        "name:ru": "пл. Дмитрие Кантемир",
-        "operator": "orange",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 325005049,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "Pia\u0163a Dimitrie Cantemir",
+          "name:ru": "\u043f\u043b. \u0414\u043c\u0438\u0442\u0440\u0438\u0435 \u041a\u0430\u043d\u0442\u0435\u043c\u0438\u0440",
+          "operator": "orange",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8099481, 47.0381774]
       }
     },
     {
-      "type": "node",
-      "id": 340052776,
-      "lat": 47.0431908,
-      "lon": 28.8673308,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "Nicolai Dimo",
-        "name:ru": "ул. Н. Димо",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 340052776,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "Nicolai Dimo",
+          "name:ru": "\u0443\u043b. \u041d. \u0414\u0438\u043c\u043e",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8673308, 47.0431908]
       }
     },
     {
-      "type": "node",
-      "id": 370413213,
-      "lat": 47.0561356,
-      "lon": 28.8908454,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "str. Ion Dumeniuc",
-        "name:ro": "str. Ion Dumeniuc 26",
-        "name:ru": "ул. Ион Думенюк",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 370413213,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "str. Ion Dumeniuc",
+          "name:ro": "str. Ion Dumeniuc 26",
+          "name:ru": "\u0443\u043b. \u0418\u043e\u043d \u0414\u0443\u043c\u0435\u043d\u044e\u043a",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8908454, 47.0561356]
       }
     },
     {
-      "type": "node",
-      "id": 370413215,
-      "lat": 47.0569726,
-      "lon": 28.8917057,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "str. Ion Dumeniuc",
-        "name:ru": "ул. Иона Думенюка",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 370413215,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "str. Ion Dumeniuc",
+          "name:ru": "\u0443\u043b. \u0418\u043e\u043d\u0430 \u0414\u0443\u043c\u0435\u043d\u044e\u043a\u0430",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8917057, 47.0569726]
       }
     },
     {
-      "type": "node",
-      "id": 370413235,
-      "lat": 47.0504495,
-      "lon": 28.8900272,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "str. Igor Vieru",
-        "name:ru": "ул. Игорь Виеру",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 370413235,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "str. Igor Vieru",
+          "name:ru": "\u0443\u043b. \u0418\u0433\u043e\u0440\u044c \u0412\u0438\u0435\u0440\u0443",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8900272, 47.0504495]
       }
     },
     {
-      "type": "node",
-      "id": 370413258,
-      "lat": 47.0373296,
-      "lon": 28.8900143,
-      "tags": {
-        "bench": "yes",
-        "covered": "yes",
-        "highway": "bus_stop",
-        "name": "Bd. Mircea cel Bătrân",
-        "name:ru": "бульвар Мирча чел Бэтрын",
-        "public_transport": "platform",
-        "shelter": "yes"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 370413258,
+        "tags": {
+          "bench": "yes",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "name": "Bd. Mircea cel B\u0103tr\u00e2n",
+          "name:ru": "\u0431\u0443\u043b\u044c\u0432\u0430\u0440 \u041c\u0438\u0440\u0447\u0430 \u0447\u0435\u043b \u0411\u044d\u0442\u0440\u044b\u043d",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8900143, 47.0373296]
       }
     },
     {
-      "type": "node",
-      "id": 376339159,
-      "lat": 47.0340215,
-      "lon": 28.8192612,
-      "tags": {
-        "bus": "yes",
-        "highway": "bus_stop",
-        "name": "Universitatea de Stat de Medicină și Farmacie",
-        "name:ru": "Государственный университет Медицины и Фармации",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 376339159,
+        "tags": {
+          "bus": "yes",
+          "highway": "bus_stop",
+          "name": "Universitatea de Stat de Medicin\u0103 \u0219i Farmacie",
+          "name:ru": "\u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u041c\u0435\u0434\u0438\u0446\u0438\u043d\u044b \u0438 \u0424\u0430\u0440\u043c\u0430\u0446\u0438\u0438",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8192612, 47.0340215]
       }
     },
     {
-      "type": "node",
-      "id": 376339174,
-      "lat": 47.0370472,
-      "lon": 28.8203371,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "Asociația „Tracom“",
-        "name:ru": "Ассоциация \"Траком\"",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 376339174,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "Asocia\u021bia \u201eTracom\u201c",
+          "name:ru": "\u0410\u0441\u0441\u043e\u0446\u0438\u0430\u0446\u0438\u044f \"\u0422\u0440\u0430\u043a\u043e\u043c\"",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8203371, 47.0370472]
       }
     },
     {
-      "type": "node",
-      "id": 376339175,
-      "lat": 47.0446114,
-      "lon": 28.7884948,
-      "tags": {
-        "bus": "yes",
-        "highway": "bus_stop",
-        "name": "Parcul „La Izvor“",
-        "name:ru": "Парк «Ла Извор»",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 376339175,
+        "tags": {
+          "bus": "yes",
+          "highway": "bus_stop",
+          "name": "Parcul \u201eLa Izvor\u201c",
+          "name:ru": "\u041f\u0430\u0440\u043a \u00ab\u041b\u0430 \u0418\u0437\u0432\u043e\u0440\u00bb",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.7884948, 47.0446114]
       }
     },
     {
-      "type": "node",
-      "id": 376339178,
-      "lat": 47.0442382,
-      "lon": 28.7887317,
-      "tags": {
-        "bus": "yes",
-        "highway": "bus_stop",
-        "name": "Parcul „La Izvor“",
-        "name:ru": "Парк «Ла Извор»",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 376339178,
+        "tags": {
+          "bus": "yes",
+          "highway": "bus_stop",
+          "name": "Parcul \u201eLa Izvor\u201c",
+          "name:ru": "\u041f\u0430\u0440\u043a \u00ab\u041b\u0430 \u0418\u0437\u0432\u043e\u0440\u00bb",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.7887317, 47.0442382]
       }
     },
     {
-      "type": "node",
-      "id": 376339180,
-      "lat": 47.0381188,
-      "lon": 28.8052532,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "Parcul Alunelul",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 376339180,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "Parcul Alunelul",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8052532, 47.0381188]
       }
     },
     {
-      "type": "node",
-      "id": 376339327,
-      "lat": 47.0390804,
-      "lon": 28.8035038,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "Asociația \"Zorile\"",
-        "name:ru": "Ассоциация \"Зориле\"",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 376339327,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "Asocia\u021bia \"Zorile\"",
+          "name:ru": "\u0410\u0441\u0441\u043e\u0446\u0438\u0430\u0446\u0438\u044f \"\u0417\u043e\u0440\u0438\u043b\u0435\"",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8035038, 47.0390804]
       }
     },
     {
-      "type": "node",
-      "id": 376339403,
-      "lat": 47.0362593,
-      "lon": 28.8226288,
-      "tags": {
-        "bus": "yes",
-        "highway": "bus_stop",
-        "name": "str. Columna",
-        "name:ru": "ул. Колумна",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 376339403,
+        "tags": {
+          "bus": "yes",
+          "highway": "bus_stop",
+          "name": "str. Columna",
+          "name:ru": "\u0443\u043b. \u041a\u043e\u043b\u0443\u043c\u043d\u0430",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8226288, 47.0362593]
       }
     },
     {
-      "type": "node",
-      "id": 376339441,
-      "lat": 47.0472054,
-      "lon": 28.8908978,
-      "tags": {
-        "bench": "yes",
-        "covered": "yes",
-        "highway": "bus_stop",
-        "name": "Judecătoria sectorului Ciocana",
-        "name:ru": "Суд сектора Чекан",
-        "public_transport": "platform",
-        "shelter": "yes"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 376339441,
+        "tags": {
+          "bench": "yes",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "name": "Judec\u0103toria sectorului Ciocana",
+          "name:ru": "\u0421\u0443\u0434 \u0441\u0435\u043a\u0442\u043e\u0440\u0430 \u0427\u0435\u043a\u0430\u043d",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8908978, 47.0472054]
       }
     },
     {
-      "type": "node",
-      "id": 449672988,
-      "lat": 47.0383077,
-      "lon": 28.8253542,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "str. Albișoara",
-        "name:ru": "ул. Албишоара",
-        "old_name": "ул. Набережная",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 449672988,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "str. Albi\u0219oara",
+          "name:ru": "\u0443\u043b. \u0410\u043b\u0431\u0438\u0448\u043e\u0430\u0440\u0430",
+          "old_name": "\u0443\u043b. \u041d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u0430\u044f",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8253542, 47.0383077]
       }
     },
     {
-      "type": "node",
-      "id": 461062053,
-      "lat": 47.0379329,
-      "lon": 28.810016,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "Piața Dmitrie Cantemir",
-        "name:ru": "пл. Дмитрие Кантемир",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 461062053,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "Pia\u021ba Dmitrie Cantemir",
+          "name:ru": "\u043f\u043b. \u0414\u043c\u0438\u0442\u0440\u0438\u0435 \u041a\u0430\u043d\u0442\u0435\u043c\u0438\u0440",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.810016, 47.0379329]
       }
     },
     {
-      "type": "node",
-      "id": 461062058,
-      "lat": 47.0428973,
-      "lon": 28.7941984,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "Bariera Sculeni",
-        "name:ru": "Скулянский барьер",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 461062058,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "Bariera Sculeni",
+          "name:ru": "\u0421\u043a\u0443\u043b\u044f\u043d\u0441\u043a\u0438\u0439 \u0431\u0430\u0440\u044c\u0435\u0440",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.7941984, 47.0428973]
       }
     },
     {
-      "type": "node",
-      "id": 461062059,
-      "lat": 47.0461749,
-      "lon": 28.7832239,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "str. Ghidighici",
-        "name:ro": "str. Ghidighici",
-        "name:ru": "ул. Гидигич",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 461062059,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "str. Ghidighici",
+          "name:ro": "str. Ghidighici",
+          "name:ru": "\u0443\u043b. \u0413\u0438\u0434\u0438\u0433\u0438\u0447",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.7832239, 47.0461749]
       }
     },
     {
-      "type": "node",
-      "id": 461604332,
-      "lat": 47.0441294,
-      "lon": 28.8626332,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "str. Alecu Russo",
-        "name:ru": "ул. Алеку Руссо",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 461604332,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "str. Alecu Russo",
+          "name:ru": "\u0443\u043b. \u0410\u043b\u0435\u043a\u0443 \u0420\u0443\u0441\u0441\u043e",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8626332, 47.0441294]
       }
     },
     {
-      "type": "node",
-      "id": 527885215,
-      "lat": 47.0381312,
-      "lon": 28.8845789,
-      "tags": {
-        "bench": "yes",
-        "bus": "yes",
-        "covered": "yes",
-        "highway": "bus_stop",
-        "name": "str. Mihail Sadoveanu",
-        "name:ro": "str. Mihail Sadoveanu",
-        "name:ru": "ул. Михаил Садовяну",
-        "public_transport": "platform",
-        "shelter": "yes"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 527885215,
+        "tags": {
+          "bench": "yes",
+          "bus": "yes",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "name": "str. Mihail Sadoveanu",
+          "name:ro": "str. Mihail Sadoveanu",
+          "name:ru": "\u0443\u043b. \u041c\u0438\u0445\u0430\u0438\u043b \u0421\u0430\u0434\u043e\u0432\u044f\u043d\u0443",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8845789, 47.0381312]
       }
     },
     {
-      "type": "node",
-      "id": 613009714,
-      "lat": 47.0382456,
-      "lon": 28.8256815,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "str. Albișoara",
-        "name:ru": "ул. Албишоара",
-        "old_name": "ул. Набережная",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 613009714,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "str. Albi\u0219oara",
+          "name:ru": "\u0443\u043b. \u0410\u043b\u0431\u0438\u0448\u043e\u0430\u0440\u0430",
+          "old_name": "\u0443\u043b. \u041d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u0430\u044f",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8256815, 47.0382456]
       }
     },
     {
-      "type": "node",
-      "id": 633630323,
-      "lat": 47.0378918,
-      "lon": 28.8893437,
-      "tags": {
-        "bench": "yes",
-        "covered": "yes",
-        "highway": "bus_stop",
-        "name": "Ginta Latină",
-        "name:ru": "Джинта Латинэ",
-        "public_transport": "platform",
-        "shelter": "yes"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 633630323,
+        "tags": {
+          "bench": "yes",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "name": "Ginta Latin\u0103",
+          "name:ru": "\u0414\u0436\u0438\u043d\u0442\u0430 \u041b\u0430\u0442\u0438\u043d\u044d",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8893437, 47.0378918]
       }
     },
     {
-      "type": "node",
-      "id": 633630325,
-      "lat": 47.0430106,
-      "lon": 28.8898419,
-      "tags": {
-        "bench": "yes",
-        "covered": "yes",
-        "highway": "bus_stop",
-        "name": "str. Petru Zadnipru",
-        "name:ro": "str. Petru Zadnipru",
-        "name:ru": "ул. Петру Заднипру",
-        "public_transport": "platform",
-        "shelter": "yes"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 633630325,
+        "tags": {
+          "bench": "yes",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "name": "str. Petru Zadnipru",
+          "name:ro": "str. Petru Zadnipru",
+          "name:ru": "\u0443\u043b. \u041f\u0435\u0442\u0440\u0443 \u0417\u0430\u0434\u043d\u0438\u043f\u0440\u0443",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8898419, 47.0430106]
       }
     },
     {
-      "type": "node",
-      "id": 633630328,
-      "lat": 47.0438114,
-      "lon": 28.8907301,
-      "tags": {
-        "bench": "yes",
-        "covered": "yes",
-        "highway": "bus_stop",
-        "name": "Petru Zadnipru",
-        "name:ro": "str. Petru Zadnipru",
-        "name:ru": "ул. Петру Заднипру",
-        "public_transport": "platform",
-        "shelter": "yes"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 633630328,
+        "tags": {
+          "bench": "yes",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "name": "Petru Zadnipru",
+          "name:ro": "str. Petru Zadnipru",
+          "name:ru": "\u0443\u043b. \u041f\u0435\u0442\u0440\u0443 \u0417\u0430\u0434\u043d\u0438\u043f\u0440\u0443",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8907301, 47.0438114]
       }
     },
     {
-      "type": "node",
-      "id": 633630330,
-      "lat": 47.0517895,
-      "lon": 28.8909312,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "Str. Igor Vieru",
-        "name:ro": "Str. Igor Vieru",
-        "name:ru": "ул. Игорь Виеру",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 633630330,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "Str. Igor Vieru",
+          "name:ro": "Str. Igor Vieru",
+          "name:ru": "\u0443\u043b. \u0418\u0433\u043e\u0440\u044c \u0412\u0438\u0435\u0440\u0443",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8909312, 47.0517895]
       }
     },
     {
-      "type": "node",
-      "id": 694216625,
-      "lat": 47.0409989,
-      "lon": 28.8426189,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "str. Gara \"Vesterniceni\"",
-        "name:ru": "ул. Вокзал \"Вестерничены\"",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 694216625,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "str. Gara \"Vesterniceni\"",
+          "name:ru": "\u0443\u043b. \u0412\u043e\u043a\u0437\u0430\u043b \"\u0412\u0435\u0441\u0442\u0435\u0440\u043d\u0438\u0447\u0435\u043d\u044b\"",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8426189, 47.0409989]
       }
     },
     {
-      "type": "node",
-      "id": 1216583454,
-      "lat": 47.0406309,
-      "lon": 28.890406,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "Pretura sectorului Ciocana",
-        "name:ru": "Петруа сек. Чекан",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 1216583454,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "Pretura sectorului Ciocana",
+          "name:ru": "\u041f\u0435\u0442\u0440\u0443\u0430 \u0441\u0435\u043a. \u0427\u0435\u043a\u0430\u043d",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.890406, 47.0406309]
       }
     },
     {
-      "type": "node",
-      "id": 1482712252,
-      "lat": 47.0452826,
-      "lon": 28.7850345,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "str. Ghidighici",
-        "name:ro": "Str. Ghidighici",
-        "name:ru": "ул. Гидигич",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 1482712252,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "str. Ghidighici",
+          "name:ro": "Str. Ghidighici",
+          "name:ru": "\u0443\u043b. \u0413\u0438\u0434\u0438\u0433\u0438\u0447",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.7850345, 47.0452826]
       }
     },
     {
-      "type": "node",
-      "id": 1554651685,
-      "lat": 47.0436294,
-      "lon": 28.8661533,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "str. N. Dimo",
-        "name:ru": "ул. Н. Димо",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 1554651685,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "str. N. Dimo",
+          "name:ru": "\u0443\u043b. \u041d. \u0414\u0438\u043c\u043e",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8661533, 47.0436294]
       }
     },
     {
-      "type": "node",
-      "id": 1554651691,
-      "lat": 47.0441788,
-      "lon": 28.8597773,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "Bogdan Voievod",
-        "name:ro": "Bogdan Voievod",
-        "name:ru": "Богдан Воевод",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 1554651691,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "Bogdan Voievod",
+          "name:ro": "Bogdan Voievod",
+          "name:ru": "\u0411\u043e\u0433\u0434\u0430\u043d \u0412\u043e\u0435\u0432\u043e\u0434",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8597773, 47.0441788]
       }
     },
     {
-      "type": "node",
-      "id": 1557395456,
-      "lat": 47.0436246,
-      "lon": 28.852523,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "str. Florilor",
-        "name:ro": "Florilor 6/2",
-        "name:ru": "ул. Флорилор",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 1557395456,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "str. Florilor",
+          "name:ro": "Florilor 6/2",
+          "name:ru": "\u0443\u043b. \u0424\u043b\u043e\u0440\u0438\u043b\u043e\u0440",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.852523, 47.0436246]
       }
     },
     {
-      "type": "node",
-      "id": 1558999570,
-      "lat": 47.0413403,
-      "lon": 28.842274,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "str. Gara \"Vesterniceni\" №21, 23, 27",
-        "name:ru": "ул. Вокзал \"Вестерничены\"",
-        "public_transport": "platform",
-        "shelter": "no"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 1558999570,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "str. Gara \"Vesterniceni\" \u211621, 23, 27",
+          "name:ru": "\u0443\u043b. \u0412\u043e\u043a\u0437\u0430\u043b \"\u0412\u0435\u0441\u0442\u0435\u0440\u043d\u0438\u0447\u0435\u043d\u044b\"",
+          "public_transport": "platform",
+          "shelter": "no"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.842274, 47.0413403]
       }
     },
     {
-      "type": "node",
-      "id": 1558999573,
-      "lat": 47.0446015,
-      "lon": 28.8479992,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "Bd. Renașterii Naționale",
-        "name:ro": "Bd. Renașterii Naționale",
-        "name:ru": "Коммерческий центр \"Супратен\"",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 1558999573,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "Bd. Rena\u0219terii Na\u021bionale",
+          "name:ro": "Bd. Rena\u0219terii Na\u021bionale",
+          "name:ru": "\u041a\u043e\u043c\u043c\u0435\u0440\u0447\u0435\u0441\u043a\u0438\u0439 \u0446\u0435\u043d\u0442\u0440 \"\u0421\u0443\u043f\u0440\u0430\u0442\u0435\u043d\"",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8479992, 47.0446015]
       }
     },
     {
-      "type": "node",
-      "id": 1558999576,
-      "lat": 47.0447877,
-      "lon": 28.8477432,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "str. Calea Orheiului",
-        "name:ru": "ул. Каля Орхеюлуй",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 1558999576,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "str. Calea Orheiului",
+          "name:ru": "\u0443\u043b. \u041a\u0430\u043b\u044f \u041e\u0440\u0445\u0435\u044e\u043b\u0443\u0439",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8477432, 47.0447877]
       }
     },
     {
-      "type": "node",
-      "id": 1723817019,
-      "lat": 47.0372194,
-      "lon": 28.887358,
-      "tags": {
-        "bench": "yes",
-        "covered": "yes",
-        "highway": "bus_stop",
-        "name": "str. Alecu Russo",
-        "name:ru": "ул. Алеку Руссо",
-        "public_transport": "platform",
-        "shelter": "yes"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 1723817019,
+        "tags": {
+          "bench": "yes",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "name": "str. Alecu Russo",
+          "name:ru": "\u0443\u043b. \u0410\u043b\u0435\u043a\u0443 \u0420\u0443\u0441\u0441\u043e",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.887358, 47.0372194]
       }
     },
     {
-      "type": "node",
-      "id": 1844942249,
-      "lat": 47.043221,
-      "lon": 28.8560557,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "Str. Bogdan Voievod",
-        "name:ro": "Str. Bogdan Voievod",
-        "name:ru": "ул. Богдан Воевод",
-        "public_transport": "platform",
-        "shelter": "no",
-        "tactile_paving": "no"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 1844942249,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "Str. Bogdan Voievod",
+          "name:ro": "Str. Bogdan Voievod",
+          "name:ru": "\u0443\u043b. \u0411\u043e\u0433\u0434\u0430\u043d \u0412\u043e\u0435\u0432\u043e\u0434",
+          "public_transport": "platform",
+          "shelter": "no",
+          "tactile_paving": "no"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8560557, 47.043221]
       }
     },
     {
-      "type": "node",
-      "id": 2635477677,
-      "lat": 47.042694,
-      "lon": 28.8356669,
-      "tags": {
-        "addr:housenumber": "15/3",
-        "addr:postcode": "2059",
-        "addr:street": "Strada Petricani",
-        "email": "info@decorelli.md",
-        "highway": "bus_stop",
-        "name": "DECORELLI",
-        "name:ru": "ДЕКОРЕЛЛИ",
-        "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00",
-        "phone": "+37369728782",
-        "public_transport": "platform",
-        "shop": "hardware",
-        "website": "https://decorelli.md"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 2635477677,
+        "tags": {
+          "addr:housenumber": "15/3",
+          "addr:postcode": "2059",
+          "addr:street": "Strada Petricani",
+          "email": "info@decorelli.md",
+          "highway": "bus_stop",
+          "name": "DECORELLI",
+          "name:ru": "\u0414\u0415\u041a\u041e\u0420\u0415\u041b\u041b\u0418",
+          "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00",
+          "phone": "+37369728782",
+          "public_transport": "platform",
+          "shop": "hardware",
+          "website": "https://decorelli.md"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8356669, 47.042694]
       }
     },
     {
-      "type": "node",
-      "id": 2635477682,
-      "lat": 47.0432548,
-      "lon": 28.8346676,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "Centrul Comercial \"Supraten\"",
-        "name:ru": "Коммерческий центр \"Супратен\"",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 2635477682,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "Centrul Comercial \"Supraten\"",
+          "name:ru": "\u041a\u043e\u043c\u043c\u0435\u0440\u0447\u0435\u0441\u043a\u0438\u0439 \u0446\u0435\u043d\u0442\u0440 \"\u0421\u0443\u043f\u0440\u0430\u0442\u0435\u043d\"",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8346676, 47.0432548]
       }
     },
     {
-      "type": "node",
-      "id": 3856161595,
-      "lat": 47.0384098,
-      "lon": 28.8847033,
-      "tags": {
-        "bench": "yes",
-        "covered": "yes",
-        "highway": "bus_stop",
-        "name": "str. Mihail Sadoveanu",
-        "name:ro": "str. Mihail Sadoveanu",
-        "name:ru": "ул. Михаил Садовяну",
-        "public_transport": "platform",
-        "shelter": "yes"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 3856161595,
+        "tags": {
+          "bench": "yes",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "name": "str. Mihail Sadoveanu",
+          "name:ro": "str. Mihail Sadoveanu",
+          "name:ru": "\u0443\u043b. \u041c\u0438\u0445\u0430\u0438\u043b \u0421\u0430\u0434\u043e\u0432\u044f\u043d\u0443",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8847033, 47.0384098]
       }
     },
     {
-      "type": "node",
-      "id": 3861263969,
-      "lat": 47.0365479,
-      "lon": 28.8882772,
-      "tags": {
-        "bench": "yes",
-        "covered": "yes",
-        "highway": "bus_stop",
-        "name": "Meşterul Manole",
-        "name:ru": "ул. Мастера Маноле (Мештерул Маноле)",
-        "public_transport": "platform",
-        "shelter": "yes"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 3861263969,
+        "tags": {
+          "bench": "yes",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "name": "Me\u015fterul Manole",
+          "name:ru": "\u0443\u043b. \u041c\u0430\u0441\u0442\u0435\u0440\u0430 \u041c\u0430\u043d\u043e\u043b\u0435 (\u041c\u0435\u0448\u0442\u0435\u0440\u0443\u043b \u041c\u0430\u043d\u043e\u043b\u0435)",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8882772, 47.0365479]
       }
     },
     {
-      "type": "node",
-      "id": 4110348292,
-      "lat": 47.046203,
-      "lon": 28.8901893,
-      "tags": {
-        "bench": "yes",
-        "covered": "yes",
-        "highway": "bus_stop",
-        "name": "Statia de ruta a magazinul Budesti",
-        "name:en": "Bus station of supermarket Budesti",
-        "name:ru": "Районный суд Чекан",
-        "public_transport": "platform",
-        "shelter": "yes"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 4110348292,
+        "tags": {
+          "bench": "yes",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "name": "Statia de ruta a magazinul Budesti",
+          "name:en": "Bus station of supermarket Budesti",
+          "name:ru": "\u0420\u0430\u0439\u043e\u043d\u043d\u044b\u0439 \u0441\u0443\u0434 \u0427\u0435\u043a\u0430\u043d",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8901893, 47.046203]
       }
     },
     {
-      "type": "node",
-      "id": 4563611309,
-      "lat": 47.0478127,
-      "lon": 28.7785008,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "Restaurantul \"Butoiaş\"",
-        "name:ru": "Ресторан \"Бутояш\"",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 4563611309,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "Restaurantul \"Butoia\u015f\"",
+          "name:ru": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d \"\u0411\u0443\u0442\u043e\u044f\u0448\"",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.7785008, 47.0478127]
       }
     },
     {
-      "type": "node",
-      "id": 4566744961,
-      "lat": 47.0380999,
-      "lon": 28.8161255,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "Mitropolit Dosoftei",
-        "name:ru": "Митрополит Дософтей",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 4566744961,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "Mitropolit Dosoftei",
+          "name:ru": "\u041c\u0438\u0442\u0440\u043e\u043f\u043e\u043b\u0438\u0442 \u0414\u043e\u0441\u043e\u0444\u0442\u0435\u0439",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8161255, 47.0380999]
       }
     },
     {
-      "type": "node",
-      "id": 6531479351,
-      "lat": 47.0424249,
-      "lon": 28.7948039,
-      "tags": {
-        "highway": "bus_stop",
-        "name": "Bariera Sculeni",
-        "public_transport": "platform"
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 6531479351,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "Bariera Sculeni",
+          "public_transport": "platform"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.7948039, 47.0424249]
       }
     }
   ]
