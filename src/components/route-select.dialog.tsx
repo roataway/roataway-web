@@ -6,8 +6,11 @@ import DialogContentText from '@material-ui/core/DialogContentText'
 import DialogTitle from '@material-ui/core/DialogTitle'
 import Slide from '@material-ui/core/Slide'
 import { TransitionProps } from '@material-ui/core/transitions'
+import useMediaQuery from '@material-ui/core/useMediaQuery'
 import { useTranslation } from 'react-i18next'
 import { routes } from '../data/routes'
+import { useTheme } from '@material-ui/styles'
+import { Theme } from '@material-ui/core/styles'
 
 const Transition = React.forwardRef(function(props: TransitionProps, ref) {
   return <Slide direction="up" ref={ref} {...props} />
@@ -22,6 +25,8 @@ type Props = {
 
 export function RouteSelectDialog(props: Props) {
   const { isOpen, setOpen, setSelectedRoutes, selectedRoutes } = props
+  const theme = useTheme<Theme>()
+  const fullScreen = useMediaQuery(theme.breakpoints.down('xs'))
   const [l10n] = useTranslation()
 
   function selectRoute(id: string) {
@@ -37,6 +42,7 @@ export function RouteSelectDialog(props: Props) {
   return (
     <Dialog
       open={isOpen}
+      fullScreen={fullScreen}
       onClose={() => setOpen(false)}
       TransitionComponent={Transition}
       aria-labelledby="alert-dialog-title"
