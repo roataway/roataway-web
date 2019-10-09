@@ -23,7 +23,7 @@ export function NavigationBarComponent() {
   const { t } = useTranslation()
   const classes = useStyles()
   return (
-    <AppBar position="static">
+    <AppBar position="fixed">
       <Toolbar>
         <IconButton
           edge="start"

@@ -1,5 +1,6 @@
 {
   "label.title": "Roata Wăy",
   "label.pickRoute": "Alege ruta",
-  "explanation.pickRoute": "Apasă pe o rută din această listă"
+  "explanation.pickRoute": "Alege o rută",
+  "label.myLocation": "Locația mea"
 }

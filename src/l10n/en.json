@@ -1,5 +1,6 @@
 {
   "label.title": "Roata Wăy",
   "label.pickRoute": "Pick route",
-  "explanation.pickRoute": "Choose a route from list"
+  "explanation.pickRoute": "Choose a route",
+  "label.myLocation": "My location"
 }
