@@ -68,7 +68,26 @@ export function TheMap({ selectedRoutes }: Props) {
       {Object.entries(routesStations).map(([id, rs]) =>
         selectedRoutes.has(id) ? (
           <ErrorBoundary>
-            <GeoJSON key={`route-stations-${id}`} data={rs!} />
+            <GeoJSON
+              key={`route-stations-${id}`}
+              data={rs!}
+              style={() => ({
+                title: 'uniqueTitleqwe',
+                iconSize: [25, 41],
+                iconAnchor: [12, 41],
+                color: '#00FF00',
+                weight: 0.9,
+                fillColor: '#1a1d62',
+                fillOpacity: 1,
+              })}
+              onEachFeature={(feature, layer) =>
+                // TODO consider using `name:ru` to load the Russian label,
+                // depending on the user-agent's language setting
+                layer.bindPopup(feature.properties.tags.name)
+                // console.log(feature)
+                // console.log(layer)
+              }
+            />
           </ErrorBoundary>
         ) : (
           undefined
