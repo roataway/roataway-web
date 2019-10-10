@@ -85,8 +85,6 @@ export function TheMap({ selectedRoutes }: Props) {
                 // depending on the user-agent's language setting (if the
                 // translation string is available in the JSON)
                 layer.bindPopup(feature.properties.tags.name)
-                console.log(feature)
-                console.log(layer)
               }}
             />
           </ErrorBoundary>
