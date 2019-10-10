@@ -80,13 +80,14 @@ export function TheMap({ selectedRoutes }: Props) {
                 fillColor: '#1a1d62',
                 fillOpacity: 1,
               })}
-              onEachFeature={(feature, layer) =>
+              onEachFeature={(feature, layer) => {
                 // TODO consider using `name:ru` to load the Russian label,
-                // depending on the user-agent's language setting
+                // depending on the user-agent's language setting (if the
+                // translation string is available in the JSON)
                 layer.bindPopup(feature.properties.tags.name)
-                // console.log(feature)
-                // console.log(layer)
-              }
+                console.log(feature)
+                console.log(layer)
+              }}
             />
           </ErrorBoundary>
         ) : (
