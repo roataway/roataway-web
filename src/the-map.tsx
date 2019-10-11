@@ -6,32 +6,36 @@ import 'leaflet/dist/leaflet.css'
 import { ErrorBoundary } from './components/error-boundary'
 import './style.css'
 import { Positions } from './use-positions'
-
-const state: Viewport = {
-  center: [47.0229, 28.8353],
-  zoom: 13,
-}
+import { UserLocation } from './components/user-location.component'
 
 type Props = {
   selectedRoutes: Set<string>
+  showUserLocation: boolean
 }
 
-export function TheMap({ selectedRoutes }: Props) {
+export function TheMap({ selectedRoutes, showUserLocation }: Props) {
   const [isAnimatedMarker, setIsAnimatedMarker] = React.useState(true)
   const { routesSegments, routesStations } = useRoutesData(selectedRoutes)
+  const [viewport] = React.useState<Viewport>({
+    center: [47.0229, 28.8353],
+    zoom: 13,
+  })
 
   return (
     <Map
-      id={'map'}
+      id={'roata-way-hai-hai'}
       style={{ height: '100vh' }}
       zoomControl={false}
       onzoomstart={() => setIsAnimatedMarker(false)}
       onzoomend={() => setIsAnimatedMarker(true)}
-      viewport={state}>
+      viewport={viewport}>
       <TileLayer
         attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
+
+      {showUserLocation && <UserLocation />}
+
       <Positions>
         {positions =>
           Object.values(positions).map((p: any) => (
@@ -57,8 +61,8 @@ export function TheMap({ selectedRoutes }: Props) {
 
       {Object.entries(routesSegments).map(([id, rs]) =>
         selectedRoutes.has(id) ? (
-          <ErrorBoundary>
-            <GeoJSON key={`route-segments-${id}`} data={rs!} />
+          <ErrorBoundary key={`route-segments-${id}`}>
+            <GeoJSON data={rs!} />
           </ErrorBoundary>
         ) : (
           undefined
@@ -67,7 +71,7 @@ export function TheMap({ selectedRoutes }: Props) {
 
       {Object.entries(routesStations).map(([id, rs]) =>
         selectedRoutes.has(id) ? (
-          <ErrorBoundary>
+          <ErrorBoundary key={`route-stations-${id}`}>
             <GeoJSON
               key={`route-stations-${id}`}
               data={rs!}

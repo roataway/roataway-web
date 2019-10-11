@@ -13,11 +13,13 @@ const theme = createMuiTheme()
 console.log('Starting v0.0.2')
 ReactDOM.render(
   <React.StrictMode>
-    <I18nextProvider i18n={i18n}>
-      <ThemeProvider theme={theme}>
-        <AppComponent />
-      </ThemeProvider>
-    </I18nextProvider>
+    <React.Suspense fallback={null}>
+      <I18nextProvider i18n={i18n}>
+        <ThemeProvider theme={theme}>
+          <AppComponent />
+        </ThemeProvider>
+      </I18nextProvider>
+    </React.Suspense>
   </React.StrictMode>,
   document.getElementById('root'),
 )

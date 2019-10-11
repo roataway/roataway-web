@@ -1,5 +1,6 @@
 {
   "label.title": "Roata Wăy",
   "label.pickRoute": "Выбери маршрут",
-  "explanation.pickRoute": "Нажми на кнопку, получишь результат"
+  "explanation.pickRoute": "Нажми на кнопку, получишь результат",
+  "label.myLocation": "Моё местоположение"
 }
