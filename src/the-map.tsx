@@ -26,6 +26,7 @@ export function TheMap({ selectedRoutes, showUserLocation }: Props) {
       id={'roata-way-hai-hai'}
       style={{ height: '100vh' }}
       zoomControl={false}
+      maxZoom={19}
       onzoomstart={() => setIsAnimatedMarker(false)}
       onzoomend={() => setIsAnimatedMarker(true)}
       viewport={viewport}>
