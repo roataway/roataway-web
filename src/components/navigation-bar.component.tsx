@@ -36,33 +36,32 @@ const useStyles = makeStyles(theme => ({
 export function NavigationBarComponent() {
   const { t } = useTranslation()
   const classes = useStyles()
+
   const [state, setState] = React.useState({
-    top: false,
-    left: false,
-    bottom: false,
-    right: false,
-    langauge: '',
+    shown: false,
   })
-  const toggleDrawer = (side, open) => event => {
+  const [language, setLanguage] = React.useState({
+    lang: '',
+  })
+
+  const toggleDrawer = open => event => {
     if (
       event.type === 'keydown' &&
       (event.key === 'Tab' || event.key === 'Shift')
     ) {
       return
     }
-
-    setState({
-      ...state,
-      [side]: open,
-      langauge: localStorage.getItem('language') || '',
-    })
+    setState({ shown: open })
+    setLanguage({ lang: localStorage.getItem('language') || '' })
   }
+
   const changeLanguage = event => {
-    setState({ ...state, langauge: event.target.value })
+    setLanguage({ lang: event.target.value })
     localStorage.setItem('language', event.target.value)
     i18n.changeLanguage(event.target.value)
-    setState({ ...state, left: false })
+    setState({ shown: false })
   }
+
   return (
     <React.Fragment>
       <AppBar position="fixed">
@@ -72,7 +71,7 @@ export function NavigationBarComponent() {
             className={classes.menuButton}
             color="inherit"
             aria-label="menu"
-            onClick={toggleDrawer('left', true)}>
+            onClick={toggleDrawer(true)}>
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
@@ -80,13 +79,13 @@ export function NavigationBarComponent() {
           </Typography>
         </Toolbar>
       </AppBar>
-      <Drawer open={state.left} onClose={toggleDrawer('left', false)}>
+      <Drawer open={state.shown} onClose={toggleDrawer(false)}>
         <div className={classes.list}>
           <FormControl component="fieldset" className={classes.formControl}>
             <RadioGroup
               aria-label="language"
               name="language"
-              value={state.langauge}
+              value={language.lang}
               onChange={event => changeLanguage(event)}>
               <FormControlLabel
                 value="en"
