@@ -42,6 +42,15 @@ export function AppComponent() {
     } else {
       i18n.changeLanguage(lang)
     }
+    // Init Left Handed
+    let zoomControl = document.querySelectorAll(
+      '.leaflet-top .leaflet-control-zoom',
+    )[0]
+    if (localStorage.getItem('left-handed') === 'true') {
+      zoomControl.setAttribute('id', 'left-handed-control-zoom')
+    } else {
+      zoomControl.removeAttribute('id')
+    }
   }, [])
 
   return (
