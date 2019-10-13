@@ -44,12 +44,13 @@ export function NavigationBarComponent() {
 
   const [state, setState] = React.useState({
     shown: false,
-    leftHanded: false,
   })
   const [language, setLanguage] = React.useState({
     lang: '',
   })
-
+  const [leftHanded, setLeftHanded] = React.useState({
+    active: false,
+  })
   const toggleDrawer = open => event => {
     if (
       event.type === 'keydown' &&
@@ -60,7 +61,6 @@ export function NavigationBarComponent() {
     setState({ shown: open })
     setLanguage({
       lang: localStorage.getItem('language') || '',
-      leftHanded: localStorage.getItem('left-handed') === 'true' || false,
     })
   }
 
@@ -70,8 +70,9 @@ export function NavigationBarComponent() {
     i18n.changeLanguage(event.target.value)
     setState({ shown: false })
   }
-  const leftHanded = event => {
-    setState({ ...state, left: false, leftHanded: event.target.checked })
+  const toggleLeftHanded = event => {
+    setState({ shown: false })
+    setLeftHanded({ active: event.target.checked })
     localStorage.setItem('left-handed', event.target.checked)
     let zoomControl = document.querySelectorAll(
       '.leaflet-top .leaflet-control-zoom',
@@ -131,8 +132,8 @@ export function NavigationBarComponent() {
             control={
               <Switch
                 className={classes.switch}
-                checked={state.leftHanded}
-                onChange={event => leftHanded(event)}
+                checked={leftHanded.active}
+                onChange={event => toggleLeftHanded(event)}
                 value="checkedB"
                 color="primary"
               />
