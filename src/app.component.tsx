@@ -22,6 +22,15 @@ export function AppComponent() {
     const existingLanguage = resources[language] ? language : 'en'
     localStorage.setItem('language', existingLanguage)
     i18n.changeLanguage(existingLanguage)
+    // Init Left Handed
+    let zoomControl = document.querySelectorAll(
+      '.leaflet-top .leaflet-control-zoom',
+    )[0]
+    if (localStorage.getItem('left-handed') === 'true') {
+      zoomControl.setAttribute('id', 'left-handed-control-zoom')
+    } else {
+      zoomControl.removeAttribute('id')
+    }
   }, [])
 
   return (

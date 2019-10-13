@@ -10,6 +10,8 @@ import {
   FormControlLabel,
   FormControl,
   Radio,
+  Divider,
+  Switch,
 } from '@material-ui/core'
 import { useTranslation } from 'react-i18next'
 import Drawer from '@material-ui/core/Drawer'
@@ -31,6 +33,9 @@ const useStyles = makeStyles(theme => ({
   formControl: {
     margin: theme.spacing(3),
   },
+  switch: {
+    marginLeft: '-10px',
+  },
 }))
 
 export function NavigationBarComponent() {
@@ -39,6 +44,7 @@ export function NavigationBarComponent() {
 
   const [state, setState] = React.useState({
     shown: false,
+    leftHanded: false,
   })
   const [language, setLanguage] = React.useState({
     lang: '',
@@ -52,7 +58,10 @@ export function NavigationBarComponent() {
       return
     }
     setState({ shown: open })
-    setLanguage({ lang: localStorage.getItem('language') || '' })
+    setLanguage({
+      lang: localStorage.getItem('language') || '',
+      leftHanded: localStorage.getItem('left-handed') === 'true' || false,
+    })
   }
 
   const changeLanguage = event => {
@@ -60,6 +69,18 @@ export function NavigationBarComponent() {
     localStorage.setItem('language', event.target.value)
     i18n.changeLanguage(event.target.value)
     setState({ shown: false })
+  }
+  const leftHanded = event => {
+    setState({ ...state, left: false, leftHanded: event.target.checked })
+    localStorage.setItem('left-handed', event.target.checked)
+    let zoomControl = document.querySelectorAll(
+      '.leaflet-top .leaflet-control-zoom',
+    )[0]
+    if (event.target.checked) {
+      zoomControl.setAttribute('id', 'left-handed-control-zoom')
+    } else {
+      zoomControl.removeAttribute('id')
+    }
   }
 
   return (
@@ -104,6 +125,20 @@ export function NavigationBarComponent() {
               />
             </RadioGroup>
           </FormControl>
+          <Divider />
+          <FormControlLabel
+            className={classes.formControl}
+            control={
+              <Switch
+                className={classes.switch}
+                checked={state.leftHanded}
+                onChange={event => leftHanded(event)}
+                value="checkedB"
+                color="primary"
+              />
+            }
+            label="Left-Handed"
+          />
         </div>
       </Drawer>
     </React.Fragment>
