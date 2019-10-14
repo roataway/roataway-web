@@ -10,8 +10,6 @@ import {
   FormControlLabel,
   FormControl,
   Radio,
-  Divider,
-  Switch,
 } from '@material-ui/core'
 import { useTranslation } from 'react-i18next'
 import Drawer from '@material-ui/core/Drawer'
@@ -33,55 +31,20 @@ const useStyles = makeStyles(theme => ({
   formControl: {
     margin: theme.spacing(3),
   },
-  switch: {
-    marginLeft: '-10px',
-  },
 }))
 
 export function NavigationBarComponent() {
   const { t } = useTranslation()
   const classes = useStyles()
 
-  const [state, setState] = React.useState({
-    shown: false,
-  })
-  const [language, setLanguage] = React.useState({
-    lang: '',
-  })
-  const [leftHanded, setLeftHanded] = React.useState({
-    active: false,
-  })
-  const toggleDrawer = open => event => {
-    if (
-      event.type === 'keydown' &&
-      (event.key === 'Tab' || event.key === 'Shift')
-    ) {
-      return
-    }
-    setState({ shown: open })
-    setLanguage({
-      lang: localStorage.getItem('language') || '',
-    })
-  }
+  const [shown, setShown] = React.useState(false)
+  const [language, setLanguage] = React.useState(i18n.language)
 
   const changeLanguage = event => {
-    setLanguage({ lang: event.target.value })
+    setLanguage(event.target.value)
     localStorage.setItem('language', event.target.value)
     i18n.changeLanguage(event.target.value)
-    setState({ shown: false })
-  }
-  const toggleLeftHanded = event => {
-    setState({ shown: false })
-    setLeftHanded({ active: event.target.checked })
-    localStorage.setItem('left-handed', event.target.checked)
-    let zoomControl = document.querySelectorAll(
-      '.leaflet-top .leaflet-control-zoom',
-    )[0]
-    if (event.target.checked) {
-      zoomControl.setAttribute('id', 'left-handed-control-zoom')
-    } else {
-      zoomControl.removeAttribute('id')
-    }
+    setShown(false)
   }
 
   return (
@@ -93,7 +56,7 @@ export function NavigationBarComponent() {
             className={classes.menuButton}
             color="inherit"
             aria-label="menu"
-            onClick={toggleDrawer(true)}>
+            onClick={() => setShown(true)}>
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
@@ -101,13 +64,13 @@ export function NavigationBarComponent() {
           </Typography>
         </Toolbar>
       </AppBar>
-      <Drawer open={state.shown} onClose={toggleDrawer(false)}>
+      <Drawer open={shown} onClose={() => setShown(false)}>
         <div className={classes.list}>
           <FormControl component="fieldset" className={classes.formControl}>
             <RadioGroup
               aria-label="language"
               name="language"
-              value={language.lang}
+              value={language}
               onChange={event => changeLanguage(event)}>
               <FormControlLabel
                 value="en"
@@ -126,20 +89,6 @@ export function NavigationBarComponent() {
               />
             </RadioGroup>
           </FormControl>
-          <Divider />
-          <FormControlLabel
-            className={classes.formControl}
-            control={
-              <Switch
-                className={classes.switch}
-                checked={leftHanded.active}
-                onChange={event => toggleLeftHanded(event)}
-                value="checkedB"
-                color="primary"
-              />
-            }
-            label="Left-Handed"
-          />
         </div>
       </Drawer>
     </React.Fragment>
