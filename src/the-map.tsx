@@ -53,7 +53,7 @@ export function TheMap({ selectedRoutes, showUserLocation }: Props) {
                 className: `arrow-container ${
                   isAnimatedMarker ? 'animated-marker' : ''
                 }`,
-                html: `<div class="arrow" style="transform: rotate(${p.direction}deg)"></div>`,
+                html: `<div class="arrow" style="transform: translate(-5px, -10px) rotate(${p.direction}deg)"></div>`,
               })}
             />
           ))

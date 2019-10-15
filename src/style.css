@@ -7,18 +7,19 @@
 .arrow-container {
   width: 0;
   height: 0;
+  position: relative;
 }
 
 /* The inner element, that represents the vehicle itself */
 .arrow {
   width: 0;
   height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 35px solid red;
-}
-
-.animated-marker {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 20px solid #377eb8;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   transition: all 4s;
 }
 
