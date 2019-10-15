@@ -13,7 +13,6 @@ import {
 } from '@material-ui/core'
 import { useTranslation } from 'react-i18next'
 import Drawer from '@material-ui/core/Drawer'
-import { i18n } from '../i18n'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -34,7 +33,7 @@ const useStyles = makeStyles(theme => ({
 }))
 
 export function NavigationBarComponent() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const classes = useStyles()
 
   const [shown, setShown] = React.useState(false)
@@ -71,7 +70,7 @@ export function NavigationBarComponent() {
               aria-label="language"
               name="language"
               value={language}
-              onChange={event => changeLanguage(event)}>
+              onChange={changeLanguage}>
               <FormControlLabel
                 value="en"
                 control={<Radio color="primary" />}

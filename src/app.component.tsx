@@ -6,10 +6,9 @@ import { useTranslation } from 'react-i18next'
 import { HudButtons } from './components/hud-buttons.component'
 import { RouteSelectDialog } from './components/route-select.dialog'
 import { useDocumentTitle } from './shared/document-title.hook'
-import { i18n, resources } from './i18n'
 
 export function AppComponent() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   useDocumentTitle(t('label.title'))
   const [isOpenRouteSelect, setIsOpenRouteSelect] = useState(false)
   // Maybe keep it in local storage?
@@ -19,7 +18,9 @@ export function AppComponent() {
   useEffect(() => {
     const language =
       localStorage.getItem('language') || navigator.language.split('-')[0]
-    const existingLanguage = resources[language] ? language : 'en'
+    const existingLanguage = i18n.hasResourceBundle(language, 'translation')
+      ? language
+      : 'en'
     localStorage.setItem('language', existingLanguage)
     i18n.changeLanguage(existingLanguage)
   }, [])
