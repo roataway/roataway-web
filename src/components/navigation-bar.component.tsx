@@ -4,8 +4,15 @@ import IconButton from '@material-ui/core/IconButton'
 import MenuIcon from '@material-ui/icons/Menu'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
-import { makeStyles } from '@material-ui/core'
+import {
+  makeStyles,
+  RadioGroup,
+  FormControlLabel,
+  FormControl,
+  Radio,
+} from '@material-ui/core'
 import { useTranslation } from 'react-i18next'
+import Drawer from '@material-ui/core/Drawer'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -17,25 +24,72 @@ const useStyles = makeStyles(theme => ({
   title: {
     flexGrow: 1,
   },
+  list: {
+    width: 250,
+  },
+  formControl: {
+    margin: theme.spacing(3),
+  },
 }))
 
 export function NavigationBarComponent() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const classes = useStyles()
+
+  const [shown, setShown] = React.useState(false)
+  const [language, setLanguage] = React.useState(i18n.language)
+
+  const changeLanguage = event => {
+    setLanguage(event.target.value)
+    localStorage.setItem('language', event.target.value)
+    i18n.changeLanguage(event.target.value)
+    setShown(false)
+  }
+
   return (
-    <AppBar position="fixed">
-      <Toolbar>
-        <IconButton
-          edge="start"
-          className={classes.menuButton}
-          color="inherit"
-          aria-label="menu">
-          <MenuIcon />
-        </IconButton>
-        <Typography variant="h6" className={classes.title}>
-          {t('label.title')}
-        </Typography>
-      </Toolbar>
-    </AppBar>
+    <React.Fragment>
+      <AppBar position="fixed">
+        <Toolbar>
+          <IconButton
+            edge="start"
+            className={classes.menuButton}
+            color="inherit"
+            aria-label="menu"
+            onClick={() => setShown(true)}>
+            <MenuIcon />
+          </IconButton>
+          <Typography variant="h6" className={classes.title}>
+            {t('label.title')}
+          </Typography>
+        </Toolbar>
+      </AppBar>
+      <Drawer open={shown} onClose={() => setShown(false)}>
+        <div className={classes.list}>
+          <FormControl component="fieldset" className={classes.formControl}>
+            <RadioGroup
+              aria-label="language"
+              name="language"
+              value={language}
+              onChange={changeLanguage}>
+              <FormControlLabel
+                value="en"
+                control={<Radio color="primary" />}
+                label="English"
+              />
+              <FormControlLabel
+                value="ro"
+                control={<Radio color="primary" />}
+                label="Romanian"
+              />
+              <FormControlLabel
+                value="ru"
+                control={<Radio color="primary" />}
+                label="Russian"
+              />
+            </RadioGroup>
+          </FormControl>
+        </div>
+      </Drawer>
+    </React.Fragment>
   )
 }

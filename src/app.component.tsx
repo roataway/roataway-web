@@ -1,4 +1,4 @@
-import { default as React, useState } from 'react'
+import { default as React, useState, useEffect } from 'react'
 import CssBaseline from '@material-ui/core/CssBaseline'
 import { TheMap } from './the-map'
 import { NavigationBarComponent } from './components/navigation-bar.component'
@@ -8,12 +8,22 @@ import { RouteSelectDialog } from './components/route-select.dialog'
 import { useDocumentTitle } from './shared/document-title.hook'
 
 export function AppComponent() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   useDocumentTitle(t('label.title'))
   const [isOpenRouteSelect, setIsOpenRouteSelect] = useState(false)
   // Maybe keep it in local storage?
   const [showUserLocation, setShowUserLocation] = useState(false)
   const [selectedRoutes, setSelectedRoutes] = useState<Set<string>>(new Set())
+
+  useEffect(() => {
+    const language =
+      localStorage.getItem('language') || navigator.language.split('-')[0]
+    const existingLanguage = i18n.hasResourceBundle(language, 'translation')
+      ? language
+      : 'en'
+    localStorage.setItem('language', existingLanguage)
+    i18n.changeLanguage(existingLanguage)
+  }, [i18n])
 
   return (
     <React.Fragment>
