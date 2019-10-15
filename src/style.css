@@ -28,3 +28,19 @@
   position: absolute;
   z-index: 1000;
 }
+
+.leaflet-top {
+  bottom: 0;
+}
+
+.leaflet-top .leaflet-control-zoom {
+  top: 90%;
+  transform: translateY(-50%);
+}
+
+#left-handed-control-zoom {
+  margin-right: 21px;
+  right: 0;
+  margin-top: -6%;
+  position: fixed;
+}
