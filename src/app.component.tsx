@@ -23,7 +23,7 @@ export function AppComponent() {
       : 'en'
     localStorage.setItem('language', existingLanguage)
     i18n.changeLanguage(existingLanguage)
-  }, [])
+  }, [i18n])
 
   return (
     <React.Fragment>
