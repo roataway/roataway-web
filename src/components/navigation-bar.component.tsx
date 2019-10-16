@@ -15,7 +15,7 @@ import {
 } from '@material-ui/core'
 import { useTranslation } from 'react-i18next'
 import Drawer from '@material-ui/core/Drawer'
-
+import { setZoomControlPosition } from '../the-map'
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
@@ -43,7 +43,9 @@ export function NavigationBarComponent() {
 
   const [shown, setShown] = React.useState(false)
   const [language, setLanguage] = React.useState(i18n.language)
-  const [leftHanded, setLeftHanded] = React.useState(false)
+  const [leftHanded, setLeftHanded] = React.useState(
+    localStorage.getItem('left-handed') === 'true',
+  )
 
   const changeLanguage = event => {
     setLanguage(event.target.value)
@@ -55,14 +57,9 @@ export function NavigationBarComponent() {
     setShown(false)
     setLeftHanded(event.target.checked)
     localStorage.setItem('left-handed', event.target.checked)
-    let zoomControl = document.querySelectorAll(
-      '.leaflet-top .leaflet-control-zoom',
-    )[0]
-    if (event.target.checked) {
-      zoomControl.setAttribute('id', 'left-handed-control-zoom')
-    } else {
-      zoomControl.removeAttribute('id')
-    }
+    leftHanded
+      ? setZoomControlPosition('bottomleft')
+      : setZoomControlPosition('bottomright')
   }
 
   return (
