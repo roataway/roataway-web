@@ -13,6 +13,10 @@ export function AppComponent() {
   const [isOpenRouteSelect, setIsOpenRouteSelect] = useState(false)
   // Maybe keep it in local storage?
   const [showUserLocation, setShowUserLocation] = useState(false)
+  const [centerCoordinates, setCenterCoordinates] = useState({
+    latitude: 47.0229,
+    longitude: 28.8353
+  })
   const [selectedRoutes, setSelectedRoutes] = useState<Set<string>>(new Set())
 
   return (
@@ -25,6 +29,7 @@ export function AppComponent() {
         isOpenRouteSelect={isOpenRouteSelect}
         setIsOpenRouteSelect={setIsOpenRouteSelect}
         setShowUserLocation={setShowUserLocation}
+        setCenterCoordinates={setCenterCoordinates}
       />
 
       <RouteSelectDialog
@@ -37,6 +42,7 @@ export function AppComponent() {
       <TheMap
         selectedRoutes={selectedRoutes}
         showUserLocation={showUserLocation}
+        centerCoordinates={centerCoordinates}
       />
     </React.Fragment>
   )

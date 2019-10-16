@@ -8,18 +8,45 @@ import './style.css'
 import { Positions } from './use-positions'
 import { UserLocation } from './components/user-location.component'
 
+type SimpleCoordinates = {
+  latitude: number
+  longitude: number
+}
+
 type Props = {
   selectedRoutes: Set<string>
   showUserLocation: boolean
+  centerCoordinates: SimpleCoordinates
 }
 
-export function TheMap({ selectedRoutes, showUserLocation }: Props) {
+
+const coordinatesAreEqual = (c1: SimpleCoordinates, c2: SimpleCoordinates) => {
+  return c1.latitude === c2.latitude
+    && c1.longitude === c2.longitude
+}
+
+export function TheMap({ selectedRoutes, showUserLocation, centerCoordinates }: Props) {
   const [isAnimatedMarker, setIsAnimatedMarker] = React.useState(true)
   const { routesSegments, routesStations } = useRoutesData(selectedRoutes)
-  const [viewport] = React.useState<Viewport>({
-    center: [47.0229, 28.8353],
+  const [coordinates, setCoordinates] = React.useState<SimpleCoordinates>(centerCoordinates)
+
+  const currentViewPort: Viewport = {
+    center: [centerCoordinates.latitude, centerCoordinates.longitude],
     zoom: 13,
-  })
+  }
+  const [viewport, setViewport] = React.useState<Viewport>(currentViewPort)
+
+  const centerCoordinatesChanged = !coordinatesAreEqual(coordinates, centerCoordinates);
+
+  // Refresh the viewport if coordinates have changed
+  if (centerCoordinatesChanged) {
+    setCoordinates(centerCoordinates);
+    setViewport(currentViewPort)
+  }
+
+  console.log(viewport)
+
+  console.log('map drawn', centerCoordinates)
 
   return (
     <Map
