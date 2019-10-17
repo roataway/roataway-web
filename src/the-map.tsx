@@ -5,8 +5,10 @@ import {
   Viewport,
   Marker,
   GeoJSON,
+  Popup,
   ZoomControl,
 } from 'react-leaflet'
+import { useTranslation } from 'react-i18next'
 import { GeoJsonObject } from 'geojson'
 import { Map as LeafletMap, icon } from 'leaflet'
 import 'leaflet/dist/leaflet.css'
@@ -30,13 +32,14 @@ const viewport: Viewport = {
 const navigationSvgPath = 'M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71z'
 
 export function TheMap(props: Props) {
+  const { t } = useTranslation()
   const { selectedRoutes, showUserLocation } = props
   const { routesSegments, routesStations } = useRoutesData(selectedRoutes)
   const { leftHanded } = useSettingsState()
   const mapRef = React.useRef<any>()
 
   React.useEffect(
-    function() {
+    function () {
       if (showUserLocation) {
         getLocation().then(pos => {
           const map = mapRef.current!.contextValue!.map! as LeafletMap
@@ -72,6 +75,10 @@ export function TheMap(props: Props) {
         {positions =>
           Object.values(positions).map((p: any) => (
             <Marker
+              onClick={event => {
+                let boardName = event.sourceTarget.options.position.board
+                console.log('Clicked on vehicle ' + boardName)
+              }}
               key={p.board}
               title={p.board}
               position={p}
@@ -86,8 +93,22 @@ export function TheMap(props: Props) {
                   navigationSvgPath,
                   `fill:blue;transform: rotate(${p.direction}deg)`,
                 ),
-              })}
-            />
+              })}>
+              <Popup>
+                {
+                  // TODO - look up the tracker ID in the vehicles.csv and extract
+                  //        the "accessibility" flag, to decide whether to show
+                  //        the corresponding icon or not
+                  //      - find a way to determine the current route of this vehicle
+                  //        and display it in a popup
+                }
+                {t('label.board')}
+                {':'} {p.board} {'♿'}
+                <br />
+                {t('label.route')}
+                {': xx'}
+              </Popup>
+            </Marker>
           ))
         }
       </Positions>
@@ -98,8 +119,8 @@ export function TheMap(props: Props) {
             <GeoJSON data={rs!} />
           </ErrorBoundary>
         ) : (
-          undefined
-        ),
+            undefined
+          ),
       )}
 
       {Object.entries(routesStations).map(([id, rs]) =>
@@ -126,8 +147,8 @@ export function TheMap(props: Props) {
             />
           </ErrorBoundary>
         ) : (
-          undefined
-        ),
+            undefined
+          ),
       )}
     </Map>
   )
@@ -142,7 +163,7 @@ function useRoutesData(selectedRoutes) {
   const [routesStations, setRoutesStations] = React.useState<RoutesState>({})
 
   React.useEffect(
-    function() {
+    function () {
       selectedRoutes.forEach((routeId: string) => {
         if (!routesSegments[routeId]) {
           import(
