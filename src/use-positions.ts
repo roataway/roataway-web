@@ -66,6 +66,9 @@ function getPositionFromFrame(frame) {
   // new one: direction, latitude, longitude ('board' is absent)
   // To homogenize them, we try both keys, and we extract the ID of the tracker
   // itself from the routing key header, as a substitude for `board`
+  // HOWEVER: `board` will be deprecated, so the only thing we can rely on
+  //          is the trackerId; while the board will be obtained from the
+  //          `trackers` map (see vehicles.ts for details)
 
   // The routing key looks like `/exchange/e_rtec_mqtt_bridge/telemetry.transport.000001`
   // or `/exchange/e_rtec_mqtt_bridge/state.transport.013`
@@ -74,6 +77,8 @@ function getPositionFromFrame(frame) {
   const trackerId: string = routingKeyPieces[routingKeyPieces.length - 1]
 
   const data = JSON.parse(frame.body)
+  // Because at the moment we have incomplete data, we set `board` to either the
+  // board number or the trackerId
   const board = data.board || trackerId
   const lat = parseFloat(data.lat || data.latitude)
   const lng = parseFloat(data.lon || data.longitude)
@@ -87,5 +92,5 @@ function getPositionFromFrame(frame) {
   // direction = (-direction + 90) % 360
 
   const speed = data.speed
-  return { board, lat, lng, direction, speed }
+  return { board, trackerId, lat, lng, direction, speed }
 }

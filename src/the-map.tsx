@@ -18,7 +18,7 @@ import { UserLocation } from './components/user-location.component'
 import { useSettingsState } from './settings.context'
 import { getLocation } from './shared/geo-position'
 import { svgDataUri } from './shared/svg'
-import { vehicles } from './data/vehicles'
+import { vehicles, trackers } from './data/vehicles'
 
 type Props = {
   selectedRoutes: Set<string>
@@ -96,33 +96,19 @@ export function TheMap(props: Props) {
                 ),
               })}>
               <Popup>
-                {
-                  // TODO - look up the tracker ID in the vehicles.csv and extract
-                  //        the "accessibility" flag, to decide whether to show
-                  //        the corresponding icon or not
-                  //      - find a way to determine the current route of this vehicle
-                  //        and display it in a popup
-                }
-                {t('label.board')}
-                {':'} {p.board}
-                {/* {vehicles.get(p.board) !=null & '♿'} */}
-                {/* {console.log(vehicles)} */}
-                {/* {console.log(vehicles.get(p.board))}
-                {
-                  if (vehicles.get(p.board) !="undefined"){
-
-                  }
-
-                } */}
-                {/* {if (vehicles.has(p.board)) {
-                  if (vehicles.get[p.board].accessibility == 'yes'){
-                    {'♿'}
-                  }
-
-                } */}
+                {t('label.board')}: {p.board}
+                {/* To determine whether to display the accessibility symbol or not, we
+                    check if this trackerId is known and is associated with a board number.
+                    If so, we check the `accessibility` attribute of that board*/}
+                {trackers.has(p.trackerId) &&
+                  vehicles.has(trackers.get(p.trackerId)) &&
+                  vehicles.get(trackers.get(p.trackerId)).accessibility &&
+                  '♿'}
+                {/*  TODO - find a way to determine the current route of this vehicle
+                        and display it in the popup. This will only be possible after
+                        RTEC regularly provides route-vehicle maps
                 <br />
-                {t('label.route')}
-                {': xx'}
+                {t('label.route')}: xx */}
               </Popup>
             </Marker>
           ))
