@@ -4,7 +4,6 @@ import Fab from '@material-ui/core/Fab'
 import DirectionsBus from '@material-ui/icons/DirectionsBus'
 import LocationCity from '@material-ui/icons/MyLocation'
 import { makeStyles, Tooltip } from '@material-ui/core'
-import { useGeoPosition } from '../shared/geo-position.hook'
 import { getLocation } from '../shared/geo-position'
 
 const useStyles = makeStyles(theme => ({
