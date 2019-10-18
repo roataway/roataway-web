@@ -40,7 +40,7 @@ export function TheMap(props: Props) {
   const mapRef = React.useRef<any>()
 
   React.useEffect(
-    function () {
+    function() {
       if (showUserLocation) {
         getLocation().then(pos => {
           const map = mapRef.current!.contextValue!.map! as LeafletMap
@@ -76,10 +76,6 @@ export function TheMap(props: Props) {
         {positions =>
           Object.values(positions).map((p: any) => (
             <Marker
-              onClick={event => {
-                let boardName = event.sourceTarget.options.position.board
-                console.log('Clicked on vehicle ' + boardName)
-              }}
               key={p.board}
               title={p.board}
               position={p}
@@ -96,19 +92,23 @@ export function TheMap(props: Props) {
                 ),
               })}>
               <Popup>
-                {t('label.board')}: {p.board}
-                {/* To determine whether to display the accessibility symbol or not, we
-                    check if this trackerId is known and is associated with a board number.
-                    If so, we check the `accessibility` attribute of that board*/}
+                {`${t('label.board')}: ${p.board}`}
+                {/**
+                 * To determine whether to display the accessibility symbol or not, we
+                 * check if this trackerId is known and is associated with a board number.
+                 * If so, we check the `accessibility` attribute of that board
+                 */}
                 {trackers.has(p.trackerId) &&
-                  vehicles.has(trackers.get(p.trackerId)) &&
-                  vehicles.get(trackers.get(p.trackerId)).accessibility &&
-                  '♿'}
-                {/*  TODO - find a way to determine the current route of this vehicle
-                        and display it in the popup. This will only be possible after
-                        RTEC regularly provides route-vehicle maps
+                  (vehicles.has(trackers.get(p.trackerId)) &&
+                    (vehicles.get(trackers.get(p.trackerId)).accessibility &&
+                      ' ♿'))}
+                {/**
+                 * TODO - find a way to determine the current route of this vehicle
+                 * and display it in the popup. This will only be possible after
+                 * RTEC regularly provides route-vehicle maps
+                 */}
                 <br />
-                {t('label.route')}: xx */}
+                {`${t('label.route')}: ##`}
               </Popup>
             </Marker>
           ))
@@ -121,8 +121,8 @@ export function TheMap(props: Props) {
             <GeoJSON data={rs!} />
           </ErrorBoundary>
         ) : (
-            undefined
-          ),
+          undefined
+        ),
       )}
 
       {Object.entries(routesStations).map(([id, rs]) =>
@@ -149,8 +149,8 @@ export function TheMap(props: Props) {
             />
           </ErrorBoundary>
         ) : (
-            undefined
-          ),
+          undefined
+        ),
       )}
     </Map>
   )
@@ -165,7 +165,7 @@ function useRoutesData(selectedRoutes) {
   const [routesStations, setRoutesStations] = React.useState<RoutesState>({})
 
   React.useEffect(
-    function () {
+    function() {
       selectedRoutes.forEach((routeId: string) => {
         if (!routesSegments[routeId]) {
           import(
