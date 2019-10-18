@@ -18,6 +18,7 @@ import { UserLocation } from './components/user-location.component'
 import { useSettingsState } from './settings.context'
 import { getLocation } from './shared/geo-position'
 import { svgDataUri } from './shared/svg'
+import { vehicles } from './data/vehicles'
 
 type Props = {
   selectedRoutes: Set<string>
@@ -103,7 +104,22 @@ export function TheMap(props: Props) {
                   //        and display it in a popup
                 }
                 {t('label.board')}
-                {':'} {p.board} {'♿'}
+                {':'} {p.board}
+                {/* {vehicles.get(p.board) !=null & '♿'} */}
+                {/* {console.log(vehicles)} */}
+                {/* {console.log(vehicles.get(p.board))}
+                {
+                  if (vehicles.get(p.board) !="undefined"){
+
+                  }
+
+                } */}
+                {/* {if (vehicles.has(p.board)) {
+                  if (vehicles.get[p.board].accessibility == 'yes'){
+                    {'♿'}
+                  }
+
+                } */}
                 <br />
                 {t('label.route')}
                 {': xx'}
