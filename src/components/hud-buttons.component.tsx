@@ -5,6 +5,7 @@ import DirectionsBus from '@material-ui/icons/DirectionsBus'
 import LocationCity from '@material-ui/icons/MyLocation'
 import { makeStyles, Tooltip } from '@material-ui/core'
 import { useGeoPosition } from '../shared/geo-position.hook'
+import { getLocation } from '../shared/geo-position'
 
 const useStyles = makeStyles(theme => ({
   hudButtons: {
@@ -28,15 +29,10 @@ export function HudButtons(props) {
   const { t } = useTranslation()
   const classes = useStyles()
 
-  const [userPosition, userPositionError] = useGeoPosition()
-
-
-  if (userPositionError) {
-    console.error('Error getting user position', userPositionError)
-  }
-
-  const showUserLocation = () => {
+  const showUserLocation = async () => {
+    const userPosition = await getLocation()
     if (userPosition) {
+      
       setCenterCoordinates(userPosition.coords)
   
       setShowUserLocation(true)

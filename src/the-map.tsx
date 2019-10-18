@@ -39,6 +39,9 @@ export function TheMap({ selectedRoutes, showUserLocation, centerCoordinates }: 
   const centerCoordinatesChanged = !coordinatesAreEqual(coordinates, centerCoordinates);
 
   // Refresh the viewport if coordinates have changed
+  // TODO: instead of checking if the coordinates have changed, expose a method called something like 'centerMap()' to
+  // force the map to be re-centered. Otherwise, the map will only be re-centered when the coordinates change,
+  // which is limiting
   if (centerCoordinatesChanged) {
     setCoordinates(centerCoordinates);
     setViewport(currentViewPort)
