@@ -49,7 +49,7 @@ export function TheMap(props: Props) {
       zoomControl={false}
       viewport={viewport}>
       <TileLayer
-        attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+        attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
 
@@ -59,7 +59,7 @@ export function TheMap(props: Props) {
 
       <RoutesSegments selectedRoutes={selectedRoutes} />
       <RoutesStations selectedRoutes={selectedRoutes} />
-      <RoutesPositions />
+      <RoutesPositions selectedRoutes={selectedRoutes} />
     </Map>
   )
 }

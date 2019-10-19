@@ -13,6 +13,11 @@ type RawVehicle = {
   accessibility: string
 }
 
+// keep `csvLoader` parameter as a strig, otherwise csv-macro will error
+const rawVehicles: RawVehicle[] = csvLoader<RawVehicle>(
+  '@roataway/infrastructure-data/vehicles.csv',
+)
+
 enum VehicleType {
   trolleybus = 'trolleybus',
   bus = 'bus',
@@ -33,15 +38,11 @@ type Vehicle = {
   accessibility: boolean
 }
 
-// keep `csvLoader` parameter as a strig
-const rawVehicles: RawVehicle[] = csvLoader<RawVehicle>(
-  '@roataway/infrastructure-data/vehicles.csv',
-)
-// Thi maps a board number to a Vehicle
-let vehicles = new Map()
+// This maps a board number to a Vehicle
+const boardToVehicle = new Map<string, Vehicle>()
 
 // This maps a tracker ID to a board number
-let trackers = new Map()
+const trackerToBoard = new Map<string, string>()
 
 rawVehicles.forEach(item => {
   const vehicle: Vehicle = {
@@ -58,9 +59,8 @@ rawVehicles.forEach(item => {
     articulated: item.articulated === 'yes',
     accessibility: item.accessibility === 'yes',
   }
-  vehicles.set(item.board, vehicle)
-
-  trackers.set(item.tracker_id, item.board)
+  boardToVehicle.set(item.board, vehicle)
+  trackerToBoard.set(item.tracker_id, item.board)
 })
 
-export { vehicles, trackers }
+export { boardToVehicle, trackerToBoard }
