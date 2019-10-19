@@ -15,7 +15,7 @@ export function AppComponent() {
   const [showUserLocation, setShowUserLocation] = useState<number | undefined>(
     undefined,
   )
-  const [selectedRoutes, setSelectedRoutes] = useState<Set<string>>(new Set())
+  const [selectedRoutes, setSelectedRoutes] = useSelectedRoutes()
 
   return (
     <React.Fragment>
@@ -42,4 +42,24 @@ export function AppComponent() {
       />
     </React.Fragment>
   )
+}
+
+function useSelectedRoutes(): [Set<string>, (routes: Set<string>) => void] {
+  const [selectedRoutes, setSelectedRoutes] = useState<Set<string>>(() => {
+    try {
+      const fromStorage = localStorage.getItem('selected-routes')
+      return fromStorage
+        ? new Set<string>(JSON.parse(fromStorage))
+        : new Set<string>()
+    } catch {
+      return new Set<string>()
+    }
+  })
+
+  function selectRoute(routes: Set<string>) {
+    localStorage.setItem('selected-routes', JSON.stringify([...routes]))
+    return setSelectedRoutes(routes)
+  }
+
+  return [selectedRoutes, selectRoute]
 }

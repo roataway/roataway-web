@@ -11,6 +11,12 @@ const icon = new Icon({
   shadowUrl: markerShadow,
 })
 
+const importStation = (routeId: string) =>
+  import(
+    /* webpackChunkName: "[request]" */
+    `@roataway/infrastructure-data/data/route_${routeId}_stations.json`
+  )
+
 export function RoutesStations({ selectedRoutes }) {
   const [routesStations, setRoutesStations] = React.useState<{
     [key: string]: GeoJsonObject
@@ -20,10 +26,7 @@ export function RoutesStations({ selectedRoutes }) {
     function() {
       selectedRoutes.forEach((routeId: string) => {
         if (!routesStations[routeId]) {
-          import(
-            /* webpackChunkName: "[request]" */
-            `@roataway/infrastructure-data/data/route_${routeId}_stations.json`
-          )
+          importStation(routeId)
             .then(routeStations =>
               setRoutesStations(rs => ({
                 ...rs,

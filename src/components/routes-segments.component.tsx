@@ -3,6 +3,12 @@ import { GeoJsonObject } from 'geojson'
 import { GeoJSON } from 'react-leaflet'
 import { ErrorBoundary } from './error-boundary'
 
+const importSegment = (routeId: string) =>
+  import(
+    /* webpackChunkName: "[request]" */
+    `@roataway/infrastructure-data/data/route_${routeId}_segments.json`
+  )
+
 export function RoutesSegments({ selectedRoutes }) {
   const [routesSegments, setRoutesSegments] = React.useState<{
     [key: string]: GeoJsonObject
@@ -12,10 +18,7 @@ export function RoutesSegments({ selectedRoutes }) {
     function() {
       selectedRoutes.forEach((routeId: string) => {
         if (!routesSegments[routeId]) {
-          import(
-            /* webpackChunkName: "[request]" */
-            `@roataway/infrastructure-data/data/route_${routeId}_segments.json`
-          )
+          importSegment(routeId)
             .then(routeSegments =>
               setRoutesSegments(rs => ({
                 ...rs,

@@ -10,7 +10,6 @@ import { SettingsProvider } from './settings.context'
 
 const theme = createMuiTheme()
 
-console.log('Starting v0.0.2')
 ReactDOM.render(
   <React.StrictMode>
     <React.Suspense fallback={null}>
