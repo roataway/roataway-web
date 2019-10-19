@@ -5,6 +5,7 @@ import { divIcon } from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import { ErrorBoundary } from './components/error-boundary'
 import './style.css'
+import './the-map.css'
 import { Positions } from './use-positions'
 import { UserLocation } from './components/user-location.component'
 

@@ -1,0 +1,8 @@
+.leaflet-top {
+    bottom: 0;
+    }
+  
+     .leaflet-top .leaflet-control-zoom {
+    top:90%;
+    transform: translateY(-50%);
+    }
