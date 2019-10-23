@@ -14,6 +14,7 @@ export function AppComponent() {
   // Maybe keep it in local storage?
   const [showUserLocation, setShowUserLocation] = useState(false)
   const [selectedRoutes, setSelectedRoutes] = useState<Set<string>>(new Set())
+  const [leftHanded, setLeftHanded] = useLeftHanded()
 
   useEffect(() => {
     const language =
@@ -29,7 +30,10 @@ export function AppComponent() {
     <React.Fragment>
       <CssBaseline />
 
-      <NavigationBarComponent />
+      <NavigationBarComponent
+        leftHanded={leftHanded}
+        setLeftHanded={setLeftHanded}
+      />
 
       <HudButtons
         isOpenRouteSelect={isOpenRouteSelect}
@@ -47,7 +51,22 @@ export function AppComponent() {
       <TheMap
         selectedRoutes={selectedRoutes}
         showUserLocation={showUserLocation}
+        leftHanded={leftHanded}
       />
     </React.Fragment>
   )
+}
+
+function useLeftHanded(): [boolean, (value: boolean) => void] {
+  const [leftHanded, setLeftHanded] = React.useState(
+    // || 'true' covers the case when no `left-handed` in storage
+    (localStorage.getItem('left-handed') || 'true') === 'true',
+  )
+
+  function changeLeftHanded(value: boolean) {
+    localStorage.setItem('left-handed', value.toString())
+    setLeftHanded(value)
+  }
+
+  return [leftHanded, changeLeftHanded]
 }

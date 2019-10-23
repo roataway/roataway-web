@@ -10,10 +10,11 @@ import {
   FormControlLabel,
   FormControl,
   Radio,
+  Divider,
+  Switch,
 } from '@material-ui/core'
 import { useTranslation } from 'react-i18next'
 import Drawer from '@material-ui/core/Drawer'
-
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
@@ -30,9 +31,13 @@ const useStyles = makeStyles(theme => ({
   formControl: {
     margin: theme.spacing(3),
   },
+  switch: {
+    marginLeft: '-10px',
+  },
 }))
 
-export function NavigationBarComponent() {
+export function NavigationBarComponent(props) {
+  const { leftHanded, setLeftHanded } = props
   const { t, i18n } = useTranslation()
   const classes = useStyles()
 
@@ -44,6 +49,11 @@ export function NavigationBarComponent() {
     localStorage.setItem('language', event.target.value)
     i18n.changeLanguage(event.target.value)
     setShown(false)
+  }
+
+  const toggleLeftHanded = event => {
+    setShown(false)
+    setLeftHanded(event.target.checked)
   }
 
   return (
@@ -88,6 +98,20 @@ export function NavigationBarComponent() {
               />
             </RadioGroup>
           </FormControl>
+          <Divider />
+          <FormControlLabel
+            className={classes.formControl}
+            control={
+              <Switch
+                className={classes.switch}
+                checked={leftHanded}
+                onChange={event => toggleLeftHanded(event)}
+                value="checkedB"
+                color="primary"
+              />
+            }
+            label="Left-Handed"
+          />
         </div>
       </Drawer>
     </React.Fragment>

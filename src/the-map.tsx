@@ -18,9 +18,11 @@ import { UserLocation } from './components/user-location.component'
 type Props = {
   selectedRoutes: Set<string>
   showUserLocation: boolean
+  leftHanded: boolean
 }
 
-export function TheMap({ selectedRoutes, showUserLocation }: Props) {
+export function TheMap(props: Props) {
+  const { selectedRoutes, showUserLocation, leftHanded } = props
   const [isAnimatedMarker, setIsAnimatedMarker] = React.useState(true)
   const { routesSegments, routesStations } = useRoutesData(selectedRoutes)
   const [viewport] = React.useState<Viewport>({
@@ -33,6 +35,7 @@ export function TheMap({ selectedRoutes, showUserLocation }: Props) {
       id={'roata-way-hai-hai'}
       style={{ height: '100vh' }}
       maxZoom={19}
+      zoomControl={false}
       onzoomstart={() => setIsAnimatedMarker(false)}
       onzoomend={() => setIsAnimatedMarker(true)}
       viewport={viewport}>
@@ -43,7 +46,7 @@ export function TheMap({ selectedRoutes, showUserLocation }: Props) {
 
       {showUserLocation && <UserLocation />}
 
-      <ZoomControl position="bottomleft" />
+      <ZoomControl position={leftHanded ? 'bottomleft' : 'bottomright'} />
 
       <Positions>
         {positions =>

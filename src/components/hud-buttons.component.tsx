@@ -27,6 +27,7 @@ export function HudButtons(props) {
       {'geolocation' in navigator && (
         <Tooltip title={t('label.myLocation')} placement="left">
           <Fab
+            size="small"
             color="secondary"
             aria-label={t('label.myLocation')}
             className={classes.topIcon}
@@ -38,6 +39,7 @@ export function HudButtons(props) {
       <br />
       <Tooltip title={t('label.pickRoute')} placement="left">
         <Fab
+          size="small"
           color="secondary"
           aria-label={t('label.pickRoute')}
           onClick={() => setIsOpenRouteSelect(!isOpenRouteSelect)}>
