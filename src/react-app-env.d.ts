@@ -1,4 +1,4 @@
-/// <reference types="@winify/react-scripts" />
+/// <reference types="react-scripts" />
 import { TFunctionResult, TFunctionKeys, TOptions } from 'i18next'
 import { TranslateKeys } from './i18n'
 

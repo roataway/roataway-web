@@ -8,14 +8,14 @@ import {
   ZoomControl,
 } from 'react-leaflet'
 import { GeoJsonObject } from 'geojson'
-import { divIcon, Map as LeafletMap } from 'leaflet'
+import { Map as LeafletMap, icon } from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import { ErrorBoundary } from './components/error-boundary'
-import './style.css'
 import { Positions } from './use-positions'
 import { UserLocation } from './components/user-location.component'
 import { useSettingsState } from './settings.context'
 import { getLocation } from './shared/geo-position'
+import { svgDataUri } from './shared/svg'
 
 type Props = {
   selectedRoutes: Set<string>
@@ -27,11 +27,12 @@ const viewport: Viewport = {
   zoom: 13,
 }
 
+const navigationSvgPath = 'M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71z'
+
 export function TheMap(props: Props) {
   const { selectedRoutes, showUserLocation } = props
   const { routesSegments, routesStations } = useRoutesData(selectedRoutes)
   const { leftHanded } = useSettingsState()
-  const [isAnimatedMarker, setIsAnimatedMarker] = React.useState(true)
   const mapRef = React.useRef<any>()
 
   React.useEffect(
@@ -57,8 +58,6 @@ export function TheMap(props: Props) {
       style={{ height: '100vh' }}
       maxZoom={19}
       zoomControl={false}
-      onzoomstart={() => setIsAnimatedMarker(false)}
-      onzoomend={() => setIsAnimatedMarker(true)}
       viewport={viewport}>
       <TileLayer
         attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -81,11 +80,12 @@ export function TheMap(props: Props) {
               // the marker, so we overcome this by wrapping it in an invisible
               // container, and then adding another HTML element inside, which
               // will use the `arrow` class with a `transform: rotate`.
-              icon={divIcon({
-                className: `arrow-container ${
-                  isAnimatedMarker ? 'animated-marker' : ''
-                }`,
-                html: `<div class="arrow" style="transform: rotate(${p.direction}deg)"></div>`,
+              icon={icon({
+                iconSize: [25, 25],
+                iconUrl: svgDataUri(
+                  navigationSvgPath,
+                  `fill:blue;transform: rotate(${p.direction}deg)`,
+                ),
               })}
             />
           ))
