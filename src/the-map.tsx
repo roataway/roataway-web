@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import {
   Map,
   TileLayer,
@@ -8,7 +8,7 @@ import {
   ZoomControl,
 } from 'react-leaflet'
 import { GeoJsonObject } from 'geojson'
-import { Control, divIcon } from 'leaflet'
+import { divIcon, ControlPosition } from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import { ErrorBoundary } from './components/error-boundary'
 import './style.css'
@@ -18,19 +18,11 @@ import { UserLocation } from './components/user-location.component'
 type Props = {
   selectedRoutes: Set<string>
   showUserLocation: boolean
+  zoomControlPosition: ControlPosition
 }
 
-export const setZoomControlPosition = position => {
-  Control.Zoom.prototype.options.position = position
-}
-
-export function TheMap({ selectedRoutes, showUserLocation }: Props) {
-  useEffect(() => {
-    let leftHanded = localStorage.getItem('left-handed')
-    leftHanded === 'true'
-      ? setZoomControlPosition('bottomleft')
-      : setZoomControlPosition('bottomright')
-  })
+export function TheMap(props: Props) {
+  const { selectedRoutes, showUserLocation, zoomControlPosition } = props
   const [isAnimatedMarker, setIsAnimatedMarker] = React.useState(true)
   const { routesSegments, routesStations } = useRoutesData(selectedRoutes)
   const [viewport] = React.useState<Viewport>({
@@ -43,6 +35,7 @@ export function TheMap({ selectedRoutes, showUserLocation }: Props) {
       id={'roata-way-hai-hai'}
       style={{ height: '100vh' }}
       maxZoom={19}
+      zoomControl={false}
       onzoomstart={() => setIsAnimatedMarker(false)}
       onzoomend={() => setIsAnimatedMarker(true)}
       viewport={viewport}>
@@ -53,7 +46,7 @@ export function TheMap({ selectedRoutes, showUserLocation }: Props) {
 
       {showUserLocation && <UserLocation />}
 
-      <ZoomControl position="bottomleft" />
+      <ZoomControl position={zoomControlPosition} />
 
       <Positions>
         {positions =>

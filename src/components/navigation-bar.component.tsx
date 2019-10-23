@@ -15,7 +15,6 @@ import {
 } from '@material-ui/core'
 import { useTranslation } from 'react-i18next'
 import Drawer from '@material-ui/core/Drawer'
-import { setZoomControlPosition } from '../the-map'
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
@@ -37,7 +36,8 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-export function NavigationBarComponent() {
+export function NavigationBarComponent(props) {
+  const { setZoomControlPosition } = props
   const { t, i18n } = useTranslation()
   const classes = useStyles()
 
@@ -53,6 +53,7 @@ export function NavigationBarComponent() {
     i18n.changeLanguage(event.target.value)
     setShown(false)
   }
+
   const toggleLeftHanded = event => {
     setShown(false)
     setLeftHanded(event.target.checked)
