@@ -4,7 +4,6 @@ import Fab from '@material-ui/core/Fab'
 import DirectionsBus from '@material-ui/icons/DirectionsBus'
 import LocationCity from '@material-ui/icons/MyLocation'
 import { makeStyles, Tooltip } from '@material-ui/core'
-import { getLocation } from '../shared/geo-position'
 
 const useStyles = makeStyles(theme => ({
   hudButtons: {
@@ -19,23 +18,9 @@ const useStyles = makeStyles(theme => ({
 }))
 
 export function HudButtons(props) {
-  const {
-    isOpenRouteSelect,
-    setIsOpenRouteSelect,
-    setShowUserLocation,
-    setCenterCoordinates,
-  } = props
+  const { isOpenRouteSelect, setIsOpenRouteSelect, setShowUserLocation } = props
   const { t } = useTranslation()
   const classes = useStyles()
-
-  const showUserLocation = async () => {
-    const userPosition = await getLocation()
-    if (userPosition) {
-      setCenterCoordinates(userPosition.coords)
-
-      setShowUserLocation(true)
-    }
-  }
 
   return (
     <div className={classes.hudButtons}>
@@ -46,7 +31,7 @@ export function HudButtons(props) {
             color="secondary"
             aria-label={t('label.myLocation')}
             className={classes.topIcon}
-            onClick={showUserLocation}>
+            onClick={() => setShowUserLocation(new Date().getTime())}>
             <LocationCity />
           </Fab>
         </Tooltip>
