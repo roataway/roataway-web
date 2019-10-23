@@ -31,7 +31,7 @@ export function HudButtons(props) {
             color="secondary"
             aria-label={t('label.myLocation')}
             className={classes.topIcon}
-            onClick={() => setShowUserLocation(true)}>
+            onClick={() => setShowUserLocation(new Date().getTime())}>
             <LocationCity />
           </Fab>
         </Tooltip>

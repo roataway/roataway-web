@@ -8,17 +8,23 @@ import {
   ZoomControl,
 } from 'react-leaflet'
 import { GeoJsonObject } from 'geojson'
-import { divIcon } from 'leaflet'
+import { divIcon, Map as LeafletMap } from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import { ErrorBoundary } from './components/error-boundary'
 import './style.css'
 import { Positions } from './use-positions'
 import { UserLocation } from './components/user-location.component'
 import { useSettingsState } from './settings.context'
+import { getLocation } from './shared/geo-position'
 
 type Props = {
   selectedRoutes: Set<string>
-  showUserLocation: boolean
+  showUserLocation?: number
+}
+
+const viewport: Viewport = {
+  center: [47.0229, 28.8353],
+  zoom: 13,
 }
 
 export function TheMap(props: Props) {
@@ -26,13 +32,27 @@ export function TheMap(props: Props) {
   const { routesSegments, routesStations } = useRoutesData(selectedRoutes)
   const { leftHanded } = useSettingsState()
   const [isAnimatedMarker, setIsAnimatedMarker] = React.useState(true)
-  const [viewport] = React.useState<Viewport>({
-    center: [47.0229, 28.8353],
-    zoom: 13,
-  })
+  const mapRef = React.useRef<any>()
+
+  React.useEffect(
+    function() {
+      if (showUserLocation) {
+        getLocation().then(pos => {
+          const map = mapRef.current!.contextValue!.map! as LeafletMap
+          const center: [number, number] = [
+            pos.coords.latitude,
+            pos.coords.longitude,
+          ]
+          map.flyTo(center)
+        })
+      }
+    },
+    [showUserLocation],
+  )
 
   return (
     <Map
+      ref={mapRef}
       id={'roata-way-hai-hai'}
       style={{ height: '100vh' }}
       maxZoom={19}

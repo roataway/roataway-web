@@ -12,7 +12,9 @@ export function AppComponent() {
   useDocumentTitle(t('label.title'))
   const [isOpenRouteSelect, setIsOpenRouteSelect] = useState(false)
   // Maybe keep it in local storage?
-  const [showUserLocation, setShowUserLocation] = useState(false)
+  const [showUserLocation, setShowUserLocation] = useState<number | undefined>(
+    undefined,
+  )
   const [selectedRoutes, setSelectedRoutes] = useState<Set<string>>(new Set())
 
   return (
