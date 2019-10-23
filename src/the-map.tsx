@@ -14,17 +14,18 @@ import { ErrorBoundary } from './components/error-boundary'
 import './style.css'
 import { Positions } from './use-positions'
 import { UserLocation } from './components/user-location.component'
+import { useSettingsState } from './settings.context'
 
 type Props = {
   selectedRoutes: Set<string>
   showUserLocation: boolean
-  leftHanded: boolean
 }
 
 export function TheMap(props: Props) {
-  const { selectedRoutes, showUserLocation, leftHanded } = props
-  const [isAnimatedMarker, setIsAnimatedMarker] = React.useState(true)
+  const { selectedRoutes, showUserLocation } = props
   const { routesSegments, routesStations } = useRoutesData(selectedRoutes)
+  const { leftHanded } = useSettingsState()
+  const [isAnimatedMarker, setIsAnimatedMarker] = React.useState(true)
   const [viewport] = React.useState<Viewport>({
     center: [47.0229, 28.8353],
     zoom: 13,

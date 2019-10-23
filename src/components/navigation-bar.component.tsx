@@ -15,6 +15,7 @@ import {
 } from '@material-ui/core'
 import { useTranslation } from 'react-i18next'
 import Drawer from '@material-ui/core/Drawer'
+import { useSettings, setLeftHanded } from '../settings.context'
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
@@ -36,24 +37,21 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-export function NavigationBarComponent(props) {
-  const { leftHanded, setLeftHanded } = props
+export function NavigationBarComponent() {
   const { t, i18n } = useTranslation()
   const classes = useStyles()
 
+  const [settings, settingsDispatch] = useSettings()
   const [shown, setShown] = React.useState(false)
-  const [language, setLanguage] = React.useState(i18n.language)
 
-  const changeLanguage = event => {
-    setLanguage(event.target.value)
-    localStorage.setItem('language', event.target.value)
-    i18n.changeLanguage(event.target.value)
+  function changeLanguage(event) {
     setShown(false)
+    i18n.changeLanguage(event.target.value)
   }
 
-  const toggleLeftHanded = event => {
+  function toggleLeftHanded(event) {
     setShown(false)
-    setLeftHanded(event.target.checked)
+    settingsDispatch(setLeftHanded(event.target.checked))
   }
 
   return (
@@ -79,7 +77,7 @@ export function NavigationBarComponent(props) {
             <RadioGroup
               aria-label="language"
               name="language"
-              value={language}
+              value={i18n.language}
               onChange={changeLanguage}>
               <FormControlLabel
                 value="en"
@@ -104,7 +102,7 @@ export function NavigationBarComponent(props) {
             control={
               <Switch
                 className={classes.switch}
-                checked={leftHanded}
+                checked={settings.leftHanded}
                 onChange={event => toggleLeftHanded(event)}
                 value="checkedB"
                 color="primary"
