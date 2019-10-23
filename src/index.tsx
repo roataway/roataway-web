@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker'
 import { i18n } from './i18n'
 import { createMuiTheme } from '@material-ui/core/styles'
 import { ThemeProvider } from '@material-ui/styles'
+import { SettingsProvider } from './settings.context'
 import './shared/fixes'
 
 const theme = createMuiTheme()
@@ -16,7 +17,9 @@ ReactDOM.render(
     <React.Suspense fallback={null}>
       <I18nextProvider i18n={i18n}>
         <ThemeProvider theme={theme}>
-          <AppComponent />
+          <SettingsProvider>
+            <AppComponent />
+          </SettingsProvider>
         </ThemeProvider>
       </I18nextProvider>
     </React.Suspense>
