@@ -1,11 +1,17 @@
 import React from 'react'
-import { Map, TileLayer, Viewport, Marker, GeoJSON } from 'react-leaflet'
+import {
+  Map,
+  TileLayer,
+  Viewport,
+  Marker,
+  GeoJSON,
+  ZoomControl,
+} from 'react-leaflet'
 import { GeoJsonObject } from 'geojson'
 import { divIcon } from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import { ErrorBoundary } from './components/error-boundary'
 import './style.css'
-import './the-map.css'
 import { Positions } from './use-positions'
 import { UserLocation } from './components/user-location.component'
 
@@ -26,7 +32,6 @@ export function TheMap({ selectedRoutes, showUserLocation }: Props) {
     <Map
       id={'roata-way-hai-hai'}
       style={{ height: '100vh' }}
-      zoomControl={true}
       maxZoom={19}
       onzoomstart={() => setIsAnimatedMarker(false)}
       onzoomend={() => setIsAnimatedMarker(true)}
@@ -37,6 +42,8 @@ export function TheMap({ selectedRoutes, showUserLocation }: Props) {
       />
 
       {showUserLocation && <UserLocation />}
+
+      <ZoomControl position="bottomleft" />
 
       <Positions>
         {positions =>
