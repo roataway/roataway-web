@@ -1,5 +1,12 @@
 import React from 'react'
-import { Map, TileLayer, Viewport, Marker, GeoJSON } from 'react-leaflet'
+import {
+  Map,
+  TileLayer,
+  Viewport,
+  Marker,
+  GeoJSON,
+  ZoomControl,
+} from 'react-leaflet'
 import { GeoJsonObject } from 'geojson'
 import { divIcon } from 'leaflet'
 import 'leaflet/dist/leaflet.css'
@@ -7,6 +14,7 @@ import { ErrorBoundary } from './components/error-boundary'
 import './style.css'
 import { Positions } from './use-positions'
 import { UserLocation } from './components/user-location.component'
+import { useSettingsState } from './settings.context'
 
 type SimpleCoordinates = {
   latitude: number
@@ -19,16 +27,18 @@ type Props = {
   centerCoordinates: SimpleCoordinates
 }
 
-
 const coordinatesAreEqual = (c1: SimpleCoordinates, c2: SimpleCoordinates) => {
-  return c1.latitude === c2.latitude
-    && c1.longitude === c2.longitude
+  return c1.latitude === c2.latitude && c1.longitude === c2.longitude
 }
 
-export function TheMap({ selectedRoutes, showUserLocation, centerCoordinates }: Props) {
-  const [isAnimatedMarker, setIsAnimatedMarker] = React.useState(true)
+export function TheMap(props: Props) {
+  const { selectedRoutes, showUserLocation, centerCoordinates } = props
   const { routesSegments, routesStations } = useRoutesData(selectedRoutes)
-  const [coordinates, setCoordinates] = React.useState<SimpleCoordinates>(centerCoordinates)
+  const { leftHanded } = useSettingsState()
+  const [isAnimatedMarker, setIsAnimatedMarker] = React.useState(true)
+  const [coordinates, setCoordinates] = React.useState<SimpleCoordinates>(
+    centerCoordinates,
+  )
 
   const currentViewPort: Viewport = {
     center: [centerCoordinates.latitude, centerCoordinates.longitude],
@@ -36,14 +46,17 @@ export function TheMap({ selectedRoutes, showUserLocation, centerCoordinates }: 
   }
   const [viewport, setViewport] = React.useState<Viewport>(currentViewPort)
 
-  const centerCoordinatesChanged = !coordinatesAreEqual(coordinates, centerCoordinates);
+  const centerCoordinatesChanged = !coordinatesAreEqual(
+    coordinates,
+    centerCoordinates,
+  )
 
   // Refresh the viewport if coordinates have changed
   // TODO: instead of checking if the coordinates have changed, expose a method called something like 'centerMap()' to
   // force the map to be re-centered. Otherwise, the map will only be re-centered when the coordinates change,
   // which is limiting
   if (centerCoordinatesChanged) {
-    setCoordinates(centerCoordinates);
+    setCoordinates(centerCoordinates)
     setViewport(currentViewPort)
   }
 
@@ -55,8 +68,8 @@ export function TheMap({ selectedRoutes, showUserLocation, centerCoordinates }: 
     <Map
       id={'roata-way-hai-hai'}
       style={{ height: '100vh' }}
-      zoomControl={false}
       maxZoom={19}
+      zoomControl={false}
       onzoomstart={() => setIsAnimatedMarker(false)}
       onzoomend={() => setIsAnimatedMarker(true)}
       viewport={viewport}>
@@ -66,6 +79,8 @@ export function TheMap({ selectedRoutes, showUserLocation, centerCoordinates }: 
       />
 
       {showUserLocation && <UserLocation />}
+
+      <ZoomControl position={leftHanded ? 'bottomleft' : 'bottomright'} />
 
       <Positions>
         {positions =>

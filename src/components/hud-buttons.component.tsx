@@ -23,7 +23,7 @@ export function HudButtons(props) {
     isOpenRouteSelect,
     setIsOpenRouteSelect,
     setShowUserLocation,
-    setCenterCoordinates
+    setCenterCoordinates,
   } = props
   const { t } = useTranslation()
   const classes = useStyles()
@@ -31,9 +31,8 @@ export function HudButtons(props) {
   const showUserLocation = async () => {
     const userPosition = await getLocation()
     if (userPosition) {
-      
       setCenterCoordinates(userPosition.coords)
-  
+
       setShowUserLocation(true)
     }
   }
@@ -43,6 +42,7 @@ export function HudButtons(props) {
       {'geolocation' in navigator && (
         <Tooltip title={t('label.myLocation')} placement="left">
           <Fab
+            size="small"
             color="secondary"
             aria-label={t('label.myLocation')}
             className={classes.topIcon}
@@ -54,6 +54,7 @@ export function HudButtons(props) {
       <br />
       <Tooltip title={t('label.pickRoute')} placement="left">
         <Fab
+          size="small"
           color="secondary"
           aria-label={t('label.pickRoute')}
           onClick={() => setIsOpenRouteSelect(!isOpenRouteSelect)}>
