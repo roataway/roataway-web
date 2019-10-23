@@ -37,15 +37,12 @@ const useStyles = makeStyles(theme => ({
 }))
 
 export function NavigationBarComponent(props) {
-  const { setZoomControlPosition } = props
+  const { leftHanded, setLeftHanded } = props
   const { t, i18n } = useTranslation()
   const classes = useStyles()
 
   const [shown, setShown] = React.useState(false)
   const [language, setLanguage] = React.useState(i18n.language)
-  const [leftHanded, setLeftHanded] = React.useState(
-    localStorage.getItem('left-handed') === 'true',
-  )
 
   const changeLanguage = event => {
     setLanguage(event.target.value)
@@ -58,9 +55,6 @@ export function NavigationBarComponent(props) {
     setShown(false)
     setLeftHanded(event.target.checked)
     localStorage.setItem('left-handed', event.target.checked)
-    leftHanded
-      ? setZoomControlPosition('bottomleft')
-      : setZoomControlPosition('bottomright')
   }
 
   return (

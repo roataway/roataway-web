@@ -6,7 +6,6 @@ import { useTranslation } from 'react-i18next'
 import { HudButtons } from './components/hud-buttons.component'
 import { RouteSelectDialog } from './components/route-select.dialog'
 import { useDocumentTitle } from './shared/document-title.hook'
-import { ControlPosition } from 'leaflet'
 
 export function AppComponent() {
   const { t, i18n } = useTranslation()
@@ -15,12 +14,8 @@ export function AppComponent() {
   // Maybe keep it in local storage?
   const [showUserLocation, setShowUserLocation] = useState(false)
   const [selectedRoutes, setSelectedRoutes] = useState<Set<string>>(new Set())
-  const [zoomControlPosition, setZoomControlPosition] = useState<
-    ControlPosition
-  >(() =>
-    localStorage.getItem('left-handed') === 'true'
-      ? 'bottomleft'
-      : 'bottomright',
+  const [leftHanded, setLeftHanded] = React.useState(
+    localStorage.getItem('left-handed') === 'true',
   )
 
   useEffect(() => {
@@ -38,8 +33,8 @@ export function AppComponent() {
       <CssBaseline />
 
       <NavigationBarComponent
-        zoomControlPosition={zoomControlPosition}
-        setZoomControlPosition={setZoomControlPosition}
+        leftHanded={leftHanded}
+        setLeftHanded={setLeftHanded}
       />
 
       <HudButtons
@@ -58,7 +53,7 @@ export function AppComponent() {
       <TheMap
         selectedRoutes={selectedRoutes}
         showUserLocation={showUserLocation}
-        zoomControlPosition={zoomControlPosition}
+        leftHanded={leftHanded}
       />
     </React.Fragment>
   )

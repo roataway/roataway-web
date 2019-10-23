@@ -8,7 +8,7 @@ import {
   ZoomControl,
 } from 'react-leaflet'
 import { GeoJsonObject } from 'geojson'
-import { divIcon, ControlPosition } from 'leaflet'
+import { divIcon } from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import { ErrorBoundary } from './components/error-boundary'
 import './style.css'
@@ -18,11 +18,11 @@ import { UserLocation } from './components/user-location.component'
 type Props = {
   selectedRoutes: Set<string>
   showUserLocation: boolean
-  zoomControlPosition: ControlPosition
+  leftHanded: boolean
 }
 
 export function TheMap(props: Props) {
-  const { selectedRoutes, showUserLocation, zoomControlPosition } = props
+  const { selectedRoutes, showUserLocation, leftHanded } = props
   const [isAnimatedMarker, setIsAnimatedMarker] = React.useState(true)
   const { routesSegments, routesStations } = useRoutesData(selectedRoutes)
   const [viewport] = React.useState<Viewport>({
@@ -46,7 +46,7 @@ export function TheMap(props: Props) {
 
       {showUserLocation && <UserLocation />}
 
-      <ZoomControl position={zoomControlPosition} />
+      <ZoomControl position={leftHanded ? 'bottomleft' : 'bottomright'} />
 
       <Positions>
         {positions =>
