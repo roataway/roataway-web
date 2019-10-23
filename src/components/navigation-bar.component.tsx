@@ -54,7 +54,6 @@ export function NavigationBarComponent(props) {
   const toggleLeftHanded = event => {
     setShown(false)
     setLeftHanded(event.target.checked)
-    localStorage.setItem('left-handed', event.target.checked)
   }
 
   return (
