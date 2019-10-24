@@ -7,7 +7,6 @@ import { i18n } from './i18n'
 import { createMuiTheme } from '@material-ui/core/styles'
 import { ThemeProvider } from '@material-ui/styles'
 import { SettingsProvider } from './settings.context'
-import './shared/fixes'
 
 const theme = createMuiTheme()
 
