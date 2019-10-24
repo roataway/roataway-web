@@ -2,5 +2,7 @@
   "label.title": "Roata Wăy",
   "label.pickRoute": "Alege ruta",
   "explanation.pickRoute": "Alege o rută",
-  "label.myLocation": "Locația mea"
+  "label.myLocation": "Locația mea",
+  "label.board": "Bord",
+  "label.route": "Ruta"
 }

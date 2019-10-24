@@ -2,5 +2,7 @@
   "label.title": "Roata Wăy",
   "label.pickRoute": "Pick route",
   "explanation.pickRoute": "Choose a route",
-  "label.myLocation": "My location"
+  "label.myLocation": "My location",
+  "label.board": "Board",
+  "label.route": "Route"
 }

@@ -5,8 +5,10 @@ import {
   Viewport,
   Marker,
   GeoJSON,
+  Popup,
   ZoomControl,
 } from 'react-leaflet'
+import { useTranslation } from 'react-i18next'
 import { GeoJsonObject } from 'geojson'
 import { Map as LeafletMap, icon } from 'leaflet'
 import 'leaflet/dist/leaflet.css'
@@ -16,6 +18,7 @@ import { UserLocation } from './components/user-location.component'
 import { useSettingsState } from './settings.context'
 import { getLocation } from './shared/geo-position'
 import { svgDataUri } from './shared/svg'
+import { vehicles, trackers } from './data/vehicles'
 
 type Props = {
   selectedRoutes: Set<string>
@@ -30,6 +33,7 @@ const viewport: Viewport = {
 const navigationSvgPath = 'M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71z'
 
 export function TheMap(props: Props) {
+  const { t } = useTranslation()
   const { selectedRoutes, showUserLocation } = props
   const { routesSegments, routesStations } = useRoutesData(selectedRoutes)
   const { leftHanded } = useSettingsState()
@@ -86,8 +90,27 @@ export function TheMap(props: Props) {
                   navigationSvgPath,
                   `fill:blue;transform: rotate(${p.direction}deg)`,
                 ),
-              })}
-            />
+              })}>
+              <Popup>
+                {`${t('label.board')}: ${p.board}`}
+                {/**
+                 * To determine whether to display the accessibility symbol or not, we
+                 * check if this trackerId is known and is associated with a board number.
+                 * If so, we check the `accessibility` attribute of that board
+                 */}
+                {trackers.has(p.trackerId) &&
+                  (vehicles.has(trackers.get(p.trackerId)) &&
+                    (vehicles.get(trackers.get(p.trackerId)).accessibility &&
+                      ' ♿'))}
+                {/**
+                 * TODO - find a way to determine the current route of this vehicle
+                 * and display it in the popup. This will only be possible after
+                 * RTEC regularly provides route-vehicle maps
+                 */}
+                <br />
+                {`${t('label.route')}: ##`}
+              </Popup>
+            </Marker>
           ))
         }
       </Positions>
