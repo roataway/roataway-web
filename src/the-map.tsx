@@ -19,6 +19,7 @@ import { useSettingsState } from './settings.context'
 import { getLocation } from './shared/geo-position'
 import { svgDataUri } from './shared/svg'
 import { vehicles, trackers } from './data/vehicles'
+import classes from './the-map.module.scss'
 
 type Props = {
   selectedRoutes: Set<string>
@@ -85,6 +86,7 @@ export function TheMap(props: Props) {
               // container, and then adding another HTML element inside, which
               // will use the `arrow` class with a `transform: rotate`.
               icon={icon({
+                className: classes.markerImg,
                 iconSize: [25, 25],
                 iconUrl: svgDataUri(
                   navigationSvgPath,
