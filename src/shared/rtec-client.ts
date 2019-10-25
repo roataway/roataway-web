@@ -14,7 +14,7 @@ const data = {
   station: '/exchange/e_public_rtec_Sho0ohCiephoh2waeM9t/state.station.*',
 }
 
-export class Client {
+export class RtecClient {
   client = over(new Sock(data.stomp), { debug: false, heartbeat: false })
   subscription?: Subscription = undefined
   subscriptionEx?: Subscription = undefined

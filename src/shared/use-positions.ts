@@ -1,15 +1,15 @@
 import { default as React } from 'react'
-import { Client } from './client'
+import { RtecClient } from './rtec-client'
 
 export class Positions extends React.Component<any> {
   state = {
     positions: {},
   }
 
-  client?: Client = undefined
+  client?: RtecClient = undefined
 
   componentDidMount() {
-    this.client = new Client()
+    this.client = new RtecClient()
     this.client.connect().then(() => {
       this.client!.subscribe(this.callback)
     })

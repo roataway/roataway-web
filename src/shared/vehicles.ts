@@ -1,4 +1,4 @@
-import { csvLoader } from '../shared/csv.macro'
+import { loader as csvLoader } from 'csv.macro'
 
 // see src/data/vehicles.csv structure
 type RawVehicle = {
@@ -7,7 +7,7 @@ type RawVehicle = {
   board: string
   vehicle_type: string
   model: string
-  door_count: number
+  door_count: string
   release_date: string
   articulated: string
   accessibility: string
@@ -33,7 +33,10 @@ type Vehicle = {
   accessibility: boolean
 }
 
-const rawVehicles: RawVehicle[] = csvLoader<RawVehicle>('./vehicles.csv')
+// keep `csvLoader` parameter as a strig
+const rawVehicles: RawVehicle[] = csvLoader<RawVehicle>(
+  '@roataway/infrastructure-data/vehicles.csv',
+)
 // Thi maps a board number to a Vehicle
 let vehicles = new Map()
 
@@ -50,7 +53,7 @@ rawVehicles.forEach(item => {
     board: item.board,
     vehicle_type: VehicleType[item.vehicle_type],
     model: item.model,
-    door_count: item.door_count,
+    door_count: parseInt(item.door_count),
     release_date: new Date(item.release_date),
     articulated: item.articulated === 'yes',
     accessibility: item.accessibility === 'yes',

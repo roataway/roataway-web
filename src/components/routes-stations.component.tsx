@@ -22,7 +22,7 @@ export function RoutesStations({ selectedRoutes }) {
         if (!routesStations[routeId]) {
           import(
             /* webpackChunkName: "[request]" */
-            `../data/route_${routeId}_stations.json`
+            `@roataway/infrastructure-data/data/route_${routeId}_stations.json`
           )
             .then(routeStations =>
               setRoutesStations(rs => ({
