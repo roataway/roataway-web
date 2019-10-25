@@ -8,7 +8,7 @@ import Slide from '@material-ui/core/Slide'
 import { TransitionProps } from '@material-ui/core/transitions'
 import useMediaQuery from '@material-ui/core/useMediaQuery'
 import { useTranslation } from 'react-i18next'
-import { routes } from '../data/routes'
+import { routes } from '../shared/routes'
 import { useTheme } from '@material-ui/styles'
 import { Theme } from '@material-ui/core/styles'
 

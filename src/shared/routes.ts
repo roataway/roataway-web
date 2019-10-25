@@ -1,4 +1,4 @@
-import { csvLoader } from '../shared/csv.macro'
+import { loader as csvLoader } from 'csv.macro'
 
 // see src/data/routes.csv structure
 type Route = {
@@ -8,7 +8,10 @@ type Route = {
   osm_relation: string
 }
 
-export const routes: Route[] = csvLoader<Route>('./routes.csv').sort((a, b) =>
+// keep `csvLoader` parameter as a strig
+export const routes: Route[] = csvLoader<Route>(
+  '@roataway/infrastructure-data/routes.csv',
+).sort((a, b) =>
   a.name_concise.localeCompare(b.name_concise, undefined, {
     numeric: true,
   }),

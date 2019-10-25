@@ -14,7 +14,7 @@ export function RoutesSegments({ selectedRoutes }) {
         if (!routesSegments[routeId]) {
           import(
             /* webpackChunkName: "[request]" */
-            `../data/route_${routeId}_segments.json`
+            `@roataway/infrastructure-data/data/route_${routeId}_segments.json`
           )
             .then(routeSegments =>
               setRoutesSegments(rs => ({
