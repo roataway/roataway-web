@@ -1,4 +1,6 @@
 {
+  "label.close": "Close",
+  "label.selectMultiple": "Select multiple",
   "label.title": "Roata Wăy",
   "label.pickRoute": "Pick route",
   "explanation.pickRoute": "Choose a route",
