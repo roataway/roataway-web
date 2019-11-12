@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next'
 import { HudButtons } from './components/hud-buttons.component'
 import { RouteSelectDialog } from './components/route-select.dialog'
 import { useDocumentTitle } from './shared/document-title.hook'
+import classes from './app.module.scss'
 
 export function AppComponent() {
   const { t } = useTranslation()
@@ -18,7 +19,7 @@ export function AppComponent() {
   const [selectedRoutes, setSelectedRoutes] = useSelectedRoutes()
 
   return (
-    <React.Fragment>
+    <div className={classes.root}>
       <CssBaseline />
 
       <NavigationBarComponent />
@@ -39,8 +40,9 @@ export function AppComponent() {
       <TheMap
         selectedRoutes={selectedRoutes}
         showUserLocation={showUserLocation}
+        className={classes.map}
       />
-    </React.Fragment>
+    </div>
   )
 }
 

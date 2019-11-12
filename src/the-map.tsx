@@ -12,6 +12,7 @@ import { RoutesPositions } from './components/routes-positions.component'
 type Props = {
   selectedRoutes: Set<string>
   showUserLocation?: number
+  className: string
 }
 
 const viewport: Viewport = {
@@ -20,7 +21,7 @@ const viewport: Viewport = {
 }
 
 export function TheMap(props: Props) {
-  const { selectedRoutes, showUserLocation } = props
+  const { selectedRoutes, showUserLocation, className } = props
   const { leftHanded } = useSettingsState()
   const mapRef = React.useRef<any>()
 
@@ -44,8 +45,8 @@ export function TheMap(props: Props) {
     <Map
       ref={mapRef}
       id={'roata-way-hai-hai'}
-      style={{ height: '100vh' }}
       maxZoom={19}
+      className={className}
       zoomControl={false}
       viewport={viewport}>
       <TileLayer

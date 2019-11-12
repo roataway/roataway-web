@@ -16,6 +16,7 @@ import {
 import { useTranslation } from 'react-i18next'
 import Drawer from '@material-ui/core/Drawer'
 import { useSettings, setLeftHanded } from '../settings.context'
+
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
@@ -56,7 +57,7 @@ export function NavigationBarComponent() {
 
   return (
     <React.Fragment>
-      <AppBar position="fixed">
+      <AppBar position="static">
         <Toolbar>
           <IconButton
             edge="start"
