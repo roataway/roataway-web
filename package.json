@@ -21,7 +21,7 @@
   "dependencies": {
     "@material-ui/core": "^4.6.0",
     "@material-ui/icons": "^4.5.1",
-    "@roataway/infrastructure-data": "^1.0.2",
+    "@roataway/infrastructure-data": "^1.0.3",
     "@types/jest": "^24.0.22",
     "@types/leaflet": "^1.5.5",
     "@types/node": "^12.12.6",
@@ -38,7 +38,7 @@
     "leaflet": "^1.5.1",
     "lint-staged": "^9.4.2",
     "node-sass": "^4.13.0",
-    "prettier": "^1.18.2",
+    "prettier": "^1.19.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-i18next": "^10.13.2",
