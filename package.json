@@ -2,7 +2,6 @@
   "name": "roataway-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://roataway.github.io/web-ui",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
