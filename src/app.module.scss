@@ -1,7 +1,12 @@
 .root {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  /*
+   * This will make height, as big as screen size
+   * using 100vh does not take into consideration address bar,
+   * and map is bigger then screen height
+   */
+  height: stretch;
 }
 
 .map {
