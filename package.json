@@ -30,6 +30,7 @@
     "@types/react-dom": "^16.9.4",
     "@types/react-leaflet": "^2.5.0",
     "@types/sockjs-client": "^1.1.1",
+    "@winify/react-scripts": "3.2.0",
     "csv-parse": "^4.6.5",
     "csv.macro": "^1.0.1",
     "gh-pages": "^2.1.1",
@@ -44,7 +45,6 @@
     "react-dom": "^16.11.0",
     "react-i18next": "^10.13.2",
     "react-leaflet": "^2.5.0",
-    "react-scripts": "3.2.0",
     "sockjs-client": "^1.4.0",
     "typescript": "^3.7.2",
     "webstomp-client": "^1.2.6"

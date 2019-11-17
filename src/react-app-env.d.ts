@@ -1,4 +1,4 @@
-/// <reference types="react-scripts" />
+/// <reference types="@winify/react-scripts" />
 import { TFunctionResult, TFunctionKeys, TOptions } from 'i18next'
 import { TranslateKeys } from './i18n'
 
@@ -17,6 +17,8 @@ declare global {
   declare namespace NodeJS {
     interface ProcessEnv {
       readonly REACT_APP_SENTRY_DSN: string
+      readonly REACT_APP_DEPLOY_DATE: string
+      readonly REACT_APP_DEPLOY_HASH: string
     }
   }
 }

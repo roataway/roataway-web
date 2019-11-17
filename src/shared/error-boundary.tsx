@@ -12,11 +12,15 @@ export class ErrorBoundary extends React.Component {
   }
 
   componentDidCatch(error: any, errorInfo: any) {
-    Sentry.withScope(scope => {
-      scope.setExtras(errorInfo)
-      const eventId = Sentry.captureException(error)
-      this.setState({ eventId })
-    })
+    if (process.env.NODE_ENV === 'production') {
+      Sentry.withScope(scope => {
+        scope.setExtras(errorInfo)
+        const eventId = Sentry.captureException(error)
+        this.setState({ eventId })
+      })
+    } else {
+      console.log(error)
+    }
   }
 
   render() {
