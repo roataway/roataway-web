@@ -53,7 +53,13 @@ export function RoutesStations({ selectedRoutes }) {
                 // TODO consider using `name:ru` to load the Russian label,
                 // depending on the user-agent's language setting (if the
                 // translation string is available in the JSON)
-                layer.bindPopup(feature.properties.tags.name)
+                layer.bindPopup(
+                  // some features are directly on properties.*
+                  // some are put inside a tag object properties.tags.*
+                  feature.properties.tags
+                    ? feature.properties.tags.name
+                    : feature.properties.name,
+                )
               }}
             />
           </ErrorBoundary>
