@@ -2,7 +2,7 @@ import React from 'react'
 import { GeoJsonObject } from 'geojson'
 import { Icon, marker } from 'leaflet'
 import { GeoJSON } from 'react-leaflet'
-import { ErrorBoundary } from './error-boundary'
+import { ErrorBoundary } from '../shared/error-boundary'
 import markerIcon from 'leaflet/dist/images/marker-icon.png'
 import markerShadow from 'leaflet/dist/images/marker-shadow.png'
 
