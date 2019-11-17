@@ -12,3 +12,11 @@ declare module 'i18next' {
     <TResult extends TFunctionResult = string>(key: TranslateKeys): TResult
   }
 }
+
+declare global {
+  declare namespace NodeJS {
+    interface ProcessEnv {
+      readonly REACT_APP_SENTRY_DSN: string
+    }
+  }
+}
