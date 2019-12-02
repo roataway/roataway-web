@@ -51,7 +51,7 @@ export function RouteSelectDialog(props: Props) {
   const theme = useTheme<Theme>()
   const classes = useStyles()
   const fullScreen = useMediaQuery(theme.breakpoints.down('xs'))
-  const [selectMultiple, setSelectMultiple] = useState(false)
+  const [selectMultiple, setSelectMultiple] = useSelectMultiple()
   const [l10n] = useTranslation()
 
   function selectRoute(id: string) {
@@ -107,4 +107,22 @@ export function RouteSelectDialog(props: Props) {
       </DialogActions>
     </Dialog>
   )
+}
+
+function useSelectMultiple(): [boolean, (value: boolean) => void] {
+  const [selectMultiple, setSelectMultiple] = useState<boolean>(() => {
+    try {
+      const fromStorage = localStorage.getItem('select-multiple')
+      return fromStorage ? JSON.parse(fromStorage) : false
+    } catch {
+      return false
+    }
+  })
+
+  function _setSelectMultiple(value: boolean) {
+    localStorage.setItem('select-multiple', value.toString())
+    return setSelectMultiple(value)
+  }
+
+  return [selectMultiple, _setSelectMultiple]
 }
