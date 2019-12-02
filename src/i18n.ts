@@ -21,6 +21,11 @@ i18n
       ru: { translation: ru },
     },
     lng: 'en',
+    fallbackLng: {
+      en: ['ru', 'ro'],
+      ru: ['ro', 'en'],
+      ro: ['en', 'ru'],
+    },
     /**
      * Use flat keys in l10n files, nested objects not allowed
      * TypeScript will help with keys inference
