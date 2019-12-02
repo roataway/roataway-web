@@ -9,6 +9,9 @@ import markerShadow from 'leaflet/dist/images/marker-shadow.png'
 const icon = new Icon({
   iconUrl: markerIcon,
   shadowUrl: markerShadow,
+  // `markerIcon` size is 25x41
+  // https://leafletjs.com/reference-1.5.0.html#icon-iconanchor
+  iconAnchor: [12, 41],
 })
 
 const importStation = (routeId: string) =>
