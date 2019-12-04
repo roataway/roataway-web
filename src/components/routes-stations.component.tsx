@@ -55,9 +55,9 @@ function useStationsFeatureCollection(selectedRoutes: Set<string>) {
       const collectionsPromises = Array.from(selectedRoutes).map(importStation)
       // resolve when all are fetched
       Promise.all(collectionsPromises).then(featureCollections => {
-        // collect all station points from all station JSONs
+        // collect all features from all station JSONs
         const duplicatedFeatures = featureCollections.flatMap(fc => fc.features)
-        // get unique points
+        // get unique features
         const features = uniqBy(duplicatedFeatures, f => f.properties.id)
         // this is used as a react `key` for rerender
         stationsUpdatedCount.current++
