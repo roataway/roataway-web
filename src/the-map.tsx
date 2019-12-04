@@ -30,10 +30,7 @@ export function TheMap(props: Props) {
       if (showUserLocation) {
         getLocation().then(pos => {
           const map = mapRef.current!.contextValue!.map! as LeafletMap
-          const center: [number, number] = [
-            pos.coords.latitude,
-            pos.coords.longitude,
-          ]
+          const center: [number, number] = [pos.coords.latitude, pos.coords.longitude]
           map.flyTo(center)
         })
       }
@@ -45,6 +42,9 @@ export function TheMap(props: Props) {
     <Map
       ref={mapRef}
       id={'roata-way-hai-hai'}
+      // Almost all country is visible
+      minZoom={8}
+      // no tiles available for bigger zoom
       maxZoom={19}
       className={className}
       zoomControl={false}
