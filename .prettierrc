@@ -3,5 +3,6 @@
     "semi": false,
     "trailingComma": "all",
     "jsxBracketSameLine": true,
-    "endOfLine": "lf"
+    "endOfLine": "lf",
+    "printWidth": 120
 }
