@@ -2,3 +2,7 @@
 
 # Redirect default Netlify subdomain to primary domain
 https://roataway.netlify.com/* https://roataway.md/:splat 301!
+
+# History pushstate and single-page apps
+# https://docs.netlify.com/routing/redirects/rewrites-proxies/#history-pushstate-and-single-page-apps
+/*   /index.html   200
