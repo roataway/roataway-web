@@ -9,8 +9,7 @@ import { useRtecClient } from '../shared/rtec-client/rtec-client.hook'
 import { Message } from 'webstomp-client'
 import { TelemetryRouteFrameBody, telemetryRoute } from '../shared/rtec-client/subscriptions/telemetry.route'
 
-const navigationSvgPath =
-  'M 12.037109 3.2597656 A 8.2770443 8.2770443 0 0 0 3.7597656 11.537109 A 8.2770443 8.2770443 0 0 0 12.037109 19.814453 A 8.2770443 8.2770443 0 0 0 20.314453 11.537109 A 8.2770443 8.2770443 0 0 0 12.037109 3.2597656 z M 12.037109 6.9101562 L 15.662109 15.75 L 15.318359 16.09375 L 12.037109 14.644531 L 8.7558594 16.09375 L 8.4121094 15.75 L 12.037109 6.9101562 z'
+const navigationSvgPath = 'M 100, 100 m -75,0 a 75,75 0 1,0 150,0 a 75,75 0 1,0 -150,0'
 
 type Props = {
   selectedRoutes: Set<string>
