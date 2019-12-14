@@ -7,12 +7,9 @@ import { boardToVehicle, trackerToBoard } from '../shared/vehicles'
 import classes from './routes-positions.module.scss'
 import { useRtecClient } from '../shared/rtec-client/rtec-client.hook'
 import { Message } from 'webstomp-client'
-import {
-  TelemetryRouteFrameBody,
-  telemetryRoute,
-} from '../shared/rtec-client/subscriptions/telemetry.route'
+import { TelemetryRouteFrameBody, telemetryRoute } from '../shared/rtec-client/subscriptions/telemetry.route'
 
-const navigationSvgPath = 'M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71z'
+const navigationSvgPath = 'M 100, 100 m -75,0 a 75,75 0 1,0 150,0 a 75,75 0 1,0 -150,0'
 
 type Props = {
   selectedRoutes: Set<string>
@@ -45,10 +42,7 @@ type Positions = {
   [board: string]: TelemetryRouteFrameBody
 }
 
-function usePositions(
-  routeId: string | number,
-  client: ReturnType<typeof useRtecClient>,
-) {
+function usePositions(routeId: string | number, client: ReturnType<typeof useRtecClient>) {
   const { connected, subscribe } = client
   const [positions, setPositions] = useState<Positions>({})
 
@@ -59,9 +53,7 @@ function usePositions(
         return
       }
 
-      const subscription = subscribe(telemetryRoute(routeId), function(
-        message: Message,
-      ) {
+      const subscription = subscribe(telemetryRoute(routeId), function(message: Message) {
         const pos: TelemetryRouteFrameBody = JSON.parse(message.body)
         setPositions(p => {
           const oldPos = p[pos.board]
@@ -69,9 +61,7 @@ function usePositions(
             ...p,
             [pos.board]: {
               ...pos,
-              direction: oldPos
-                ? calculateDirection(pos.direction, pos.speed, oldPos.direction)
-                : pos.direction,
+              direction: oldPos ? calculateDirection(pos.direction, pos.speed, oldPos.direction) : pos.direction,
             },
           }
         })
@@ -124,10 +114,7 @@ function TransportMarker(props: TransportMarkerProps) {
   const icon = new Icon({
     className: classes.markerImg,
     iconSize: [25, 25],
-    iconUrl: svgDataUri(
-      navigationSvgPath,
-      `fill:blue;transform: rotate(${transport.direction}deg)`,
-    ),
+    iconUrl: svgDataUri(navigationSvgPath, `fill:blue;transform: rotate(${transport.direction}deg)`),
   })
 
   /**
