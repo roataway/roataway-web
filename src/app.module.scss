@@ -1,12 +1,11 @@
 .root {
   display: flex;
   flex-direction: column;
-  /*
-   * This will make height, as big as screen size
-   * using 100vh does not take into consideration address bar,
-   * and map is bigger then screen height
+  /**
+   * see hacks.ts -> theTrickToViewportUnitsOnMobile
    */
-  height: stretch;
+  height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
 }
 
 .map {
