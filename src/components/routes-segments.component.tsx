@@ -36,7 +36,7 @@ function useSegmentsFeatureCollection(selectedRoutes: Set<string>) {
         // collect all features from all segment JSONs
         const duplicatedFeatures = featureCollections.flatMap(fc => fc.features)
         // get unique features
-        const features = uniqBy(duplicatedFeatures, f => f.properties.id)
+        const features = uniqBy(duplicatedFeatures, f => f.properties.id || f.properties['@id'])
         // this is used as a react `key` for rerender
         segmentsUpdatedCount.current++
         setSegments({ type: 'FeatureCollection', features })
