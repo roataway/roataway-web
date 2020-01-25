@@ -50,10 +50,9 @@ export function TheMap(props: Props) {
       zoomControl={false}
       viewport={viewport}>
       <TileLayer
-        attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        attribution="<a href='https://wikimediafoundation.org/wiki/Maps_Terms_of_Use'>Wikimedia</a>"
+        url="https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png"
       />
-
       {showUserLocation && <UserLocation />}
 
       <ZoomControl position={leftHanded ? 'bottomleft' : 'bottomright'} />
