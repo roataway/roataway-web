@@ -5,6 +5,7 @@ It assumes you have `git`, `node` and `npm` installed. This is how you get start
 1. Clone the git repo and switch into the freshly checked out directory
 ```shell
 git clone git@github.com:roataway/web-ui.git
+git submodule init
 git submodule update
 cd web-ui
 ```
