@@ -1,6 +1,6 @@
 # RoataWăy web client
 
-It assumes you have `npm` installed. This is how you get started:
+It assumes you have `git`, `node` and `npm` installed. This is how you get started:
 
 1. Clone the git repo and switch into the freshly checked out directory
 ```shell
