@@ -10,6 +10,6 @@ cd web-ui
 ```
 
 2. `npm install` - to install all the dependencies
-3. `npm start` - to run the app in the development mode on http://localhost:3000
-
-- `npm run build` - Builds the app for production to the `build` folder.
+3. Build or start app
+  - `npm start` - to run the app in the development mode on http://localhost:3000
+  - `npm run build` - Builds the app for production to the `build` folder.
