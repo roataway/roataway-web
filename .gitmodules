@@ -1,3 +1,0 @@
-[submodule "src/infrastructure"]
-	path = src/infrastructure
-	url = git@github.com:roataway/infrastructure-data.git

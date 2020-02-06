@@ -49,7 +49,7 @@ function useSegmentsFeatureCollection(selectedRoutes: Set<string>) {
 }
 
 function importSegment(routeId: string): Promise<SegmentsFeatureCollection> {
-  return import(`../infrastructure/data/route_${routeId}_segments.json`)
+  return import(`@roataway/infrastructure-data/data/route_${routeId}_segments.json`)
     .then(m => m.default)
     .catch(error => {
       console.error(error)

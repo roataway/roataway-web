@@ -9,7 +9,7 @@ type Route = {
 }
 
 // keep `csvLoader` parameter as a strig
-export const routes: Route[] = csvLoader<Route>('../infrastructure/routes.csv').sort((a, b) =>
+export const routes: Route[] = csvLoader<Route>('@roataway/infrastructure-data/routes.csv').sort((a, b) =>
   a.name_concise.localeCompare(b.name_concise, undefined, {
     numeric: true,
   }),

@@ -83,7 +83,7 @@ function onEachFeature(feature: Feature<Point, StationProperties>, layer: Layer)
 }
 
 function importStation(routeId: string): Promise<StationsFeatureCollection> {
-  return import(`../infrastructure/data/route_${routeId}_stations.json`)
+  return import(`@roataway/infrastructure-data/data/route_${routeId}_stations.json`)
     .then(m => m.default)
     .catch(error => {
       console.error(error)

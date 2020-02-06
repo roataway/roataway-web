@@ -14,7 +14,7 @@ type RawVehicle = {
 }
 
 // keep `csvLoader` parameter as a strig, otherwise csv-macro will error
-const rawVehicles: RawVehicle[] = csvLoader<RawVehicle>('../infrastructure/vehicles.csv')
+const rawVehicles: RawVehicle[] = csvLoader<RawVehicle>('@roataway/infrastructure-data/vehicles.csv')
 
 enum VehicleType {
   trolleybus = 'trolleybus',
