@@ -20,6 +20,7 @@
   "dependencies": {
     "@material-ui/core": "^4.9.0",
     "@material-ui/icons": "^4.5.1",
+    "@roataway/infrastructure-data": "^1.0.5",
     "@sentry/browser": "^5.11.2",
     "@types/jest": "^24.9.1",
     "@types/leaflet": "^1.5.8",
@@ -60,5 +61,6 @@
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "devDependencies": {}
 }
