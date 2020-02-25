@@ -6,5 +6,7 @@
   "explanation.pickRoute": "Choose a route",
   "label.myLocation": "My location",
   "label.board": "Board",
-  "label.route": "Route"
+  "label.route": "Route",
+  "notification.missing1": "The trolleybuses are disconnected from the Orange network and have no internet connection. Trolleybus trackers are now being updated and will be appearing online on March 15th.",
+  "notification.missing2": "At the moment, only route 30 and 32 work (they use an older generation of trackers that connect to the internet through SIM cards in another package)."
 }

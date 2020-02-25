@@ -1,5 +1,7 @@
 import { default as React, useState } from 'react'
 import CssBaseline from '@material-ui/core/CssBaseline'
+import Snackbar from '@material-ui/core/Snackbar'
+import Alert from '@material-ui/lab/Alert'
 import { TheMap } from './the-map'
 import { NavigationBarComponent } from './components/navigation-bar.component'
 import { useTranslation } from 'react-i18next'
@@ -13,16 +15,22 @@ export function AppComponent() {
   useDocumentTitle(t('label.title'))
   const [isOpenRouteSelect, setIsOpenRouteSelect] = useState(false)
   // Maybe keep it in local storage?
-  const [showUserLocation, setShowUserLocation] = useState<number | undefined>(
-    undefined,
-  )
+  const [showUserLocation, setShowUserLocation] = useState<number | undefined>(undefined)
   const [selectedRoutes, setSelectedRoutes] = useSelectedRoutes()
+  const [openNote, setOpenNote] = useState(true)
 
   return (
     <div className={classes.root}>
       <CssBaseline />
 
       <NavigationBarComponent />
+
+      <Snackbar open={openNote} autoHideDuration={10000} onClose={() => setOpenNote(false)}>
+        <Alert elevation={6} variant="filled" severity="info" onClose={() => setOpenNote(false)}>
+          <div>{t('notification.missing1')}</div>
+          <div>{t('notification.missing2')}</div>
+        </Alert>
+      </Snackbar>
 
       <HudButtons
         isOpenRouteSelect={isOpenRouteSelect}
@@ -37,11 +45,7 @@ export function AppComponent() {
         setSelectedRoutes={setSelectedRoutes}
       />
 
-      <TheMap
-        selectedRoutes={selectedRoutes}
-        showUserLocation={showUserLocation}
-        className={classes.map}
-      />
+      <TheMap selectedRoutes={selectedRoutes} showUserLocation={showUserLocation} className={classes.map} />
     </div>
   )
 }
@@ -50,9 +54,7 @@ function useSelectedRoutes(): [Set<string>, (routes: Set<string>) => void] {
   const [selectedRoutes, setSelectedRoutes] = useState<Set<string>>(() => {
     try {
       const fromStorage = localStorage.getItem('selected-routes')
-      return fromStorage
-        ? new Set<string>(JSON.parse(fromStorage))
-        : new Set<string>()
+      return fromStorage ? new Set<string>(JSON.parse(fromStorage)) : new Set<string>()
     } catch {
       return new Set<string>()
     }

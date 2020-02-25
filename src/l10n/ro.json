@@ -4,5 +4,7 @@
   "explanation.pickRoute": "Alege o rută",
   "label.myLocation": "Locația mea",
   "label.board": "Bord",
-  "label.route": "Ruta"
+  "label.route": "Ruta",
+  "notification.missing1": "Troleibuzele sunt deconectate de la rețeaua Orange și nu au conexiune la internet. Acum se face update la trackere pe troleibuze și ele vor apărea online la 15 martie.",
+  "notification.missing2": "La moment lucrează doar ruta 30 și 32 (ele folosesc o generație mai veche de trackere care se conectează la internet prin cartele SIM din alt pachet)."
 }
