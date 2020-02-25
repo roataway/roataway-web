@@ -20,7 +20,6 @@ i18n
       ro: { translation: ro },
       ru: { translation: ru },
     },
-    lng: 'en',
     fallbackLng: {
       en: ['ru', 'ro'],
       ru: ['ro', 'en'],
