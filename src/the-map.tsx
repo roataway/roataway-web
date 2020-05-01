@@ -50,8 +50,8 @@ export function TheMap(props: Props) {
       zoomControl={false}
       viewport={viewport}>
       <TileLayer
-        attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">© MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">© OpenStreetMap contributors</a>'
+        url="https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=kkvVQYrpRAgd0J55hJz5"
       />
 
       {showUserLocation && <UserLocation />}
