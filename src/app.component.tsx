@@ -25,13 +25,6 @@ export function AppComponent() {
 
       <NavigationBarComponent />
 
-      <Snackbar open={openNote} autoHideDuration={10000} onClose={() => setOpenNote(false)}>
-        <Alert elevation={6} variant="filled" severity="info" onClose={() => setOpenNote(false)}>
-          <div>{t('notification.missing1')}</div>
-          <div>{t('notification.missing2')}</div>
-        </Alert>
-      </Snackbar>
-
       <HudButtons
         isOpenRouteSelect={isOpenRouteSelect}
         setIsOpenRouteSelect={setIsOpenRouteSelect}
