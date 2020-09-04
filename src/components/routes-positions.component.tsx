@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import { Icon } from 'leaflet'
+import { DivIcon } from 'leaflet'
 import { useTranslation } from 'react-i18next'
 import { Marker, Popup } from 'react-leaflet'
-import { svgDataUri } from '../shared/svg'
+import { svg } from '../shared/svg'
 import { boardToVehicle, trackerToBoard } from '../shared/vehicles'
 import classes from './routes-positions.module.scss'
 import { useRtecClient } from '../shared/rtec-client/rtec-client.hook'
@@ -111,10 +111,13 @@ function TransportMarker(props: TransportMarkerProps) {
    * will use the `arrow` class with a `transform: rotate`.
    * TODO: improve performance
    */
-  const icon = new Icon({
+
+  const icon = new DivIcon({
     className: classes.markerImg,
     iconSize: [25, 25],
-    iconUrl: svgDataUri(navigationSvgPath, `fill:blue;transform: rotate(${transport.direction}deg)`),
+    html: `<div>${svg(navigationSvgPath, `fill:blue;transform: rotate(${transport.direction}deg)`)}<span>${
+      transport.route
+    }</span></div>`,
   })
 
   /**
