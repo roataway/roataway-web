@@ -1,7 +1,5 @@
-import { default as React, useState } from 'react'
+import { default as React, useCallback, useEffect, useState } from 'react'
 import CssBaseline from '@material-ui/core/CssBaseline'
-import Snackbar from '@material-ui/core/Snackbar'
-import Alert from '@material-ui/lab/Alert'
 import { TheMap } from './the-map'
 import { NavigationBarComponent } from './components/navigation-bar.component'
 import { useTranslation } from 'react-i18next'
@@ -13,11 +11,21 @@ import classes from './app.module.scss'
 export function AppComponent() {
   const { t } = useTranslation()
   useDocumentTitle(t('label.title'))
-  const [isOpenRouteSelect, setIsOpenRouteSelect] = useState(false)
+  const [isOpenRouteSelect, setIsOpenRouteSelect] = useState<boolean>(false)
   // Maybe keep it in local storage?
   const [showUserLocation, setShowUserLocation] = useState<number | undefined>(undefined)
   const [selectedRoutes, setSelectedRoutes] = useSelectedRoutes()
-  const [openNote, setOpenNote] = useState(true)
+  const [firstVisit, setFirstVisit] = useState<boolean>(() => !areStoredRoutesEmpty())
+
+  useEffect(() => {
+    if (isOpenRouteSelect && firstVisit) {
+      setFirstVisit(false)
+    }
+  }, [isOpenRouteSelect, firstVisit])
+
+  const toggleRouteSelect = useCallback(() => setIsOpenRouteSelect(prev => !prev), [])
+
+  const setCurrentUserLocation = useCallback(() => setShowUserLocation(new Date().getTime()), [])
 
   return (
     <div className={classes.root}>
@@ -26,9 +34,9 @@ export function AppComponent() {
       <NavigationBarComponent />
 
       <HudButtons
-        isOpenRouteSelect={isOpenRouteSelect}
-        setIsOpenRouteSelect={setIsOpenRouteSelect}
-        setShowUserLocation={setShowUserLocation}
+        setCurrentUserLocation={setCurrentUserLocation}
+        toggleRouteSelect={toggleRouteSelect}
+        firstVisit={firstVisit}
       />
 
       <RouteSelectDialog
@@ -59,4 +67,8 @@ function useSelectedRoutes(): [Set<string>, (routes: Set<string>) => void] {
   }
 
   return [selectedRoutes, selectRoute]
+}
+
+function areStoredRoutesEmpty(): boolean {
+  return !!localStorage.getItem('selected-routes') && JSON.parse(localStorage.getItem('selected-routes')!).length > 0
 }
