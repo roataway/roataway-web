@@ -4,5 +4,6 @@
   "explanation.pickRoute": "Выбери маршрут",
   "label.myLocation": "Моё местоположение",
   "label.board": "Борт",
-  "label.route": "Маршрут"
+  "label.route": "Маршрут",
+  "label.lastSeen": "Был в сети {{n}} минут назад"
 }

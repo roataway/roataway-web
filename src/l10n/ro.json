@@ -4,5 +4,6 @@
   "explanation.pickRoute": "Alege o rută",
   "label.myLocation": "Locația mea",
   "label.board": "Bord",
-  "label.route": "Ruta"
+  "label.route": "Ruta",
+  "label.lastSeen": "A fost văzut ultima dată {{n}} minute în urma"
 }
