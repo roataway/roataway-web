@@ -136,6 +136,8 @@ function TransportMarker(props: TransportMarkerProps) {
       position={[transport.latitude, transport.longitude]}
       icon={icon}>
       <Popup>
+        {`${t('label.route')}: ${transport.route}`}
+        <br />
         {`${t('label.board')}: ${transport.board}`}
         {accessibility}
       </Popup>
