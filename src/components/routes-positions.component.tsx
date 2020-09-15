@@ -11,6 +11,9 @@ import { TelemetryRouteFrameBody, telemetryRoute } from '../shared/rtec-client/s
 
 const navigationSvgPath = `M 12.037109,3.2597656 C 7.46559,3.2596004 3.7596004,6.96559 3.7597656,11.537109 c -1.655e-4,4.571519 3.7058242,8.277509 8.2773434,8.277344 4.571519,1.66e-4 8.27751,-3.705825 8.277344,-8.277344 1.65e-4,-4.5715192 -3.705825,-8.2775089 -8.277344,-8.2773434 z`
 
+const MARKER_TTL_MILLIS = 5 * 60 * 1000
+const TTL_CHECK_INTERVAL_MILLIS = 60 * 1000
+
 type Props = {
   selectedRoutes: Set<string>
 }
@@ -39,12 +42,33 @@ function RouteMarkers({ routeId, client }) {
 }
 
 type Positions = {
-  [board: string]: TelemetryRouteFrameBody
+  [board: string]: TelemetryRouteFrameBody & { outdated?: boolean }
 }
 
 function usePositions(routeId: string | number, client: ReturnType<typeof useRtecClient>) {
   const { connected, subscribe } = client
   const [positions, setPositions] = useState<Positions>({})
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const nowMillis = new Date().getTime()
+
+      const newPositions = Object.keys(positions).reduce(
+        (accum, key) => ({
+          ...accum,
+          [key]: {
+            ...positions[key],
+            outdated: nowMillis - new Date(positions[key].timestamp).getTime() >= MARKER_TTL_MILLIS,
+          },
+        }),
+        {},
+      )
+
+      setPositions(newPositions)
+    }, TTL_CHECK_INTERVAL_MILLIS)
+
+    return () => clearInterval(interval)
+  }, [positions])
 
   useEffect(
     function() {
@@ -62,6 +86,7 @@ function usePositions(routeId: string | number, client: ReturnType<typeof useRte
             [pos.board]: {
               ...pos,
               direction: oldPos ? calculateDirection(pos.direction, pos.speed, oldPos.direction) : pos.direction,
+              outdated: false,
             },
           }
         })
@@ -96,7 +121,7 @@ function calculateDirection(newDir: number, newSpeed: number, oldDir: number) {
 }
 
 type TransportMarkerProps = {
-  transport: TelemetryRouteFrameBody
+  transport: TelemetryRouteFrameBody & { outdated?: boolean }
 }
 
 function TransportMarker(props: TransportMarkerProps) {
@@ -115,9 +140,10 @@ function TransportMarker(props: TransportMarkerProps) {
   const icon = new DivIcon({
     className: classes.markerImg,
     iconSize: [25, 25],
-    html: `<div>${svg(navigationSvgPath, `fill:blue;transform: rotate(${transport.direction}deg)`)}<span>${
-      transport.route
-    }</span></div>`,
+    html: `<div>${svg(
+      navigationSvgPath,
+      `fill:${transport.outdated ? 'grey' : 'blue'};transform: rotate(${transport.direction}deg)`,
+    )}<span>${transport.route}</span></div>`,
   })
 
   /**
@@ -140,7 +166,17 @@ function TransportMarker(props: TransportMarkerProps) {
         <br />
         {`${t('label.board')}: ${transport.board}`}
         {accessibility}
+        {transport.outdated && (
+          <>
+            <br />
+            {t('label.lastSeen', { n: fromNowMinutes(new Date(transport.timestamp)) })}
+          </>
+        )}
       </Popup>
     </Marker>
   )
+}
+
+function fromNowMinutes(date: Date): number {
+  return Math.floor((new Date().getTime() - date.getTime()) / (60 * 1000))
 }

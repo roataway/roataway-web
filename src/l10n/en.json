@@ -6,5 +6,6 @@
   "explanation.pickRoute": "Choose a route",
   "label.myLocation": "My location",
   "label.board": "Board",
-  "label.route": "Route"
+  "label.route": "Route",
+  "label.lastSeen": "Last seen {{n}} minutes ago"
 }
