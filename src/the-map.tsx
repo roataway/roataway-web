@@ -8,6 +8,7 @@ import { getLocation } from './shared/geo-position'
 import { RoutesSegments } from './components/routes-segments.component'
 import { RoutesStations } from './components/routes-stations.component'
 import { RoutesPositions } from './components/routes-positions.component'
+import ColorsLegend from './components/colors-legend.components'
 
 type Props = {
   selectedRoutes: Set<string>
@@ -61,6 +62,8 @@ export function TheMap(props: Props) {
       {showUserLocation && <UserLocation />}
 
       <ZoomControl position={leftHanded ? 'bottomleft' : 'bottomright'} />
+
+      <ColorsLegend position="topright" />
 
       <RoutesSegments selectedRoutes={selectedRoutes} />
       <RoutesStations selectedRoutes={selectedRoutes} />

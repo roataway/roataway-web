@@ -1,0 +1,26 @@
+.legendRow {
+  .routeMarker {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid;
+
+    > span {
+      color: white;
+    }
+  }
+
+  .legendText {
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.legendContainer {
+  max-height: 300px;
+  overflow-y: auto;
+}

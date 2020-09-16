@@ -11,6 +11,7 @@ import { createMuiTheme } from '@material-ui/core/styles'
 import { ThemeProvider } from '@material-ui/styles'
 import { SettingsProvider } from './settings.context'
 import { ErrorBoundary } from './shared/error-boundary'
+import { RouteColorsProvider } from './route-colors.context'
 
 if (process.env.NODE_ENV === 'production') {
   Sentry.init({
@@ -28,7 +29,9 @@ ReactDOM.render(
         <I18nextProvider i18n={i18n}>
           <ThemeProvider theme={theme}>
             <SettingsProvider>
-              <AppComponent />
+              <RouteColorsProvider>
+                <AppComponent />
+              </RouteColorsProvider>
             </SettingsProvider>
           </ThemeProvider>
         </I18nextProvider>

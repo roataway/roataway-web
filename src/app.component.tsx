@@ -7,6 +7,7 @@ import { HudButtons } from './components/hud-buttons.component'
 import { RouteSelectDialog } from './components/route-select.dialog'
 import { useDocumentTitle } from './shared/document-title.hook'
 import classes from './app.module.scss'
+import { useRouteColors } from './route-colors.context'
 
 export function AppComponent() {
   const { t } = useTranslation()
@@ -52,10 +53,22 @@ export function AppComponent() {
 }
 
 function useSelectedRoutes(): [Set<string>, (routes: Set<string>) => void] {
+  const { addRoutes } = useRouteColors()
   const [selectedRoutes, setSelectedRoutes] = useState<Set<string>>(() => {
     try {
       const fromStorage = localStorage.getItem('selected-routes')
-      return fromStorage ? new Set<string>(JSON.parse(fromStorage)) : new Set<string>()
+
+      if (fromStorage) {
+        const pojoRoutes = JSON.parse(fromStorage)
+
+        addRoutes([...pojoRoutes])
+
+        return new Set<string>(JSON.parse(fromStorage))
+      } else {
+        return new Set<string>()
+      }
+
+      // return fromStorage ? new Set<string>(JSON.parse(fromStorage)) : new Set<string>()
     } catch {
       return new Set<string>()
     }
@@ -63,6 +76,8 @@ function useSelectedRoutes(): [Set<string>, (routes: Set<string>) => void] {
 
   function selectRoute(routes: Set<string>) {
     localStorage.setItem('selected-routes', JSON.stringify([...routes]))
+    addRoutes([...routes])
+
     return setSelectedRoutes(routes)
   }
 
