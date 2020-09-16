@@ -9,21 +9,19 @@ export function RoutesSegments({ selectedRoutes }) {
   const { segments, segmentsUpdatedCount } = useSegmentsFeatureCollection(selectedRoutes)
   const { colors } = useRouteColors()
 
+  const getSegmentStyle = (feature: any) => {
+    if (feature && colors[feature.routeId]) {
+      return {
+        color: colors[feature.routeId].segment,
+      }
+    }
+
+    return {}
+  }
+
   return (
     <ErrorBoundary>
-      <GeoJSON
-        style={(feature: any) => {
-          if (feature && colors[feature.routeId]) {
-            return {
-              color: colors[feature.routeId].segments,
-            }
-          }
-
-          return {}
-        }}
-        key={segmentsUpdatedCount}
-        data={segments}
-      />
+      <GeoJSON style={getSegmentStyle} key={segmentsUpdatedCount} data={segments} />
     </ErrorBoundary>
   )
 }
@@ -33,11 +31,7 @@ type SegmentProperties = {
   routeId?: string
 }
 
-interface LineStringWithRoute extends LineString {
-  routeId?: string
-}
-
-type SegmentsFeatureCollection = FeatureCollection<LineStringWithRoute, SegmentProperties> & { routeId?: string }
+type SegmentsFeatureCollection = FeatureCollection<LineString, SegmentProperties> & { routeId?: string }
 const emptyFeatureCollection: SegmentsFeatureCollection = {
   type: 'FeatureCollection',
   features: [],
@@ -54,15 +48,9 @@ function useSegmentsFeatureCollection(selectedRoutes: Set<string>) {
       // resolve when all are fetched
       Promise.all(collectionsPromises).then(featureCollections => {
         // collect all features from all segment JSONs
-        const duplicatedFeatures = featureCollections.flatMap(fc =>
-          fc.features.map(feature => ({
-            ...feature,
-            routeId: fc.routeId,
-          })),
-        )
+        const duplicatedFeatures = featureCollections.flatMap(fc => fc.features)
         // get unique features
         const features = uniqBy(duplicatedFeatures, f => f.properties.id || f.properties['@id'])
-        // console.log("features", features)
         // this is used as a react `key` for rerender
         segmentsUpdatedCount.current++
         setSegments({ type: 'FeatureCollection', features })
@@ -74,11 +62,12 @@ function useSegmentsFeatureCollection(selectedRoutes: Set<string>) {
   return { segments, segmentsUpdatedCount: segmentsUpdatedCount.current }
 }
 
-function importSegment(routeId: string): Promise<SegmentsFeatureCollection> {
-  return import(`@roataway/infrastructure-data/data/route_${routeId}_segments.json`)
-    .then(m => ({ ...m.default, routeId }))
-    .catch(error => {
-      console.error(error)
-      return emptyFeatureCollection
-    })
+async function importSegment(routeId: string): Promise<SegmentsFeatureCollection> {
+  let resp = await import(`@roataway/infrastructure-data/data/route_${routeId}_segments.json`)
+  resp = resp.default
+  // FIXME: 'strange' hack to add routeId to a segment
+  // FIXME: maybe add these route ides to *_segments.json
+  resp.features = resp.features.map(feature => ({ ...feature, routeId }))
+
+  return resp
 }

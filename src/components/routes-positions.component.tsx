@@ -145,10 +145,10 @@ function TransportMarker(props: TransportMarkerProps) {
     iconSize: [25, 25],
     html: `<div>${svg(
       navigationSvgPath,
-      `fill:${transport.outdated ? 'grey' : colors[transport.routeId].marker};transform: rotate(${
+      `fill:${transport.outdated ? 'grey' : colors[transport.routeId]?.marker || 'blue'};transform: rotate(${
         transport.direction
       }deg)`,
-    )}<span>${transport.route}</span></div>`,
+    )}<span style="color:${colors[transport.routeId]?.text || 'lightgrey'};">${transport.route}</span></div>`,
   })
 
   /**

@@ -1,56 +1,87 @@
-import React, { createContext, FC, useCallback, useContext, useState } from 'react'
+import React, { createContext, FC, useCallback, useContext, useEffect, useMemo, useState } from 'react'
+import { useSelectedRoutes } from './selected-routes.context'
 
-const RouteColorContext = createContext({ colors: {}, setColors: prev => prev })
+type ColorState = Record<string, { marker: string; segment: string; text: string }>
 
-export const RouteColorsProvider: FC = ({ children }) => {
-  const [colors, setColors] = useState({})
-
-  return <RouteColorContext.Provider value={{ colors, setColors }}>{children}</RouteColorContext.Provider>
+interface RouteColorState {
+  colors: ColorState
+  addRoutes: (prev: ColorState) => void
 }
 
-export const useRouteColors = () => {
-  const { colors, setColors } = useContext(RouteColorContext)
+const RouteColorContext = createContext<RouteColorState>({ colors: {}, addRoutes: () => {} })
+
+export const RouteColorsProvider: FC = ({ children }) => {
+  const { routes } = useSelectedRoutes()
+  const [colors, setColors] = useState({})
+
+  useEffect(() => addRoutes([...routes]), [routes, routes.size])
 
   const addRoutes = useCallback(
     routes => {
-      if (Array.isArray(routes)) {
-        const newColors = routes
-          .filter(routeId => !colors.hasOwnProperty(routeId))
-          .reduce((accum, route) => {
-            const { primary, secondary } = randomColor(10)
-            return {
-              ...accum,
-              [route]: {
-                marker: primary,
-                segments: secondary,
-              },
-            }
-          }, {})
+      const newColors = routes.reduce((accum, route) => {
+        if (colors.hasOwnProperty(route)) {
+          return {
+            ...accum,
+            [route]: colors[route],
+          }
+        }
 
-        setColors(prev => ({ ...prev, ...newColors }))
-      } else if (typeof routes === 'string') {
-        const { primary, secondary } = randomColor(10)
-        setColors(prev => ({ ...prev, [routes]: { marker: primary, segments: secondary } }))
-      }
+        const { primary, secondary, contrast } = randomColorPairs(5)
+        return {
+          ...accum,
+          [route]: {
+            marker: primary,
+            segment: secondary,
+            text: contrast,
+          },
+        }
+      }, {})
+
+      setColors({ ...newColors })
     },
     [colors, setColors],
   )
 
+  const value = useMemo(
+    () => ({
+      colors,
+      addRoutes,
+    }),
+    [colors, addRoutes],
+  )
+
+  return <RouteColorContext.Provider value={value}>{children}</RouteColorContext.Provider>
+}
+
+export const useRouteColors = () => {
+  const { colors, addRoutes } = useContext(RouteColorContext)
+
   return { colors, addRoutes }
 }
 
-function randomColor(brightness) {
-  function randomChannel(brightness) {
-    const r = 255 - brightness
-    const n = 0 | (Math.random() * r + brightness)
-    const s = n.toString(16)
-    return s.length === 1 ? '0' + s : s
-  }
+function randomColorPairs(brightness: number): { primary: string; secondary: string; contrast: string } {
+  if (brightness >= 255) brightness = 254
+  const r = randomChannel(brightness)
+  const g = randomChannel(brightness)
+  const b = randomChannel(brightness)
 
-  const primary = randomChannel(brightness) + randomChannel(brightness) + randomChannel(brightness)
+  const primary = r + g + b
+
+  // calculate luma coefficient https://en.wikipedia.org/wiki/Rec._709#Luma_coefficients
+  const luma = 0.2126 * parseInt(r, 16) + 0.7152 * parseInt(g, 16) + 0.0722 * parseInt(b, 16)
 
   return {
     primary: '#' + primary,
-    secondary: '#' + (parseInt(primary, 16) + 0xf00).toString(16),
+    // make it a little bit lighter
+    secondary: '#' + (parseInt(primary, 16) + 0x010101).toString(16),
+    // consider luma > 150 as bright primary color
+    contrast: luma > 150 ? '#696969' : '#d3d3d3',
   }
+}
+
+function randomChannel(brightness): string {
+  const r = 255 - brightness
+  const n = 0 | (Math.random() * r + brightness)
+  const s = n.toString(16)
+  return s.length === 1 ? '0' + s : s
 }
