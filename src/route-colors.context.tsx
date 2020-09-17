@@ -35,6 +35,11 @@ export const RouteColorsProvider: FC = ({ children }) => {
       }
     }, {})
 
+    if (Object.keys(colors).length < Object.keys(newColors).length) {
+      const removedKeys = diffArray(Object.keys(colors), Object.keys(newColors))
+      colorPalette.restore(...removedKeys.map(key => colors[key].marker))
+    }
+
     setColors({ ...newColors })
 
     // wants 'colors' in dep array
@@ -56,3 +61,5 @@ export const useRouteColors = () => {
 
   return { colors }
 }
+
+const diffArray = (arr1, arr2) => arr1.concat(arr2).filter(val => !(arr1.includes(val) && arr2.includes(val)))

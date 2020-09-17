@@ -75,8 +75,15 @@ export const colorPalette = {
 
     return this.colors.pop()!
   },
-  restore() {
+  restoreAll() {
     this.colors = [...PREDEFINED_COLORS]
+  },
+  /**
+   * Return predefined colors back to the colors pool
+   * @param unusedColors - primary color(s) from palette
+   */
+  restore(...unusedColors) {
+    this.colors.push(...PREDEFINED_COLORS.filter(predefinedColor => unusedColors.includes(predefinedColor.primary)))
   },
 }
 
