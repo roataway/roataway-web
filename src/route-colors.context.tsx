@@ -35,9 +35,9 @@ export const RouteColorsProvider: FC = ({ children }) => {
       }
     }, {})
 
-    if (Object.keys(colors).length < Object.keys(newColors).length) {
+    if (Object.keys(newColors).length < Object.keys(colors).length) {
       const removedKeys = diffArray(Object.keys(colors), Object.keys(newColors))
-      colorPalette.restore(...removedKeys.map(key => colors[key].marker))
+      if (removedKeys.length) colorPalette.restore(...removedKeys.map(key => colors[key].marker))
     }
 
     setColors({ ...newColors })
