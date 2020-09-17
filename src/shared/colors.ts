@@ -1,29 +1,69 @@
 const MAX_COLOR_INTENSITY = 255
 const LUMA_THRESHOLD = 150
+const LIGHT_CONTRAST = '#d3d3d3'
+const DARK_CONTRAST = '#696969'
 const PREDEFINED_COLORS = Object.freeze([
+  {
+    primary: '#a6cee3',
+    secondary: '#a6dee3',
+    contrast: DARK_CONTRAST,
+  },
+  {
+    primary: '#b2df8a',
+    secondary: '#b2ef8a',
+    contrast: DARK_CONTRAST,
+  },
+  {
+    primary: '#fb9a99',
+    secondary: '#fbaa99',
+    contrast: DARK_CONTRAST,
+  },
+  {
+    primary: '#fdbf6f',
+    secondary: '#fdcf6f',
+    contrast: DARK_CONTRAST,
+  },
+  {
+    primary: '#cab2d6',
+    secondary: '#cac2d6',
+    contrast: DARK_CONTRAST,
+  },
+  {
+    primary: '#ffff99',
+    secondary: '#ffffaa',
+    contrast: DARK_CONTRAST,
+  },
+  {
+    primary: '#b15928',
+    secondary: '#b16928',
+    contrast: LIGHT_CONTRAST,
+  },
   {
     primary: '#e41a1c',
     secondary: '#ef5350',
+    contrast: LIGHT_CONTRAST,
   },
   {
     primary: '#377eb8',
     secondary: '#64b5f6',
+    contrast: LIGHT_CONTRAST,
   },
   {
     primary: '#4daf4a',
     secondary: '#81c784',
+    contrast: LIGHT_CONTRAST,
   },
   {
     primary: '#984ea3',
     secondary: '#ba68c8',
+    contrast: LIGHT_CONTRAST,
   },
   {
     primary: '#ff7f00',
     secondary: '#ffb74d',
+    contrast: LIGHT_CONTRAST,
   },
 ])
-const LIGHT_CONTRAST = '#d3d3d3'
-const DARK_CONTRAST = '#696969'
 const DEFAULT_BRIGHTNESS = 5
 
 type Palette = { primary: string; secondary: string; contrast: string }
@@ -33,13 +73,7 @@ export const colorPalette = {
   get palette(): Palette {
     if (!this.colors.length) return randomColorPalette()
 
-    const { primary, secondary } = this.colors.pop()!
-
-    return {
-      primary,
-      secondary,
-      contrast: LIGHT_CONTRAST,
-    }
+    return this.colors.pop()!
   },
   restore() {
     this.colors = [...PREDEFINED_COLORS]
