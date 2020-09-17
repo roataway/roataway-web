@@ -16,16 +16,7 @@ import legendClasses from './colors-legend.module.scss'
 import { routes as allRoutes } from '../shared/routes'
 import { useSelectedRoutes } from '../selected-routes.context'
 
-interface Props extends MapControlProps {}
-
-interface InfrastructureRouteInfo {
-  id_upstream: string
-  name_concise: string
-  name_long: string
-  osm_relation: string
-}
-
-const ColorsLegend: FC<Props> = ({ position = 'topright' }) => {
+const ColorsLegend: FC<MapControlProps> = ({ position = 'topright' }) => {
   const { colors } = useRouteColors()
   const { routes, setRoutes } = useSelectedRoutes()
 
