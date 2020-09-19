@@ -14,7 +14,6 @@ export function AppComponent() {
   const [isOpenRouteSelect, setIsOpenRouteSelect] = useState<boolean>(false)
   // Maybe keep it in local storage?
   const [showUserLocation, setShowUserLocation] = useState<number | undefined>(undefined)
-  const [selectedRoutes, setSelectedRoutes] = useSelectedRoutes()
   const [firstVisit, setFirstVisit] = useState<boolean>(() => !areStoredRoutesEmpty())
 
   useEffect(() => {
@@ -39,34 +38,11 @@ export function AppComponent() {
         firstVisit={firstVisit}
       />
 
-      <RouteSelectDialog
-        isOpen={isOpenRouteSelect}
-        setOpen={setIsOpenRouteSelect}
-        selectedRoutes={selectedRoutes}
-        setSelectedRoutes={setSelectedRoutes}
-      />
+      <RouteSelectDialog isOpen={isOpenRouteSelect} setOpen={setIsOpenRouteSelect} />
 
-      <TheMap selectedRoutes={selectedRoutes} showUserLocation={showUserLocation} className={classes.map} />
+      <TheMap showUserLocation={showUserLocation} className={classes.map} />
     </div>
   )
-}
-
-function useSelectedRoutes(): [Set<string>, (routes: Set<string>) => void] {
-  const [selectedRoutes, setSelectedRoutes] = useState<Set<string>>(() => {
-    try {
-      const fromStorage = localStorage.getItem('selected-routes')
-      return fromStorage ? new Set<string>(JSON.parse(fromStorage)) : new Set<string>()
-    } catch {
-      return new Set<string>()
-    }
-  })
-
-  function selectRoute(routes: Set<string>) {
-    localStorage.setItem('selected-routes', JSON.stringify([...routes]))
-    return setSelectedRoutes(routes)
-  }
-
-  return [selectedRoutes, selectRoute]
 }
 
 function areStoredRoutesEmpty(): boolean {

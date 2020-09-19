@@ -3,21 +3,35 @@ import { FeatureCollection, LineString } from 'geojson'
 import { GeoJSON } from 'react-leaflet'
 import { ErrorBoundary } from '../shared/error-boundary'
 import { uniqBy } from 'lodash'
+import { useRouteColors } from '../route-colors.context'
 
 export function RoutesSegments({ selectedRoutes }) {
   const { segments, segmentsUpdatedCount } = useSegmentsFeatureCollection(selectedRoutes)
+  const { colors } = useRouteColors()
+
+  const getSegmentStyle = (feature: any) => {
+    if (feature && colors[feature.routeId]) {
+      return {
+        color: colors[feature.routeId].segment,
+      }
+    }
+
+    return {}
+  }
 
   return (
     <ErrorBoundary>
-      <GeoJSON key={segmentsUpdatedCount} data={segments} />
+      <GeoJSON style={getSegmentStyle} key={segmentsUpdatedCount} data={segments} />
     </ErrorBoundary>
   )
 }
 
 type SegmentProperties = {
   id: number
+  routeId?: string
 }
-type SegmentsFeatureCollection = FeatureCollection<LineString, SegmentProperties>
+
+type SegmentsFeatureCollection = FeatureCollection<LineString, SegmentProperties> & { routeId?: string }
 const emptyFeatureCollection: SegmentsFeatureCollection = {
   type: 'FeatureCollection',
   features: [],
@@ -48,11 +62,12 @@ function useSegmentsFeatureCollection(selectedRoutes: Set<string>) {
   return { segments, segmentsUpdatedCount: segmentsUpdatedCount.current }
 }
 
-function importSegment(routeId: string): Promise<SegmentsFeatureCollection> {
-  return import(`@roataway/infrastructure-data/data/route_${routeId}_segments.json`)
-    .then(m => m.default)
-    .catch(error => {
-      console.error(error)
-      return emptyFeatureCollection
-    })
+async function importSegment(routeId: string): Promise<SegmentsFeatureCollection> {
+  let resp = await import(`@roataway/infrastructure-data/data/route_${routeId}_segments.json`)
+  resp = resp.default
+  // FIXME: 'strange' hack to add routeId to a segment
+  // FIXME: maybe add these route ides to *_segments.json
+  resp.features = resp.features.map(feature => ({ ...feature, routeId }))
+
+  return resp
 }

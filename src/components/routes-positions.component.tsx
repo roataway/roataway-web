@@ -8,6 +8,7 @@ import classes from './routes-positions.module.scss'
 import { useRtecClient } from '../shared/rtec-client/rtec-client.hook'
 import { Message } from 'webstomp-client'
 import { TelemetryRouteFrameBody, telemetryRoute } from '../shared/rtec-client/subscriptions/telemetry.route'
+import { useRouteColors } from '../route-colors.context'
 
 const navigationSvgPath = `M 12.037109,3.2597656 C 7.46559,3.2596004 3.7596004,6.96559 3.7597656,11.537109 c -1.655e-4,4.571519 3.7058242,8.277509 8.2773434,8.277344 4.571519,1.66e-4 8.27751,-3.705825 8.277344,-8.277344 1.65e-4,-4.5715192 -3.705825,-8.2775089 -8.277344,-8.2773434 z`
 
@@ -42,7 +43,7 @@ function RouteMarkers({ routeId, client }) {
 }
 
 type Positions = {
-  [board: string]: TelemetryRouteFrameBody & { outdated?: boolean }
+  [board: string]: TelemetryRouteFrameBody & { outdated?: boolean; routeId: string | number }
 }
 
 function usePositions(routeId: string | number, client: ReturnType<typeof useRtecClient>) {
@@ -87,6 +88,7 @@ function usePositions(routeId: string | number, client: ReturnType<typeof useRte
               ...pos,
               direction: oldPos ? calculateDirection(pos.direction, pos.speed, oldPos.direction) : pos.direction,
               outdated: false,
+              routeId,
             },
           }
         })
@@ -121,12 +123,13 @@ function calculateDirection(newDir: number, newSpeed: number, oldDir: number) {
 }
 
 type TransportMarkerProps = {
-  transport: TelemetryRouteFrameBody & { outdated?: boolean }
+  transport: TelemetryRouteFrameBody & { outdated?: boolean; routeId: string | number }
 }
 
 function TransportMarker(props: TransportMarkerProps) {
   const { transport } = props
   const { t } = useTranslation()
+  const { colors } = useRouteColors()
 
   /**
    * To show an oriented marker, we have to work around a limitation
@@ -142,8 +145,10 @@ function TransportMarker(props: TransportMarkerProps) {
     iconSize: [25, 25],
     html: `<div>${svg(
       navigationSvgPath,
-      `fill:${transport.outdated ? 'grey' : 'blue'};transform: rotate(${transport.direction}deg)`,
-    )}<span>${transport.route}</span></div>`,
+      `fill:${transport.outdated ? 'grey' : colors[transport.routeId]?.marker || 'blue'};transform: rotate(${
+        transport.direction
+      }deg)`,
+    )}<span style="color:${colors[transport.routeId]?.text || 'lightgrey'};">${transport.route}</span></div>`,
   })
 
   /**

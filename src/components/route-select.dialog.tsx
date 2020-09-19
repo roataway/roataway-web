@@ -10,10 +10,11 @@ import useMediaQuery from '@material-ui/core/useMediaQuery'
 import FormControlLabel from '@material-ui/core/FormControlLabel'
 import Checkbox from '@material-ui/core/Checkbox'
 import { useTranslation } from 'react-i18next'
-import { routes } from '../shared/routes'
+import { routes as allRoutes } from '../shared/routes'
 import { useTheme } from '@material-ui/styles'
 import { Theme } from '@material-ui/core/styles'
 import { makeStyles } from '@material-ui/core'
+import { useSelectedRoutes } from '../selected-routes.context'
 
 const Transition = React.forwardRef(function(props: TransitionProps, ref) {
   return <Slide direction="up" ref={ref} {...props} />
@@ -42,25 +43,24 @@ const useStyles = makeStyles(theme => ({
 type Props = {
   isOpen: boolean
   setOpen: (isOpen: boolean) => void
-  setSelectedRoutes: (selectedRoutes: Set<string>) => void
-  selectedRoutes: Set<string>
 }
 
 export function RouteSelectDialog(props: Props) {
-  const { isOpen, setOpen, setSelectedRoutes, selectedRoutes } = props
+  const { isOpen, setOpen } = props
   const theme = useTheme<Theme>()
   const classes = useStyles()
   const fullScreen = useMediaQuery(theme.breakpoints.down('xs'))
   const [selectMultiple, setSelectMultiple] = useSelectMultiple()
   const [l10n] = useTranslation()
+  const { routes, setRoutes } = useSelectedRoutes()
 
   function selectRoute(id: string) {
-    if (selectedRoutes.has(id)) {
-      selectedRoutes.delete(id)
+    if (routes.has(id)) {
+      routes.delete(id)
     } else {
-      selectedRoutes.add(id)
+      routes.add(id)
     }
-    setSelectedRoutes(new Set(selectedRoutes))
+    setRoutes(new Set(routes))
     if (!selectMultiple) {
       setOpen(false)
     }
@@ -74,16 +74,14 @@ export function RouteSelectDialog(props: Props) {
       TransitionComponent={Transition}
       aria-labelledby="alert-dialog-title"
       aria-describedby="alert-dialog-description">
-      <DialogTitle id="alert-dialog-title">
-        {l10n('explanation.pickRoute')}
-      </DialogTitle>
+      <DialogTitle id="alert-dialog-title">{l10n('explanation.pickRoute')}</DialogTitle>
       <DialogContent dividers className={classes.routesSpacing}>
-        {routes.map(r => (
+        {allRoutes.map(r => (
           <Button
             className={classes.buttonMargin}
             onClick={() => selectRoute(r.id_upstream)}
             color="secondary"
-            variant={selectedRoutes.has(r.id_upstream) ? 'outlined' : 'text'}
+            variant={routes.has(r.id_upstream) ? 'outlined' : 'text'}
             key={r.id_upstream}>
             {r.name_concise}
           </Button>

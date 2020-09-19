@@ -8,9 +8,10 @@ import { getLocation } from './shared/geo-position'
 import { RoutesSegments } from './components/routes-segments.component'
 import { RoutesStations } from './components/routes-stations.component'
 import { RoutesPositions } from './components/routes-positions.component'
+import ColorsLegend from './components/colors-legend.components'
+import { useSelectedRoutes } from './selected-routes.context'
 
 type Props = {
-  selectedRoutes: Set<string>
   showUserLocation?: number
   className: string
 }
@@ -21,8 +22,9 @@ const viewport: Viewport = {
 }
 
 export function TheMap(props: Props) {
-  const { selectedRoutes, showUserLocation, className } = props
+  const { showUserLocation, className } = props
   const { leftHanded } = useSettingsState()
+  const { routes } = useSelectedRoutes()
   const mapRef = React.useRef<any>()
 
   React.useEffect(
@@ -62,9 +64,11 @@ export function TheMap(props: Props) {
 
       <ZoomControl position={leftHanded ? 'bottomleft' : 'bottomright'} />
 
-      <RoutesSegments selectedRoutes={selectedRoutes} />
-      <RoutesStations selectedRoutes={selectedRoutes} />
-      <RoutesPositions selectedRoutes={selectedRoutes} />
+      <ColorsLegend position="topright" />
+
+      <RoutesSegments selectedRoutes={routes} />
+      <RoutesStations selectedRoutes={routes} />
+      <RoutesPositions selectedRoutes={routes} />
     </Map>
   )
 }
