@@ -122,8 +122,10 @@ function calculateDirection(newDir: number, newSpeed: number, oldDir: number) {
     : newSpeed
 }
 
+type TransportType = TelemetryRouteFrameBody & { outdated?: boolean; routeId: string | number }
+
 type TransportMarkerProps = {
-  transport: TelemetryRouteFrameBody & { outdated?: boolean; routeId: string | number }
+  transport: TransportType
 }
 
 function TransportMarker(props: TransportMarkerProps) {
@@ -145,9 +147,11 @@ function TransportMarker(props: TransportMarkerProps) {
     iconSize: [25, 25],
     html: `<div>${svg(
       navigationSvgPath,
-      `fill:${transport.outdated ? 'grey' : colors[transport.routeId]?.marker || 'blue'};transform: rotate(${
-        transport.direction
-      }deg)`,
+      `fill:${
+        transport.outdated || isTransportWithinTrolleyPark(transport)
+          ? 'grey'
+          : colors[transport.routeId]?.marker || 'blue'
+      };transform: rotate(${transport.direction}deg)`,
     )}<span style="color:${colors[transport.routeId]?.text || 'lightgrey'};">${transport.route}</span></div>`,
   })
 
@@ -184,4 +188,63 @@ function TransportMarker(props: TransportMarkerProps) {
 
 function fromNowMinutes(date: Date): number {
   return Math.floor((new Date().getTime() - date.getTime()) / (60 * 1000))
+}
+
+const trolleyParks = [
+  {
+    name: 'Buiucani',
+    polygon: [
+      [47.03782046385607, 28.81591558456421],
+      [47.035422117402916, 28.82065773010254],
+      [47.03597784141986, 28.82155895233154],
+      [47.037878958764374, 28.818544149398804],
+    ],
+  },
+  {
+    name: 'Botanica',
+    polygon: [
+      [46.987505737947956, 28.88427972793579],
+      [46.98884505415609, 28.885556459426883],
+      [46.988479124097836, 28.886511325836178],
+      [46.98729349350121, 28.888131380081173],
+      [46.98627617221127, 28.886168003082272],
+    ],
+  },
+  {
+    name: 'Ciocana',
+    polygon: [
+      [47.02578377253985, 28.88381838798523],
+      [47.025578993676476, 28.887734413146973],
+      [47.029286832141274, 28.888195753097534],
+      [47.02950622279598, 28.88421535491943],
+    ],
+  },
+]
+
+function isTransportWithinTrolleyPark(transport: TransportType): boolean {
+  for (const park of trolleyParks) {
+    if (isPointInsidePolygon([transport.latitude, transport.longitude], park.polygon)) {
+      return true
+    }
+  }
+  return false
+}
+
+function isPointInsidePolygon(point: [number, number], polyPoints: number[][]): boolean {
+  const x = point[0]
+  const y = point[1]
+
+  let inside = false
+  for (let i = 0, j = polyPoints.length - 1; i < polyPoints.length; j = i++) {
+    const xi = polyPoints[i][0]
+    const yi = polyPoints[i][1]
+
+    const xj = polyPoints[j][0]
+    const yj = polyPoints[j][1]
+
+    const intersect = yi > y !== yj > y && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi
+    if (intersect) inside = !inside
+  }
+
+  return inside
 }
