@@ -22,15 +22,13 @@
 
 Make sure you have `git`, `node` and `npm` installed:
 
-1. Clone the git repo and switch into the freshly checked out directory
+Clone the git repo and switch into the freshly checked out directory
+
 ```shell
 git clone git@github.com:roataway/roataway-web.git
 cd roataway-web
-git submodule init
-git submodule update
 ```
 
-2. `npm install` - to install all the dependencies
-3. Build or start app
-  - `npm start` - to run the app in the development mode on http://localhost:3000
-  - `npm run build` - Builds the app for production in the `build` folder.
+Run `npm install` to install all the dependencies
+Run `npm start` to start a development server on http://localhost:3000
+
