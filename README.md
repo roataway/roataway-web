@@ -29,6 +29,6 @@ git clone git@github.com:roataway/roataway-web.git
 cd roataway-web
 ```
 
-Run `npm install` to install all the dependencies
+Run `npm install` to install all the dependencies. 
 Run `npm start` to start a development server on http://localhost:3000
 
