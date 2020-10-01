@@ -14,11 +14,16 @@
   }
 
   .legendText {
-    width: 190px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     transition: width 0.27s ease-out;
+    width: 170px;
+
+    @media screen and (min-width: 360px) {
+      width: 200px;
+    }
+
     @media screen and (min-width: 400px) {
       width: 250px;
     }
