@@ -5,5 +5,12 @@
   "label.myLocation": "Моё местоположение",
   "label.board": "Борт",
   "label.route": "Маршрут",
-  "label.lastSeen": "Был в сети {{n}} минут назад"
+  "label.lastSeen": "Был в сети {{n}} минут назад",
+  "label.feedback": "фидбек",
+  "label.feedback.description": "Сообщите нам, что произошло",
+  "label.name": "Полное имя",
+  "label.email": "Электронная почта",
+  "label.content": "Сообщение",
+  "button.cancel": "Отменить",
+  "button.submit": "Отправить"
 }

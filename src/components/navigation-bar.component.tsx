@@ -4,6 +4,8 @@ import IconButton from '@material-ui/core/IconButton'
 import MenuIcon from '@material-ui/icons/Menu'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
+import FeedbackIcon from '@material-ui/icons/Feedback'
+
 import {
   makeStyles,
   RadioGroup,
@@ -12,6 +14,10 @@ import {
   Radio,
   Divider,
   Switch,
+  ListItem,
+  List,
+  ListItemIcon,
+  ListItemText,
 } from '@material-ui/core'
 import { useTranslation } from 'react-i18next'
 import Drawer from '@material-ui/core/Drawer'
@@ -38,7 +44,11 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-export function NavigationBarComponent() {
+type Props = {
+  onOpenFeedback: () => void
+}
+
+export function NavigationBarComponent(props: Props) {
   const { t, i18n } = useTranslation()
   const classes = useStyles()
 
@@ -53,6 +63,11 @@ export function NavigationBarComponent() {
   function toggleLeftHanded(event) {
     setShown(false)
     settingsDispatch(setLeftHanded(event.target.checked))
+  }
+
+  function handleOpenFeedback() {
+    setShown(false)
+    props.onOpenFeedback()
   }
 
   return (
@@ -75,28 +90,24 @@ export function NavigationBarComponent() {
       <Drawer open={shown} onClose={() => setShown(false)}>
         <div className={classes.list}>
           <FormControl component="fieldset" className={classes.formControl}>
-            <RadioGroup
-              aria-label="language"
-              name="language"
-              value={i18n.language}
-              onChange={changeLanguage}>
-              <FormControlLabel
-                value="en"
-                control={<Radio color="primary" />}
-                label="English"
-              />
-              <FormControlLabel
-                value="ro"
-                control={<Radio color="primary" />}
-                label="Romanian"
-              />
-              <FormControlLabel
-                value="ru"
-                control={<Radio color="primary" />}
-                label="Russian"
-              />
+            <RadioGroup aria-label="language" name="language" value={i18n.language} onChange={changeLanguage}>
+              <FormControlLabel value="en" control={<Radio color="primary" />} label="English" />
+              <FormControlLabel value="ro" control={<Radio color="primary" />} label="Romanian" />
+              <FormControlLabel value="ru" control={<Radio color="primary" />} label="Russian" />
             </RadioGroup>
           </FormControl>
+          <Divider />
+
+          <List>
+            <ListItem button onClick={handleOpenFeedback}>
+              <ListItemIcon>
+                <FeedbackIcon />
+              </ListItemIcon>
+
+              <ListItemText primary={t('label.feedback')} />
+            </ListItem>
+          </List>
+
           <Divider />
           <FormControlLabel
             className={classes.formControl}
