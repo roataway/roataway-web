@@ -23,18 +23,40 @@ type FeedbackFormValues = {
 }
 
 export function ProvideFeedbackDialog(props: Props) {
-  const { register, handleSubmit, errors } = useForm<FeedbackFormValues>()
+  const { register, handleSubmit } = useForm<FeedbackFormValues>()
   const { t } = useTranslation()
 
   function handleClose() {
     props.setOpen(false)
   }
 
-  function handleSubmitFeedback() {
+  function handleSubmitFeedback(data: FeedbackFormValues) {
+    const body = {
+      name: data.email,
+      email: data.email,
+      comments: data.content,
+    }
+
+    const {
+      REACT_APP_SENTRY_AUTHORIZATION_TOKEN,
+      REACT_APP_SENTRY_ORGANIZATION_SLUG,
+      REACT_APP_SENTRY_PROJECT_SLUG,
+    } = process.env
+
+    fetch(
+      `https://sentry.io/api/0/projects/${REACT_APP_SENTRY_ORGANIZATION_SLUG}/${REACT_APP_SENTRY_PROJECT_SLUG}/user-feedback`,
+      {
+        method: 'POST',
+        headers: new Headers({
+          Authorization: `Bearer ${REACT_APP_SENTRY_AUTHORIZATION_TOKEN}`,
+          'Content-Type': 'application/json',
+        }),
+        body: JSON.stringify(body),
+      },
+    )
+
     handleClose()
   }
-
-  console.log({ errors })
 
   return (
     <Dialog open={props.isOpen} onClose={handleClose} aria-labelledby="form-dialog-title">
