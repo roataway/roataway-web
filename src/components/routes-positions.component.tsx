@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { DivIcon } from 'leaflet'
 import { useTranslation } from 'react-i18next'
 import { Marker, Popup, useLeaflet } from 'react-leaflet'
@@ -11,11 +11,18 @@ import { telemetryRoute, TelemetryRouteFrameBody } from '../shared/rtec-client/s
 import { useRouteColors } from '../route-colors.context'
 import { generateMailto } from '../shared/report-tools'
 import { ADDRESS_FEEDBACK_CC, ADDRESS_FEEDBACK_TO } from '../shared/constants'
+import { eventRoute, EventRouteFrameBody } from '../shared/rtec-client/subscriptions/event.route'
 
 const navigationSvgPath = `M 12.037109,3.2597656 C 7.46559,3.2596004 3.7596004,6.96559 3.7597656,11.537109 c -1.655e-4,4.571519 3.7058242,8.277509 8.2773434,8.277344 4.571519,1.66e-4 8.27751,-3.705825 8.277344,-8.277344 1.65e-4,-4.5715192 -3.705825,-8.2775089 -8.277344,-8.2773434 z`
 
 const MARKER_TTL_MILLIS = 5 * 60 * 1000
 const TTL_CHECK_INTERVAL_MILLIS = 60 * 1000
+
+// Delay before board will be deleted from positions object after remove event
+const REMOVE_EVENT_TTL_MILLIS = 4000
+// Step to decrease marker opacity from 1 to 0
+const FADE_OUT_STEP = 0.1
+const FADE_OUT_DELAY_MILLIS = REMOVE_EVENT_TTL_MILLIS * FADE_OUT_STEP
 
 type Props = {
   selectedRoutes: Set<string>
@@ -68,7 +75,7 @@ function RouteMarkers({ routeId, client, noTransition }) {
 }
 
 type Positions = {
-  [board: string]: TelemetryRouteFrameBody & { outdated?: boolean; routeId: string | number }
+  [board: string]: TransportType
 }
 
 function usePositions(routeId: string | number, client: ReturnType<typeof useRtecClient>) {
@@ -125,7 +132,56 @@ function usePositions(routeId: string | number, client: ReturnType<typeof useRte
     [connected, subscribe, routeId],
   )
 
+  useRemoveEvent(routeId, client, setPositions)
+
   return positions
+}
+
+function useRemoveEvent(
+  routeId: string | number,
+  client: ReturnType<typeof useRtecClient>,
+  setPositions: React.Dispatch<React.SetStateAction<Positions>>,
+) {
+  const { connected, subscribe } = client
+  useEffect(() => {
+    // Client is not connected yet, we can't subscribe
+    if (!connected) {
+      return
+    }
+
+    let timerId
+
+    const subscription = subscribe(eventRoute(routeId), (message: Message) => {
+      const event: EventRouteFrameBody = JSON.parse(message.body)
+      if (event.event === 'remove') {
+        setPositions(p => {
+          const oldPos = p[event.board]
+          return {
+            ...p,
+            [event.board]: {
+              ...oldPos,
+              isRemoved: true,
+            },
+          }
+        })
+
+        timerId = setTimeout(() => {
+          setPositions(p => {
+            delete p[event.board]
+            return {
+              ...p,
+            }
+          })
+        }, REMOVE_EVENT_TTL_MILLIS)
+      }
+    })
+
+    // this will be called whenever routeId will change or component will unmount
+    return () => {
+      subscription.unsubscribe()
+      clearTimeout(timerId)
+    }
+  }, [connected, subscribe, routeId, setPositions])
 }
 
 function calculateDirection(newDir: number, newSpeed: number, oldDir: number) {
@@ -147,7 +203,7 @@ function calculateDirection(newDir: number, newSpeed: number, oldDir: number) {
     : newSpeed
 }
 
-type TransportType = TelemetryRouteFrameBody & { outdated?: boolean; routeId: string | number }
+type TransportType = TelemetryRouteFrameBody & { outdated?: boolean; routeId: string | number; isRemoved?: boolean }
 
 type TransportMarkerProps = {
   transport: TransportType
@@ -158,6 +214,22 @@ function TransportMarker(props: TransportMarkerProps) {
   const { transport, noTransition } = props
   const { t } = useTranslation()
   const { colors } = useRouteColors()
+
+  const opacityRef = useRef<number>(1)
+  useEffect(() => {
+    if (!transport.isRemoved) {
+      return
+    }
+
+    const timerId = setInterval(() => {
+      if (opacityRef.current <= 0) {
+        clearInterval(timerId)
+      }
+      opacityRef.current -= FADE_OUT_STEP
+    }, FADE_OUT_DELAY_MILLIS)
+
+    return () => clearInterval(timerId)
+  }, [transport.isRemoved])
 
   /**
    * To show an oriented marker, we have to work around a limitation
@@ -190,11 +262,12 @@ function TransportMarker(props: TransportMarkerProps) {
   const vehicle = board ? boardToVehicle.get(board) : undefined
   const accessibility = vehicle && vehicle.accessibility ? ' ♿' : undefined
 
-  return (
+  return opacityRef.current > 0 ? (
     <Marker
       key={transport.board}
       title={transport.board}
       position={[transport.latitude, transport.longitude]}
+      opacity={opacityRef.current}
       icon={icon}>
       <Popup>
         {`${t('label.route')}: ${transport.route}`}
@@ -263,7 +336,7 @@ function TransportMarker(props: TransportMarkerProps) {
         </ul>
       </Popup>
     </Marker>
-  )
+  ) : null
 }
 
 function fromNowMinutes(date: Date): number {
