@@ -27,8 +27,8 @@ const ColorsLegend: FC<MapControlProps> = ({ position = 'topright' }) => {
     return null
   }
 
-  const collapseLegend = () => {
-    setLegendCollapseState(!isLegendCollapsed)
+  const toggleLegendCollapseState = () => {
+    setLegendCollapseState(s => !s)
   }
 
   const removeRoute = routeId => {
@@ -56,16 +56,10 @@ const ColorsLegend: FC<MapControlProps> = ({ position = 'topright' }) => {
     )
   }
 
-  const collapseButtonIconClasses = `${isLegendCollapsed ? legendClasses.rotatedToggleIcon : ''}`
   return (
     <MapControl position={position}>
       <Paper className={legendClasses.legendContainer} elevation={3}>
-        <div className={legendClasses.collapseWrapper}>
-          <Button className={legendClasses.collapseButton} onClick={collapseLegend}>
-            <DoubleArrowRoundedIcon className={collapseButtonIconClasses} />
-          </Button>
-        </div>
-
+        <ToggleRoutesButton isCollapsed={isLegendCollapsed} onClick={toggleLegendCollapseState} />
         <List dense>{Object.keys(colors).map(renderRow)}</List>
       </Paper>
     </MapControl>
@@ -82,4 +76,14 @@ const RemoveRouteButton: FC<{ routeId: string; onClick: (id: string) => void }> 
   )
 }
 
+const ToggleRoutesButton: FC<{ isCollapsed: boolean; onClick: () => void }> = ({ isCollapsed, onClick }) => {
+  const collapseButtonIconClasses = `${isCollapsed ? legendClasses.rotatedToggleIcon : ''}`
+  return (
+    <div className={legendClasses.collapseWrapper}>
+      <Button className={legendClasses.collapseButton} onClick={onClick}>
+        <DoubleArrowRoundedIcon className={collapseButtonIconClasses} />
+      </Button>
+    </div>
+  )
+}
 export default ColorsLegend
