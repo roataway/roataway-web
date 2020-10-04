@@ -19,7 +19,6 @@ declare global {
       readonly REACT_APP_SENTRY_DSN: string
       readonly REACT_APP_SENTRY_ORGANIZATION_SLUG: string
       readonly REACT_APP_SENTRY_PROJECT_SLUG: string
-      readonly REACT_APP_SENTRY_AUTHORIZATION_TOKEN: string
       readonly REACT_APP_DEPLOY_DATE: string
       readonly REACT_APP_DEPLOY_HASH: string
     }

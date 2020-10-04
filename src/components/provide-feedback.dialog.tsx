@@ -1,5 +1,5 @@
 import React from 'react'
-import { useForm } from 'react-hook-form'
+import { useForm, Controller } from 'react-hook-form'
 import {
   Button,
   Dialog,
@@ -23,7 +23,7 @@ type FeedbackFormValues = {
 }
 
 export function ProvideFeedbackDialog(props: Props) {
-  const { register, handleSubmit } = useForm<FeedbackFormValues>()
+  const { handleSubmit, control } = useForm<FeedbackFormValues>()
   const { t } = useTranslation()
 
   function handleClose() {
@@ -31,26 +31,23 @@ export function ProvideFeedbackDialog(props: Props) {
   }
 
   function handleSubmitFeedback(data: FeedbackFormValues) {
+    const { REACT_APP_SENTRY_DSN, REACT_APP_SENTRY_ORGANIZATION_SLUG, REACT_APP_SENTRY_PROJECT_SLUG } = process.env
+
     const body = {
-      name: data.email,
+      event_id: 'user-feedback',
+      name: data.name,
       email: data.email,
       comments: data.content,
     }
 
-    const {
-      REACT_APP_SENTRY_AUTHORIZATION_TOKEN,
-      REACT_APP_SENTRY_ORGANIZATION_SLUG,
-      REACT_APP_SENTRY_PROJECT_SLUG,
-    } = process.env
-
     fetch(
-      `https://sentry.io/api/0/projects/${REACT_APP_SENTRY_ORGANIZATION_SLUG}/${REACT_APP_SENTRY_PROJECT_SLUG}/user-feedback`,
+      `https://sentry.io/api/0/projects/${REACT_APP_SENTRY_ORGANIZATION_SLUG}/${REACT_APP_SENTRY_PROJECT_SLUG}/user-feedback/`,
       {
         method: 'POST',
-        headers: new Headers({
-          Authorization: `Bearer ${REACT_APP_SENTRY_AUTHORIZATION_TOKEN}`,
+        headers: {
+          Authorization: `DSN ${REACT_APP_SENTRY_DSN}`,
           'Content-Type': 'application/json',
-        }),
+        },
         body: JSON.stringify(body),
       },
     )
@@ -61,24 +58,29 @@ export function ProvideFeedbackDialog(props: Props) {
   return (
     <Dialog open={props.isOpen} onClose={handleClose} aria-labelledby="form-dialog-title">
       <form onSubmit={handleSubmit(handleSubmitFeedback)}>
-        <DialogTitle id="form-dialog-title"> {t('label.feedback')}</DialogTitle>
+        <DialogTitle> {t('label.feedback')}</DialogTitle>
         <DialogContent>
           <DialogContentText>{t('label.feedback.description')}</DialogContentText>
-          <TextField
-            ref={register}
+          <Controller
+            as={TextField}
+            control={control}
+            name="name"
+            defaultValue=""
             variant="outlined"
             autoFocus
-            id="name"
             label={t('label.name')}
             type="text"
             fullWidth
             margin="normal"
             required
           />
-          <TextField
-            ref={register}
+
+          <Controller
+            as={TextField}
+            control={control}
+            name="email"
+            defaultValue=""
             variant="outlined"
-            id="email"
             label={t('label.email')}
             type="email"
             margin="normal"
@@ -86,10 +88,12 @@ export function ProvideFeedbackDialog(props: Props) {
             required
           />
 
-          <TextField
-            ref={register}
+          <Controller
+            as={TextField}
+            control={control}
+            name="content"
+            defaultValue=""
             variant="outlined"
-            id="content"
             label={t('label.content')}
             rows={5}
             multiline
