@@ -1,5 +1,5 @@
 export async function getLocation(): Promise<Position> {
-  if (navigator && navigator.geolocation) {
+  if (navigator?.geolocation) {
     return new Promise((resolve, reject) => {
       navigator.geolocation.getCurrentPosition(resolve, reject)
     })
