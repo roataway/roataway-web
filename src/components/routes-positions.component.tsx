@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { DivIcon } from 'leaflet'
 import { useTranslation } from 'react-i18next'
-import { Marker, Popup } from 'react-leaflet'
+import { Marker, Popup, useLeaflet } from 'react-leaflet'
 import { svg } from '../shared/svg'
 import { boardToVehicle, trackerToBoard } from '../shared/vehicles'
 import classes from './routes-positions.module.scss'
@@ -19,24 +19,47 @@ type Props = {
   selectedRoutes: Set<string>
 }
 
+function useTransitionOnZoomEvent(): boolean {
+  const leafletContext = useLeaflet()
+  const [noTransition, setNoTransition] = useState<boolean>(false)
+
+  useEffect(() => {
+    let timerId
+
+    leafletContext.map?.on('zoomstart', () => {
+      clearTimeout(timerId)
+      setNoTransition(true)
+    })
+    leafletContext.map?.on('zoomend', () => {
+      timerId = setTimeout(() => setNoTransition(false), 1000)
+    })
+
+    return () => clearTimeout(timerId)
+  }, [leafletContext.map])
+
+  return noTransition
+}
+
 export function RoutesPositions(props: Props) {
   const routesIDs = Array.from(props.selectedRoutes)
   const client = useRtecClient()
+  const noTransition = useTransitionOnZoomEvent()
+
   return (
     <React.Fragment>
       {routesIDs.map(id => (
-        <RouteMarkers key={id} routeId={id} client={client} />
+        <RouteMarkers key={id} routeId={id} client={client} noTransition={noTransition} />
       ))}
     </React.Fragment>
   )
 }
 
-function RouteMarkers({ routeId, client }) {
+function RouteMarkers({ routeId, client, noTransition }) {
   const positions = usePositions(routeId, client)
   return (
     <React.Fragment>
       {Object.values(positions).map(p => (
-        <TransportMarker key={p.board} transport={p} />
+        <TransportMarker key={p.board} transport={p} noTransition={noTransition} />
       ))}
     </React.Fragment>
   )
@@ -126,10 +149,11 @@ type TransportType = TelemetryRouteFrameBody & { outdated?: boolean; routeId: st
 
 type TransportMarkerProps = {
   transport: TransportType
+  noTransition: boolean
 }
 
 function TransportMarker(props: TransportMarkerProps) {
-  const { transport } = props
+  const { transport, noTransition } = props
   const { t } = useTranslation()
   const { colors } = useRouteColors()
 
@@ -143,7 +167,7 @@ function TransportMarker(props: TransportMarkerProps) {
    */
 
   const icon = new DivIcon({
-    className: classes.markerImg,
+    className: `${classes.markerImg} ${noTransition ? classes.markerImgNoTransition : ''}`,
     iconSize: [25, 25],
     html: `<div>${svg(
       navigationSvgPath,
