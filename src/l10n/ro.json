@@ -12,5 +12,7 @@
   "label.email": "Email",
   "label.content": "Mesaj",
   "button.cancel": "Anulați",
-  "button.submit": "Trimiteți"
+  "button.submit": "Trimiteți",
+  "message.submitFeedback.success": "Feedback-ul tău a fost trimis cu succes!",
+  "message.submitFeedback.error": "Ceva a nu a mers bine"
 }

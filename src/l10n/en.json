@@ -14,5 +14,7 @@
   "label.email": "Email",
   "label.content": "Message",
   "button.cancel": "Cancel",
-  "button.submit": "Submit"
+  "button.submit": "Submit",
+  "message.submitFeedback.success": "Your feedback has been received!",
+  "message.submitFeedback.error": "Something went wrong"
 }

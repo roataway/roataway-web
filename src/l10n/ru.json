@@ -12,5 +12,7 @@
   "label.email": "Электронная почта",
   "label.content": "Сообщение",
   "button.cancel": "Отменить",
-  "button.submit": "Отправить"
+  "button.submit": "Отправить",
+  "message.submitFeedback.success": "Ваш отзыв успешно отправлен!",
+  "message.submitFeedback.error": "Что-то пошло не так"
 }
