@@ -7,5 +7,14 @@
   "label.myLocation": "My location",
   "label.board": "Board",
   "label.route": "Route",
-  "label.lastSeen": "Last seen {{n}} minutes ago"
+  "label.lastSeen": "Last seen {{n}} minutes ago",
+  "label.feedback": "Feedback",
+  "label.feedback.description": "Please let us know what happened",
+  "label.name": "Full Name",
+  "label.email": "Email",
+  "label.content": "Message",
+  "button.cancel": "Cancel",
+  "button.submit": "Submit",
+  "message.submitFeedback.success": "Your feedback has been received!",
+  "message.submitFeedback.error": "Something went wrong"
 }

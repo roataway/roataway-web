@@ -5,5 +5,14 @@
   "label.myLocation": "Locația mea",
   "label.board": "Bord",
   "label.route": "Ruta",
-  "label.lastSeen": "A fost văzut ultima dată {{n}} minute în urma"
+  "label.lastSeen": "A fost văzut ultima dată {{n}} minute în urma",
+  "label.feedback": "Feedback",
+  "label.feedback.description": "Vă rugăm să ne anunțați ce s-a întâmplat",
+  "label.name": "Numele complet",
+  "label.email": "Email",
+  "label.content": "Mesaj",
+  "button.cancel": "Anulați",
+  "button.submit": "Trimiteți",
+  "message.submitFeedback.success": "Feedback-ul tău a fost trimis cu succes!",
+  "message.submitFeedback.error": "Ceva a nu a mers bine"
 }
