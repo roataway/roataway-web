@@ -52,8 +52,8 @@ export function TheMap(props: Props) {
       zoomControl={false}
       viewport={viewport}>
       <TileLayer
-        attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">© MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">© OpenStreetMap contributors</a>'
-        url="https://api.maptiler.com/maps/basic/{z}/{x}/{y}.png?key=kkvVQYrpRAgd0J55hJz5"
+        attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         tileSize={512}
         zoomOffset={-1}
         minZoom={1}
