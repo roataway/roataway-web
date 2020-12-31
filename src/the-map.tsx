@@ -40,6 +40,12 @@ export function TheMap(props: Props) {
     [showUserLocation],
   )
 
+  function onZoom(event) {
+    // change the size and anchor points of of the station markers
+    console.log(`Current zoom level=${event.target.getZoom()}`)
+    console.log(event.target)
+  }
+
   return (
     <Map
       ref={mapRef}
@@ -50,6 +56,7 @@ export function TheMap(props: Props) {
       maxZoom={19}
       className={className}
       zoomControl={false}
+      onzoomend={onZoom}
       viewport={viewport}>
       <TileLayer
         attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'

@@ -4,15 +4,19 @@ import { Icon, marker, Layer } from 'leaflet'
 import { GeoJSON } from 'react-leaflet'
 import uniqBy from 'lodash.uniqby'
 import { ErrorBoundary } from '../shared/error-boundary'
-import markerIcon from 'leaflet/dist/images/marker-icon.png'
-import markerShadow from 'leaflet/dist/images/marker-shadow.png'
+import markerIcon from '../icons/station.svg'
+
+// find a way to choose a different size, depending on the zoom level
+const markerLarge = 20
+const markerSmall = 15
+const markerTiny = 8
 
 const icon = new Icon({
   iconUrl: markerIcon,
-  shadowUrl: markerShadow,
-  // `markerIcon` size is 25x41
+
   // https://leafletjs.com/reference-1.5.0.html#icon-iconanchor
-  iconAnchor: [12, 41],
+  iconAnchor: [markerTiny / 2, markerTiny / 2],
+  iconSize: [markerTiny, markerTiny],
 })
 
 export function RoutesStations({ selectedRoutes }) {
