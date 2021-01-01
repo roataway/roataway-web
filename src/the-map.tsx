@@ -60,7 +60,7 @@ export function TheMap(props: Props) {
       viewport={viewport}>
       <TileLayer
         attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        url="https://maptiles.railean.net/styles/klokantech-basic/{z}/{x}/{y}.png"
         tileSize={512}
         zoomOffset={-1}
         minZoom={1}
