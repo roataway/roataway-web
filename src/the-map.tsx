@@ -54,10 +54,6 @@ export function TheMap(props: Props) {
       <TileLayer
         attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://maptiles.railean.net/styles/klokantech-basic/{z}/{x}/{y}.png"
-        tileSize={512}
-        zoomOffset={-1}
-        minZoom={1}
-        crossOrigin={true}
       />
 
       {showUserLocation && <UserLocation />}
