@@ -11,12 +11,3 @@
 .map {
   flex-grow: 1;
 }
-
-/** make the segments that form the routes thicker, otherwise the thin lines cannot be easily
-*   seen when default OSM tiles are used.
-*   TODO find out why the more specific selector `path.leaflet-interactive` doesn't work
-*/
-path {
-  stroke-width: 10px;
-  stroke-opacity: 0.8;
-}
