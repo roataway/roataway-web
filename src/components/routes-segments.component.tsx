@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { FeatureCollection, LineString } from 'geojson'
 import { GeoJSON } from 'react-leaflet'
 import { ErrorBoundary } from '../shared/error-boundary'
@@ -21,7 +21,7 @@ export function RoutesSegments({ selectedRoutes }) {
 
   return (
     <ErrorBoundary>
-      <GeoJSON style={getSegmentStyle} key={segmentsUpdatedCount} data={segments} />
+      <GeoJSON style={getSegmentStyle} key={segmentsUpdatedCount} data={segments} opacity={0.8} weight={10} />
     </ErrorBoundary>
   )
 }
