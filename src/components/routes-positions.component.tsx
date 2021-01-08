@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { DivIcon } from 'leaflet'
 import { useTranslation } from 'react-i18next'
 import { Marker, Popup, useLeaflet } from 'react-leaflet'
@@ -7,8 +7,10 @@ import { boardToVehicle, trackerToBoard } from '../shared/vehicles'
 import classes from './routes-positions.module.scss'
 import { useRtecClient } from '../shared/rtec-client/rtec-client.hook'
 import { Message } from 'webstomp-client'
-import { TelemetryRouteFrameBody, telemetryRoute } from '../shared/rtec-client/subscriptions/telemetry.route'
+import { telemetryRoute, TelemetryRouteFrameBody } from '../shared/rtec-client/subscriptions/telemetry.route'
 import { useRouteColors } from '../route-colors.context'
+import { generateMailto } from '../shared/report-tools'
+import { ADDRESS_FEEDBACK_CC, ADDRESS_FEEDBACK_TO } from '../shared/constants'
 
 const navigationSvgPath = `M 12.037109,3.2597656 C 7.46559,3.2596004 3.7596004,6.96559 3.7597656,11.537109 c -1.655e-4,4.571519 3.7058242,8.277509 8.2773434,8.277344 4.571519,1.66e-4 8.27751,-3.705825 8.277344,-8.277344 1.65e-4,-4.5715192 -3.705825,-8.2775089 -8.277344,-8.2773434 z`
 
@@ -205,6 +207,60 @@ function TransportMarker(props: TransportMarkerProps) {
             {t('label.lastSeen', { n: fromNowMinutes(new Date(transport.timestamp)) })}
           </>
         )}
+        <br />
+        <br />
+        <strong>{t('label.reportProblem')}</strong>
+
+        <ul className={classes.problemList}>
+          <li>
+            <a
+              className={classes.problemLink}
+              children={t('label.reportProblem.routeMapping')}
+              href={generateMailto(
+                ADDRESS_FEEDBACK_TO,
+                t('feedback.subject.routeMapping', { board: transport.board }),
+                [
+                  t('feedback.body.header', { board: transport.board, timestamp: new Date().toLocaleString() }),
+                  t('feedback.body.routeMapping', { route: transport.route }),
+                  t('feedback.body.thanks'),
+                ].join('\n\n'),
+                ADDRESS_FEEDBACK_CC,
+              )}
+            />
+          </li>
+          <li>
+            <a
+              className={classes.problemLink}
+              children={t('label.reportProblem.onboard')}
+              href={generateMailto(
+                ADDRESS_FEEDBACK_TO,
+                t('feedback.subject.onboard', { board: transport.board }),
+                [
+                  t('feedback.body.header', { board: transport.board, timestamp: new Date().toLocaleString() }),
+                  t('feedback.body.onboard'),
+                  t('feedback.body.thanks'),
+                ].join('\n\n'),
+                undefined, // note that this is an RTEC-specific problem, so we're not CCing the supervisor
+              )}
+            />
+          </li>
+          <li>
+            <a
+              className={classes.problemLink}
+              children={t('label.reportProblem.corruption')}
+              href={generateMailto(
+                ADDRESS_FEEDBACK_TO,
+                t('feedback.subject.corruption', { board: transport.board }),
+                [
+                  t('feedback.body.header', { board: transport.board, timestamp: new Date().toLocaleString() }),
+                  t('feedback.body.corruption'),
+                  t('feedback.body.thanks'),
+                ].join('\n\n'),
+                undefined, // note that this is an RTEC-specific problem, so we're not CCing the supervisor
+              )}
+            />
+          </li>
+        </ul>
       </Popup>
     </Marker>
   )
