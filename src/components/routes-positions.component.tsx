@@ -9,6 +9,8 @@ import { useRtecClient } from '../shared/rtec-client/rtec-client.hook'
 import { Message } from 'webstomp-client'
 import { TelemetryRouteFrameBody, telemetryRoute } from '../shared/rtec-client/subscriptions/telemetry.route'
 import { useRouteColors } from '../route-colors.context'
+import { generateMailto } from '../shared/report-tools'
+import { ADDRESS_FEEDBACK_TO, ADDRESS_FEEDBACK_CC } from '../shared/constants'
 
 const navigationSvgPath = `M 12.037109,3.2597656 C 7.46559,3.2596004 3.7596004,6.96559 3.7597656,11.537109 c -1.655e-4,4.571519 3.7058242,8.277509 8.2773434,8.277344 4.571519,1.66e-4 8.27751,-3.705825 8.277344,-8.277344 1.65e-4,-4.5715192 -3.705825,-8.2775089 -8.277344,-8.2773434 z`
 
@@ -205,6 +207,55 @@ function TransportMarker(props: TransportMarkerProps) {
             {t('label.lastSeen', { n: fromNowMinutes(new Date(transport.timestamp)) })}
           </>
         )}
+        <br />
+        <br />
+        <strong>{t('label.reportProblem')}</strong>
+        <ul>
+          <li>
+            <a
+              href={generateMailto(
+                ADDRESS_FEEDBACK_TO,
+                t('feedback.subject.routeMapping', { board: transport.board }),
+                t('feedback.body.header', { board: transport.board, timestamp: new Date().toLocaleString() }) +
+                  t('feedback.body.routeMapping', { route: transport.route }) +
+                  t('feedback.body.thanks') +
+                  '\n\n',
+                ADDRESS_FEEDBACK_CC,
+              )}>
+              {t('label.reportProblem.routeMapping')}
+            </a>
+          </li>
+          <li>
+            <a
+              href={
+                generateMailto(
+                  ADDRESS_FEEDBACK_TO,
+                  t('feedback.subject.onboard', { board: transport.board }),
+                  t('feedback.body.header', { board: transport.board, timestamp: new Date().toLocaleString() }) +
+                    t('feedback.body.onboard') +
+                    '\n\n' +
+                    t('feedback.body.thanks'),
+                ) // note that this is an RTEC-specific problem, so we're not CCing the supervisor
+              }>
+              {t('label.reportProblem.onboard')}
+            </a>
+          </li>
+          <li>
+            <a
+              href={
+                generateMailto(
+                  ADDRESS_FEEDBACK_TO,
+                  t('feedback.subject.corruption', { board: transport.board }),
+                  t('feedback.body.header', { board: transport.board, timestamp: new Date().toLocaleString() }) +
+                    t('feedback.body.corruption') +
+                    '\n\n' +
+                    t('feedback.body.thanks'),
+                ) // note that this is an RTEC-specific problem, so we're not CCing the supervisor
+              }>
+              {t('label.reportProblem.corruption')}
+            </a>
+          </li>
+        </ul>
       </Popup>
     </Marker>
   )
