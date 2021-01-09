@@ -21,7 +21,7 @@ export function RoutesSegments({ selectedRoutes }) {
 
   return (
     <ErrorBoundary>
-      <GeoJSON style={getSegmentStyle} key={segmentsUpdatedCount} data={segments} opacity={0.8} weight={10} />
+      <GeoJSON style={getSegmentStyle} key={segmentsUpdatedCount} data={segments} opacity={0.8} weight={6} />
     </ErrorBoundary>
   )
 }
