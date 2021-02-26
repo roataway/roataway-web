@@ -22,10 +22,10 @@
 
 Make sure you have `git`, `node` and `npm` installed:
 
-Clone the git repo and switch into the freshly checked out directory
+Fork the repository. Clone the forked git repo and switch into the freshly checked out directory
 
 ```shell
-git clone git@github.com:roataway/roataway-web.git
+git clone git@github.com:your-username/roataway-web.git
 cd roataway-web
 ```
 
