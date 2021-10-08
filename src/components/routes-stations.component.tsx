@@ -7,8 +7,8 @@ import { ErrorBoundary } from '../shared/error-boundary'
 import markerIcon from '../icons/station.svg'
 
 // find a way to choose a different size, depending on the zoom level
-const markerLarge = 20
-const markerSmall = 15
+// const markerLarge = 20
+// const markerSmall = 15
 const markerTiny = 8
 
 const icon = new Icon({

@@ -395,7 +395,11 @@ function isPointInsidePolygon(point: [number, number], polyPoints: number[][]): 
     const xj = polyPoints[j][0]
     const yj = polyPoints[j][1]
 
-    const intersect = yi > y !== yj > y && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi
+    const left1 = yi > y
+    const left2 = yj > y
+    const left = left1 !== left2
+    const right = x < ((xj - xi) * (y - yi)) / (yj - yi) + xi
+    const intersect = left && right
     if (intersect) inside = !inside
   }
 
