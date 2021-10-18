@@ -82,8 +82,8 @@ export const colorPalette = {
    * Return predefined colors back to the colors pool
    * @param unusedColors - primary color(s) from palette
    */
-  restore(...unusedColors) {
-    this.colors.push(...PREDEFINED_COLORS.filter(predefinedColor => unusedColors.includes(predefinedColor.primary)))
+  restore(...unusedColors: string[]) {
+    this.colors.push(...PREDEFINED_COLORS.filter((predefinedColor) => unusedColors.includes(predefinedColor.primary)))
   },
 }
 
@@ -107,7 +107,7 @@ export function randomColorPalette(brightness: number | undefined = DEFAULT_BRIG
   }
 }
 
-function randomChannel(brightness): string {
+function randomChannel(brightness: number): string {
   const r = MAX_COLOR_INTENSITY - brightness
   const n = Math.floor(Math.random() * r + brightness)
   const s = n.toString(16)

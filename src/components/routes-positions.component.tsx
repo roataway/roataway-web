@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, Fragment, Dispatch, SetStateAction } from 'react'
 import { DivIcon } from 'leaflet'
 import { useTranslation } from 'react-i18next'
 import { Marker, Popup, useLeaflet } from 'react-leaflet'
@@ -33,7 +33,7 @@ function useTransitionOnZoomEvent(): boolean {
   const [noTransition, setNoTransition] = useState<boolean>(false)
 
   useEffect(() => {
-    let timerId
+    let timerId: ReturnType<typeof setTimeout>
 
     leafletContext.map?.on('zoomstart', () => {
       clearTimeout(timerId)
@@ -55,22 +55,22 @@ export function RoutesPositions(props: Props) {
   const noTransition = useTransitionOnZoomEvent()
 
   return (
-    <React.Fragment>
-      {routesIDs.map(id => (
+    <Fragment>
+      {routesIDs.map((id) => (
         <RouteMarkers key={id} routeId={id} client={client} noTransition={noTransition} />
       ))}
-    </React.Fragment>
+    </Fragment>
   )
 }
 
-function RouteMarkers({ routeId, client, noTransition }) {
+function RouteMarkers({ routeId, client, noTransition }: any) {
   const positions = usePositions(routeId, client)
   return (
-    <React.Fragment>
-      {Object.values(positions).map(p => (
+    <Fragment>
+      {Object.values(positions).map((p) => (
         <TransportMarker key={p.board} transport={p} noTransition={noTransition} />
       ))}
-    </React.Fragment>
+    </Fragment>
   )
 }
 
@@ -104,15 +104,15 @@ function usePositions(routeId: string | number, client: ReturnType<typeof useRte
   }, [positions])
 
   useEffect(
-    function() {
+    function () {
       // Client is not connected yet, we can't subscribe
       if (!connected) {
         return
       }
 
-      const subscription = subscribe(telemetryRoute(routeId), function(message: Message) {
+      const subscription = subscribe(telemetryRoute(routeId), function (message: Message) {
         const pos: TelemetryRouteFrameBody = JSON.parse(message.body)
-        setPositions(p => {
+        setPositions((p) => {
           const oldPos = p[pos.board]
           return {
             ...p,
@@ -140,7 +140,7 @@ function usePositions(routeId: string | number, client: ReturnType<typeof useRte
 function useRemoveEvent(
   routeId: string | number,
   client: ReturnType<typeof useRtecClient>,
-  setPositions: React.Dispatch<React.SetStateAction<Positions>>,
+  setPositions: Dispatch<SetStateAction<Positions>>,
 ) {
   const { connected, subscribe } = client
   useEffect(() => {
@@ -149,12 +149,12 @@ function useRemoveEvent(
       return
     }
 
-    let timerId
+    let timerId: ReturnType<typeof setTimeout>
 
     const subscription = subscribe(eventRoute(routeId), (message: Message) => {
       const event: EventRouteFrameBody = JSON.parse(message.body)
       if (event.event === 'remove') {
-        setPositions(p => {
+        setPositions((p) => {
           const oldPos = p[event.board]
           return {
             ...p,
@@ -166,7 +166,7 @@ function useRemoveEvent(
         })
 
         timerId = setTimeout(() => {
-          setPositions(p => {
+          setPositions((p) => {
             delete p[event.board]
             return {
               ...p,
@@ -268,7 +268,8 @@ function TransportMarker(props: TransportMarkerProps) {
       title={transport.board}
       position={[transport.latitude, transport.longitude]}
       opacity={opacityRef.current}
-      icon={icon}>
+      icon={icon}
+    >
       <Popup>
         {`${t('label.route')}: ${transport.route}`}
         <br />

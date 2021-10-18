@@ -1,4 +1,4 @@
-import React from 'react'
+import { ChangeEvent, useState, Fragment } from 'react'
 import AppBar from '@material-ui/core/AppBar'
 import IconButton from '@material-ui/core/IconButton'
 import MenuIcon from '@material-ui/icons/Menu'
@@ -23,7 +23,7 @@ import { useTranslation } from 'react-i18next'
 import Drawer from '@material-ui/core/Drawer'
 import { useSettings, setLeftHanded } from '../settings.context'
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
@@ -53,14 +53,14 @@ export function NavigationBarComponent(props: Props) {
   const classes = useStyles()
 
   const [settings, settingsDispatch] = useSettings()
-  const [shown, setShown] = React.useState(false)
+  const [shown, setShown] = useState(false)
 
-  function changeLanguage(event) {
+  function changeLanguage(event: ChangeEvent<HTMLInputElement>) {
     setShown(false)
     i18n.changeLanguage(event.target.value)
   }
 
-  function toggleLeftHanded(event) {
+  function toggleLeftHanded(event: ChangeEvent<HTMLInputElement>) {
     setShown(false)
     settingsDispatch(setLeftHanded(event.target.checked))
   }
@@ -71,7 +71,7 @@ export function NavigationBarComponent(props: Props) {
   }
 
   return (
-    <React.Fragment>
+    <Fragment>
       <AppBar position="static">
         <Toolbar>
           <IconButton
@@ -79,7 +79,8 @@ export function NavigationBarComponent(props: Props) {
             className={classes.menuButton}
             color="inherit"
             aria-label="menu"
-            onClick={() => setShown(true)}>
+            onClick={() => setShown(true)}
+          >
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
@@ -115,7 +116,7 @@ export function NavigationBarComponent(props: Props) {
               <Switch
                 className={classes.switch}
                 checked={settings.leftHanded}
-                onChange={event => toggleLeftHanded(event)}
+                onChange={toggleLeftHanded}
                 value="checkedB"
                 color="primary"
               />
@@ -124,6 +125,6 @@ export function NavigationBarComponent(props: Props) {
           />
         </div>
       </Drawer>
-    </React.Fragment>
+    </Fragment>
   )
 }

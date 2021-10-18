@@ -1,11 +1,11 @@
-import React, { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { FeatureCollection, LineString } from 'geojson'
 import { GeoJSON } from 'react-leaflet'
 import { ErrorBoundary } from '../shared/error-boundary'
 import { uniqBy } from 'lodash'
 import { useRouteColors } from '../route-colors.context'
 
-export function RoutesSegments({ selectedRoutes }) {
+export function RoutesSegments({ selectedRoutes }: any) {
   const { segments, segmentsUpdatedCount } = useSegmentsFeatureCollection(selectedRoutes)
   const { colors } = useRouteColors()
 
@@ -28,6 +28,7 @@ export function RoutesSegments({ selectedRoutes }) {
 
 type SegmentProperties = {
   id: number
+  '@id'?: string
   routeId?: string
 }
 
@@ -42,15 +43,15 @@ function useSegmentsFeatureCollection(selectedRoutes: Set<string>) {
   const segmentsUpdatedCount = useRef(0)
 
   useEffect(
-    function() {
+    function () {
       // collect all segments Promise<SegmentsFeatureCollection>
       const collectionsPromises = Array.from(selectedRoutes).map(importSegment)
       // resolve when all are fetched
-      Promise.all(collectionsPromises).then(featureCollections => {
+      Promise.all(collectionsPromises).then((featureCollections) => {
         // collect all features from all segment JSONs
-        const duplicatedFeatures = featureCollections.flatMap(fc => fc.features)
+        const duplicatedFeatures = featureCollections.flatMap((fc) => fc.features)
         // get unique features
-        const features = uniqBy(duplicatedFeatures, f => f.properties.id || f.properties['@id'])
+        const features = uniqBy(duplicatedFeatures, (f) => f.properties.id || f.properties['@id'])
         // this is used as a react `key` for rerender
         segmentsUpdatedCount.current++
         setSegments({ type: 'FeatureCollection', features })
@@ -67,7 +68,7 @@ async function importSegment(routeId: string): Promise<SegmentsFeatureCollection
   resp = resp.default
   // FIXME: 'strange' hack to add routeId to a segment
   // FIXME: maybe add these route ides to *_segments.json
-  resp.features = resp.features.map(feature => ({ ...feature, routeId }))
+  resp.features = resp.features.map((feature: any) => ({ ...feature, routeId }))
 
   return resp
 }

@@ -1,4 +1,4 @@
-import React, { createContext, FC, useCallback, useContext, useMemo, useState } from 'react'
+import { createContext, FC, useCallback, useContext, useMemo, useState } from 'react'
 
 type SelectedRoutesState = { routes: Set<string>; setRoutes: (routes: Set<string>) => void }
 

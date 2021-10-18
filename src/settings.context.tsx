@@ -1,4 +1,4 @@
-import React from 'react'
+import { createContext, useContext, useReducer } from 'react'
 
 type Action = { type: 'set-left-handed'; payload: boolean }
 
@@ -10,10 +10,8 @@ type State = {
 
 type SettingsProviderProps = { children: React.ReactNode }
 
-const SettingsStateContext = React.createContext<State | undefined>(undefined)
-const SettingsDispatchContext = React.createContext<Dispatch | undefined>(
-  undefined,
-)
+const SettingsStateContext = createContext<State | undefined>(undefined)
+const SettingsDispatchContext = createContext<Dispatch | undefined>(undefined)
 
 export function setLeftHanded(value: boolean): Action {
   localStorage.setItem('left-handed', value.toString())
@@ -37,18 +35,16 @@ const initialState: State = {
 }
 
 export function SettingsProvider(props: SettingsProviderProps) {
-  const [state, dispatch] = React.useReducer(settingsReducer, initialState)
+  const [state, dispatch] = useReducer(settingsReducer, initialState)
   return (
     <SettingsStateContext.Provider value={state}>
-      <SettingsDispatchContext.Provider value={dispatch}>
-        {props.children}
-      </SettingsDispatchContext.Provider>
+      <SettingsDispatchContext.Provider value={dispatch}>{props.children}</SettingsDispatchContext.Provider>
     </SettingsStateContext.Provider>
   )
 }
 
 export function useSettingsState() {
-  const context = React.useContext(SettingsStateContext)
+  const context = useContext(SettingsStateContext)
   if (context === undefined) {
     throw new Error('useSettingsState must be used within a SettingsProvider')
   }
@@ -56,11 +52,9 @@ export function useSettingsState() {
 }
 
 export function useSettingsDispatch() {
-  const context = React.useContext(SettingsDispatchContext)
+  const context = useContext(SettingsDispatchContext)
   if (context === undefined) {
-    throw new Error(
-      'useSettingsDispatch must be used within a SettingsProvider',
-    )
+    throw new Error('useSettingsDispatch must be used within a SettingsProvider')
   }
   return context
 }

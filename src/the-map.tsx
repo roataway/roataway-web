@@ -1,4 +1,4 @@
-import React from 'react'
+import { useRef, useEffect } from 'react'
 import { Map, TileLayer, Viewport, ZoomControl } from 'react-leaflet'
 import { Map as LeafletMap } from 'leaflet'
 import 'leaflet/dist/leaflet.css'
@@ -25,12 +25,12 @@ export function TheMap(props: Props) {
   const { showUserLocation, className } = props
   const { leftHanded } = useSettingsState()
   const { routes } = useSelectedRoutes()
-  const mapRef = React.useRef<any>()
+  const mapRef = useRef<any>()
 
-  React.useEffect(
-    function() {
+  useEffect(
+    function () {
       if (showUserLocation) {
-        getLocation().then(pos => {
+        getLocation().then((pos) => {
           const map = mapRef.current!.contextValue!.map! as LeafletMap
           const center: [number, number] = [pos.coords.latitude, pos.coords.longitude]
           map.flyTo(center)
@@ -50,7 +50,8 @@ export function TheMap(props: Props) {
       maxZoom={19}
       className={className}
       zoomControl={false}
-      viewport={viewport}>
+      viewport={viewport}
+    >
       <TileLayer
         attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://maptiles.railean.net/styles/klokantech-basic/{z}/{x}/{y}.png"

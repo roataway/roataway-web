@@ -1,4 +1,4 @@
-import React, { FC, useState } from 'react'
+import { FC, useState } from 'react'
 import { MapControlProps } from 'react-leaflet'
 import MapControl from './map-control.component'
 import {
@@ -28,16 +28,16 @@ const ColorsLegend: FC<MapControlProps> = ({ position = 'topright' }) => {
   }
 
   const toggleLegendCollapseState = () => {
-    setLegendCollapseState(s => !s)
+    setLegendCollapseState((s) => !s)
   }
 
-  const removeRoute = routeId => {
+  const removeRoute = (routeId: string) => {
     routes.delete(routeId)
     setRoutes(new Set(routes))
   }
 
   const renderRow = (route: string) => {
-    const routeInfo = allRoutes.find(rt => rt.id_upstream === route)!
+    const routeInfo = allRoutes.find((rt) => rt.id_upstream === route)!
     const routeColors = colors[route]
     const listItemTextClasses = `${legendClasses.legendText} ${isLegendCollapsed ? legendClasses.collapsedText : ''}`
 
