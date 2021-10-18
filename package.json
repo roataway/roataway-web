@@ -50,7 +50,6 @@
     "leaflet": "^1.6.0",
     "lint-staged": "^9.5.0",
     "lodash.uniqby": "^4.7.0",
-    "node-sass": "^4.13.1",
     "prettier": "^1.19.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -58,6 +57,7 @@
     "react-i18next": "^10.13.2",
     "react-leaflet": "^2.6.1",
     "react-scripts": "^3.4.4",
+    "sass": "^1.43.2",
     "sockjs-client": "^1.4.0",
     "typescript": "^3.8.2",
     "webstomp-client": "^1.2.6"
