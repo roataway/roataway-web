@@ -16,7 +16,7 @@ import { SelectedRoutesProvider } from './selected-routes.context'
 if (process.env.NODE_ENV === 'production') {
   Sentry.init({
     dsn: process.env.REACT_APP_SENTRY_DSN,
-    release: process.env.REACT_APP_DEPLOY_HASH,
+    release: process.env.COMMIT_REF,
   })
 }
 
