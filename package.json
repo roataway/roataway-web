@@ -17,6 +17,10 @@
     "not ie <= 11",
     "not op_mini all"
   ],
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=14.0.0"
+  },
   "dependencies": {
     "@material-ui/core": "^4.9.4",
     "@material-ui/icons": "^4.9.1",
