@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { FeatureCollection, Point, Feature } from 'geojson'
 import { Icon, marker, Layer } from 'leaflet'
 import { GeoJSON } from 'react-leaflet'
@@ -19,7 +19,7 @@ const icon = new Icon({
   iconSize: [markerTiny, markerTiny],
 })
 
-export function RoutesStations({ selectedRoutes }) {
+export function RoutesStations({ selectedRoutes }: any) {
   const { stations, stationsUpdatedCount } = useStationsFeatureCollection(selectedRoutes)
 
   return (
@@ -38,6 +38,7 @@ export function RoutesStations({ selectedRoutes }) {
 
 type StationProperties = {
   id: number
+  '@id'?: string
   name?: string
   tags?: {
     name: string
@@ -54,15 +55,15 @@ function useStationsFeatureCollection(selectedRoutes: Set<string>) {
   const stationsUpdatedCount = useRef(0)
 
   useEffect(
-    function() {
+    function () {
       // collect all station Promise<StationsFeatureCollection>
       const collectionsPromises = Array.from(selectedRoutes).map(importStation)
       // resolve when all are fetched
-      Promise.all(collectionsPromises).then(featureCollections => {
+      Promise.all(collectionsPromises).then((featureCollections) => {
         // collect all features from all station JSONs
-        const duplicatedFeatures = featureCollections.flatMap(fc => fc.features)
+        const duplicatedFeatures = featureCollections.flatMap((fc) => fc.features)
         // get unique features
-        const features = uniqBy(duplicatedFeatures, f => f.properties.id || f.properties['@id'])
+        const features = uniqBy(duplicatedFeatures, (f) => f.properties.id || f.properties['@id'])
         // this is used as a react `key` for rerender
         stationsUpdatedCount.current++
         setStations({ type: 'FeatureCollection', features })
@@ -88,8 +89,8 @@ function onEachFeature(feature: Feature<Point, StationProperties>, layer: Layer)
 
 function importStation(routeId: string): Promise<StationsFeatureCollection> {
   return import(`@roataway/infrastructure-data/data/route_${routeId}_stations.json`)
-    .then(m => m.default)
-    .catch(error => {
+    .then((m) => m.default)
+    .catch((error) => {
       console.error(error)
       return emptyFeatureCollection
     })

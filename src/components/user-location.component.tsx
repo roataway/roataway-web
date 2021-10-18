@@ -1,4 +1,3 @@
-import React from 'react'
 import { Marker } from 'react-leaflet'
 import { Icon } from 'leaflet'
 import { useGeoPosition } from '../shared/geo-position.hook'
@@ -22,7 +21,5 @@ export function UserLocation() {
 
   const { coords } = position
 
-  return (
-    <Marker position={[coords.latitude, coords.longitude]} icon={userIcon} />
-  )
+  return <Marker position={[coords.latitude, coords.longitude]} icon={userIcon} />
 }

@@ -1,4 +1,4 @@
-import React, { createContext, FC, useContext, useEffect, useMemo, useState } from 'react'
+import { createContext, FC, useContext, useEffect, useMemo, useState } from 'react'
 import { useSelectedRoutes } from './selected-routes.context'
 import { colorPalette } from './shared/colors'
 
@@ -12,7 +12,7 @@ const RouteColorContext = createContext<RouteColorState>({ colors: {} })
 
 export const RouteColorsProvider: FC = ({ children }) => {
   const { routes } = useSelectedRoutes()
-  const [colors, setColors] = useState({})
+  const [colors, setColors] = useState<Record<string, any>>({})
 
   useEffect(() => {
     const newColors = Array.from(routes).reduce((accum, route) => {
@@ -37,7 +37,7 @@ export const RouteColorsProvider: FC = ({ children }) => {
 
     if (Object.keys(newColors).length < Object.keys(colors).length) {
       const removedKeys = diffArray(Object.keys(colors), Object.keys(newColors))
-      if (removedKeys.length) colorPalette.restore(...removedKeys.map(key => colors[key].marker))
+      if (removedKeys.length) colorPalette.restore(...removedKeys.map((key: any) => colors[key].marker))
     }
 
     setColors({ ...newColors })
@@ -62,4 +62,5 @@ export const useRouteColors = () => {
   return { colors }
 }
 
-const diffArray = (arr1, arr2) => arr1.concat(arr2).filter(val => !(arr1.includes(val) && arr2.includes(val)))
+const diffArray = (arr1: any, arr2: any) =>
+  arr1.concat(arr2).filter((val: any) => !(arr1.includes(val) && arr2.includes(val)))

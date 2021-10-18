@@ -3,8 +3,8 @@
 */
 
 import ReactDOM from 'react-dom'
-import { MapControl, withLeaflet } from 'react-leaflet'
-import { Control, DomUtil, DomEvent } from 'leaflet'
+import { MapControl, withLeaflet, MapControlProps } from 'react-leaflet'
+import { Control, DomUtil, DomEvent, Map } from 'leaflet'
 
 const DumbControl = Control.extend({
   options: {
@@ -19,7 +19,7 @@ const DumbControl = Control.extend({
     return _controlDiv
   },
 
-  onRemove(map) {
+  onRemove(map: Map) {
     if (this.options.onOff) {
       map.off(this.options.onOff, this.options.handleOff, this)
     }
@@ -30,7 +30,7 @@ const DumbControl = Control.extend({
 
 export default withLeaflet(
   class LeafletControl extends MapControl {
-    createLeafletElement(props) {
+    createLeafletElement(props: MapControlProps) {
       return new DumbControl(Object.assign({}, props))
     }
 

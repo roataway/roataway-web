@@ -2,16 +2,12 @@ import { useState, useEffect } from 'react'
 
 export function useGeoPosition(
   positionOptions?: PositionOptions,
-): [Position | undefined, PositionError | undefined] {
-  const [position, setPosition] = useState<Position | undefined>(undefined)
-  const [error, setError] = useState<PositionError | undefined>(undefined)
+): [GeolocationPosition | undefined, GeolocationPositionError | undefined] {
+  const [position, setPosition] = useState<GeolocationPosition | undefined>(undefined)
+  const [error, setError] = useState<GeolocationPositionError | undefined>(undefined)
 
   useEffect(() => {
-    const listener = navigator.geolocation.watchPosition(
-      setPosition,
-      setError,
-      positionOptions,
-    )
+    const listener = navigator.geolocation.watchPosition(setPosition, setError, positionOptions)
 
     return () => navigator.geolocation.clearWatch(listener)
   }, [positionOptions])

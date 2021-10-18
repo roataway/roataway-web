@@ -5,7 +5,7 @@ type RawVehicle = {
   tracker_id: string
   organization: string
   board: string
-  vehicle_type: string
+  vehicle_type: VehicleType
   model: string
   door_count: string
   release_date: string
@@ -42,7 +42,7 @@ const boardToVehicle = new Map<string, Vehicle>()
 // This maps a tracker ID to a board number
 const trackerToBoard = new Map<string, string>()
 
-rawVehicles.forEach(item => {
+rawVehicles.forEach((item) => {
   const vehicle: Vehicle = {
     // Because not all vehicles have trackers yet, some entries will not
     // have this attribute. This will be ressolved soon, but until all the

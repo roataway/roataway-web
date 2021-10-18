@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState, forwardRef } from 'react'
 import Button from '@material-ui/core/Button'
 import Dialog from '@material-ui/core/Dialog'
 import DialogContent from '@material-ui/core/DialogContent'
@@ -16,11 +16,11 @@ import { Theme } from '@material-ui/core/styles'
 import { makeStyles } from '@material-ui/core'
 import { useSelectedRoutes } from '../selected-routes.context'
 
-const Transition = React.forwardRef(function(props: TransitionProps, ref) {
+const Transition = forwardRef(function (props: TransitionProps, ref) {
   return <Slide direction="up" ref={ref} {...props} />
 })
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   buttonMargin: {
     margin: theme.spacing(1) / 2,
   },
@@ -73,16 +73,18 @@ export function RouteSelectDialog(props: Props) {
       onClose={() => setOpen(false)}
       TransitionComponent={Transition}
       aria-labelledby="alert-dialog-title"
-      aria-describedby="alert-dialog-description">
+      aria-describedby="alert-dialog-description"
+    >
       <DialogTitle id="alert-dialog-title">{l10n('explanation.pickRoute')}</DialogTitle>
       <DialogContent dividers className={classes.routesSpacing}>
-        {allRoutes.map(r => (
+        {allRoutes.map((r) => (
           <Button
             className={classes.buttonMargin}
             onClick={() => selectRoute(r.id_upstream)}
             color="secondary"
             variant={routes.has(r.id_upstream) ? 'outlined' : 'text'}
-            key={r.id_upstream}>
+            key={r.id_upstream}
+          >
             {r.name_concise}
           </Button>
         ))}
