@@ -36,7 +36,7 @@ export function HudButtons(props: Props) {
   return (
     <div className={classes.hudButtons}>
       {'geolocation' in navigator && (
-        <Tooltip title={t('label.myLocation')} placement="left">
+        <Tooltip title={t('label.myLocation') as string} placement="left">
           <Fab
             size="small"
             color="secondary"
@@ -49,7 +49,7 @@ export function HudButtons(props: Props) {
       )}
       <br />
       <Tooltip
-        title={t('label.pickRoute')}
+        title={t('label.pickRoute') as string}
         placement="left"
         onClose={closeRouteTooltip}
         onOpen={openRouteTooltip}
