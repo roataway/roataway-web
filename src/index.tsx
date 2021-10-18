@@ -1,4 +1,3 @@
-import './polyfills'
 import './hacks'
 import * as React from 'react'
 import ReactDOM from 'react-dom'
