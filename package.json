@@ -3,12 +3,6 @@
   "version": "0.1.3",
   "private": true,
   "scripts": {
-    "deploy-hash": "export REACT_APP_DEPLOY_HASH=$(git rev-parse --short HEAD)",
-    "deploy-date": "export REACT_APP_DEPLOY_DATE=$(git show -s --format=%ci HEAD)",
-    "deploy-info": "npm run deploy-hash && npm run deploy-date",
-    "prestart": "npm run deploy-info",
-    "prebuild": "npm run deploy-info",
-    "pretest": "npm run deploy-info",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
