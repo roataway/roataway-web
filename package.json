@@ -15,7 +15,8 @@
     "test:coverage": "npm test -- --coverage",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "prepare": "husky install"
   },
   "browserslist": [
     ">0.2%",
@@ -45,13 +46,13 @@
     "csv-parse": "^4.8.6",
     "csv.macro": "^1.0.1",
     "gh-pages": "^2.2.0",
-    "husky": "^3.1.0",
+    "husky": "^7.0.2",
     "i18next": "^21.3.2",
     "i18next-browser-languagedetector": "^6.1.2",
     "leaflet": "^1.6.0",
-    "lint-staged": "^9.5.0",
+    "lint-staged": "^11.2.3",
     "lodash.uniqby": "^4.7.0",
-    "prettier": "^1.19.1",
+    "prettier": "^2.4.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-hook-form": "^6.8.6",
@@ -63,15 +64,7 @@
     "typescript": "^3.8.2",
     "webstomp-client": "^1.2.6"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "prettier --write",
-      "git add"
-    ]
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": "prettier --write"
   }
 }
