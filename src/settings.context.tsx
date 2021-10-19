@@ -1,4 +1,4 @@
-import { createContext, useContext, useReducer } from 'react'
+import { createContext, PropsWithChildren, useContext, useReducer } from 'react'
 
 type Action = { type: 'set-left-handed'; payload: boolean }
 
@@ -7,8 +7,6 @@ type Dispatch = (action: Action) => void
 type State = {
   leftHanded: boolean
 }
-
-type SettingsProviderProps = { children: React.ReactNode }
 
 const SettingsStateContext = createContext<State | undefined>(undefined)
 const SettingsDispatchContext = createContext<Dispatch | undefined>(undefined)
@@ -34,7 +32,7 @@ const initialState: State = {
   leftHanded: (localStorage.getItem('left-handed') || 'true') === 'true',
 }
 
-export function SettingsProvider(props: SettingsProviderProps) {
+export function SettingsProvider(props: PropsWithChildren<unknown>) {
   const [state, dispatch] = useReducer(settingsReducer, initialState)
   return (
     <SettingsStateContext.Provider value={state}>

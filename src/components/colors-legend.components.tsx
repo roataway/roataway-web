@@ -19,7 +19,7 @@ import { routes as allRoutes } from '../shared/routes'
 import { useSelectedRoutes } from '../selected-routes.context'
 
 const ColorsLegend: FC<MapControlProps> = ({ position = 'topright' }) => {
-  const { colors } = useRouteColors()
+  const colors = useRouteColors()
   const { routes, setRoutes } = useSelectedRoutes()
   const [isLegendCollapsed, setLegendCollapseState] = useState<boolean>(false)
 

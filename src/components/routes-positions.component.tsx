@@ -213,7 +213,7 @@ type TransportMarkerProps = {
 function TransportMarker(props: TransportMarkerProps) {
   const { transport, noTransition } = props
   const { t } = useTranslation()
-  const { colors } = useRouteColors()
+  const colors = useRouteColors()
 
   const opacityRef = useRef<number>(1)
   useEffect(() => {

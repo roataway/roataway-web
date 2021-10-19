@@ -12,10 +12,10 @@ import { SettingsProvider } from './settings.context'
 import { ErrorBoundary } from './shared/error-boundary'
 import { RouteColorsProvider } from './route-colors.context'
 import { SelectedRoutesProvider } from './selected-routes.context'
-import splitbee from '@splitbee/web'
+import { AnalyticsProvider } from './analytics.context'
+import { Inflate } from './components/inflate.component'
 
 if (process.env.NODE_ENV === 'production') {
-  splitbee.init()
   Sentry.init({
     dsn: process.env.REACT_APP_SENTRY_DSN,
     release: process.env.COMMIT_REF,
@@ -25,23 +25,22 @@ if (process.env.NODE_ENV === 'production') {
 const theme = createTheme()
 
 ReactDOM.render(
-  <React.StrictMode>
-    <React.Suspense fallback={null}>
-      <ErrorBoundary>
-        <I18nextProvider i18n={i18n}>
-          <ThemeProvider theme={theme}>
-            <SettingsProvider>
-              <SelectedRoutesProvider>
-                <RouteColorsProvider>
-                  <AppComponent />
-                </RouteColorsProvider>
-              </SelectedRoutesProvider>
-            </SettingsProvider>
-          </ThemeProvider>
-        </I18nextProvider>
-      </ErrorBoundary>
-    </React.Suspense>
-  </React.StrictMode>,
+  <Inflate
+    elements={[
+      <React.StrictMode />,
+      <React.Suspense fallback={null} />,
+      <ErrorBoundary />,
+      <I18nextProvider i18n={i18n} />,
+      // Added children just to mute TypeScript
+      <ThemeProvider theme={theme} children={<div />} />,
+      <SettingsProvider />,
+      <SelectedRoutesProvider />,
+      <RouteColorsProvider />,
+      <AnalyticsProvider />,
+    ]}
+  >
+    <AppComponent />
+  </Inflate>,
   document.getElementById('root'),
 )
 

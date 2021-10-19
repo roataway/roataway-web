@@ -7,7 +7,7 @@ import { useRouteColors } from '../route-colors.context'
 
 export function RoutesSegments({ selectedRoutes }: any) {
   const { segments, segmentsUpdatedCount } = useSegmentsFeatureCollection(selectedRoutes)
-  const { colors } = useRouteColors()
+  const colors = useRouteColors()
 
   const getSegmentStyle = (feature: any) => {
     if (feature && colors[feature.routeId]) {

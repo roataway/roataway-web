@@ -15,6 +15,7 @@ import { useTheme } from '@material-ui/styles'
 import { Theme } from '@material-ui/core/styles'
 import { makeStyles } from '@material-ui/core'
 import { useSelectedRoutes } from '../selected-routes.context'
+import { useAnalytics } from '../analytics.context'
 
 const Transition = forwardRef(function (props: TransitionProps, ref) {
   return <Slide direction="up" ref={ref} {...props} />
@@ -53,16 +54,21 @@ export function RouteSelectDialog(props: Props) {
   const [selectMultiple, setSelectMultiple] = useSelectMultiple()
   const [l10n] = useTranslation()
   const { routes, setRoutes } = useSelectedRoutes()
+  const analytics = useAnalytics()
 
   function selectRoute(id: string) {
-    if (routes.has(id)) {
-      routes.delete(id)
+    if (!routes.has(id)) analytics.track('Route Select', { id })
+
+    if (selectMultiple) {
+      // When multiple, add or exclude and don't close dialog
+      const newRoutes = routes.has(id) ? [...routes].filter((r) => r !== id) : [...routes, id]
+      setRoutes(new Set(newRoutes))
     } else {
-      routes.add(id)
-    }
-    setRoutes(new Set(routes))
-    if (!selectMultiple) {
-      setOpen(false)
+      // When single, add or remove single only
+      const newRoutes = routes.has(id) ? [] : [id]
+      setRoutes(new Set(newRoutes))
+      // Close Dialog only if we have at least 1 selected
+      if (newRoutes.length) setOpen(false)
     }
   }
 
