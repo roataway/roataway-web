@@ -1,66 +1,53 @@
-import { createContext, FC, useContext, useEffect, useMemo, useState } from 'react'
+import difference from 'lodash.difference'
+import { createContext, PropsWithChildren, useContext, useEffect, useState } from 'react'
 import { useSelectedRoutes } from './selected-routes.context'
 import { colorPalette } from './shared/colors'
 
 type ColorState = Record<string, { marker: string; segment: string; text: string }>
 
-interface RouteColorState {
-  colors: ColorState
-}
+const RouteColorContext = createContext<ColorState>({})
 
-const RouteColorContext = createContext<RouteColorState>({ colors: {} })
-
-export const RouteColorsProvider: FC = ({ children }) => {
+export function RouteColorsProvider({ children }: PropsWithChildren<unknown>) {
   const { routes } = useSelectedRoutes()
   const [colors, setColors] = useState<Record<string, any>>({})
 
   useEffect(() => {
-    const newColors = Array.from(routes).reduce((accum, route) => {
-      if (colors.hasOwnProperty(route)) {
+    setColors((colors) => {
+      const newColors = [...routes].reduce((accum, route) => {
+        if (colors[route]) {
+          return {
+            ...accum,
+            [route]: colors[route],
+          }
+        }
+
+        const { primary, secondary, contrast } = colorPalette.palette
+
         return {
           ...accum,
-          [route]: colors[route],
+          [route]: {
+            marker: primary,
+            segment: secondary,
+            text: contrast,
+          },
         }
-      }
+      }, {})
 
-      const { primary, secondary, contrast } = colorPalette.palette
+      const previous = Object.keys(colors)
+      const current = Object.keys(newColors)
+      const removed = difference(previous, current)
+      const toRestore = removed.map((key) => colors[key].marker)
+      colorPalette.restore(...toRestore)
 
-      return {
-        ...accum,
-        [route]: {
-          marker: primary,
-          segment: secondary,
-          text: contrast,
-        },
-      }
-    }, {})
-
-    if (Object.keys(newColors).length < Object.keys(colors).length) {
-      const removedKeys = diffArray(Object.keys(colors), Object.keys(newColors))
-      if (removedKeys.length) colorPalette.restore(...removedKeys.map((key: any) => colors[key].marker))
-    }
-
-    setColors({ ...newColors })
-
-    // wants 'colors' in dep array
-    // eslint-disable-next-line
+      return newColors
+    })
   }, [routes, routes.size])
 
-  const value = useMemo(
-    () => ({
-      colors,
-    }),
-    [colors],
-  )
-
-  return <RouteColorContext.Provider value={value}>{children}</RouteColorContext.Provider>
+  return <RouteColorContext.Provider value={colors}>{children}</RouteColorContext.Provider>
 }
 
-export const useRouteColors = () => {
-  const { colors } = useContext(RouteColorContext)
-
-  return { colors }
+export function useRouteColors() {
+  const context = useContext(RouteColorContext)
+  if (context !== undefined) return context
+  throw new Error('useRouteColors must be used within a RouteColorsProvider')
 }
-
-const diffArray = (arr1: any, arr2: any) =>
-  arr1.concat(arr2).filter((val: any) => !(arr1.includes(val) && arr2.includes(val)))

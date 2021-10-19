@@ -71,9 +71,7 @@ type Palette = { primary: string; secondary: string; contrast: string }
 export const colorPalette = {
   colors: [...PREDEFINED_COLORS],
   get palette(): Palette {
-    if (!this.colors.length) return randomColorPalette()
-
-    return this.colors.pop()!
+    return this.colors.pop() ?? randomColorPalette()
   },
   restoreAll() {
     this.colors = [...PREDEFINED_COLORS]
