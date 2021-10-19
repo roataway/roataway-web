@@ -12,8 +12,10 @@ import { SettingsProvider } from './settings.context'
 import { ErrorBoundary } from './shared/error-boundary'
 import { RouteColorsProvider } from './route-colors.context'
 import { SelectedRoutesProvider } from './selected-routes.context'
+import splitbee from '@splitbee/web'
 
 if (process.env.NODE_ENV === 'production') {
+  splitbee.init()
   Sentry.init({
     dsn: process.env.REACT_APP_SENTRY_DSN,
     release: process.env.COMMIT_REF,

@@ -7,9 +7,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "test:coverage": "npm test -- --coverage",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "prepare": "husky install"
   },
   "engines": {
@@ -23,6 +20,7 @@
     "@material-ui/styles": "^4.11.4",
     "@roataway/infrastructure-data": "^1.0.21",
     "@sentry/browser": "^5.12.4",
+    "@splitbee/web": "^0.3.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -36,7 +34,6 @@
     "@types/sockjs-client": "^1.1.1",
     "csv-parse": "^4.8.6",
     "csv.macro": "^1.0.1",
-    "gh-pages": "^2.2.0",
     "husky": "^7.0.2",
     "i18next": "^21.3.2",
     "i18next-browser-languagedetector": "^6.1.2",
