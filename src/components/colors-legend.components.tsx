@@ -10,9 +10,9 @@ import {
   ListItemSecondaryAction,
   ListItemText,
   Paper,
-} from '@material-ui/core'
-import ClearIcon from '@material-ui/icons/Clear'
-import DoubleArrowRoundedIcon from '@material-ui/icons/DoubleArrowRounded'
+} from '@mui/material'
+import ClearIcon from '@mui/icons-material/Clear'
+import DoubleArrowRoundedIcon from '@mui/icons-material/DoubleArrowRounded'
 import { useRouteColors } from '../route-colors.context'
 import legendClasses from './colors-legend.module.scss'
 import { routes as allRoutes } from '../shared/routes'
@@ -70,7 +70,7 @@ const RemoveRouteButton: FC<{ routeId: string; onClick: (id: string) => void }> 
   const handleClick = () => onClick(routeId)
 
   return (
-    <IconButton onClick={handleClick} edge="end" aria-label="delete">
+    <IconButton onClick={handleClick} edge="end" aria-label="delete" size="large">
       <ClearIcon />
     </IconButton>
   )

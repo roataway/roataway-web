@@ -6,14 +6,18 @@ import * as Sentry from '@sentry/browser'
 import { AppComponent } from './app.component'
 import reportWebVitals from './reportWebVitals'
 import { i18n } from './i18n'
-import { createTheme } from '@material-ui/core/styles'
-import { ThemeProvider } from '@material-ui/styles'
+import { createTheme, Theme, StyledEngineProvider, ThemeProvider } from '@mui/material/styles'
 import { SettingsProvider } from './settings.context'
 import { ErrorBoundary } from './shared/error-boundary'
 import { RouteColorsProvider } from './route-colors.context'
 import { SelectedRoutesProvider } from './selected-routes.context'
 import { AnalyticsProvider } from './analytics.context'
 import { Inflate } from './components/inflate.component'
+
+declare module '@mui/styles/defaultTheme' {
+  // eslint-disable-next-line @typescript-eslint/no-empty-interface
+  interface DefaultTheme extends Theme {}
+}
 
 if (process.env.NODE_ENV === 'production') {
   Sentry.init({
@@ -31,6 +35,7 @@ ReactDOM.render(
       <React.Suspense fallback={null} />,
       <ErrorBoundary />,
       <I18nextProvider i18n={i18n} />,
+      <StyledEngineProvider injectFirst />,
       // Added children just to mute TypeScript
       <ThemeProvider theme={theme} children={<div />} />,
       <SettingsProvider />,

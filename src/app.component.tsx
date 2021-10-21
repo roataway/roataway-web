@@ -1,5 +1,5 @@
 import { default as React, useCallback, useEffect, useState } from 'react'
-import CssBaseline from '@material-ui/core/CssBaseline'
+import CssBaseline from '@mui/material/CssBaseline'
 import { TheMap } from './the-map'
 import { NavigationBarComponent } from './components/navigation-bar.component'
 import { useTranslation } from 'react-i18next'
@@ -24,7 +24,7 @@ export function AppComponent() {
     }
   }, [isOpenRouteSelect, firstVisit])
 
-  const toggleRouteSelect = useCallback(() => setIsOpenRouteSelect(prev => !prev), [])
+  const toggleRouteSelect = useCallback(() => setIsOpenRouteSelect((prev) => !prev), [])
 
   const setCurrentUserLocation = useCallback(() => setShowUserLocation(new Date().getTime()), [])
 

@@ -1,29 +1,27 @@
 import { useState, forwardRef } from 'react'
-import Button from '@material-ui/core/Button'
-import Dialog from '@material-ui/core/Dialog'
-import DialogContent from '@material-ui/core/DialogContent'
-import DialogActions from '@material-ui/core/DialogActions'
-import DialogTitle from '@material-ui/core/DialogTitle'
-import Slide from '@material-ui/core/Slide'
-import { TransitionProps } from '@material-ui/core/transitions'
-import useMediaQuery from '@material-ui/core/useMediaQuery'
-import FormControlLabel from '@material-ui/core/FormControlLabel'
-import Checkbox from '@material-ui/core/Checkbox'
+import Button from '@mui/material/Button'
+import Dialog from '@mui/material/Dialog'
+import DialogContent from '@mui/material/DialogContent'
+import DialogActions from '@mui/material/DialogActions'
+import DialogTitle from '@mui/material/DialogTitle'
+import Slide, { SlideProps } from '@mui/material/Slide'
+import useMediaQuery from '@mui/material/useMediaQuery'
+import FormControlLabel from '@mui/material/FormControlLabel'
+import Checkbox from '@mui/material/Checkbox'
 import { useTranslation } from 'react-i18next'
 import { routes as allRoutes } from '../shared/routes'
-import { useTheme } from '@material-ui/styles'
-import { Theme } from '@material-ui/core/styles'
-import { makeStyles } from '@material-ui/core'
+import { useTheme } from '@mui/styles'
+import makeStyles from '@mui/styles/makeStyles'
 import { useSelectedRoutes } from '../selected-routes.context'
 import { useAnalytics } from '../analytics.context'
 
-const Transition = forwardRef(function (props: TransitionProps, ref) {
+const Transition = forwardRef(function (props: SlideProps, ref) {
   return <Slide direction="up" ref={ref} {...props} />
 })
 
 const useStyles = makeStyles((theme) => ({
   buttonMargin: {
-    margin: theme.spacing(1) / 2,
+    margin: theme.spacing(1 / 2),
   },
   routesSpacing: {
     display: 'flex',
@@ -48,9 +46,9 @@ type Props = {
 
 export function RouteSelectDialog(props: Props) {
   const { isOpen, setOpen } = props
-  const theme = useTheme<Theme>()
+  const theme = useTheme()
   const classes = useStyles()
-  const fullScreen = useMediaQuery(theme.breakpoints.down('xs'))
+  const fullScreen = useMediaQuery(theme.breakpoints.down('sm'))
   const [selectMultiple, setSelectMultiple] = useSelectMultiple()
   const [l10n] = useTranslation()
   const { routes, setRoutes } = useSelectedRoutes()
