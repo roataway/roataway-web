@@ -1,13 +1,12 @@
 import { ChangeEvent, useState, Fragment } from 'react'
-import AppBar from '@material-ui/core/AppBar'
-import IconButton from '@material-ui/core/IconButton'
-import MenuIcon from '@material-ui/icons/Menu'
-import Toolbar from '@material-ui/core/Toolbar'
-import Typography from '@material-ui/core/Typography'
-import FeedbackIcon from '@material-ui/icons/Feedback'
+import AppBar from '@mui/material/AppBar'
+import IconButton from '@mui/material/IconButton'
+import MenuIcon from '@mui/icons-material/Menu'
+import Toolbar from '@mui/material/Toolbar'
+import Typography from '@mui/material/Typography'
+import FeedbackIcon from '@mui/icons-material/Feedback'
 
 import {
-  makeStyles,
   RadioGroup,
   FormControlLabel,
   FormControl,
@@ -18,9 +17,10 @@ import {
   List,
   ListItemIcon,
   ListItemText,
-} from '@material-ui/core'
+} from '@mui/material'
+import makeStyles from '@mui/styles/makeStyles'
 import { useTranslation } from 'react-i18next'
-import Drawer from '@material-ui/core/Drawer'
+import Drawer from '@mui/material/Drawer'
 import { useSettings, setLeftHanded } from '../settings.context'
 
 const useStyles = makeStyles((theme) => ({
@@ -80,6 +80,7 @@ export function NavigationBarComponent(props: Props) {
             color="inherit"
             aria-label="menu"
             onClick={() => setShown(true)}
+            size="large"
           >
             <MenuIcon />
           </IconButton>

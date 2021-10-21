@@ -9,7 +9,7 @@ import {
   DialogTitle,
   TextField,
   Snackbar,
-} from '@material-ui/core'
+} from '@mui/material'
 import { useTranslation } from 'react-i18next'
 
 type Props = {
