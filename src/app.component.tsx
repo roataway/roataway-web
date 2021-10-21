@@ -1,4 +1,4 @@
-import { default as React, useCallback, useEffect, useState } from 'react'
+import { Fragment, useCallback, useEffect, useState } from 'react'
 import CssBaseline from '@mui/material/CssBaseline'
 import { TheMap } from './the-map'
 import { NavigationBarComponent } from './components/navigation-bar.component'
@@ -7,7 +7,7 @@ import { HudButtons } from './components/hud-buttons.component'
 import { RouteSelectDialog } from './components/route-select.dialog'
 import { ProvideFeedbackDialog } from './components/provide-feedback.dialog'
 import { useDocumentTitle } from './shared/document-title.hook'
-import classes from './app.module.scss'
+import { Box } from '@mui/system'
 
 export function AppComponent() {
   const { t } = useTranslation()
@@ -33,10 +33,17 @@ export function AppComponent() {
   }
 
   return (
-    <div className={classes.root}>
+    <Fragment>
       <CssBaseline />
 
-      <NavigationBarComponent onOpenFeedback={handleOpenFeedback} />
+      <Box height="100%" display="flex" flexDirection="column">
+        <Box zIndex={20} position="relative">
+          <NavigationBarComponent onOpenFeedback={handleOpenFeedback} />
+        </Box>
+        <Box zIndex={10} position="relative" flexGrow={1}>
+          <TheMap showUserLocation={showUserLocation} />
+        </Box>
+      </Box>
 
       <HudButtons
         setCurrentUserLocation={setCurrentUserLocation}
@@ -46,8 +53,7 @@ export function AppComponent() {
 
       <RouteSelectDialog isOpen={isOpenRouteSelect} setOpen={setIsOpenRouteSelect} />
       <ProvideFeedbackDialog isOpen={isOpenProvideFeedback} setOpen={seIsOpenProvideFeedback} />
-      <TheMap showUserLocation={showUserLocation} className={classes.map} />
-    </div>
+    </Fragment>
   )
 }
 

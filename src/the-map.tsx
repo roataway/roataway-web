@@ -13,7 +13,6 @@ import { useSelectedRoutes } from './selected-routes.context'
 
 type Props = {
   showUserLocation?: number
-  className: string
 }
 
 const viewport: Viewport = {
@@ -22,7 +21,7 @@ const viewport: Viewport = {
 }
 
 export function TheMap(props: Props) {
-  const { showUserLocation, className } = props
+  const { showUserLocation } = props
   const { leftHanded } = useSettingsState()
   const { routes } = useSelectedRoutes()
   const mapRef = useRef<any>()
@@ -48,9 +47,9 @@ export function TheMap(props: Props) {
       minZoom={8}
       // no tiles available for bigger zoom
       maxZoom={19}
-      className={className}
       zoomControl={false}
       viewport={viewport}
+      style={{ height: '100%' }}
     >
       <TileLayer
         attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'

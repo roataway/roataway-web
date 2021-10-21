@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/images/icons/icon-192x192.png">
-    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/images/icons/icon-192x192.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no" />
     <meta name="theme-color" content="#000000" />
     <meta name="deploy-hash" content="%COMMIT_REF%" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -24,6 +24,20 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Roata Wăy</title>
+    <!-- https://css-tricks.com/the-trick-to-viewport-units-on-mobile/ -->
+    <style>
+      #root {
+        height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
+      }
+    </style>
+    <script>
+      setVH()
+      window.addEventListener('resize', setVH)
+      function setVH() {
+        document.documentElement.style.setProperty('--vh', `${window.innerHeight * 0.01}px`)
+      }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

@@ -1,6 +1,5 @@
-import './hacks'
-import * as React from 'react'
-import ReactDOM from 'react-dom'
+import { StrictMode, Suspense } from 'react'
+import { render } from 'react-dom'
 import { I18nextProvider } from 'react-i18next'
 import { init as sentryInit } from '@sentry/browser'
 import { AppComponent } from './app.component'
@@ -26,18 +25,15 @@ if (process.env.NODE_ENV === 'production') {
   })
 }
 
-const theme = createTheme()
-
-ReactDOM.render(
+render(
   <Inflate
     elements={[
-      <React.StrictMode />,
-      <React.Suspense fallback={null} />,
+      <StrictMode />,
+      <Suspense fallback={null} />,
       <ErrorBoundary />,
       <I18nextProvider i18n={i18n} />,
       <StyledEngineProvider injectFirst />,
-      // Added children just to mute TypeScript
-      <ThemeProvider theme={theme} children={<div />} />,
+      <ThemeProvider theme={createTheme()} />,
       <SettingsProvider />,
       <SelectedRoutesProvider />,
       <RouteColorsProvider />,
