@@ -1,36 +1,20 @@
 import { Fragment, useCallback, useEffect, useState } from 'react'
-import CssBaseline from '@mui/material/CssBaseline'
+import { CssBaseline, Box } from '@mui/material'
 import { TheMap } from './the-map'
 import { NavigationBarComponent } from './components/navigation-bar.component'
-import { useTranslation } from 'react-i18next'
 import { HudButtons } from './components/hud-buttons.component'
 import { RouteSelectDialog } from './components/route-select.dialog'
 import { ProvideFeedbackDialog } from './components/provide-feedback.dialog'
-import { useDocumentTitle } from './shared/document-title.hook'
-import { Box } from '@mui/system'
 
 export function AppComponent() {
-  const { t } = useTranslation()
-  useDocumentTitle(t('label.title'))
   const [isOpenRouteSelect, setIsOpenRouteSelect] = useState<boolean>(false)
   const [isOpenProvideFeedback, seIsOpenProvideFeedback] = useState<boolean>(false)
-  // Maybe keep it in local storage?
   const [showUserLocation, setShowUserLocation] = useState<number | undefined>(undefined)
-  const [firstVisit, setFirstVisit] = useState<boolean>(() => !areStoredRoutesEmpty())
-
-  useEffect(() => {
-    if (isOpenRouteSelect && firstVisit) {
-      setFirstVisit(false)
-    }
-  }, [isOpenRouteSelect, firstVisit])
+  const firstVisit = useFirstVisit(isOpenRouteSelect)
 
   const toggleRouteSelect = useCallback(() => setIsOpenRouteSelect((prev) => !prev), [])
-
   const setCurrentUserLocation = useCallback(() => setShowUserLocation(new Date().getTime()), [])
-
-  const handleOpenFeedback = () => {
-    seIsOpenProvideFeedback(true)
-  }
+  const handleOpenFeedback = () => seIsOpenProvideFeedback(true)
 
   return (
     <Fragment>
@@ -57,6 +41,20 @@ export function AppComponent() {
   )
 }
 
-function areStoredRoutesEmpty(): boolean {
-  return !!localStorage.getItem('selected-routes') && JSON.parse(localStorage.getItem('selected-routes')!).length > 0
+function useFirstVisit(isOpenRouteSelect: boolean) {
+  const [firstVisit, setFirstVisit] = useState(firstVisitInit)
+
+  useEffect(() => {
+    if (isOpenRouteSelect && firstVisit) {
+      setFirstVisit(false)
+    }
+  }, [isOpenRouteSelect, firstVisit])
+
+  return firstVisit
+}
+
+function firstVisitInit() {
+  const selectedRoutes = localStorage.getItem('selected-routes')
+  const areStoredRoutesEmpty = !!selectedRoutes && JSON.parse(selectedRoutes!).length > 0
+  return !areStoredRoutesEmpty
 }

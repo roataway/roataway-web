@@ -10,34 +10,13 @@ import FormControlLabel from '@mui/material/FormControlLabel'
 import Checkbox from '@mui/material/Checkbox'
 import { useTranslation } from 'react-i18next'
 import { routes as allRoutes } from '../shared/routes'
-import { useTheme } from '@mui/styles'
-import makeStyles from '@mui/styles/makeStyles'
+import { useTheme } from '@mui/material'
 import { useSelectedRoutes } from '../selected-routes.context'
 import { useAnalytics } from '../analytics.context'
 
 const Transition = forwardRef(function (props: SlideProps, ref) {
   return <Slide direction="up" ref={ref} {...props} />
 })
-
-const useStyles = makeStyles((theme) => ({
-  buttonMargin: {
-    margin: theme.spacing(1 / 2),
-  },
-  routesSpacing: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'center',
-    alignContent: 'start',
-  },
-  contentSplit: {
-    display: 'flex',
-    alignContent: 'space-between',
-  },
-  actions: {
-    justifyContent: 'space-between',
-    paddingLeft: theme.spacing(2),
-  },
-}))
 
 type Props = {
   isOpen: boolean
@@ -47,7 +26,6 @@ type Props = {
 export function RouteSelectDialog(props: Props) {
   const { isOpen, setOpen } = props
   const theme = useTheme()
-  const classes = useStyles()
   const fullScreen = useMediaQuery(theme.breakpoints.down('sm'))
   const [selectMultiple, setSelectMultiple] = useSelectMultiple()
   const [l10n] = useTranslation()
@@ -80,10 +58,18 @@ export function RouteSelectDialog(props: Props) {
       aria-describedby="alert-dialog-description"
     >
       <DialogTitle id="alert-dialog-title">{l10n('explanation.pickRoute')}</DialogTitle>
-      <DialogContent dividers className={classes.routesSpacing}>
+      <DialogContent
+        dividers
+        sx={{
+          display: 'flex',
+          flexWrap: 'wrap',
+          justifyContent: 'center',
+          alignContent: 'start',
+        }}
+      >
         {allRoutes.map((r) => (
           <Button
-            className={classes.buttonMargin}
+            sx={{ margin: (t) => t.spacing(1 / 2) }}
             onClick={() => selectRoute(r.id_upstream)}
             color="secondary"
             variant={routes.has(r.id_upstream) ? 'outlined' : 'text'}
@@ -93,7 +79,13 @@ export function RouteSelectDialog(props: Props) {
           </Button>
         ))}
       </DialogContent>
-      <DialogActions disableSpacing className={classes.actions}>
+      <DialogActions
+        disableSpacing
+        sx={{
+          justifyContent: 'space-between',
+          paddingLeft: (t) => t.spacing(2),
+        }}
+      >
         <FormControlLabel
           label={l10n('label.selectMultiple')}
           control={

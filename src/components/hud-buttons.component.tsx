@@ -4,20 +4,8 @@ import Fab from '@mui/material/Fab'
 import DirectionsBus from '@mui/icons-material/DirectionsBus'
 import LocationCity from '@mui/icons-material/MyLocation'
 import { Tooltip } from '@mui/material'
-import makeStyles from '@mui/styles/makeStyles'
+import { Box } from '@mui/material'
 import hudClasses from './hud-buttons.module.scss'
-
-const useStyles = makeStyles((theme) => ({
-  hudButtons: {
-    position: 'absolute',
-    zIndex: theme.zIndex.appBar,
-    right: theme.spacing(1),
-    bottom: theme.spacing(1),
-  },
-  topIcon: {
-    marginBottom: theme.spacing(1),
-  },
-}))
 
 interface Props {
   setCurrentUserLocation: () => void
@@ -28,20 +16,26 @@ interface Props {
 export function HudButtons(props: Props) {
   const { setCurrentUserLocation, toggleRouteSelect, firstVisit } = props
   const { t } = useTranslation()
-  const classes = useStyles()
   const [showRouteTooltip, setShowRouteTooltip] = useState<boolean>(firstVisit)
 
   const openRouteTooltip = useCallback(() => setShowRouteTooltip(true), [])
   const closeRouteTooltip = useCallback(() => setShowRouteTooltip(false), [])
 
   return (
-    <div className={classes.hudButtons}>
+    <Box
+      sx={{
+        position: 'absolute',
+        zIndex: (t) => t.zIndex.appBar,
+        right: (t) => t.spacing(1),
+        bottom: (t) => t.spacing(1),
+      }}
+    >
       <Tooltip title={t('label.myLocation') as string} placement="left">
         <Fab
           size="small"
           color="secondary"
           aria-label={t('label.myLocation')}
-          className={classes.topIcon}
+          sx={{ marginBottom: (t) => t.spacing(1) }}
           onClick={setCurrentUserLocation}
         >
           <LocationCity />
@@ -65,6 +59,6 @@ export function HudButtons(props: Props) {
           <DirectionsBus />
         </Fab>
       </Tooltip>
-    </div>
+    </Box>
   )
 }

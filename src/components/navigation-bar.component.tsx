@@ -17,32 +17,11 @@ import {
   List,
   ListItemIcon,
   ListItemText,
+  Box,
 } from '@mui/material'
-import makeStyles from '@mui/styles/makeStyles'
 import { useTranslation } from 'react-i18next'
 import Drawer from '@mui/material/Drawer'
 import { useSettings, setLeftHanded } from '../settings.context'
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
-  title: {
-    flexGrow: 1,
-  },
-  list: {
-    width: 250,
-  },
-  formControl: {
-    margin: theme.spacing(3),
-  },
-  switch: {
-    marginLeft: '-10px',
-  },
-}))
 
 type Props = {
   onOpenFeedback: () => void
@@ -50,8 +29,6 @@ type Props = {
 
 export function NavigationBarComponent(props: Props) {
   const { t, i18n } = useTranslation()
-  const classes = useStyles()
-
   const [settings, settingsDispatch] = useSettings()
   const [shown, setShown] = useState(false)
 
@@ -76,7 +53,7 @@ export function NavigationBarComponent(props: Props) {
         <Toolbar>
           <IconButton
             edge="start"
-            className={classes.menuButton}
+            sx={{ marginRight: (t) => t.spacing(2) }}
             color="inherit"
             aria-label="menu"
             onClick={() => setShown(true)}
@@ -84,14 +61,14 @@ export function NavigationBarComponent(props: Props) {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" className={classes.title}>
+          <Typography variant="h6" sx={{ flexGrow: 1 }}>
             {t('label.title')}
           </Typography>
         </Toolbar>
       </AppBar>
       <Drawer open={shown} onClose={() => setShown(false)}>
-        <div className={classes.list}>
-          <FormControl component="fieldset" className={classes.formControl}>
+        <Box sx={{ width: 250 }}>
+          <FormControl component="fieldset" sx={{ margin: (t) => t.spacing(3) }}>
             <RadioGroup aria-label="language" name="language" value={i18n.language} onChange={changeLanguage}>
               <FormControlLabel value="en" control={<Radio color="primary" />} label="English" />
               <FormControlLabel value="ro" control={<Radio color="primary" />} label="Romanian" />
@@ -112,10 +89,10 @@ export function NavigationBarComponent(props: Props) {
 
           <Divider />
           <FormControlLabel
-            className={classes.formControl}
+            sx={{ margin: (t) => t.spacing(3) }}
             control={
               <Switch
-                className={classes.switch}
+                sx={{ marginLeft: '-10px' }}
                 checked={settings.leftHanded}
                 onChange={toggleLeftHanded}
                 value="checkedB"
@@ -124,7 +101,7 @@ export function NavigationBarComponent(props: Props) {
             }
             label="Left-Handed"
           />
-        </div>
+        </Box>
       </Drawer>
     </Fragment>
   )

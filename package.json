@@ -19,7 +19,6 @@
     "@mui/icons-material": "^5.0.4",
     "@mui/lab": "^5.0.0-alpha.51",
     "@mui/material": "^5.0.4",
-    "@mui/styles": "^5.0.1",
     "@roataway/infrastructure-data": "^1.0.21",
     "@sentry/browser": "^6.13.3",
     "@splitbee/web": "^0.3.0",
