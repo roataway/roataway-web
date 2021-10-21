@@ -2,7 +2,7 @@ import './hacks'
 import * as React from 'react'
 import ReactDOM from 'react-dom'
 import { I18nextProvider } from 'react-i18next'
-import * as Sentry from '@sentry/browser'
+import { init as sentryInit } from '@sentry/browser'
 import { AppComponent } from './app.component'
 import reportWebVitals from './reportWebVitals'
 import { i18n } from './i18n'
@@ -20,7 +20,7 @@ declare module '@mui/styles/defaultTheme' {
 }
 
 if (process.env.NODE_ENV === 'production') {
-  Sentry.init({
+  sentryInit({
     dsn: process.env.REACT_APP_SENTRY_DSN,
     release: process.env.COMMIT_REF,
   })

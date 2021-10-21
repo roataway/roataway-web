@@ -54,7 +54,7 @@ export function TheMap(props: Props) {
     >
       <TileLayer
         attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
-        url="https://maptiles.railean.net/styles/klokantech-basic/{z}/{x}/{y}.png"
+        url={process.env.REACT_APP_TILE_LAYER_URL}
       />
 
       {showUserLocation && <UserLocation />}
