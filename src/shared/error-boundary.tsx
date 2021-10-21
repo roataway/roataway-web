@@ -1,5 +1,5 @@
 import { default as React } from 'react'
-import * as Sentry from '@sentry/browser'
+import { withScope, captureException } from '@sentry/browser'
 
 export class ErrorBoundary extends React.Component {
   state = {
@@ -13,9 +13,9 @@ export class ErrorBoundary extends React.Component {
 
   componentDidCatch(error: any, errorInfo: any) {
     if (process.env.NODE_ENV === 'production') {
-      Sentry.withScope(scope => {
+      withScope((scope) => {
         scope.setExtras(errorInfo)
-        const eventId = Sentry.captureException(error)
+        const eventId = captureException(error)
         this.setState({ eventId })
       })
     } else {

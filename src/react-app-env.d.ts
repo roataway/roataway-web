@@ -1,5 +1,5 @@
 /// <reference types="react-scripts" />
-import { TFunctionResult, TFunctionKeys, TOptions } from 'i18next'
+import { TFunctionResult } from 'i18next'
 import { TranslateKeys } from './i18n'
 
 /**
@@ -19,6 +19,7 @@ declare global {
       readonly REACT_APP_SENTRY_DSN: string
       readonly REACT_APP_SENTRY_ORGANIZATION_SLUG: string
       readonly REACT_APP_SENTRY_PROJECT_SLUG: string
+      readonly REACT_APP_TILE_LAYER_URL: string
     }
   }
 }

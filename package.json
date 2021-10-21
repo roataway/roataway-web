@@ -21,7 +21,7 @@
     "@mui/material": "^5.0.4",
     "@mui/styles": "^5.0.1",
     "@roataway/infrastructure-data": "^1.0.21",
-    "@sentry/browser": "^5.12.4",
+    "@sentry/browser": "^6.13.3",
     "@splitbee/web": "^0.3.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
