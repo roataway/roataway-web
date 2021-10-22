@@ -1,5 +1,5 @@
 import { Fragment, useCallback, useEffect, useState } from 'react'
-import { CssBaseline, Box } from '@mui/material'
+import { CssBaseline, Box, Snackbar, Alert } from '@mui/material'
 import { TheMap } from './the-map'
 import { NavigationBarComponent } from './components/navigation-bar.component'
 import { HudButtons } from './components/hud-buttons.component'
@@ -11,6 +11,7 @@ export function AppComponent() {
   const [isOpenProvideFeedback, seIsOpenProvideFeedback] = useState<boolean>(false)
   const [showUserLocation, setShowUserLocation] = useState<number | undefined>(undefined)
   const firstVisit = useFirstVisit(isOpenRouteSelect)
+  const [showMessage, setShowMessage] = useState(true)
 
   const toggleRouteSelect = useCallback(() => setIsOpenRouteSelect((prev) => !prev), [])
   const setCurrentUserLocation = useCallback(() => setShowUserLocation(new Date().getTime()), [])
@@ -28,6 +29,18 @@ export function AppComponent() {
           <TheMap showUserLocation={showUserLocation} />
         </Box>
       </Box>
+
+      <Snackbar
+        open={showMessage}
+        onClose={() => setShowMessage(false)}
+        anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
+      >
+        <Alert severity="warning" onClose={() => setShowMessage(false)}>
+          Nu avem vești bune - trackerele nu sunt online. RTEC nu plătește, Orange a deconectat cartelele. Cred că la
+          moment am ajuns la „stația terminus”, nu vedem cum îi mai putem presa, nu avem alte pârghii de control. Vor fi
+          acționați în judecată sau nu - nu știu, nu este în Dekart dorința de a mai cheltui bani și pe avocați.
+        </Alert>
+      </Snackbar>
 
       <HudButtons
         setCurrentUserLocation={setCurrentUserLocation}
