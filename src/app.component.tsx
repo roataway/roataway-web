@@ -36,9 +36,8 @@ export function AppComponent() {
         anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
       >
         <Alert severity="warning" onClose={() => setShowMessage(false)}>
-          Nu avem vești bune - trackerele nu sunt online. RTEC nu plătește, Orange a deconectat cartelele. Cred că la
-          moment am ajuns la „stația terminus”, nu vedem cum îi mai putem presa, nu avem alte pârghii de control. Vor fi
-          acționați în judecată sau nu - nu știu, nu este în Dekart dorința de a mai cheltui bani și pe avocați.
+          Nu am vești bune: trackerele sunt offline de câteva zile. RTEC nu plătește, operatorul mobil a deconectat cartelele.
+          Aplicația se va dezvolta în continuare. S-a hotărât că vom merge într-o direcție diferită, unde poziția live va fi un funcțional auxiliar.
         </Alert>
       </Snackbar>
 
