@@ -1,7 +1,7 @@
-import { default as React } from 'react'
+import { Component } from 'react'
 import { withScope, captureException } from '@sentry/browser'
 
-export class ErrorBoundary extends React.Component {
+export class ErrorBoundary extends Component {
   state = {
     hasError: false,
     eventId: undefined,

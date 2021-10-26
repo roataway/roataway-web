@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 import { FeatureCollection, LineString } from 'geojson'
 import { GeoJSON } from 'react-leaflet'
-import { ErrorBoundary } from '../shared/error-boundary'
+import { ErrorBoundary } from './error-boundary.component'
 import uniqBy from 'lodash.uniqby'
-import { useRouteColors } from '../route-colors.context'
+import { useRouteColors } from '../contexts/route-colors.context'
 
 export function RoutesSegments({ selectedRoutes }: any) {
   const { segments, segmentsUpdatedCount } = useSegmentsFeatureCollection(selectedRoutes)

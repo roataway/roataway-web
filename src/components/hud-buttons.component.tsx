@@ -1,4 +1,4 @@
-import { default as React, useCallback, useState } from 'react'
+import { useCallback, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import Fab from '@mui/material/Fab'
 import DirectionsBus from '@mui/icons-material/DirectionsBus'

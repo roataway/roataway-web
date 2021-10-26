@@ -21,7 +21,7 @@ import {
 } from '@mui/material'
 import { useTranslation } from 'react-i18next'
 import Drawer from '@mui/material/Drawer'
-import { useSettings, setLeftHanded } from '../settings.context'
+import { useSettings, setLeftHanded } from '../contexts/settings.context'
 
 type Props = {
   onOpenFeedback: () => void

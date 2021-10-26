@@ -1,7 +1,7 @@
 import difference from 'lodash.difference'
 import { createContext, PropsWithChildren, useContext, useEffect, useState } from 'react'
 import { useSelectedRoutes } from './selected-routes.context'
-import { colorPalette } from './shared/colors'
+import { colorPalette } from '../shared/colors'
 
 type ColorState = Record<string, { marker: string; segment: string; text: string }>
 

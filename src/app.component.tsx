@@ -1,6 +1,6 @@
 import { Fragment, useCallback, useEffect, useState } from 'react'
 import { CssBaseline, Box, Snackbar, Alert } from '@mui/material'
-import { TheMap } from './the-map'
+import { TheMap } from './components/the-map.component'
 import { NavigationBarComponent } from './components/navigation-bar.component'
 import { HudButtons } from './components/hud-buttons.component'
 import { RouteSelectDialog } from './components/route-select.dialog'
@@ -36,8 +36,9 @@ export function AppComponent() {
         anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
       >
         <Alert severity="warning" onClose={() => setShowMessage(false)}>
-          Nu am vești bune: trackerele sunt offline de câteva zile. RTEC nu plătește, operatorul mobil a deconectat cartelele.
-          Aplicația se va dezvolta în continuare. S-a hotărât că vom merge într-o direcție diferită, unde poziția live va fi un funcțional auxiliar.
+          Nu am vești bune: trackerele sunt offline de câteva zile. RTEC nu plătește, operatorul mobil a deconectat
+          cartelele. Aplicația se va dezvolta în continuare. S-a hotărât că vom merge într-o direcție diferită, unde
+          poziția live va fi un funcțional auxiliar.
         </Alert>
       </Snackbar>
 

@@ -3,7 +3,7 @@ import { FeatureCollection, Point, Feature } from 'geojson'
 import { Icon, marker, Layer } from 'leaflet'
 import { GeoJSON } from 'react-leaflet'
 import uniqBy from 'lodash.uniqby'
-import { ErrorBoundary } from '../shared/error-boundary'
+import { ErrorBoundary } from './error-boundary.component'
 import markerIcon from '../icons/station.svg'
 
 // find a way to choose a different size, depending on the zoom level
