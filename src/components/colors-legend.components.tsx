@@ -13,12 +13,12 @@ import {
 } from '@mui/material'
 import ClearIcon from '@mui/icons-material/Clear'
 import DoubleArrowRoundedIcon from '@mui/icons-material/DoubleArrowRounded'
-import { useRouteColors } from '../route-colors.context'
+import { useRouteColors } from '../contexts/route-colors.context'
 import legendClasses from './colors-legend.module.scss'
 import { routes as allRoutes } from '../shared/routes'
-import { useSelectedRoutes } from '../selected-routes.context'
+import { useSelectedRoutes } from '../contexts/selected-routes.context'
 
-const ColorsLegend: FC<MapControlProps> = ({ position = 'topright' }) => {
+export function ColorsLegend({ position = 'topright' }: MapControlProps) {
   const colors = useRouteColors()
   const { routes, setRoutes } = useSelectedRoutes()
   const [isLegendCollapsed, setLegendCollapseState] = useState<boolean>(false)
@@ -86,4 +86,3 @@ const ToggleRoutesButton: FC<{ isCollapsed: boolean; onClick: () => void }> = ({
     </div>
   )
 }
-export default ColorsLegend

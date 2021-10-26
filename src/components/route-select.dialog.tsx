@@ -11,8 +11,8 @@ import Checkbox from '@mui/material/Checkbox'
 import { useTranslation } from 'react-i18next'
 import { routes as allRoutes } from '../shared/routes'
 import { useTheme } from '@mui/material'
-import { useSelectedRoutes } from '../selected-routes.context'
-import { useAnalytics } from '../analytics.context'
+import { useSelectedRoutes } from '../contexts/selected-routes.context'
+import { useAnalytics } from '../contexts/analytics.context'
 
 const Transition = forwardRef(function (props: SlideProps, ref) {
   return <Slide direction="up" ref={ref} {...props} />

@@ -2,7 +2,7 @@
   Copy-pasted with minor updates from: https://github.com/liveby/react-leaflet-control
 */
 
-import ReactDOM from 'react-dom'
+import { createPortal } from 'react-dom'
 import { MapControl, withLeaflet, MapControlProps } from 'react-leaflet'
 import { Control, DomUtil, DomEvent, Map } from 'leaflet'
 
@@ -48,7 +48,7 @@ export default withLeaflet(
 
     render() {
       if (this.leafletElement && this.leafletElement.getContainer()) {
-        return ReactDOM.createPortal(this.props.children, this.leafletElement.getContainer()!)
+        return createPortal(this.props.children, this.leafletElement.getContainer()!)
       }
 
       return null
