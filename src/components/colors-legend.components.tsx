@@ -1,7 +1,7 @@
-import { FC, useState } from 'react'
 import { MapControlProps } from 'react-leaflet'
 import MapControl from './map-control.component'
 import {
+  Box,
   Button,
   IconButton,
   List,
@@ -14,75 +14,85 @@ import {
 import ClearIcon from '@mui/icons-material/Clear'
 import DoubleArrowRoundedIcon from '@mui/icons-material/DoubleArrowRounded'
 import { useRouteColors } from '../contexts/route-colors.context'
-import legendClasses from './colors-legend.module.scss'
 import { routes as allRoutes } from '../shared/routes'
 import { useSelectedRoutes } from '../contexts/selected-routes.context'
+import { useLocalStorage } from '../shared/use-local-storage'
 
 export function ColorsLegend({ position = 'topright' }: MapControlProps) {
   const colors = useRouteColors()
-  const { routes, setRoutes } = useSelectedRoutes()
-  const [isLegendCollapsed, setLegendCollapseState] = useState<boolean>(false)
+  const { removeRoute } = useSelectedRoutes()
+  const [collapsed, setCollapsed] = useLocalStorage('legend-collapsed', false)
 
-  if (!allRoutes || Object.keys(colors).length === 0) {
-    return null
-  }
-
-  const toggleLegendCollapseState = () => {
-    setLegendCollapseState((s) => !s)
-  }
-
-  const removeRoute = (routeId: string) => {
-    routes.delete(routeId)
-    setRoutes(new Set(routes))
-  }
-
-  const renderRow = (route: string) => {
-    const routeInfo = allRoutes.find((rt) => rt.id_upstream === route)!
-    const routeColors = colors[route]
-    const listItemTextClasses = `${legendClasses.legendText} ${isLegendCollapsed ? legendClasses.collapsedText : ''}`
-
-    return (
-      <ListItem className={legendClasses.legendRow} key={route}>
-        <ListItemIcon className={legendClasses.legendIcon}>
-          <div style={{ borderColor: routeColors.segment }} className={legendClasses.routeMarker}>
-            <span style={{ color: routeColors.marker }}>{routeInfo.name_concise}</span>
-          </div>
-        </ListItemIcon>
-        <ListItemText className={listItemTextClasses} primary={routeInfo.name_long} />
-        <ListItemSecondaryAction>
-          <RemoveRouteButton routeId={route} onClick={removeRoute} />
-        </ListItemSecondaryAction>
-      </ListItem>
-    )
-  }
+  const routes = Object.keys(colors)
+  if (routes.length === 0) return null
 
   return (
     <MapControl position={position}>
-      <Paper className={legendClasses.legendContainer} elevation={3}>
-        <ToggleRoutesButton isCollapsed={isLegendCollapsed} onClick={toggleLegendCollapseState} />
-        <List dense>{Object.keys(colors).map(renderRow)}</List>
+      <Paper
+        elevation={3}
+        sx={{
+          maxHeight: '300px',
+          overflowY: 'auto',
+          display: 'flex',
+        }}
+      >
+        <Box sx={{ width: '40px' }}>
+          <Button
+            onClick={() => setCollapsed(!collapsed)}
+            sx={{
+              width: '100%',
+              height: '100%',
+              minWidth: '0',
+              color: 'rgba(0, 0, 0, 0.54)',
+            }}
+          >
+            <DoubleArrowRoundedIcon sx={{ transform: collapsed ? 'rotate(180deg)' : undefined }} />
+          </Button>
+        </Box>
+        <List dense>
+          {routes.map((route: string) => {
+            const routeInfo = allRoutes.find((rt) => rt.id_upstream === route)!
+            const routeColors = colors[route]
+            return (
+              <ListItem key={route}>
+                <ListItemIcon sx={{ minWidth: '35px' }}>
+                  <Box
+                    style={{ borderColor: routeColors.segment, color: routeColors.marker }}
+                    children={routeInfo.name_concise}
+                    sx={{
+                      width: '25px',
+                      height: '25px',
+                      borderRadius: '50%',
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      border: '3px solid',
+                      color: 'white',
+                    }}
+                  />
+                </ListItemIcon>
+                {collapsed && (
+                  <ListItemText
+                    sx={{
+                      overflow: 'hidden',
+                      textOverflow: 'ellipsis',
+                      whiteSpace: 'nowrap',
+                      transition: 'width 0.27s ease-out',
+                      maxWidth: '250px',
+                    }}
+                    primary={routeInfo.name_long}
+                  />
+                )}
+                <ListItemSecondaryAction>
+                  <IconButton onClick={() => removeRoute(route)} edge="end" aria-label="delete" size="large">
+                    <ClearIcon />
+                  </IconButton>
+                </ListItemSecondaryAction>
+              </ListItem>
+            )
+          })}
+        </List>
       </Paper>
     </MapControl>
-  )
-}
-
-const RemoveRouteButton: FC<{ routeId: string; onClick: (id: string) => void }> = ({ routeId, onClick }) => {
-  const handleClick = () => onClick(routeId)
-
-  return (
-    <IconButton onClick={handleClick} edge="end" aria-label="delete" size="large">
-      <ClearIcon />
-    </IconButton>
-  )
-}
-
-const ToggleRoutesButton: FC<{ isCollapsed: boolean; onClick: () => void }> = ({ isCollapsed, onClick }) => {
-  const collapseButtonIconClasses = `${isCollapsed ? legendClasses.rotatedToggleIcon : ''}`
-  return (
-    <div className={legendClasses.collapseWrapper}>
-      <Button className={legendClasses.collapseButton} onClick={onClick}>
-        <DoubleArrowRoundedIcon className={collapseButtonIconClasses} />
-      </Button>
-    </div>
   )
 }

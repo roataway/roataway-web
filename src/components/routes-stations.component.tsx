@@ -50,7 +50,7 @@ const emptyFeatureCollection: StationsFeatureCollection = {
   features: [],
 }
 
-function useStationsFeatureCollection(selectedRoutes: Set<string>) {
+function useStationsFeatureCollection(selectedRoutes: string[]) {
   const [stations, setStations] = useState(emptyFeatureCollection)
   const stationsUpdatedCount = useRef(0)
 
@@ -69,7 +69,7 @@ function useStationsFeatureCollection(selectedRoutes: Set<string>) {
         setStations({ type: 'FeatureCollection', features })
       })
     },
-    [selectedRoutes, selectedRoutes.size],
+    [selectedRoutes],
   )
 
   return { stations, stationsUpdatedCount: stationsUpdatedCount.current }

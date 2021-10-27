@@ -5,7 +5,7 @@ import DirectionsBus from '@mui/icons-material/DirectionsBus'
 import LocationCity from '@mui/icons-material/MyLocation'
 import { Tooltip } from '@mui/material'
 import { Box } from '@mui/material'
-import hudClasses from './hud-buttons.module.scss'
+import { keyframes } from '@emotion/react'
 
 interface Props {
   setCurrentUserLocation: () => void
@@ -52,7 +52,7 @@ export function HudButtons(props: Props) {
         <Fab
           size="small"
           color="secondary"
-          className={firstVisit ? hudClasses.bounce : ''}
+          sx={{ animation: firstVisit ? `${bounce} 2s infinite` : undefined }}
           aria-label={t('label.pickRoute')}
           onClick={toggleRouteSelect}
         >
@@ -62,3 +62,15 @@ export function HudButtons(props: Props) {
     </Box>
   )
 }
+
+const bounce = keyframes({
+  '0%, 25%, 50%, 75%, 100%': {
+    transform: 'translateY(0)',
+  },
+  '40%': {
+    transform: 'translateY(-20px)',
+  },
+  '60%': {
+    transform: 'translateY(-12px)',
+  },
+})

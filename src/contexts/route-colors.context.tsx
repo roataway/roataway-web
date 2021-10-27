@@ -41,7 +41,7 @@ export function RouteColorsProvider({ children }: PropsWithChildren<unknown>) {
 
       return newColors
     })
-  }, [routes, routes.size])
+  }, [routes])
 
   return <RouteColorContext.Provider value={colors}>{children}</RouteColorContext.Provider>
 }
