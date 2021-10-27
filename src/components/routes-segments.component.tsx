@@ -38,7 +38,7 @@ const emptyFeatureCollection: SegmentsFeatureCollection = {
   features: [],
 }
 
-function useSegmentsFeatureCollection(selectedRoutes: Set<string>) {
+function useSegmentsFeatureCollection(selectedRoutes: string[]) {
   const [segments, setSegments] = useState(emptyFeatureCollection)
   const segmentsUpdatedCount = useRef(0)
 
@@ -57,7 +57,7 @@ function useSegmentsFeatureCollection(selectedRoutes: Set<string>) {
         setSegments({ type: 'FeatureCollection', features })
       })
     },
-    [selectedRoutes, selectedRoutes.size],
+    [selectedRoutes],
   )
 
   return { segments, segmentsUpdatedCount: segmentsUpdatedCount.current }

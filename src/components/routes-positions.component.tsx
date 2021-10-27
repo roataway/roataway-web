@@ -12,6 +12,8 @@ import { useRouteColors } from '../contexts/route-colors.context'
 import { generateMailto } from '../shared/report-tools'
 import { ADDRESS_FEEDBACK_CC, ADDRESS_FEEDBACK_TO } from '../shared/constants'
 import { eventRoute, EventRouteFrameBody } from '../shared/rtec-client/subscriptions/event.route'
+import { Box } from '@mui/material'
+import { SxProps } from '@mui/system'
 
 const navigationSvgPath = `M 12.037109,3.2597656 C 7.46559,3.2596004 3.7596004,6.96559 3.7597656,11.537109 c -1.655e-4,4.571519 3.7058242,8.277509 8.2773434,8.277344 4.571519,1.66e-4 8.27751,-3.705825 8.277344,-8.277344 1.65e-4,-4.5715192 -3.705825,-8.2775089 -8.277344,-8.2773434 z`
 
@@ -25,7 +27,7 @@ const FADE_OUT_STEP = 0.1
 const FADE_OUT_DELAY_MILLIS = REMOVE_EVENT_TTL_MILLIS * FADE_OUT_STEP
 
 type Props = {
-  selectedRoutes: Set<string>
+  selectedRoutes: string[]
 }
 
 function useTransitionOnZoomEvent(): boolean {
@@ -285,10 +287,11 @@ function TransportMarker(props: TransportMarkerProps) {
         <br />
         <strong>{t('label.reportProblem')}</strong>
 
-        <ul className={classes.problemList}>
+        <Box component="ul" sx={{ paddingLeft: 0, listStyle: 'none', marginTop: 0 }}>
           <li>
-            <a
-              className={classes.problemLink}
+            <Box
+              component="a"
+              sx={linkSxProps}
               children={t('label.reportProblem.routeMapping')}
               href={generateMailto(
                 ADDRESS_FEEDBACK_TO,
@@ -303,8 +306,9 @@ function TransportMarker(props: TransportMarkerProps) {
             />
           </li>
           <li>
-            <a
-              className={classes.problemLink}
+            <Box
+              component="a"
+              sx={linkSxProps}
               children={t('label.reportProblem.onboard')}
               href={generateMailto(
                 ADDRESS_FEEDBACK_TO,
@@ -319,8 +323,9 @@ function TransportMarker(props: TransportMarkerProps) {
             />
           </li>
           <li>
-            <a
-              className={classes.problemLink}
+            <Box
+              component="a"
+              sx={linkSxProps}
               children={t('label.reportProblem.corruption')}
               href={generateMailto(
                 ADDRESS_FEEDBACK_TO,
@@ -334,7 +339,7 @@ function TransportMarker(props: TransportMarkerProps) {
               )}
             />
           </li>
-        </ul>
+        </Box>
       </Popup>
     </Marker>
   ) : null
@@ -405,4 +410,10 @@ function isPointInsidePolygon(point: [number, number], polyPoints: number[][]): 
   }
 
   return inside
+}
+
+const linkSxProps: SxProps = {
+  paddingTop: '5px',
+  paddingBottom: '5px',
+  display: 'inline-block',
 }

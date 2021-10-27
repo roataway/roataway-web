@@ -1,4 +1,4 @@
-import { useState, forwardRef } from 'react'
+import { useState, forwardRef, ForwardedRef } from 'react'
 import Button from '@mui/material/Button'
 import Dialog from '@mui/material/Dialog'
 import DialogContent from '@mui/material/DialogContent'
@@ -14,9 +14,11 @@ import { useTheme } from '@mui/material'
 import { useSelectedRoutes } from '../contexts/selected-routes.context'
 import { useAnalytics } from '../contexts/analytics.context'
 
-const Transition = forwardRef(function (props: SlideProps, ref) {
-  return <Slide direction="up" ref={ref} {...props} />
-})
+const Transition = forwardRef(({ children, ...props }: SlideProps, ref: ForwardedRef<typeof Slide>) => (
+  <Slide direction="up" ref={ref} {...props}>
+    {children}
+  </Slide>
+))
 
 type Props = {
   isOpen: boolean
@@ -29,20 +31,20 @@ export function RouteSelectDialog(props: Props) {
   const fullScreen = useMediaQuery(theme.breakpoints.down('sm'))
   const [selectMultiple, setSelectMultiple] = useSelectMultiple()
   const [l10n] = useTranslation()
-  const { routes, setRoutes } = useSelectedRoutes()
+  const { setRoutes, toggleRoute, hasRoute } = useSelectedRoutes()
   const analytics = useAnalytics()
 
   function selectRoute(id: string) {
-    if (!routes.has(id)) analytics.track('Route Select', { id })
+    const exists = hasRoute(id)
+    if (!exists) analytics.track('Route Select', { id })
 
     if (selectMultiple) {
       // When multiple, add or exclude and don't close dialog
-      const newRoutes = routes.has(id) ? [...routes].filter((r) => r !== id) : [...routes, id]
-      setRoutes(new Set(newRoutes))
+      toggleRoute(id)
     } else {
       // When single, add or remove single only
-      const newRoutes = routes.has(id) ? [] : [id]
-      setRoutes(new Set(newRoutes))
+      const newRoutes = exists ? [] : [id]
+      setRoutes(newRoutes)
       // Close Dialog only if we have at least 1 selected
       if (newRoutes.length) setOpen(false)
     }
@@ -72,7 +74,7 @@ export function RouteSelectDialog(props: Props) {
             sx={{ margin: (t) => t.spacing(1 / 2) }}
             onClick={() => selectRoute(r.id_upstream)}
             color="secondary"
-            variant={routes.has(r.id_upstream) ? 'outlined' : 'text'}
+            variant={hasRoute(r.id_upstream) ? 'outlined' : 'text'}
             key={r.id_upstream}
           >
             {r.name_concise}
