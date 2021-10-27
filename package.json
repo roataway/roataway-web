@@ -43,6 +43,8 @@
     "lint-staged": "^11.2.3",
     "lodash.difference": "^4.5.0",
     "lodash.uniqby": "^4.7.0",
+    "ol": "^6.9.0",
+    "ol-mapbox-style": "^6.5.1",
     "preact": "^10.5.15",
     "prettier": "^2.4.1",
     "react": "npm:@preact/compat@^17.0.2",
