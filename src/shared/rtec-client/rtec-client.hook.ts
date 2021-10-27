@@ -16,7 +16,7 @@ export function useRtecClient() {
   const [connected, setConnected] = useState(client.connected)
 
   useEffect(
-    function() {
+    function () {
       client.connect(
         'public_rtec',
         'iWillHackItInVisualBasic',

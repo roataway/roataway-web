@@ -1,12 +1,10 @@
 import { ChangeEvent, useState, Fragment } from 'react'
-import AppBar from '@mui/material/AppBar'
-import IconButton from '@mui/material/IconButton'
-import MenuIcon from '@mui/icons-material/Menu'
-import Toolbar from '@mui/material/Toolbar'
-import Typography from '@mui/material/Typography'
-import FeedbackIcon from '@mui/icons-material/Feedback'
-
+import { Menu as MenuIcon, Feedback as FeedbackIcon } from '@mui/icons-material'
 import {
+  Toolbar,
+  Typography,
+  IconButton,
+  AppBar,
   RadioGroup,
   FormControlLabel,
   FormControl,
@@ -18,9 +16,9 @@ import {
   ListItemIcon,
   ListItemText,
   Box,
+  Drawer,
 } from '@mui/material'
 import { useTranslation } from 'react-i18next'
-import Drawer from '@mui/material/Drawer'
 import { useSettings, setLeftHanded } from '../contexts/settings.context'
 
 type Props = {

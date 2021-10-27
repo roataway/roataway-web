@@ -1,5 +1,5 @@
-import { Fragment, useCallback, useEffect, useState } from 'react'
-import { CssBaseline, Box, Snackbar, Alert } from '@mui/material'
+import { Fragment, useCallback, useState } from 'react'
+import { Alert, Box, CssBaseline, Snackbar } from '@mui/material'
 import { TheMap } from './components/the-map.component'
 import { NavigationBarComponent } from './components/navigation-bar.component'
 import { HudButtons } from './components/hud-buttons.component'
@@ -9,11 +9,11 @@ import { ProvideFeedbackDialog } from './components/provide-feedback.dialog'
 export function AppComponent() {
   const [isOpenRouteSelect, setIsOpenRouteSelect] = useState<boolean>(false)
   const [isOpenProvideFeedback, seIsOpenProvideFeedback] = useState<boolean>(false)
-  const [showUserLocation, setShowUserLocation] = useState<number | undefined>(undefined)
-  const firstVisit = useFirstVisit(isOpenRouteSelect)
+  const [showUserLocation, setShowUserLocation] = useState<number>()
   const [showMessage, setShowMessage] = useState(true)
 
   const toggleRouteSelect = useCallback(() => setIsOpenRouteSelect((prev) => !prev), [])
+  // New Date each time triggers geolocation effect
   const setCurrentUserLocation = useCallback(() => setShowUserLocation(new Date().getTime()), [])
   const handleOpenFeedback = () => seIsOpenProvideFeedback(true)
 
@@ -45,29 +45,11 @@ export function AppComponent() {
       <HudButtons
         setCurrentUserLocation={setCurrentUserLocation}
         toggleRouteSelect={toggleRouteSelect}
-        firstVisit={firstVisit}
+        isOpenRouteSelect={isOpenRouteSelect}
       />
 
       <RouteSelectDialog isOpen={isOpenRouteSelect} setOpen={setIsOpenRouteSelect} />
       <ProvideFeedbackDialog isOpen={isOpenProvideFeedback} setOpen={seIsOpenProvideFeedback} />
     </Fragment>
   )
-}
-
-function useFirstVisit(isOpenRouteSelect: boolean) {
-  const [firstVisit, setFirstVisit] = useState(firstVisitInit)
-
-  useEffect(() => {
-    if (isOpenRouteSelect && firstVisit) {
-      setFirstVisit(false)
-    }
-  }, [isOpenRouteSelect, firstVisit])
-
-  return firstVisit
-}
-
-function firstVisitInit() {
-  const selectedRoutes = localStorage.getItem('selected-routes')
-  const areStoredRoutesEmpty = !!selectedRoutes && JSON.parse(selectedRoutes!).length > 0
-  return !areStoredRoutesEmpty
 }

@@ -30,7 +30,7 @@ export function TheMap(props: Props) {
     function () {
       if (showUserLocation) {
         getLocation().then((pos) => {
-          const map = mapRef.current!.contextValue!.map! as LeafletMap
+          const map = mapRef.current?.contextValue?.map as LeafletMap
           const center: [number, number] = [pos.coords.latitude, pos.coords.longitude]
           map.flyTo(center)
         })

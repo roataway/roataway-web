@@ -11,8 +11,7 @@ import {
   ListItemText,
   Paper,
 } from '@mui/material'
-import ClearIcon from '@mui/icons-material/Clear'
-import DoubleArrowRoundedIcon from '@mui/icons-material/DoubleArrowRounded'
+import { Clear as ClearIcon, DoubleArrowRounded as DoubleArrowRoundedIcon } from '@mui/icons-material'
 import { useRouteColors } from '../contexts/route-colors.context'
 import { routes as allRoutes } from '../shared/routes'
 import { useSelectedRoutes } from '../contexts/selected-routes.context'
@@ -71,7 +70,7 @@ export function ColorsLegend({ position = 'topright' }: MapControlProps) {
                     }}
                   />
                 </ListItemIcon>
-                {collapsed && (
+                {!collapsed && (
                   <ListItemText
                     sx={{
                       overflow: 'hidden',

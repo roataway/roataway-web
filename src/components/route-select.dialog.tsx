@@ -1,16 +1,19 @@
 import { useState, forwardRef, ForwardedRef } from 'react'
-import Button from '@mui/material/Button'
-import Dialog from '@mui/material/Dialog'
-import DialogContent from '@mui/material/DialogContent'
-import DialogActions from '@mui/material/DialogActions'
-import DialogTitle from '@mui/material/DialogTitle'
-import Slide, { SlideProps } from '@mui/material/Slide'
-import useMediaQuery from '@mui/material/useMediaQuery'
-import FormControlLabel from '@mui/material/FormControlLabel'
-import Checkbox from '@mui/material/Checkbox'
+import {
+  Button,
+  Dialog,
+  DialogContent,
+  DialogActions,
+  DialogTitle,
+  Slide,
+  SlideProps,
+  useMediaQuery,
+  FormControlLabel,
+  Checkbox,
+  useTheme,
+} from '@mui/material'
 import { useTranslation } from 'react-i18next'
 import { routes as allRoutes } from '../shared/routes'
-import { useTheme } from '@mui/material'
 import { useSelectedRoutes } from '../contexts/selected-routes.context'
 import { useAnalytics } from '../contexts/analytics.context'
 

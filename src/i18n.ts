@@ -11,7 +11,7 @@ import ru from './l10n/ru.json'
  */
 export type TranslateKeys = keyof typeof en
 
-i18n
+void i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({

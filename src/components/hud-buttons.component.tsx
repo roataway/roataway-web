@@ -1,25 +1,30 @@
-import { useCallback, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import Fab from '@mui/material/Fab'
-import DirectionsBus from '@mui/icons-material/DirectionsBus'
-import LocationCity from '@mui/icons-material/MyLocation'
-import { Tooltip } from '@mui/material'
-import { Box } from '@mui/material'
+import { DirectionsBus, MyLocation as LocationCity } from '@mui/icons-material'
+import { Box, Fab, Tooltip } from '@mui/material'
 import { keyframes } from '@emotion/react'
+import { useSelectedRoutes } from '../contexts/selected-routes.context'
 
 interface Props {
   setCurrentUserLocation: () => void
   toggleRouteSelect: () => void
-  firstVisit: boolean
+  isOpenRouteSelect: boolean
 }
 
 export function HudButtons(props: Props) {
-  const { setCurrentUserLocation, toggleRouteSelect, firstVisit } = props
+  const { setCurrentUserLocation, toggleRouteSelect, isOpenRouteSelect } = props
   const { t } = useTranslation()
+  const { routes } = useSelectedRoutes()
+  const [firstVisit, setFirstVisit] = useState(routes.length === 0)
   const [showRouteTooltip, setShowRouteTooltip] = useState<boolean>(firstVisit)
 
   const openRouteTooltip = useCallback(() => setShowRouteTooltip(true), [])
   const closeRouteTooltip = useCallback(() => setShowRouteTooltip(false), [])
+
+  useEffect(() => {
+    if (!firstVisit) return
+    if (isOpenRouteSelect) setFirstVisit(false)
+  }, [isOpenRouteSelect, firstVisit])
 
   return (
     <Box
