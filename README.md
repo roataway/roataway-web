@@ -1,6 +1,6 @@
 [![GitHub license](https://img.shields.io/github/license/roataway/roataway-web)](https://github.com/roataway/roataway-web/blob/main/LICENSE)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Developers chat](https://img.shields.io/badge/zulip-join_developer_chat-blue.svg)](https://roataway.zulipchat.com/)
 ![GitHub contributors](https://img.shields.io/github/contributors/roataway/roataway-web)
@@ -51,6 +51,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.linkedin.com/in/budac-grigore/"><img src="https://avatars.githubusercontent.com/u/26489713?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Grigore Budac</b></sub></a><br /><a href="https://github.com/roataway/roataway-web/commits?author=grigorebudac" title="Code">💻</a></td>
     <td align="center"><a href="http://roataway.md"><img src="https://avatars.githubusercontent.com/u/48152696?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Roata Wăy</b></sub></a><br /><a href="https://github.com/roataway/roataway-web/commits?author=roata" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/dasshield"><img src="https://avatars.githubusercontent.com/u/29631512?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Igor Vitcovschii</b></sub></a><br /><a href="https://github.com/roataway/roataway-web/commits?author=dasshield" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/hendaoui"><img src="https://avatars.githubusercontent.com/u/6974404?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Heni Hendaoui</b></sub></a><br /><a href="https://github.com/roataway/roataway-web/commits?author=hendaoui" title="Code">💻</a></td>
   </tr>
 </table>
 
