@@ -1,6 +1,6 @@
 [![GitHub license](https://img.shields.io/github/license/roataway/roataway-web)](https://github.com/roataway/roataway-web/blob/main/LICENSE)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Developers chat](https://img.shields.io/badge/zulip-join_developer_chat-blue.svg)](https://roataway.zulipchat.com/)
 ![GitHub contributors](https://img.shields.io/github/contributors/roataway/roataway-web)
@@ -55,6 +55,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/zilehuda"><img src="https://avatars.githubusercontent.com/u/16688852?v=4?s=100" width="100px;" alt=""/><br /><sub><b>zilehuda</b></sub></a><br /><a href="https://github.com/roataway/roataway-web/commits?author=zilehuda" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/andonimihai"><img src="https://avatars.githubusercontent.com/u/15650185?v=4?s=100" width="100px;" alt=""/><br /><sub><b>mihai</b></sub></a><br /><a href="https://github.com/roataway/roataway-web/commits?author=andonimihai" title="Code">💻</a></td>
   </tr>
 </table>
 

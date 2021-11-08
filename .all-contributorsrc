@@ -76,6 +76,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "andonimihai",
+      "name": "mihai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15650185?v=4",
+      "profile": "https://github.com/andonimihai",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
