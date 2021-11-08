@@ -1,6 +1,6 @@
 [![GitHub license](https://img.shields.io/github/license/roataway/roataway-web)](https://github.com/roataway/roataway-web/blob/main/LICENSE)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Developers chat](https://img.shields.io/badge/zulip-join_developer_chat-blue.svg)](https://roataway.zulipchat.com/)
 ![GitHub contributors](https://img.shields.io/github/contributors/roataway/roataway-web)
@@ -46,6 +46,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://iamandrewluca.com/"><img src="https://avatars.githubusercontent.com/u/1881266?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrew Luca</b></sub></a><br /><a href="https://github.com/roataway/roataway-web/commits?author=iamandrewluca" title="Code">💻</a></td>
+    <td align="center"><a href="http://railean.net/"><img src="https://avatars.githubusercontent.com/u/295338?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alex Railean</b></sub></a><br /><a href="https://github.com/roataway/roataway-web/commits?author=ralienpp" title="Code">💻</a></td>
   </tr>
 </table>
 
