@@ -13,6 +13,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "ralienpp",
+      "name": "Alex Railean",
+      "avatar_url": "https://avatars.githubusercontent.com/u/295338?v=4",
+      "profile": "http://railean.net/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
