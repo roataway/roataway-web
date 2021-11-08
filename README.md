@@ -1,4 +1,7 @@
 [![GitHub license](https://img.shields.io/github/license/roataway/roataway-web)](https://github.com/roataway/roataway-web/blob/main/LICENSE)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Developers chat](https://img.shields.io/badge/zulip-join_developer_chat-blue.svg)](https://roataway.zulipchat.com/)
 ![GitHub contributors](https://img.shields.io/github/contributors/roataway/roataway-web)
 ![Number of users](https://img.shields.io/badge/users-%3C500K-brightgreen)
@@ -32,3 +35,23 @@ cd roataway-web
 Run `npm install` to install all the dependencies   
 Run `npm start` to start a development server on http://localhost:3000
 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://iamandrewluca.com/"><img src="https://avatars.githubusercontent.com/u/1881266?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrew Luca</b></sub></a><br /><a href="https://github.com/roataway/roataway-web/commits?author=iamandrewluca" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
