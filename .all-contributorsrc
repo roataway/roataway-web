@@ -1,0 +1,136 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 75,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "iamandrewluca",
+      "name": "Andrew Luca",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1881266?v=4",
+      "profile": "https://iamandrewluca.com/",
+      "contributions": [
+        "code",
+        "maintenance",
+        "mentoring",
+        "review"
+      ]
+    },
+    {
+      "login": "ralienpp",
+      "name": "Alex Railean",
+      "avatar_url": "https://avatars.githubusercontent.com/u/295338?v=4",
+      "profile": "http://railean.net/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "strdr4605",
+      "name": "Dragoș Străinu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16056918?v=4",
+      "profile": "https://strdr4605.github.io",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "grigorebudac",
+      "name": "Grigore Budac",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26489713?v=4",
+      "profile": "https://www.linkedin.com/in/budac-grigore/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "roata",
+      "name": "Roata Wăy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48152696?v=4",
+      "profile": "http://roataway.md",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "dasshield",
+      "name": "Igor Vitcovschii",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29631512?v=4",
+      "profile": "https://github.com/dasshield",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "hendaoui",
+      "name": "Heni Hendaoui",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6974404?v=4",
+      "profile": "https://github.com/hendaoui",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "zilehuda",
+      "name": "zilehuda",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16688852?v=4",
+      "profile": "https://github.com/zilehuda",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "andonimihai",
+      "name": "mihai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15650185?v=4",
+      "profile": "https://github.com/andonimihai",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "deanshub",
+      "name": "Dean Shub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2688676?v=4",
+      "profile": "https://github.com/deanshub",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "henryjw",
+      "name": "Henry Williams",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3443648?v=4",
+      "profile": "https://www.linkedin.com/in/henryjw/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Buraddo23",
+      "name": "vladsing",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28982082?v=4",
+      "profile": "https://github.com/Buraddo23",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "pedramp",
+      "name": "Pedram Pourhossein",
+      "avatar_url": "https://avatars.githubusercontent.com/u/202137?v=4",
+      "profile": "http://pedram.tel",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "roataway-web",
+  "projectOwner": "roataway",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true,
+  "commitConvention": "none"
+}

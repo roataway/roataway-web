@@ -1,4 +1,7 @@
 [![GitHub license](https://img.shields.io/github/license/roataway/roataway-web)](https://github.com/roataway/roataway-web/blob/main/LICENSE)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Developers chat](https://img.shields.io/badge/zulip-join_developer_chat-blue.svg)](https://roataway.zulipchat.com/)
 ![GitHub contributors](https://img.shields.io/github/contributors/roataway/roataway-web)
 ![Number of users](https://img.shields.io/badge/users-%3C500K-brightgreen)
@@ -32,3 +35,37 @@ cd roataway-web
 Run `npm install` to install all the dependencies   
 Run `npm start` to start a development server on http://localhost:3000
 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://iamandrewluca.com/"><img src="https://avatars.githubusercontent.com/u/1881266?v=4?s=75" width="75px;" alt=""/><br /><sub><b>Andrew Luca</b></sub></a><br /><a href="https://github.com/roataway/roataway-web/commits?author=iamandrewluca" title="Code">💻</a> <a href="#maintenance-iamandrewluca" title="Maintenance">🚧</a> <a href="#mentoring-iamandrewluca" title="Mentoring">🧑‍🏫</a> <a href="https://github.com/roataway/roataway-web/pulls?q=is%3Apr+reviewed-by%3Aiamandrewluca" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="http://railean.net/"><img src="https://avatars.githubusercontent.com/u/295338?v=4?s=75" width="75px;" alt=""/><br /><sub><b>Alex Railean</b></sub></a><br /><a href="https://github.com/roataway/roataway-web/commits?author=ralienpp" title="Code">💻</a></td>
+    <td align="center"><a href="https://strdr4605.github.io"><img src="https://avatars.githubusercontent.com/u/16056918?v=4?s=75" width="75px;" alt=""/><br /><sub><b>Dragoș Străinu</b></sub></a><br /><a href="https://github.com/roataway/roataway-web/commits?author=strdr4605" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/budac-grigore/"><img src="https://avatars.githubusercontent.com/u/26489713?v=4?s=75" width="75px;" alt=""/><br /><sub><b>Grigore Budac</b></sub></a><br /><a href="https://github.com/roataway/roataway-web/commits?author=grigorebudac" title="Code">💻</a></td>
+    <td align="center"><a href="http://roataway.md"><img src="https://avatars.githubusercontent.com/u/48152696?v=4?s=75" width="75px;" alt=""/><br /><sub><b>Roata Wăy</b></sub></a><br /><a href="https://github.com/roataway/roataway-web/commits?author=roata" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/dasshield"><img src="https://avatars.githubusercontent.com/u/29631512?v=4?s=75" width="75px;" alt=""/><br /><sub><b>Igor Vitcovschii</b></sub></a><br /><a href="https://github.com/roataway/roataway-web/commits?author=dasshield" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/hendaoui"><img src="https://avatars.githubusercontent.com/u/6974404?v=4?s=75" width="75px;" alt=""/><br /><sub><b>Heni Hendaoui</b></sub></a><br /><a href="https://github.com/roataway/roataway-web/commits?author=hendaoui" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/zilehuda"><img src="https://avatars.githubusercontent.com/u/16688852?v=4?s=75" width="75px;" alt=""/><br /><sub><b>zilehuda</b></sub></a><br /><a href="https://github.com/roataway/roataway-web/commits?author=zilehuda" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/andonimihai"><img src="https://avatars.githubusercontent.com/u/15650185?v=4?s=75" width="75px;" alt=""/><br /><sub><b>mihai</b></sub></a><br /><a href="https://github.com/roataway/roataway-web/commits?author=andonimihai" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/deanshub"><img src="https://avatars.githubusercontent.com/u/2688676?v=4?s=75" width="75px;" alt=""/><br /><sub><b>Dean Shub</b></sub></a><br /><a href="https://github.com/roataway/roataway-web/commits?author=deanshub" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/henryjw/"><img src="https://avatars.githubusercontent.com/u/3443648?v=4?s=75" width="75px;" alt=""/><br /><sub><b>Henry Williams</b></sub></a><br /><a href="https://github.com/roataway/roataway-web/commits?author=henryjw" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Buraddo23"><img src="https://avatars.githubusercontent.com/u/28982082?v=4?s=75" width="75px;" alt=""/><br /><sub><b>vladsing</b></sub></a><br /><a href="https://github.com/roataway/roataway-web/commits?author=Buraddo23" title="Code">💻</a></td>
+    <td align="center"><a href="http://pedram.tel"><img src="https://avatars.githubusercontent.com/u/202137?v=4?s=75" width="75px;" alt=""/><br /><sub><b>Pedram Pourhossein</b></sub></a><br /><a href="https://github.com/roataway/roataway-web/commits?author=pedramp" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
