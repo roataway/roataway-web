@@ -34,8 +34,10 @@
     "@types/react-dom": "^17.0.9",
     "@types/react-leaflet": "^2.5.0",
     "@types/sockjs-client": "^1.1.1",
+    "all-contributors-cli": "^6.20.0",
     "csv-parse": "^4.8.6",
     "csv.macro": "^1.0.1",
+    "eslint-plugin-compat": "^3.13.0",
     "husky": "^7.0.2",
     "i18next": "^21.3.2",
     "i18next-browser-languagedetector": "^6.1.2",
@@ -60,7 +62,8 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "plugin:compat/recommended"
     ]
   },
   "browserslist": {
@@ -68,7 +71,7 @@
       ">0.2%",
       "not dead",
       "not op_mini all",
-      "Chrome >= 68"
+      "not IE 11"
     ],
     "development": [
       "last 1 chrome version",
@@ -78,8 +81,5 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": "prettier --write"
-  },
-  "devDependencies": {
-    "all-contributors-cli": "^6.20.0"
   }
 }

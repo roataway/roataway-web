@@ -1,3 +1,4 @@
+import './polyfills'
 import { StrictMode, Suspense } from 'react'
 import { render } from 'react-dom'
 import { I18nextProvider } from 'react-i18next'
