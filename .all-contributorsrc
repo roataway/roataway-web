@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "iamandrewluca",
+      "name": "Andrew Luca",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1881266?v=4",
+      "profile": "https://iamandrewluca.com/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "roataway-web",
+  "projectOwner": "roataway",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
