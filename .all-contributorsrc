@@ -31,6 +31,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "grigorebudac",
+      "name": "Grigore Budac",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26489713?v=4",
+      "profile": "https://www.linkedin.com/in/budac-grigore/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
