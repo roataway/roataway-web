@@ -81,5 +81,9 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": "prettier --write"
+  },
+  "devDependencies": {
+    "react-app-rewired": "^2.2.1",
+    "workbox-webpack-plugin": "^7.0.0"
   }
 }
